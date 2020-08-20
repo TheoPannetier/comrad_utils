@@ -1,7 +1,7 @@
 #' Install comrad on the Peregrine HPC
 #'
-#' Install or update the package from the `master` branch
-#' ([https://github.com/TheoPannetier/comrad]) to Peregrine.
+#' Install or update the [comrad](https://github.com/TheoPannetier/comrad)
+#' package (from the `master` branch) to Peregrine.
 #'
 #' @author Théo Pannetier
 #' @export
