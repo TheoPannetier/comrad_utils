@@ -16,4 +16,8 @@ install_comrad_hpc <- function() {
     session = session,
     command = "sbatch comrad/scripts/bash/install_comrad.bash"
   )
+
+  ssh::ssh_disconnect(
+    session = session
+  )
 }
