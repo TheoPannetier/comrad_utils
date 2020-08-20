@@ -6,6 +6,8 @@
 #' @param nb_replicates numeric, number of replicate simulations to run. All
 #' replicates share the same parameters. One job is submitted per replicate.
 #' @inheritParams default_params_doc
+#' @param return_job_ids logical. By default, the job IDs are captured and
+#' returned.
 #'
 #' @author Théo Pannetier
 #' @export
@@ -20,7 +22,8 @@ run_comrad_sim_hpc <- function(
   growth_rate = comrad::default_growth_rate(),
   prob_mutation = comrad::default_prob_mutation(),
   mutation_sd = comrad::default_mutation_sd(),
-  trait_dist_sp = comrad::default_trait_dist_sp()
+  trait_dist_sp = comrad::default_trait_dist_sp(),
+  return_job_ids = TRUE
 ) {
   # Check input
   comrad::testarg_num(nb_replicates)
@@ -44,6 +47,7 @@ run_comrad_sim_hpc <- function(
   comrad::testarg_pos(mutation_sd)
   comrad::testarg_num(trait_dist_sp)
   comrad::testarg_pos(trait_dist_sp)
+  comrad::testarg_log(return_job_ids)
 
   # Connect to hpc
   session <- ssh::ssh_connect(
@@ -62,20 +66,36 @@ run_comrad_sim_hpc <- function(
     prob_mutation,
     mutation_sd,
     trait_dist_sp
-    )
+  )
 
   # For each replicate
-  purrr::map(
+  job_ids <- purrr::map(
     1:nb_replicates,
     function(x) {
-      # Submit job to hpc
-      ssh::ssh_exec_wait(
-        session = session,
-        command = command
+      # Capture output to extract job ID
+      console_output <- utils::capture.output(
+        # Submit job to hpc
+        ssh::ssh_exec_wait(
+          session = session,
+          command = command
+        ),
+        type = "output"
       )
+      # Extract job ID
+      job_id <- console_output %>%
+        stringr::str_extract("^Submitted batch job [:digit:]{8}$") %>%
+        stats::na.omit() %>%
+        stringr::str_extract("[:digit:]{8}$") %>%
+        as.numeric()
+      return(job_id)
     }
-  )
+  ) %>% unlist()
+
   ssh::ssh_disconnect(
     session = session
   )
+
+  if (return_job_ids) {
+    return(job_ids)
+  }
 }

@@ -14,7 +14,8 @@ run_comrad_sim_hpc(
   growth_rate = comrad::default_growth_rate(),
   prob_mutation = comrad::default_prob_mutation(),
   mutation_sd = comrad::default_mutation_sd(),
-  trait_dist_sp = comrad::default_trait_dist_sp()
+  trait_dist_sp = comrad::default_trait_dist_sp(),
+  return_job_ids = TRUE
 )
 }
 \arguments{
@@ -48,6 +49,9 @@ distrbution from which mutations are drawn.}
 
 \item{trait_dist_sp}{numeric, the minimal trait distance between two
 clusters of individuals triggering speciation.}
+
+\item{return_job_ids}{logical. By default, the job IDs are captured and
+returned.}
 }
 \description{
 Calls `run_comrad_sim.bash` and passes arguments to
