@@ -2,5 +2,6 @@
 
 export("%>%")
 export(install_comrad_hpc)
+export(queue)
 export(run_comrad_sim_hpc)
 importFrom(magrittr,"%>%")
