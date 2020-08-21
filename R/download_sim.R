@@ -56,7 +56,7 @@ download_sim_log <- function(job_ids) {
   )
   # Files to download
   files <- glue::glue(
-    "/data/%u/comrad/data/logs/comrad_sim_{job_ids}.log"
+    "/data/p282688/comrad/data/logs/comrad_sim_{job_ids}.log"
   )
   # Get ssh to download files
   purrr::walk(
