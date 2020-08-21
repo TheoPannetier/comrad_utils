@@ -54,6 +54,7 @@ run_comrad_sim_hpc <- function(
       )
     }
   )
+  # Disconnect
   ssh::ssh_disconnect(
     session = session
   )
