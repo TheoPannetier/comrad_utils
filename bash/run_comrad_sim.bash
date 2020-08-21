@@ -23,7 +23,7 @@ Z_DIST_SP=$9
 DATE=$(date +%Y-%m-%d)
 TIME=$(date +%H:%M:%S)
 
-echo "\n${SLURM_JOB_ID}\t${DATE}\t${TIME}\tpending_check\tNA\t${NB_GENS}\t${SIG_A}\t${SIG_K}\t${K_OPT}\t${Z_OPT}\t${GROWTH}\t${PROB_MUT}\t${SIG_MU}\t${Z_DIST_SP}" >> /data/${USER}/comrad/data/logs/logbook.csv
+echo "${SLURM_JOB_ID},${DATE},${TIME},pending_check,NA,${NB_GENS},${SIG_A},${SIG_K},${K_OPT},${Z_OPT},${GROWTH},${PROB_MUT},${SIG_MU},${Z_DIST_SP}" >> /data/${USER}/comrad/data/logs/logbook.csv
 
 ## Some job info ##
 echo "job ${SLURM_JOB_ID}\n"
