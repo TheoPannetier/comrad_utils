@@ -15,7 +15,7 @@ NULL
 upload_sim_csv_drive <- function(job_ids) {
 
   files <- glue::glue(
-    "~/Github/comrad_fabrika/data/sims/comrad_sim_{job_ids}.csv"
+    "~/Github/fabrika/comrad_data/sims/comrad_sim_{job_ids}.csv"
   )
   purrr::walk(
     files,
@@ -33,7 +33,7 @@ upload_sim_csv_drive <- function(job_ids) {
 #' @rdname upload_sim_drive
 upload_sim_log_drive <- function() {
   files <- glue::glue(
-    "~/Github/comrad_fabrika/data/logs/comrad_sim_{job_ids}.log"
+    "~/Github/fabrika/comrad_data/logs/comrad_sim_{job_ids}.log"
   )
   purrr::walk(
     files,

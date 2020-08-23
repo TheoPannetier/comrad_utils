@@ -35,7 +35,7 @@ run_comrad_sim_hpc <- function(
 
   # Concatenate command
   command <- paste(
-    "sbatch comrad_fabrika/scripts/bash/run_comrad_sim.bash",
+    "sbatch fabrika/scripts/bash/run_comrad_sim.bash",
     batch_id,
     nb_gens,
     comrad_params$competition_sd,

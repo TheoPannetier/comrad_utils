@@ -21,7 +21,7 @@ cat_sim_log_hpc <- function(
   )
 
   command <- glue::glue(
-    "cat /data/$USER/comrad_fabrika/data/logs/comrad_sim_{job_id}.log; echo \n" # space between multiple jobs
+    "cat /data/$USER/fabrika/comrad_data/logs/comrad_sim_{job_id}.log; echo \n" # space between multiple jobs
   )
 
   ssh::ssh_exec_wait(
@@ -46,7 +46,7 @@ cat_sim_csv_hpc <- function(
   )
 
   command <- glue::glue(
-    "cat /data/$USER/comrad_fabrika/data/sims/comrad_sim_{job_id}.csv; echo \n" # space between multiple jobs"
+    "cat /data/$USER/fabrika/comrad_data/sims/comrad_sim_{job_id}.csv; echo \n" # space between multiple jobs"
   )
 
   ssh::ssh_exec_wait(

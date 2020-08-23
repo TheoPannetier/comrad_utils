@@ -16,7 +16,7 @@ identifying the files to download.}
 }
 \description{
 Given a vector of job IDs, will download the corresponding `.csv` or `.log`
-files from Peregrine to the local instance of `comrad_fabrika`.
+files from Peregrine to the local instance of `fabrika`.
 }
 \author{
 Théo Pannetier

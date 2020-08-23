@@ -3,7 +3,7 @@
 #SBATCH --partition=gelifes
 #SBATCH --mail-type=END,FAIL,TIME_LIMIT
 #SBATCH --mail-user=t.s.c.pannetier@rug.nl
-#SBATCH --output=/data/%u/comrad_fabrika/data/logs/comrad_sim_%j.log
+#SBATCH --output=/data/%u/fabrika/comrad_data//logs/comrad_sim_%j.log
 
 ## Script description ##
 
@@ -23,12 +23,12 @@ Z_DIST_SP=$10
 BATCH_ID=$1
 TIME_SUBM=$(date "+%Y-%m-%d %H:%M:%S")
 
-echo "${BATCH_ID},${SLURM_JOB_ID},${TIME_SUBM},pending_check,NA,${NB_GENS},${SIG_A},${SIG_K},${K_OPT},${Z_OPT},${GROWTH},${PROB_MUT},${SIG_MU},${Z_DIST_SP}" >> /data/${USER}/comrad_fabrika/logs/logbook.csv
+echo "${BATCH_ID},${SLURM_JOB_ID},${TIME_SUBM},pending_check,NA,${NB_GENS},${SIG_A},${SIG_K},${K_OPT},${Z_OPT},${GROWTH},${PROB_MUT},${SIG_MU},${Z_DIST_SP}" >> /data/${USER}/fabrika/logs/logbook.csv
 
 ## Some job info ##
 echo "job ${SLURM_JOB_ID}\n"
 
-OUTPUT=/data/${USER}/comrad_data/sims/comrad_sim_${SLURM_JOB_ID}.csv
+OUTPUT=/data/${USER}/fabrika/comrad_data/sims/comrad_sim_${SLURM_JOB_ID}.csv
 echo "Output saved at ${OUTPUT}\n"
 
 ##  Run simulation ##

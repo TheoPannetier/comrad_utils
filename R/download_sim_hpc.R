@@ -1,7 +1,7 @@
 #' Download simulation files from Peregrine
 #'
 #' Given a vector of job IDs, will download the corresponding `.csv` or `.log`
-#' files from Peregrine to the local instance of `comrad_fabrika`.
+#' files from Peregrine to the local instance of `fabrika`.
 #'
 #' @param job_ids 8-digit numeric or character vector. Peregrine job IDs
 #' identifying the files to download.
@@ -24,7 +24,7 @@ download_sim_csv_hpc <- function(job_ids) {
   )
   # Files to download
   files <- glue::glue(
-    "/data/$USER/comrad_fabrika/data/sims/comrad_sim_{job_ids}.csv"
+    "/data/$USER/fabrika/comrad_data/sims/comrad_sim_{job_ids}.csv"
   )
   # Get ssh to download files
   purrr::walk(
@@ -33,7 +33,7 @@ download_sim_csv_hpc <- function(job_ids) {
       ssh::scp_download(
         session = session,
         files = file,
-        to = "~/Github/comrad_fabrika/data/sims/"
+        to = "~/Github/fabrika/comrad_data/sims/"
       )
     }
   )
@@ -56,7 +56,7 @@ download_sim_log_hpc <- function(job_ids) {
   )
   # Files to download
   files <- glue::glue(
-    "/data/$USER/comrad_fabrika/data/logs/comrad_sim_{job_ids}.log"
+    "/data/$USER/fabrika/comrad_data/logs/comrad_sim_{job_ids}.log"
   )
   # Get ssh to download files
   purrr::walk(
@@ -65,7 +65,7 @@ download_sim_log_hpc <- function(job_ids) {
       ssh::scp_download(
         session = session,
         files = file,
-        to = "~/Github/comrad_fabrika/data/logs/"
+        to = "~/Github/fabrika/comrad_data/logs/"
       )
     }
   )
