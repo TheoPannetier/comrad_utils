@@ -30,9 +30,13 @@ run_comrad_sim_hpc <- function(
     "p282688@peregrine.hpc.rug.nl"
   )
 
+  # Generate batch ID
+  batch_id <- paste0("00", sample(10000:99999, 1))
+
   # Concatenate command
   command <- paste(
-    "sbatch comrad/scripts/bash/run_comrad_sim.bash",
+    "sbatch comrad_fabrika/scripts/bash/run_comrad_sim.bash",
+    batch_id,
     nb_gens,
     comrad_params$competition_sd,
     comrad_params$carrying_cap_sd,

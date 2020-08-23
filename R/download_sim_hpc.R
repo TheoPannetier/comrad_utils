@@ -1,18 +1,18 @@
-#' Download simulation output from Peregrine
+#' Download simulation files from Peregrine
 #'
-#' Given a vector of job IDs, will download the corresponding `.csv` output or `.log`
-#' files from Peregrine to the corresponding `comrad` directory.
+#' Given a vector of job IDs, will download the corresponding `.csv` or `.log`
+#' files from Peregrine to the local instance of `comrad_fabrika`.
 #'
-#' @param job_ids 8-digit numeric or character vector. The IDs of jobs to
-#' get the output of.
+#' @param job_ids 8-digit numeric or character vector. Peregrine job IDs
+#' identifying the files to download.
 #'
 #' @author Théo Pannetier
-#' @name download_sim
+#' @name download_sim_hpc
 NULL
 
 #' @export
-#' @rdname download_sim
-download_sim_output <- function(job_ids) {
+#' @rdname download_sim_hpc
+download_sim_csv_hpc <- function(job_ids) {
 
   if (!all(stringr::str_length(job_ids) == 8)) {
     stop("Invalid input: job_ids must have 8 digits.")
@@ -24,7 +24,7 @@ download_sim_output <- function(job_ids) {
   )
   # Files to download
   files <- glue::glue(
-    "/data/p282688/comrad/data/sims/comrad_sim_{job_ids}.csv"
+    "/data/$USER/comrad_fabrika/data/sims/comrad_sim_{job_ids}.csv"
   )
   # Get ssh to download files
   purrr::walk(
@@ -33,7 +33,7 @@ download_sim_output <- function(job_ids) {
       ssh::scp_download(
         session = session,
         files = file,
-        to = "~/Github/comrad/data/sims/"
+        to = "~/Github/comrad_fabrika/data/sims/"
       )
     }
   )
@@ -43,8 +43,8 @@ download_sim_output <- function(job_ids) {
 }
 
 #' @export
-#' @rdname download_sim
-download_sim_log <- function(job_ids) {
+#' @rdname download_sim_hpc
+download_sim_log_hpc <- function(job_ids) {
 
   if (!all(stringr::str_length(job_ids) == 8)) {
     stop("Invalid input: job_ids must have 8 digits.")
@@ -56,7 +56,7 @@ download_sim_log <- function(job_ids) {
   )
   # Files to download
   files <- glue::glue(
-    "/data/p282688/comrad/data/logs/comrad_sim_{job_ids}.log"
+    "/data/$USER/comrad_fabrika/data/logs/comrad_sim_{job_ids}.log"
   )
   # Get ssh to download files
   purrr::walk(
@@ -65,7 +65,7 @@ download_sim_log <- function(job_ids) {
       ssh::scp_download(
         session = session,
         files = file,
-        to = "~/Github/comrad/data/logs/"
+        to = "~/Github/comrad_fabrika/data/logs/"
       )
     }
   )
