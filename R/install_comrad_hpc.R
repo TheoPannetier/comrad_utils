@@ -14,7 +14,7 @@ install_comrad_hpc <- function() {
   # Submit job to install comrad
   ssh::ssh_exec_wait(
     session = session,
-    command = "sbatch comrad/scripts/bash/install_comrad.bash"
+    command = "sbatch fabrika/bash/install_comrad.bash"
   )
 
   ssh::ssh_disconnect(
