@@ -12,7 +12,7 @@ job_runtime <- function(
   job_id
 ) {
   # Capture jobinfo
-  info <- utils::capture.output(hamr::job_info(job_id = job_id))
+  info <- utils::capture.output(fabrika::job_info(job_id = job_id))
   # Extract runtime if job complete, otherwise NA
   runtime <- ifelse(
     has_job_completed(job_id = job_id),

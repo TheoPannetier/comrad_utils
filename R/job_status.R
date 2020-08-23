@@ -12,7 +12,7 @@ job_status <- function(
   job_id
 ) {
   # Capture jobinfo
-  info <- utils::capture.output(hamr::job_info(job_id = job_id))
+  info <- utils::capture.output(fabrika::job_info(job_id = job_id))
   # Extract status
   status <- stringr::str_match(
       info,

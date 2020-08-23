@@ -7,7 +7,7 @@
 run_comrad_sim_hpc(
   nb_gens,
   nb_replicates = 1,
-  comrad_params = hamr::create_comrad_params()
+  comrad_params = fabrika::create_comrad_params()
 )
 }
 \arguments{

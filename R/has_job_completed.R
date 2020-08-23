@@ -12,5 +12,5 @@
 has_job_completed <- function(
   job_id
 ) {
-  hamr::job_status(job_id = job_id) == "COMPLETED"
+  fabrika::job_status(job_id = job_id) == "COMPLETED"
 }
