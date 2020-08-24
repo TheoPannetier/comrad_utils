@@ -1,16 +1,18 @@
 #' Run comrad simulations on the Peregrine HPC
 #'
 #' Calls `run_comrad_sim.bash` and passes arguments to
-#' [comrad::run_simulation()], submits the simulations through [ssh].
+#' [comrad::run_simulation()], submits the simulation jobs through [ssh] to
+#' Peregrine.
 #'
 #' @inheritParams default_params_doc
 #' @param nb_replicates numeric, number of replicate simulations to run. All
 #' replicates share the same parameters. One job is submitted per replicate.
 #' @param comrad_params a list of parameters for [comrad::run_simulation()],
 #' as created with [create_comrad_params()]
-#' @param seed integer \code{> 0}, the seed to set for the random number
-#' generator. Defaults to an integer based on current day and time.
-#'
+#' @param seeds integer \code{> 0} vector to seed simulations with. Because each
+#' simulation job is run in an independent session, simulations run with the
+#' same seed will be perfect replicates. So each job instead receive a unique
+#' seed. Use this to repeat simulations, otherwise use the default value.
 #' @author Théo Pannetier
 #' @export
 #'
@@ -18,7 +20,7 @@ run_comrad_sim_hpc <- function(
   nb_gens,
   nb_replicates = 1,
   comrad_params = fabrika::create_comrad_params(),
-  seed = NULL
+  seeds = sample(1:50000, nb_replicates)
 ) {
   # Check input
   comrad::testarg_num(nb_gens)
@@ -27,20 +29,19 @@ run_comrad_sim_hpc <- function(
   comrad::testarg_num(nb_replicates)
   comrad::testarg_int(nb_replicates)
   comrad::testarg_not_this(nb_replicates, 0)
-  if (!is.null(seed)) {
-    comrad::testarg_num(seed)
-    comrad::testarg_int(seed)
-  }
+  comrad::testarg_num(seeds)
+  comrad::testarg_length(seeds, nb_replicates)
+
   # Connect to hpc
   session <- ssh::ssh_connect(
     "p282688@peregrine.hpc.rug.nl"
   )
 
   # Generate batch ID
-  batch_id <- paste0("00", sample(10000:99999, 1))
+  batch_id <- paste0("b", sample(10000:99999, 1))
 
   # Concatenate command
-  command <- paste(
+  commands <- paste(
     "sbatch /data/$USER/fabrika/bash/run_comrad_sim.bash",
     batch_id,
     nb_gens,
@@ -52,13 +53,13 @@ run_comrad_sim_hpc <- function(
     comrad_params$prob_mutation,
     comrad_params$mutation_sd,
     comrad_params$trait_dist_sp,
-    seed
+    seeds
   )
 
   # Submit job nb_replicate times to hpc
   purrr::walk(
-    1:nb_replicates,
-    function(x) {
+    commands,
+    function(command) {
       ssh::ssh_exec_wait(
         session = session,
         command = command

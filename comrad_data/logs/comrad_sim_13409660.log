@@ -1,0 +1,69 @@
+job ID 13409660\n
+Output saved at /data/p282688/fabrika/comrad_data/sims/comrad_sim_13409660.csv\n\n
+### Metadata ### 
+competition_sd = 0.2 
+carrying_cap_sd = 0.5 
+carrying_cap_opt = 1000 
+trait_opt = 0 
+growth_rate = 1 
+prob_mutation = 1 
+mutation_sd = 0.001 
+trait_dist_sp = 0.1 
+ 
+seed = 40962 
+HPC job ID = 13409660 
+simulated under comrad 1.1.5 
+ R version 4.0.0 (2020-04-24) 
+ 
+Running for 10 generations 
+
+Running generation 1 / 10
+Running generation 2 / 10
+Running generation 3 / 10
+Running generation 4 / 10
+Running generation 5 / 10
+Running generation 6 / 10
+Running generation 7 / 10
+Running generation 8 / 10
+Running generation 9 / 10
+Running generation 10 / 10
+Total runtime: 0.112 
+NULL
+
+
+###############################################################################
+Peregrine Cluster
+Job 13409660 for user 'p282688'
+Finished at: Mon Aug 24 21:48:44 CEST 2020
+
+Job details:
+============
+
+Name                : run_comrad_sim.bash
+User                : p282688
+Partition           : gelifes
+Nodes               : pg-node225
+Cores               : 1
+State               : COMPLETED
+Submit              : 2020-08-24T21:48:25
+Start               : 2020-08-24T21:48:25
+End                 : 2020-08-24T21:48:44
+Reserved walltime   : 2-21:58:00
+Used walltime       :   00:00:19
+Used CPU time       :   00:00:02 (efficiency: 14.22%)
+% User (Computation): 63.92%
+% System (I/O)      : 36.05%
+Mem reserved        : 2000M/core
+Max Mem used        : 0.00  (pg-node225)
+Max Disk Write      : 0.00  (pg-node225)
+Max Disk Read       : 0.00  (pg-node225)
+
+
+Acknowledgements:
+=================
+
+Please see this page for information about acknowledging Peregrine in your publications:
+
+https://wiki.hpc.rug.nl/peregrine/additional_information/scientific_output
+
+################################################################################
