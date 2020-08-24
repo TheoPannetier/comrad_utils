@@ -16,8 +16,8 @@ Z_OPT=$6
 GROWTH=$7
 PROB_MUT=$8
 SIG_MU=$9
-Z_DIST_SP=$10
-SEED=$11
+Z_DIST_SP=${10}
+SEED=${11}
 
 ## Write logbook entry ##
 BATCH_ID=$1
