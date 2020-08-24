@@ -31,7 +31,7 @@ upload_sim_csv_drive <- function(job_ids) {
 
 #' @export
 #' @rdname upload_sim_drive
-upload_sim_log_drive <- function() {
+upload_sim_log_drive <- function(job_ids) {
   files <- glue::glue(
     "~/Github/fabrika/comrad_data/logs/comrad_sim_{job_ids}.log"
   )
