@@ -7,7 +7,8 @@
 run_comrad_sim_hpc(
   nb_gens,
   nb_replicates = 1,
-  comrad_params = fabrika::create_comrad_params()
+  comrad_params = fabrika::create_comrad_params(),
+  seed = comrad::default_seed()
 )
 }
 \arguments{
@@ -19,6 +20,9 @@ replicates share the same parameters. One job is submitted per replicate.}
 
 \item{comrad_params}{a list of parameters for [comrad::run_simulation()],
 as created with [create_comrad_params()]}
+
+\item{seed}{integer \code{> 0}, the seed to set for the random number
+generator. Defaults to an integer based on current day and time.}
 }
 \description{
 Calls `run_comrad_sim.bash` and passes arguments to
