@@ -8,7 +8,7 @@ run_comrad_sim_hpc(
   nb_gens,
   nb_replicates = 1,
   comrad_params = fabrika::create_comrad_params(),
-  seed = comrad::default_seed()
+  seeds = sample(1:50000, nb_replicates)
 )
 }
 \arguments{
@@ -21,12 +21,15 @@ replicates share the same parameters. One job is submitted per replicate.}
 \item{comrad_params}{a list of parameters for [comrad::run_simulation()],
 as created with [create_comrad_params()]}
 
-\item{seed}{integer \code{> 0}, the seed to set for the random number
-generator. Defaults to an integer based on current day and time.}
+\item{seeds}{integer \code{> 0} vector to seed simulations with. Because each
+simulation job is run in an independent session, simulations run with the
+same seed will be perfect replicates. So each job instead receive a unique
+seed. Use this to repeat simulations, otherwise use the default value.}
 }
 \description{
 Calls `run_comrad_sim.bash` and passes arguments to
-[comrad::run_simulation()], submits the simulations through [ssh].
+[comrad::run_simulation()], submits the simulation jobs through [ssh] to
+Peregrine.
 }
 \author{
 Théo Pannetier
