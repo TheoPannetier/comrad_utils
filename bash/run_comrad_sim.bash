@@ -23,7 +23,7 @@ SEED=$11
 BATCH_ID=$1
 TIME_SUBM=$(date "+%Y-%m-%d %H:%M:%S")
 
-echo "${BATCH_ID},${SLURM_JOB_ID},${TIME_SUBM},pending_check,NA,${NB_GENS},${SIG_A},${SIG_K},${K_OPT},${Z_OPT},${GROWTH},${PROB_MUT},${SIG_MU},${Z_DIST_SP},${SEED}" >> /data/${USER}/fabrika/logs/logbook.csv
+echo "${BATCH_ID},${SLURM_JOB_ID},${TIME_SUBM},pending_check,NA,${NB_GENS},${SIG_A},${SIG_K},${K_OPT},${Z_OPT},${GROWTH},${PROB_MUT},${SIG_MU},${Z_DIST_SP},${SEED}" >> /data/${USER}/fabrika/comrad_data/logs/logbook.csv
 
 ## Some job info ##
 echo "job ID ${SLURM_JOB_ID}\n"
