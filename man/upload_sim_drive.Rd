@@ -8,7 +8,7 @@
 \usage{
 upload_sim_csv_drive(job_ids)
 
-upload_sim_log_drive()
+upload_sim_log_drive(job_ids)
 }
 \arguments{
 \item{job_ids}{8-digit numeric or character vector. Peregrine job IDs
