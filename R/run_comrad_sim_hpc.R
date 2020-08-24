@@ -18,7 +18,7 @@ run_comrad_sim_hpc <- function(
   nb_gens,
   nb_replicates = 1,
   comrad_params = fabrika::create_comrad_params(),
-  seed = comrad::default_seed()
+  seed = NULL
 ) {
   # Check input
   comrad::testarg_num(nb_gens)
@@ -27,9 +27,10 @@ run_comrad_sim_hpc <- function(
   comrad::testarg_num(nb_replicates)
   comrad::testarg_int(nb_replicates)
   comrad::testarg_not_this(nb_replicates, 0)
-  comrad::testarg_num(seed)
-  comrad::testarg_int(seed)
-
+  if (!is.null(seed)) {
+    comrad::testarg_num(seed)
+    comrad::testarg_int(seed)
+  }
   # Connect to hpc
   session <- ssh::ssh_connect(
     "p282688@peregrine.hpc.rug.nl"
