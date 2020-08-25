@@ -2,12 +2,12 @@
 title: "`fabrika` demo"
 output: rmarkdown::html_vignette
 vignette: >
-%\VignetteIndexEntry{`fabrika demo`}
+  %\VignetteIndexEntry{`fabrika demo`}
   %\VignetteEngine{knitr::rmarkdown}
   %\VignetteEncoding{UTF-8}
-  ---
+---
   
-  ```{r, include = FALSE}
+```{r, include = FALSE}
 knitr::opts_chunk$set(
 collapse = TRUE,
 comment = "#>"
