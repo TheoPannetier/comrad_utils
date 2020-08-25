@@ -1,4 +1,4 @@
-#' Update logbook entries after job completion
+#' Complete logbook entries after job completion
 #'
 #' `status` and `runtime` entries can be written only after a job has completed
 #' (or failed). This function download the logbook from Peregrine, writes the
@@ -10,7 +10,7 @@
 #' @author Théo Pannetier
 #' @export
 #'
-update_logbook <- function(job_ids) {
+complete_logbook_entries <- function(job_ids) {
 
   cat("Downloading logbook from Peregrine\n")
   fabrika::download_logbook_hpc()
