@@ -40,6 +40,7 @@ run_comrad_sim_hpc <- function(
   # Generate batch ID
   batch_id <- paste0("b", sample(10000:99999, 1))
 
+  cat("Jobs submitted with batch ID", batch_id, "\n")
   # Concatenate command
   commands <- paste(
     "sbatch /data/$USER/fabrika/bash/run_comrad_sim.bash",
