@@ -22,5 +22,6 @@ job_runtime <- function(
     )[, 2]),
     NA
   )
+  runtime <- hms::as_hms(runtime)
   return(runtime)
 }
