@@ -7,7 +7,7 @@
 update_logbook(job_ids)
 }
 \arguments{
-\item{job_id}{eight-digit job ID given by Peregrine upon
+\item{job_ids}{eight-digit job IDs given by Peregrine upon
 submission.}
 }
 \description{

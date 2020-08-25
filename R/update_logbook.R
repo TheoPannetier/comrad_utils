@@ -4,7 +4,7 @@
 #' (or failed). This function download the logbook from Peregrine, writes the
 #' entries for `job_ids`, and uploads back to Peregrine.
 #'
-#' @param job_id eight-digit job ID given by Peregrine upon
+#' @param job_ids eight-digit job IDs given by Peregrine upon
 #' submission.
 #'
 #' @author Théo Pannetier
