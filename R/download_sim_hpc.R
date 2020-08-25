@@ -24,7 +24,7 @@ download_sim_csv_hpc <- function(job_ids) {
   )
   # Files to download
   files <- glue::glue(
-    "/data/$USER/fabrika/comrad_data/sims/comrad_sim_{job_ids}.csv"
+    paste0(path_to_fabrika_hpc(), "comrad_data/sims/comrad_sim_{job_ids}.csv")
   )
   # Get ssh to download files
   purrr::walk(
@@ -33,7 +33,7 @@ download_sim_csv_hpc <- function(job_ids) {
       ssh::scp_download(
         session = session,
         files = file,
-        to = "~/Github/fabrika/comrad_data/sims/"
+        to = paste0(path_to_fabrika_local(), "comrad_data/sims/")
       )
     }
   )
@@ -56,7 +56,7 @@ download_sim_log_hpc <- function(job_ids) {
   )
   # Files to download
   files <- glue::glue(
-    "/data/$USER/fabrika/comrad_data/logs/comrad_sim_{job_ids}.log"
+    paste0(path_to_fabrika_hpc(), "comrad_data/logs/comrad_sim_{job_ids}.log")
   )
   # Get ssh to download files
   purrr::walk(
@@ -65,7 +65,7 @@ download_sim_log_hpc <- function(job_ids) {
       ssh::scp_download(
         session = session,
         files = file,
-        to = "~/Github/fabrika/comrad_data/logs/"
+        to = paste0(path_to_fabrika_local(), "comrad_data/logs/")
       )
     }
   )

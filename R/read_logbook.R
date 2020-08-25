@@ -6,7 +6,7 @@
 #' @export
 read_logbook <- function() {
   logbook <- readr::read_csv(
-    "comrad_data/logs/logbook.csv",
+    paste0(path_to_fabrika_local(), "comrad_data/logs/logbook.csv"),
     col_types = list(
       "batch_id" = readr::col_character(),
       "job_id" = readr::col_character(),

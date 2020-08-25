@@ -13,8 +13,8 @@ download_logbook_hpc <- function() {
   # Get ssh to download file
   ssh::scp_download(
     session = session,
-    files = "/data/$USER/fabrika/comrad_data/logs/logbook.csv",
-    to = "~/Github/fabrika/comrad_data/logs/"
+    files = paste0(path_to_fabrika_hpc(), "comrad_data/logs/logbook.csv"),
+    to = paste0(path_to_fabrika_local(), "comrad_data/logs/")
   )
   # Disconnect
   ssh::ssh_disconnect(
