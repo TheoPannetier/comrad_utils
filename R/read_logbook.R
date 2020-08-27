@@ -22,7 +22,10 @@ read_logbook <- function() {
       "prob_mutation" = readr::col_double(),
       "mutation_sd" = readr::col_double(),
       "trait_dist_sp" = readr::col_double(),
-      "seed" = readr::col_double()
+      "seed" = readr::col_double(),
+      "comrad_version" = readr::col_character(),
+      "sampling_freq" = readr::col_double(),
+      "sampling_frac" = readr::col_double()
     )
   )
   return(logbook)
