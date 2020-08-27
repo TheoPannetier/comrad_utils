@@ -5,6 +5,8 @@
 #SBATCH --mail-user=t.s.c.pannetier@rug.nl
 #SBATCH --output=/data/%u/fabrika/comrad_data/logs/comrad_sim_%j.log
 
+module load R
+
 ## Script description ##
 
 ## Parameters ##
@@ -36,6 +38,4 @@ echo "Output saved at ${OUTPUT}\n\n"
 
 ##  Run simulation ##
 
-module load R
-
-Rscript -e "comrad::run_simulation(path_to_output = \"${OUTPUT}\", nb_gens = ${NB_GENS}, competition_sd = ${SIG_A}, carrying_cap_sd = ${SIG_K}, carrying_cap_opt = ${K_OPT}, trait_opt = ${Z_OPT}, growth_rate = ${GROWTH}, prob_mutation = ${PROB_MUT}, mutation_sd = ${SIG_MU}, trait_dist_sp = ${Z_DIST_SP}, hpc_job_id = ${SLURM_JOB_ID}, seed = ${SEED}, sampling_freq = ${SAMPL_FREQ}, sampling_frac = ${SAMPL_FRAC})"
+Rscript -e "comrad::run_simulation(output_path = \"${OUTPUT}\", nb_generations = ${NB_GENS}, comp_width = ${SIG_A}, carr_cap_width = ${SIG_K}, carr_cap_opt = ${K_OPT}, trait_opt = ${Z_OPT}, growth_rate = ${GROWTH}, prob_mutation = ${PROB_MUT}, mutation_sd = ${SIG_MU}, trait_gap = ${Z_DIST_SP}, hpc_job_id = ${SLURM_JOB_ID}, seed = ${SEED}, sampling_freq = ${SAMPL_FREQ}, sampling_prop = ${SAMPL_FRAC})"
