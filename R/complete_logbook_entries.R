@@ -34,7 +34,7 @@ complete_logbook_entries <- function(job_ids) {
   ssh::scp_upload(
     session = session,
     files = paste0(path_to_fabrika_local(), "comrad_data/logs/logbook.csv"),
-    to = paste0(path_to_fabrika_hpc(), "fabrika/comrad_data/logs/")
+    to = paste0(path_to_fabrika_hpc(), "comrad_data/logs/")
   )
   ssh::ssh_disconnect(session = session)
 }
