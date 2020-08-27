@@ -4,7 +4,10 @@
 \alias{install_comrad_hpc}
 \title{Install comrad on the Peregrine HPC}
 \usage{
-install_comrad_hpc()
+install_comrad_hpc(ref = "master")
+}
+\arguments{
+\item{ref}{see [remotes::install_github()]}
 }
 \description{
 Install or update the [comrad](https://github.com/TheoPannetier/comrad)
