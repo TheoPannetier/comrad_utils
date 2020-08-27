@@ -9,6 +9,12 @@
 #' replicates share the same parameters. One job is submitted per replicate.
 #' @param comrad_params a list of parameters for [comrad::run_simulation()],
 #' as created with [create_comrad_params()]
+#' @param sampling_freq numeric \code{> 0}, the frequency (in generations) at
+#' which the community is written to output. See [comrad::set_sampling_freq()]
+#' for the default option.
+#' @param sampling_frac numeric (between 0 and 1), fraction of the community
+#' (in terms of individuals) written to output at every sampled generation. A
+#' truncation is operated.
 #' @param seeds integer \code{> 0} vector to seed simulations with. Because each
 #' simulation job is run in an independent session, simulations run with the
 #' same seed will be perfect replicates. So each job instead receive a unique
@@ -20,6 +26,8 @@ run_comrad_sim_hpc <- function(
   nb_gens,
   nb_replicates = 1,
   comrad_params = fabrika::create_comrad_params(),
+  sampling_freq = comrad::set_sampling_freq(nb_gens),
+  sampling_frac = comrad::default_sampling_frac(),
   seeds = sample(1:50000, nb_replicates)
 ) {
   # Check input
@@ -54,7 +62,9 @@ run_comrad_sim_hpc <- function(
     comrad_params$prob_mutation,
     comrad_params$mutation_sd,
     comrad_params$trait_dist_sp,
-    seeds
+    seeds,
+    sampling_freq,
+    sampling_frac
   )
 
   # Submit job nb_replicate times to hpc

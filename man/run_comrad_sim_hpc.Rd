@@ -8,6 +8,8 @@ run_comrad_sim_hpc(
   nb_gens,
   nb_replicates = 1,
   comrad_params = fabrika::create_comrad_params(),
+  sampling_freq = comrad::set_sampling_freq(nb_gens),
+  sampling_frac = comrad::default_sampling_frac(),
   seeds = sample(1:50000, nb_replicates)
 )
 }
@@ -20,6 +22,14 @@ replicates share the same parameters. One job is submitted per replicate.}
 
 \item{comrad_params}{a list of parameters for [comrad::run_simulation()],
 as created with [create_comrad_params()]}
+
+\item{sampling_freq}{numeric \code{> 0}, the frequency (in generations) at
+which the community is written to output. See [comrad::set_sampling_freq()]
+for the default option.}
+
+\item{sampling_frac}{numeric (between 0 and 1), fraction of the community
+(in terms of individuals) written to output at every sampled generation. A
+truncation is operated.}
 
 \item{seeds}{integer \code{> 0} vector to seed simulations with. Because each
 simulation job is run in an independent session, simulations run with the
