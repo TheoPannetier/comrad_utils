@@ -16,9 +16,9 @@ GROWTH=$7
 PROB_MUT=$8
 SIG_MU=$9
 Z_DIST_SP=${10}
-SEED=${11}
-SAMPL_FREQ=${12}
-SAMPL_FRAC=${13}
+SAMPL_FREQ=${11}
+SAMPL_FRAC=${12}
+SEED=${13}
 
 ## Write logbook entry ##
 BATCH_ID=$1

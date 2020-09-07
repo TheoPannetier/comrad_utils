@@ -6,11 +6,11 @@
 \usage{
 run_comrad_sim_hpc(
   nb_gens,
+  params_array = fabrika::create_comrad_params() \%>\% expand.grid(),
   nb_replicates = 1,
-  comrad_params = fabrika::create_comrad_params(),
   sampling_freq = comrad::set_sampling_freq(nb_gens),
   sampling_frac = comrad::default_sampling_frac(),
-  seeds = sample(1:50000, nb_replicates),
+  seeds = sample(1:50000, nb_replicates * nrow(params_array)),
   walltime = "00:57:00"
 )
 }
@@ -18,11 +18,15 @@ run_comrad_sim_hpc(
 \item{nb_gens}{integer, how many generations should the simulation be run
 for?}
 
-\item{nb_replicates}{numeric, number of replicate simulations to run. All
-replicates share the same parameters. One job is submitted per replicate.}
+\item{params_array}{a data frame containing all combinations of `comrad`
+parameters to submit. One column per parameter, one row for each unique
+combination of values. Tip: use [create_comrad_params()] to provide the
+parameter values, then combine the output with [base::expand.grid()] as in
+the default.}
 
-\item{comrad_params}{a list of parameters for [comrad::run_simulation()],
-as created with [create_comrad_params()]}
+\item{nb_replicates}{numeric, number of replicate simulations to run.
+Each unique combination of parameters in `params_array` will be submitted
+`nb_replicates` times.}
 
 \item{sampling_freq}{numeric \code{> 0}, the frequency (in generations) at
 which the community is written to output. See [comrad::set_sampling_freq()]
@@ -32,10 +36,11 @@ for the default option.}
 (in terms of individuals) written to output at every sampled generation. A
 truncation is operated.}
 
-\item{seeds}{integer \code{> 0} vector to seed simulations with. Because each
-simulation job is run in an independent session, simulations run with the
-same seed will be perfect replicates. So each job instead receive a unique
-seed. Use this to repeat simulations, otherwise use the default value.}
+\item{seeds}{numeric vector of integers, to seed simulations with. Length
+must be `nrow(params_array) * nb_replicates`, i.e each job receives a unique
+seed. This is because each simulation job is run in an independent session,
+so simulations run with the same seed will be identical. Use this to repeat
+simulations, otherwise use the default.}
 
 \item{walltime}{character, maximum time allocated by the HPC to a job.
 Format must be either `HH:MM:SS` or `D-HH:MM:SS`.}
