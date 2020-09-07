@@ -1,6 +1,10 @@
 # Simulation output files
 comrad_data/sims/*.csv
 
+workflow.R
+figs/
+comrad_data/obsolete/
+
 # History files
 .Rhistory
 .Rapp.history
