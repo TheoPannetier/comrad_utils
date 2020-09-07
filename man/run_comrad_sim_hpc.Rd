@@ -37,7 +37,8 @@ simulation job is run in an independent session, simulations run with the
 same seed will be perfect replicates. So each job instead receive a unique
 seed. Use this to repeat simulations, otherwise use the default value.}
 
-\item{walltime}{character, maximum time allocated by the HPC to a job.}
+\item{walltime}{character, maximum time allocated by the HPC to a job.
+Format must be either `HH:MM:SS` or `D-HH:MM:SS`.}
 }
 \description{
 Calls `run_comrad_sim.bash` and passes arguments to

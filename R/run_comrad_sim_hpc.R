@@ -20,6 +20,7 @@
 #' same seed will be perfect replicates. So each job instead receive a unique
 #' seed. Use this to repeat simulations, otherwise use the default value.
 #' @param walltime character, maximum time allocated by the HPC to a job.
+#' Format must be either `HH:MM:SS` or `D-HH:MM:SS`.
 #' @author Théo Pannetier
 #' @export
 #'
@@ -41,6 +42,17 @@ run_comrad_sim_hpc <- function(
   comrad::testarg_not_this(nb_replicates, 0)
   comrad::testarg_num(seeds)
   comrad::testarg_length(seeds, nb_replicates)
+
+  is_walltime <- function (walltime) {
+    stringr::str_detect(walltime, "^([0-9]-)?[0-9]{2}:[0-5][0-9]:[0-5][0-9]$")
+  }
+  if (!all(is_walltime(walltime))) {
+    stop("argument \"walltime\" is not a walltime")
+  }
+
+
+
+
 
   # Connect to hpc
   session <- ssh::ssh_connect(
