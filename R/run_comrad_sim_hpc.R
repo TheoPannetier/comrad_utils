@@ -19,6 +19,7 @@
 #' simulation job is run in an independent session, simulations run with the
 #' same seed will be perfect replicates. So each job instead receive a unique
 #' seed. Use this to repeat simulations, otherwise use the default value.
+#' @param walltime character, maximum time allocated by the HPC to a job.
 #' @author Théo Pannetier
 #' @export
 #'
@@ -28,7 +29,8 @@ run_comrad_sim_hpc <- function(
   comrad_params = fabrika::create_comrad_params(),
   sampling_freq = comrad::set_sampling_freq(nb_gens),
   sampling_frac = comrad::default_sampling_frac(),
-  seeds = sample(1:50000, nb_replicates)
+  seeds = sample(1:50000, nb_replicates),
+  walltime = "00:57:00"
 ) {
   # Check input
   comrad::testarg_num(nb_gens)
@@ -51,7 +53,8 @@ run_comrad_sim_hpc <- function(
   cat("Jobs submitted with batch ID", batch_id, "\n")
   # Concatenate command
   commands <- paste(
-    "sbatch /data/$USER/fabrika/bash/run_comrad_sim.bash",
+    "sbatch", paste0("--time=", walltime),
+    "/data/$USER/fabrika/bash/run_comrad_sim.bash",
     batch_id,
     nb_gens,
     comrad_params$competition_sd,

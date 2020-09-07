@@ -10,7 +10,8 @@ run_comrad_sim_hpc(
   comrad_params = fabrika::create_comrad_params(),
   sampling_freq = comrad::set_sampling_freq(nb_gens),
   sampling_frac = comrad::default_sampling_frac(),
-  seeds = sample(1:50000, nb_replicates)
+  seeds = sample(1:50000, nb_replicates),
+  walltime = "00:57:00"
 )
 }
 \arguments{
@@ -35,6 +36,8 @@ truncation is operated.}
 simulation job is run in an independent session, simulations run with the
 same seed will be perfect replicates. So each job instead receive a unique
 seed. Use this to repeat simulations, otherwise use the default value.}
+
+\item{walltime}{character, maximum time allocated by the HPC to a job.}
 }
 \description{
 Calls `run_comrad_sim.bash` and passes arguments to

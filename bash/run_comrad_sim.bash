@@ -1,5 +1,4 @@
 #!/bin/bash
-#SBATCH --time=69:57:55
 #SBATCH --partition=gelifes
 #SBATCH --output=/data/%u/fabrika/comrad_data/logs/comrad_sim_%j.log
 
