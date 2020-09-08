@@ -26,6 +26,9 @@
 #' simulations, otherwise use the default.
 #' @param walltime character, maximum time allocated by the HPC to a job.
 #' Format must be either `HH:MM:SS` or `D-HH:MM:SS`.
+#' @param check_comrad_version logical. If `TRUE`, `fabrika` compares installed
+#' versions of `comrad` on HPC vs local before running the simulations, and
+#' return an error if they mismatch.
 #' @author Théo Pannetier
 #' @export
 #'
@@ -36,7 +39,8 @@ run_comrad_sim_hpc <- function(
   sampling_freq = comrad::set_sampling_freq(nb_gens),
   sampling_frac = comrad::default_sampling_frac(),
   seeds = sample(1:50000, nb_replicates * nrow(params_array)),
-  walltime = "00:57:00"
+  walltime = "00:57:00",
+  check_comrad_version = TRUE
 ) {
   # Check input
   comrad::testarg_num(nb_gens)
@@ -46,7 +50,7 @@ run_comrad_sim_hpc <- function(
   comrad::testarg_int(nb_replicates)
   comrad::testarg_not_this(nb_replicates, 0)
   comrad::testarg_num(seeds)
-  comrad::testarg_length(seeds, nb_replicates)
+  comrad::testarg_length(seeds, nb_replicates * nrow(params_array))
 
   is_walltime <- function (walltime) {
     stringr::str_detect(walltime, "^([0-9]-)?[0-9]{2}:[0-5][0-9]:[0-5][0-9]$")
@@ -55,10 +59,19 @@ run_comrad_sim_hpc <- function(
     stop("argument \"walltime\" is not a walltime")
   }
 
+  # Check comrad version
+  if (check_comrad_version) {
+    fabrika::compare_comrad_versions()
+  }
+
   # Generate batch ID
   batch_id <- paste0("b", sample(10000:99999, 1))
-
   cat("Jobs submitted with batch ID", batch_id, "\n")
+
+  params_array <- params_array %>% dplyr::mutate(
+    "nb_gens" = nb_gens,
+    "walltime" = walltime
+  )
 
   # Concatenate sbatch calls
   commands <- params_array %>%

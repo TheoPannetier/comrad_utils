@@ -11,7 +11,8 @@ run_comrad_sim_hpc(
   sampling_freq = comrad::set_sampling_freq(nb_gens),
   sampling_frac = comrad::default_sampling_frac(),
   seeds = sample(1:50000, nb_replicates * nrow(params_array)),
-  walltime = "00:57:00"
+  walltime = "00:57:00",
+  check_comrad_version = TRUE
 )
 }
 \arguments{
@@ -44,6 +45,10 @@ simulations, otherwise use the default.}
 
 \item{walltime}{character, maximum time allocated by the HPC to a job.
 Format must be either `HH:MM:SS` or `D-HH:MM:SS`.}
+
+\item{check_comrad_version}{logical. If `TRUE`, `fabrika` compares installed
+versions of `comrad` on HPC vs local before running the simulations, and
+return an error if they mismatch.}
 }
 \description{
 Calls `run_comrad_sim.bash` and passes arguments to
