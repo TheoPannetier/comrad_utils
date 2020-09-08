@@ -17,7 +17,9 @@ run_comrad_sim_hpc(
 }
 \arguments{
 \item{nb_gens}{integer, how many generations should the simulation be run
-for?}
+for? Length must be either 1 (all jobs are given the same number of
+generations) or `nrow(params_array)` (custom value for each job).
+walltime for each job).}
 
 \item{params_array}{a data frame containing all combinations of `comrad`
 parameters to submit. One column per parameter, one row for each unique
@@ -44,7 +46,9 @@ so simulations run with the same seed will be identical. Use this to repeat
 simulations, otherwise use the default.}
 
 \item{walltime}{character, maximum time allocated by the HPC to a job.
-Format must be either `HH:MM:SS` or `D-HH:MM:SS`.}
+Format must be either `HH:MM:SS` or `D-HH:MM:SS`. Length must be either 1
+(all jobs are given the same walltime) or `nrow(params_array)` (custom
+walltime for each job).}
 
 \item{check_comrad_version}{logical. If `TRUE`, `fabrika` compares installed
 versions of `comrad` on HPC vs local before running the simulations, and
