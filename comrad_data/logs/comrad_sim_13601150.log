@@ -1,0 +1,90 @@
+job ID 13601150\n
+Output saved at /data/p282688/fabrika/comrad_data/sims/comrad_sim_13601150.csv\n\n
+
+Running generation 2000 / 1e+05
+Running generation 4000 / 1e+05
+Running generation 6000 / 1e+05
+Running generation 8000 / 1e+05
+Running generation 10000 / 1e+05
+Running generation 12000 / 1e+05
+Running generation 14000 / 1e+05
+Running generation 16000 / 1e+05
+Running generation 18000 / 1e+05
+Running generation 20000 / 1e+05
+Running generation 22000 / 1e+05
+Running generation 24000 / 1e+05
+Running generation 26000 / 1e+05
+Running generation 28000 / 1e+05
+Running generation 30000 / 1e+05
+Running generation 32000 / 1e+05
+Running generation 34000 / 1e+05
+Running generation 36000 / 1e+05
+Running generation 38000 / 1e+05
+Running generation 40000 / 1e+05
+Running generation 42000 / 1e+05
+Running generation 44000 / 1e+05
+Running generation 46000 / 1e+05
+Running generation 48000 / 1e+05
+Running generation 50000 / 1e+05
+Running generation 52000 / 1e+05
+Running generation 54000 / 1e+05
+Running generation 56000 / 1e+05
+Running generation 58000 / 1e+05
+Running generation 60000 / 1e+05
+Running generation 62000 / 1e+05
+Running generation 64000 / 1e+05
+Running generation 66000 / 1e+05
+Running generation 68000 / 1e+05
+Running generation 70000 / 1e+05
+Running generation 72000 / 1e+05
+Running generation 74000 / 1e+05
+Running generation 76000 / 1e+05
+Running generation 78000 / 1e+05
+Running generation 80000 / 1e+05
+Running generation 82000 / 1e+05
+Running generation 84000 / 1e+05
+Running generation 86000 / 1e+05
+Running generation 88000 / 1e+05
+Running generation 90000 / 1e+05
+Running generation 92000 / 1e+05
+Running generation 94000 / 1e+05
+Running generation 96000 / 1e+05
+Running generation 98000 / 1e+05
+Running generation 100000 / 1e+05
+
+###############################################################################
+Peregrine Cluster
+Job 13601150 for user 'p282688'
+Finished at: Tue Sep  8 18:59:18 CEST 2020
+
+Job details:
+============
+
+Name                : run_comrad_sim.bash
+User                : p282688
+Partition           : gelifes
+Nodes               : pg-node219
+Cores               : 1
+State               : COMPLETED
+Submit              : 2020-09-08T16:59:53
+Start               : 2020-09-08T16:59:53
+End                 : 2020-09-08T18:59:12
+Reserved walltime   : 04:00:00
+Used walltime       : 01:59:19
+Used CPU time       : 01:59:13 (efficiency: 99.92%)
+% User (Computation): 99.76%
+% System (I/O)      :  0.23%
+Mem reserved        : 2000M/core
+Max Mem used        : 107.93M (pg-node219)
+Max Disk Write      : 112.64K (pg-node219)
+Max Disk Read       : 7.57M (pg-node219)
+
+
+Acknowledgements:
+=================
+
+Please see this page for information about acknowledging Peregrine in your publications:
+
+https://wiki.hpc.rug.nl/peregrine/additional_information/scientific_output
+
+################################################################################
