@@ -16,7 +16,7 @@ job_status <- function(
   # Extract status
   status <- stringr::str_match(
       info,
-      "^State[:blank:]{15}\\:[:blank:]([:upper:]*)$"
+      "^State[:blank:]{15}\\:[:blank:]([:graph:]*)$"
     )[, 2]
   status <- status[!is.na(status)]
   return(status)
