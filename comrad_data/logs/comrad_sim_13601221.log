@@ -1,0 +1,92 @@
+job ID 13601221\n
+Output saved at /data/p282688/fabrika/comrad_data/sims/comrad_sim_13601221.csv\n\n
+
+Running generation 2000 / 225000
+Running generation 4000 / 225000
+Running generation 6000 / 225000
+Running generation 8000 / 225000
+Running generation 10000 / 225000
+Running generation 12000 / 225000
+Running generation 14000 / 225000
+Running generation 16000 / 225000
+Running generation 18000 / 225000
+Running generation 20000 / 225000
+Running generation 22000 / 225000
+Running generation 24000 / 225000
+Running generation 26000 / 225000
+Running generation 28000 / 225000
+Running generation 30000 / 225000
+Running generation 32000 / 225000
+Running generation 34000 / 225000
+Running generation 36000 / 225000
+Running generation 38000 / 225000
+Running generation 40000 / 225000
+Running generation 42000 / 225000
+Running generation 44000 / 225000
+Running generation 46000 / 225000
+Running generation 48000 / 225000
+Running generation 50000 / 225000
+Running generation 52000 / 225000
+Running generation 54000 / 225000
+Running generation 56000 / 225000
+Running generation 58000 / 225000
+Running generation 60000 / 225000
+Running generation 62000 / 225000
+Running generation 64000 / 225000
+Running generation 66000 / 225000
+Running generation 68000 / 225000
+Running generation 70000 / 225000
+Running generation 72000 / 225000
+Running generation 74000 / 225000
+Running generation 76000 / 225000
+Running generation 78000 / 225000
+Running generation 80000 / 225000
+Running generation 82000 / 225000
+Running generation 84000 / 225000
+Running generation 86000 / 225000
+Running generation 88000 / 225000
+Running generation 90000 / 225000
+Running generation 92000 / 225000
+Running generation 94000 / 225000
+Running generation 96000 / 225000
+Running generation 98000 / 225000
+Running generation 100000 / 225000
+Running generation 102000 / 225000slurmstepd: error: *** JOB 13601221 ON pg-node216 CANCELLED AT 2020-09-09T07:24:54 DUE TO TIME LIMIT ***
+
+
+###############################################################################
+Peregrine Cluster
+Job 13601221 for user 'p282688'
+Finished at: Wed Sep  9 07:24:58 CEST 2020
+
+Job details:
+============
+
+Name                : run_comrad_sim.bash
+User                : p282688
+Partition           : gelifes
+Nodes               : pg-node216
+Cores               : 1
+State               : CANCELLED,TIMEOUT
+Submit              : 2020-09-08T17:00:30
+Start               : 2020-09-08T17:00:31
+End                 : 2020-09-09T07:24:55
+Reserved walltime   : 14:24:00
+Used walltime       : 14:24:24
+Used CPU time       : 14:23:55 (efficiency: 99.94%)
+% User (Computation): 99.99%
+% System (I/O)      :  0.02%
+Mem reserved        : 2000M/core
+Max Mem used        : 147.96M (pg-node216)
+Max Disk Write      : 112.64K (pg-node216)
+Max Disk Read       : 7.57M (pg-node216)
+
+
+Acknowledgements:
+=================
+
+Please see this page for information about acknowledging Peregrine in your publications:
+
+https://wiki.hpc.rug.nl/peregrine/additional_information/scientific_output
+
+################################################################################

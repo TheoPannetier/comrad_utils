@@ -1,0 +1,127 @@
+job ID 13601195\n
+Output saved at /data/p282688/fabrika/comrad_data/sims/comrad_sim_13601195.csv\n\n
+
+Running generation 2000 / 175000
+Running generation 4000 / 175000
+Running generation 6000 / 175000
+Running generation 8000 / 175000
+Running generation 10000 / 175000
+Running generation 12000 / 175000
+Running generation 14000 / 175000
+Running generation 16000 / 175000
+Running generation 18000 / 175000
+Running generation 20000 / 175000
+Running generation 22000 / 175000
+Running generation 24000 / 175000
+Running generation 26000 / 175000
+Running generation 28000 / 175000
+Running generation 30000 / 175000
+Running generation 32000 / 175000
+Running generation 34000 / 175000
+Running generation 36000 / 175000
+Running generation 38000 / 175000
+Running generation 40000 / 175000
+Running generation 42000 / 175000
+Running generation 44000 / 175000
+Running generation 46000 / 175000
+Running generation 48000 / 175000
+Running generation 50000 / 175000
+Running generation 52000 / 175000
+Running generation 54000 / 175000
+Running generation 56000 / 175000
+Running generation 58000 / 175000
+Running generation 60000 / 175000
+Running generation 62000 / 175000
+Running generation 64000 / 175000
+Running generation 66000 / 175000
+Running generation 68000 / 175000
+Running generation 70000 / 175000
+Running generation 72000 / 175000
+Running generation 74000 / 175000
+Running generation 76000 / 175000
+Running generation 78000 / 175000
+Running generation 80000 / 175000
+Running generation 82000 / 175000
+Running generation 84000 / 175000
+Running generation 86000 / 175000
+Running generation 88000 / 175000
+Running generation 90000 / 175000
+Running generation 92000 / 175000
+Running generation 94000 / 175000
+Running generation 96000 / 175000
+Running generation 98000 / 175000
+Running generation 100000 / 175000
+Running generation 102000 / 175000
+Running generation 104000 / 175000
+Running generation 106000 / 175000
+Running generation 108000 / 175000
+Running generation 110000 / 175000
+Running generation 112000 / 175000
+Running generation 114000 / 175000
+Running generation 116000 / 175000
+Running generation 118000 / 175000
+Running generation 120000 / 175000
+Running generation 122000 / 175000
+Running generation 124000 / 175000
+Running generation 126000 / 175000
+Running generation 128000 / 175000
+Running generation 130000 / 175000
+Running generation 132000 / 175000
+Running generation 134000 / 175000
+Running generation 136000 / 175000
+Running generation 138000 / 175000
+Running generation 140000 / 175000
+Running generation 142000 / 175000
+Running generation 144000 / 175000
+Running generation 146000 / 175000
+Running generation 148000 / 175000
+Running generation 150000 / 175000
+Running generation 152000 / 175000
+Running generation 154000 / 175000
+Running generation 156000 / 175000
+Running generation 158000 / 175000
+Running generation 160000 / 175000
+Running generation 162000 / 175000
+Running generation 164000 / 175000
+Running generation 166000 / 175000
+Running generation 168000 / 175000
+Running generation 170000 / 175000
+Running generation 172000 / 175000
+Running generation 174000 / 175000
+
+###############################################################################
+Peregrine Cluster
+Job 13601195 for user 'p282688'
+Finished at: Tue Sep  8 23:01:56 CEST 2020
+
+Job details:
+============
+
+Name                : run_comrad_sim.bash
+User                : p282688
+Partition           : gelifes
+Nodes               : pg-node217
+Cores               : 1
+State               : COMPLETED
+Submit              : 2020-09-08T17:00:18
+Start               : 2020-09-08T17:00:19
+End                 : 2020-09-08T23:01:56
+Reserved walltime   : 06:13:00
+Used walltime       : 06:01:37
+Used CPU time       : 06:01:32 (efficiency: 99.98%)
+% User (Computation): 99.98%
+% System (I/O)      :  0.02%
+Mem reserved        : 2000M/core
+Max Mem used        : 120.36M (pg-node217)
+Max Disk Write      : 112.64K (pg-node217)
+Max Disk Read       : 7.57M (pg-node217)
+
+
+Acknowledgements:
+=================
+
+Please see this page for information about acknowledging Peregrine in your publications:
+
+https://wiki.hpc.rug.nl/peregrine/additional_information/scientific_output
+
+################################################################################

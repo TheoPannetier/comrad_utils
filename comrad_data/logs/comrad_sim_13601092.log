@@ -1,0 +1,165 @@
+job ID 13601092\n
+Output saved at /data/p282688/fabrika/comrad_data/sims/comrad_sim_13601092.csv\n\n
+
+Running generation 200 / 25000
+Running generation 400 / 25000
+Running generation 600 / 25000
+Running generation 800 / 25000
+Running generation 1000 / 25000
+Running generation 1200 / 25000
+Running generation 1400 / 25000
+Running generation 1600 / 25000
+Running generation 1800 / 25000
+Running generation 2000 / 25000
+Running generation 2200 / 25000
+Running generation 2400 / 25000
+Running generation 2600 / 25000
+Running generation 2800 / 25000
+Running generation 3000 / 25000
+Running generation 3200 / 25000
+Running generation 3400 / 25000
+Running generation 3600 / 25000
+Running generation 3800 / 25000
+Running generation 4000 / 25000
+Running generation 4200 / 25000
+Running generation 4400 / 25000
+Running generation 4600 / 25000
+Running generation 4800 / 25000
+Running generation 5000 / 25000
+Running generation 5200 / 25000
+Running generation 5400 / 25000
+Running generation 5600 / 25000
+Running generation 5800 / 25000
+Running generation 6000 / 25000
+Running generation 6200 / 25000
+Running generation 6400 / 25000
+Running generation 6600 / 25000
+Running generation 6800 / 25000
+Running generation 7000 / 25000
+Running generation 7200 / 25000
+Running generation 7400 / 25000
+Running generation 7600 / 25000
+Running generation 7800 / 25000
+Running generation 8000 / 25000
+Running generation 8200 / 25000
+Running generation 8400 / 25000
+Running generation 8600 / 25000
+Running generation 8800 / 25000
+Running generation 9000 / 25000
+Running generation 9200 / 25000
+Running generation 9400 / 25000
+Running generation 9600 / 25000
+Running generation 9800 / 25000
+Running generation 10000 / 25000
+Running generation 10200 / 25000
+Running generation 10400 / 25000
+Running generation 10600 / 25000
+Running generation 10800 / 25000
+Running generation 11000 / 25000
+Running generation 11200 / 25000
+Running generation 11400 / 25000
+Running generation 11600 / 25000
+Running generation 11800 / 25000
+Running generation 12000 / 25000
+Running generation 12200 / 25000
+Running generation 12400 / 25000
+Running generation 12600 / 25000
+Running generation 12800 / 25000
+Running generation 13000 / 25000
+Running generation 13200 / 25000
+Running generation 13400 / 25000
+Running generation 13600 / 25000
+Running generation 13800 / 25000
+Running generation 14000 / 25000
+Running generation 14200 / 25000
+Running generation 14400 / 25000
+Running generation 14600 / 25000
+Running generation 14800 / 25000
+Running generation 15000 / 25000
+Running generation 15200 / 25000
+Running generation 15400 / 25000
+Running generation 15600 / 25000
+Running generation 15800 / 25000
+Running generation 16000 / 25000
+Running generation 16200 / 25000
+Running generation 16400 / 25000
+Running generation 16600 / 25000
+Running generation 16800 / 25000
+Running generation 17000 / 25000
+Running generation 17200 / 25000
+Running generation 17400 / 25000
+Running generation 17600 / 25000
+Running generation 17800 / 25000
+Running generation 18000 / 25000
+Running generation 18200 / 25000
+Running generation 18400 / 25000
+Running generation 18600 / 25000
+Running generation 18800 / 25000
+Running generation 19000 / 25000
+Running generation 19200 / 25000
+Running generation 19400 / 25000
+Running generation 19600 / 25000
+Running generation 19800 / 25000
+Running generation 20000 / 25000
+Running generation 20200 / 25000
+Running generation 20400 / 25000
+Running generation 20600 / 25000
+Running generation 20800 / 25000
+Running generation 21000 / 25000
+Running generation 21200 / 25000
+Running generation 21400 / 25000
+Running generation 21600 / 25000
+Running generation 21800 / 25000
+Running generation 22000 / 25000
+Running generation 22200 / 25000
+Running generation 22400 / 25000
+Running generation 22600 / 25000
+Running generation 22800 / 25000
+Running generation 23000 / 25000
+Running generation 23200 / 25000
+Running generation 23400 / 25000
+Running generation 23600 / 25000
+Running generation 23800 / 25000
+Running generation 24000 / 25000
+Running generation 24200 / 25000
+Running generation 24400 / 25000
+Running generation 24600 / 25000
+Running generation 24800 / 25000
+Running generation 25000 / 25000
+
+###############################################################################
+Peregrine Cluster
+Job 13601092 for user 'p282688'
+Finished at: Tue Sep  8 21:04:47 CEST 2020
+
+Job details:
+============
+
+Name                : run_comrad_sim.bash
+User                : p282688
+Partition           : gelifes
+Nodes               : pg-node225
+Cores               : 1
+State               : COMPLETED
+Submit              : 2020-09-08T16:59:24
+Start               : 2020-09-08T16:59:25
+End                 : 2020-09-08T21:04:46
+Reserved walltime   : 08:00:00
+Used walltime       : 04:05:21
+Used CPU time       : 04:05:08 (efficiency: 99.91%)
+% User (Computation): 99.98%
+% System (I/O)      :  0.02%
+Mem reserved        : 2000M/core
+Max Mem used        : 142.55M (pg-node225)
+Max Disk Write      : 112.64K (pg-node225)
+Max Disk Read       : 7.57M (pg-node225)
+
+
+Acknowledgements:
+=================
+
+Please see this page for information about acknowledging Peregrine in your publications:
+
+https://wiki.hpc.rug.nl/peregrine/additional_information/scientific_output
+
+################################################################################
