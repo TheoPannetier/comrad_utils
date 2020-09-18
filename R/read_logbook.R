@@ -12,7 +12,7 @@ read_logbook <- function() {
       "job_id" = readr::col_character(),
       "time_subm" = readr::col_datetime(),
       "status" = readr::col_character(),
-      "runtime" = readr::col_time(),
+      "runtime" = readr::col_character(),
       "nb_gens" = readr::col_double(),
       "competition_sd" = readr::col_double(),
       "carrying_cap_sd" = readr::col_double(),
