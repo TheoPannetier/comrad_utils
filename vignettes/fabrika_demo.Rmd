@@ -51,7 +51,7 @@ Submitted batch job 13409660
 2. Capture job IDs from console output. This will be your key to easily refer to and access the submitted jobs.
 
 ```{r catch_job_ids}
-job_ids <- fabrika::extract_job_ids_console(
+job_ids <- fabrika::job_ids_from_string(
 "Submitted batch job 13409658
 Submitted batch job 13409659
 Submitted batch job 13409660"
