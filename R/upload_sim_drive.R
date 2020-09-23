@@ -22,7 +22,7 @@ upload_sim_csv_drive <- function(job_ids) {
     function(file) {
       googledrive::drive_upload(
         media = file,
-        path = "comrad_data/sims/",
+        path = "comrad/comrad_data/sims/",
         overwrite = FALSE
       )
     }
@@ -41,7 +41,7 @@ upload_sim_log_drive <- function(job_ids) {
     function(file) {
       googledrive::drive_upload(
         media = file,
-        path = "comrad_data/logs/",
+        path = "comrad/comrad_data/logs/",
         overwrite = FALSE
       )
     }
