@@ -69,7 +69,7 @@ run_comrad_sim_hpc <- function(
   comrad::testarg_num(seeds)
   comrad::testarg_length(seeds, nb_replicates * nrow(params_array))
   is_walltime <- function (walltime) {
-    stringr::str_detect(walltime, "^([0-9]-)?[0-9]{2}:[0-5][0-9]:[0-5][0-9]$")
+    stringr::str_detect(walltime, "^([0-9]-)?[0-9]{1,3}:[0-5][0-9]:[0-5][0-9]$")
   }
   if (!all(is_walltime(walltime))) {
     stop("argument \"walltime\" is not a walltime")
