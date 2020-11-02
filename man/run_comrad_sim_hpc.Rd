@@ -12,7 +12,8 @@ run_comrad_sim_hpc(
   sampling_frac = comrad::default_sampling_frac(),
   seeds = sample(1:50000, nb_replicates * nrow(params_array)),
   walltime = "00:57:00",
-  check_comrad_version = TRUE
+  check_comrad_version = TRUE,
+  brute_force_opt = "simd_omp"
 )
 }
 \arguments{
@@ -53,6 +54,12 @@ walltime for each job).}
 \item{check_comrad_version}{logical. If `TRUE`, `fabrika` compares installed
 versions of `comrad` on HPC vs local before running the simulations, and
 return an error if they mismatch.}
+
+\item{brute_force_opt}{a string specifying which brute force option to use
+to speed up the calculation of competition coefficients. Defaults to
+"simd_omp". Other options are "omp", for multithreading with OpenMP, "simd"
+for single instruction, multiple data (SIMD) via the C++ library
+[`xsimd`](https://github.com/xtensor-stack/xsimd); and "simd_omp" for both.}
 }
 \description{
 Calls `run_comrad_sim.bash` and passes arguments to

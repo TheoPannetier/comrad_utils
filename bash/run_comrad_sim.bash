@@ -19,13 +19,14 @@ Z_DIST_SP=${10}
 SAMPL_FREQ=${11}
 SAMPL_FRAC=${12}
 SEED=${13}
+BRUTE_FORCE_OPT=${14}
 
 ## Write logbook entry ##
 BATCH_ID=$1
 TIME_SUBM=$(date "+%Y-%m-%d %H:%M:%S")
 PKG_V=$( Rscript -e "packageVersion(\"comrad\")" ) # version on the HPC
 
-echo "${BATCH_ID},${SLURM_JOB_ID},${TIME_SUBM},pending_check,NA,${NB_GENS},${SIG_A},${SIG_K},${K_OPT},${Z_OPT},${GROWTH},${PROB_MUT},${SIG_MU},${Z_DIST_SP},${SEED},${PKG_V},${SAMPL_FREQ},${SAMPL_FRAC}" >> /data/${USER}/fabrika/comrad_data/logs/logbook.csv
+echo "${BATCH_ID},${SLURM_JOB_ID},${TIME_SUBM},pending_check,NA,${NB_GENS},${SIG_A},${SIG_K},${K_OPT},${Z_OPT},${GROWTH},${PROB_MUT},${SIG_MU},${Z_DIST_SP},${SEED},${PKG_V},${SAMPL_FREQ},${SAMPL_FRAC},${BRUTE_FORCE_OPT}" >> /data/${USER}/fabrika/comrad_data/logs/logbook.csv
 
 ## Some job info ##
 echo "job ID ${SLURM_JOB_ID}\n"
@@ -35,4 +36,4 @@ echo "Output saved at ${OUTPUT}\n\n"
 
 ##  Run simulation ##
 
-Rscript -e "comrad::run_simulation(path_to_output = \"${OUTPUT}\", nb_gens = ${NB_GENS}, competition_sd = ${SIG_A}, carrying_cap_sd = ${SIG_K}, carrying_cap_opt = ${K_OPT}, trait_opt = ${Z_OPT}, growth_rate = ${GROWTH}, prob_mutation = ${PROB_MUT}, mutation_sd = ${SIG_MU}, trait_dist_sp = ${Z_DIST_SP}, hpc_job_id = ${SLURM_JOB_ID}, seed = ${SEED}, sampling_freq = ${SAMPL_FREQ}, sampling_frac = ${SAMPL_FRAC})"
+Rscript -e "comrad::run_simulation(path_to_output = \"${OUTPUT}\", nb_gens = ${NB_GENS}, competition_sd = ${SIG_A}, carrying_cap_sd = ${SIG_K}, carrying_cap_opt = ${K_OPT}, trait_opt = ${Z_OPT}, growth_rate = ${GROWTH}, prob_mutation = ${PROB_MUT}, mutation_sd = ${SIG_MU}, trait_dist_sp = ${Z_DIST_SP}, hpc_job_id = ${SLURM_JOB_ID}, seed = ${SEED}, sampling_freq = ${SAMPL_FREQ}, sampling_frac = ${SAMPL_FRAC}, brute_force_opt = \"${BRUTE_FORCE_OPT}\")"

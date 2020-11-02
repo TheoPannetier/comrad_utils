@@ -26,7 +26,7 @@ complete_logbook_entries <- function(job_ids) {
   cat("Saving updated logbook and uploading back to Peregrine\n")
   readr::write_csv(
     logbook,
-    path = paste0(path_to_fabrika_local(), "comrad_data/logs/logbook.csv")
+    file = paste0(path_to_fabrika_local(), "comrad_data/logs/logbook.csv")
   )
   session <- ssh::ssh_connect(
     "p282688@peregrine.hpc.rug.nl"

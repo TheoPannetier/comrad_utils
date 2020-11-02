@@ -34,6 +34,12 @@
 #' @param check_comrad_version logical. If `TRUE`, `fabrika` compares installed
 #' versions of `comrad` on HPC vs local before running the simulations, and
 #' return an error if they mismatch.
+#' @param brute_force_opt a string specifying which brute force option to use
+#' to speed up the calculation of competition coefficients. Defaults to
+#' "simd_omp". Other options are "omp", for multithreading with OpenMP, "simd"
+#' for single instruction, multiple data (SIMD) via the C++ library
+#' [`xsimd`](https://github.com/xtensor-stack/xsimd); and "simd_omp" for both.
+
 #' @author Théo Pannetier
 #' @export
 #'
@@ -45,7 +51,8 @@ run_comrad_sim_hpc <- function(
   sampling_frac = comrad::default_sampling_frac(),
   seeds = sample(1:50000, nb_replicates * nrow(params_array)),
   walltime = "00:57:00",
-  check_comrad_version = TRUE
+  check_comrad_version = TRUE,
+  brute_force_opt = "simd_omp"
 ) {
 
   # Input control
@@ -76,6 +83,9 @@ run_comrad_sim_hpc <- function(
   }
   if (!length(walltime) %in% c(1, nrow(params_array))) {
     stop("argument \"walltime\" must have length either 1 or nrow(params_array)")
+  }
+  if (!brute_force_opt %in% c("none", "simd", "omp", "simd_omp")) {
+    stop("brute_force_opt must be one of \"none\", \"simd\", \"omp\", \"simd_omp\"")
   }
 
   # Check comrad version
@@ -113,6 +123,7 @@ run_comrad_sim_hpc <- function(
       "{trait_dist_sp}",
       "{sampling_freq}",
       "{sampling_frac}",
+      "{brute_force_opt}",
       .sep = " "
     ) %>%
     # Each replicate gets its own seed

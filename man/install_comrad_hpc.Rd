@@ -4,14 +4,18 @@
 \alias{install_comrad_hpc}
 \title{Install comrad on the Peregrine HPC}
 \usage{
-install_comrad_hpc(ref = "master")
+install_comrad_hpc(rebuild = TRUE)
 }
 \arguments{
-\item{ref}{see [remotes::install_github()]}
+\item{rebuild}{logical. If `TRUE`, call `devtools::build()` first.
+If `FALSE`, upload and install the source code corresponding to the current
+version in `fabrika/libs`.}
 }
 \description{
-Install or update the [comrad](https://github.com/TheoPannetier/comrad)
-package (from the `master` branch) to Peregrine.
+Install or update [comrad](https://github.com/TheoPannetier/comrad) from
+branch `brute_force` on the Peregrine HPC. The code on this branch is
+compiled with flag `-march=native`, and so must be installed from the source
+code. This function builds, upload and install the source code to Peregrine.
 }
 \author{
 Théo Pannetier
