@@ -47,7 +47,7 @@ run_comrad_sim_hpc <- function(
   nb_gens,
   params_array = fabrika::create_comrad_params() %>% expand.grid(),
   nb_replicates = 1,
-  sampling_freq = comrad::set_sampling_freq(nb_gens),
+  sampling_freq = 200,
   sampling_frac = comrad::default_sampling_frac(),
   seeds = sample(1:50000, nb_replicates * nrow(params_array)),
   walltime = "00:57:00",
