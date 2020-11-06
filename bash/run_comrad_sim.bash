@@ -18,8 +18,8 @@ SIG_MU=$9
 Z_DIST_SP=${10}
 SAMPL_FREQ=${11}
 SAMPL_FRAC=${12}
-SEED=${13}
-BRUTE_FORCE_OPT=${14}
+BRUTE_FORCE_OPT=${13}
+SEED=${14}
 
 ## Write logbook entry ##
 BATCH_ID=$1
