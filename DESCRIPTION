@@ -1,7 +1,7 @@
 Package: fabrika
 Type: Package
 Title: Utility package for comrad
-Version: 1.6.0
+Version: 1.6.1
 Author: Who wrote it
 Maintainer: Theo Pannetier <t.s.c.pannetier@rug.nl>
 Description: Auxiliary package to comrad, with utilities for data management 
@@ -14,6 +14,7 @@ Imports:
     stats,
     ssh,
     purrr,
+    tibble,
     magrittr,
     stringr,
     readr,
