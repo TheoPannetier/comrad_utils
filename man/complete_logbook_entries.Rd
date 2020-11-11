@@ -4,16 +4,24 @@
 \alias{complete_logbook_entries}
 \title{Complete logbook entries after job completion}
 \usage{
-complete_logbook_entries(job_ids)
+complete_logbook_entries(
+  job_ids,
+  vars = c("status", "runtime", "csv_size", "last_gen")
+)
 }
 \arguments{
 \item{job_ids}{eight-digit job IDs given by Peregrine upon
 submission.}
+
+\item{vars}{character vector, name of variables to update. Can be `status`,
+`runtime`, `csv_size`, and/or `last_gen` (defaults to all).}
 }
 \description{
 `status` and `runtime` entries can be written only after a job has completed
 (or failed). This function download the logbook from Peregrine, writes the
-entries for `job_ids`, and uploads back to Peregrine.
+entries for `job_ids`, and uploads back to Peregrine. EDIT 1.7.0. also
+updates the logbook with the size of the `sim` `.csv` file, and summary
+information about the state of the community at the last step.
 }
 \author{
 Théo Pannetier

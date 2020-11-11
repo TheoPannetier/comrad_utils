@@ -25,7 +25,12 @@ read_logbook <- function() {
       "seed" = readr::col_double(),
       "comrad_version" = readr::col_character(),
       "sampling_freq" = readr::col_double(),
-      "sampling_frac" = readr::col_double()
+      "sampling_frac" = readr::col_double(),
+      "brute_force_opt" = readr::col_character(),
+      "csv_size" = readr::col_character(),
+      "t_last_gen" = readr::col_double(),
+      "d_last_gen" = readr::col_double(),
+      "n_last_gen" = readr::col_double()
     )
   )
   return(logbook)
