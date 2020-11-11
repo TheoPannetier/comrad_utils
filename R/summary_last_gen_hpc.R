@@ -46,14 +46,14 @@ summary_last_gen_hpc <- function(job_ids) {
   summary_tbl <- out$stdout %>%
     rawToChar() %>%
     stringr::str_match_all("(\\d+|\\de\\+\\d{2}) (\\d+) (\\d+)") %>%
-    .[[1]] %>% .[, 2:4] %>%
-    t()
+    .[[1]] %>% .[, 2:4]
+  if (length(job_ids) == 1) {
+    summary_tbl <- t(summary_tbl)
+  }
   colnames(summary_tbl) <- c("t", "d", "n")
-
   summary_tbl <- summary_tbl %>%
     tibble::as_tibble() %>%
     dplyr::bind_cols("job_id" = job_ids, .)
-
   return(summary_tbl)
 }
 
