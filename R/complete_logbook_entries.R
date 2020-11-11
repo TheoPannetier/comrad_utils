@@ -23,7 +23,7 @@ complete_logbook_entries <- function(job_ids,
                                      )
 ) {
   if (any(!vars %in% c(
-    "status", "runtime", "csv_size", "t_last_gen", "d_last_gen", "n_last_gen"
+    "status", "runtime", "csv_size", "last_gen"
   ))) {
     stop("Input \"vars\" is incorrect.")
   }
