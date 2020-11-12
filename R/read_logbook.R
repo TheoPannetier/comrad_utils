@@ -32,6 +32,10 @@ read_logbook <- function() {
       "d_last_gen" = readr::col_double(),
       "n_last_gen" = readr::col_double()
     )
-  )
+  ) %>%
+    dplyr::mutate(
+      "csv_size" = fs::as_fs_bytes(csv_size)
+    )
+
   return(logbook)
 }

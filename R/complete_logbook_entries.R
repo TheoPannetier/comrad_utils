@@ -42,18 +42,33 @@ complete_logbook_entries <- function(job_ids,
     cat("Updating `status` entries\n")
     status <- fabrika::job_status(job_id = job_ids)
     logbook$status[to_update] <- status
+
+    cat("Saving updated logbook and uploading back to Peregrine\n")
+    readr::write_csv(
+      logbook,
+      file = paste0(path_to_fabrika_local(), "comrad_data/logs/logbook.csv")
+    )
+    ssh::scp_upload(
+      session = session,
+      files = paste0(path_to_fabrika_local(), "comrad_data/logs/logbook.csv"),
+      to = paste0(path_to_fabrika_hpc(), "comrad_data/logs/")
+    )
   }
   if ("runtime" %in% vars) {
     cat("Updating `runtime` entries\n")
     runtime <- fabrika::job_runtime(job_id = job_ids)
     logbook$runtime[to_update] <- runtime
-  }
-  if ("last_gen" %in% vars) {
-    cat("Updating `last_gen` entries\n")
-    summary_last_gen <- summary_last_gen_hpc(job_ids = job_ids)
-    logbook$t_last_gen[to_update] <- summary_last_gen$t
-    logbook$d_last_gen[to_update] <- summary_last_gen$d
-    logbook$n_last_gen[to_update] <- summary_last_gen$n
+
+    cat("Saving updated logbook and uploading back to Peregrine\n")
+    readr::write_csv(
+      logbook,
+      file = paste0(path_to_fabrika_local(), "comrad_data/logs/logbook.csv")
+    )
+    ssh::scp_upload(
+      session = session,
+      files = paste0(path_to_fabrika_local(), "comrad_data/logs/logbook.csv"),
+      to = paste0(path_to_fabrika_hpc(), "comrad_data/logs/")
+    )
   }
   if ("csv_size" %in% vars) {
     cat("Updating `csv_size` entries\n")
@@ -72,19 +87,39 @@ complete_logbook_entries <- function(job_ids,
       .[[1]] %>% .[, 2] %>%
       fs::as_fs_bytes() %>%
       magrittr::multiply_by(1024) # du returns kilobytes, fs_bytes expects bytes
+
     logbook$csv_size[to_update] <- csv_size
+
+    cat("Saving updated logbook and uploading back to Peregrine\n")
+    readr::write_csv(
+      logbook,
+      file = paste0(path_to_fabrika_local(), "comrad_data/logs/logbook.csv")
+    )
+    ssh::scp_upload(
+      session = session,
+      files = paste0(path_to_fabrika_local(), "comrad_data/logs/logbook.csv"),
+      to = paste0(path_to_fabrika_hpc(), "comrad_data/logs/")
+    )
   }
+  if ("last_gen" %in% vars) {
+    cat("Updating `last_gen` entries\n")
+    # summary_last_gen can only deal with 400 jobs at a time
+    job_seq <- split(job_ids, f = seq_along(job_ids) %/% 300)
+    summary_last_gen <- purrr::map_dfr(job_seq, summary_last_gen_hpc)
+    logbook$t_last_gen[to_update] <- summary_last_gen$t
+    logbook$d_last_gen[to_update] <- summary_last_gen$d
+    logbook$n_last_gen[to_update] <- summary_last_gen$n
 
-  cat("Saving updated logbook and uploading back to Peregrine\n")
-  readr::write_csv(
-    logbook,
-    file = paste0(path_to_fabrika_local(), "comrad_data/logs/logbook.csv")
-  )
-
-  ssh::scp_upload(
-    session = session,
-    files = paste0(path_to_fabrika_local(), "comrad_data/logs/logbook.csv"),
-    to = paste0(path_to_fabrika_hpc(), "comrad_data/logs/")
-  )
+    cat("Saving updated logbook and uploading back to Peregrine\n")
+    readr::write_csv(
+      logbook,
+      file = paste0(path_to_fabrika_local(), "comrad_data/logs/logbook.csv")
+    )
+    ssh::scp_upload(
+      session = session,
+      files = paste0(path_to_fabrika_local(), "comrad_data/logs/logbook.csv"),
+      to = paste0(path_to_fabrika_hpc(), "comrad_data/logs/")
+    )
+  }
   ssh::ssh_disconnect(session = session)
 }
