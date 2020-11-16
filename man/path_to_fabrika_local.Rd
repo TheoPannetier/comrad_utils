@@ -2,10 +2,14 @@
 % Please edit documentation in R/path_to_fabrika.R
 \name{path_to_fabrika_local}
 \alias{path_to_fabrika_local}
-\title{Path to `fabrika` on my local computer}
+\title{Path to `fabrika` on a  local computer}
 \usage{
 path_to_fabrika_local()
 }
 \description{
-Path to `fabrika` on my local computer
+Path to `fabrika` on a  local computer
+}
+\details{
+This path is hard encoded to my the path on personal computer but
+can be overwritten with [write_path_to_fabrika_local()].
 }

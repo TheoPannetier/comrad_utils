@@ -1,7 +1,7 @@
 Package: fabrika
 Type: Package
 Title: Utility package for comrad
-Version: 1.7.0
+Version: 1.8.0
 Author: Who wrote it
 Maintainer: Theo Pannetier <t.s.c.pannetier@rug.nl>
 Description: Auxiliary package to comrad, with utilities for data management 
@@ -26,7 +26,7 @@ Imports:
     here
 Encoding: UTF-8
 LazyData: true
-RoxygenNote: 7.1.0
+RoxygenNote: 7.1.1
 Suggests: 
     knitr,
     rmarkdown
