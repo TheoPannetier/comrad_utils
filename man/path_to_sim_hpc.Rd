@@ -10,7 +10,7 @@ path_to_sim_hpc(job_id)
 \item{job_id}{eight-digit job ID given by Peregrine upon submission.}
 }
 \description{
-Returns the (local) absolute path to the .csv file corresponding to `job_id`
+Returns the absolute path to the .csv file corresponding to `job_id` on Peregrine
 }
 \author{
 Theo Pannetier

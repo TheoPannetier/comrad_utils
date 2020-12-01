@@ -12,7 +12,7 @@ path_to_sim_local <- function(job_id) {
 
 #' Path to a simulation data file on Peregrine
 #'
-#' Returns the (local) absolute path to the .csv file corresponding to `job_id`
+#' Returns the absolute path to the .csv file corresponding to `job_id` on Peregrine
 #'
 #' @param job_id eight-digit job ID given by Peregrine upon submission.
 #' @author Theo Pannetier
