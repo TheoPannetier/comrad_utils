@@ -5,7 +5,7 @@
 #'
 #' @export
 path_to_fabrika_local <- function() {
-  path_local <- "C:/Users/theop/github/fabrika/"
+  path_local <- "/Users/theo/Github/fabrika/"
   return(path_local)
 }
 

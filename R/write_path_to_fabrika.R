@@ -24,7 +24,7 @@ write_path_to_fabrika_local <- function() {
     rscript <- readr::read_file(rscript_path)
   }
 
-  current_line <- "path_local <- \"[:graph:]*\"\r\n"
+  current_line <- "path_local <- \"[:graph:]*\"\r?\n"
   new_line <- paste0("path_local <- \"", path_to_fabrika, "/\"\r\n")
 
   rscript <- rscript %>% stringr::str_replace(
@@ -33,7 +33,7 @@ write_path_to_fabrika_local <- function() {
   )
 
   cat("Overwriting path_to_fabrika.R\n")
-  readr::write_file(rscript, rscript_path)
+  readr::write_file(rscript, rscript_path, append = FALSE)
 
   cat("Path overwritten. Re-installing fabrika.\n")
   devtools::install(path_to_fabrika)
