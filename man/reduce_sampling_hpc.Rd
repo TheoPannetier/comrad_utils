@@ -4,7 +4,7 @@
 \alias{reduce_sampling_hpc}
 \title{Reduce the sampling of a simulated community}
 \usage{
-reduce_sampling_hpc(job_id, new_sampling_frac = 0.5)
+reduce_sampling_hpc(job_id, new_sampling_frac = 0.1)
 }
 \arguments{
 \item{job_id}{same thing as usual}
