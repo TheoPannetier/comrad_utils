@@ -14,7 +14,7 @@ upload_sim_bash_hpc <- function() {
   # Get ssh to upload script
   ssh::scp_upload(
     session = session,
-    files = "~/Github/fabrika/bash/run_comrad_sim.bash",
+    files = paste0(path_to_fabrika_local(), "bash/run_comrad_sim.bash"),
     to = "/data/$USER/fabrika/bash/"
   )
   ssh::ssh_disconnect(

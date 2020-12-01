@@ -13,5 +13,5 @@ path_to_fabrika_local <- function() {
 #'
 #' @export
 path_to_fabrika_hpc <- function() {
-  "/data/$USER/fabrika/"
+  "/data/p282688/fabrika/"
 }

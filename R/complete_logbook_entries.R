@@ -36,7 +36,7 @@ complete_logbook_entries <- function(job_ids,
   fabrika::download_logbook_hpc()
   logbook <- read_logbook()
 
-  to_update <- logbook$job_id %in% job_ids
+  to_update <- job_ids %>% match(logbook$job_id)
 
   if ("status" %in% vars) {
     cat("Updating `status` entries\n")
