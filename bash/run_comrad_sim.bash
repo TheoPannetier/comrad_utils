@@ -26,7 +26,7 @@ BATCH_ID=$1
 TIME_SUBM=$(date "+%Y-%m-%d %H:%M:%S")
 PKG_V=$( Rscript -e "packageVersion(\"comrad\")" ) # version on the HPC
 
-echo "${BATCH_ID},${SLURM_JOB_ID},${TIME_SUBM},pending_check,NA,${NB_GENS},${SIG_A},${SIG_K},${K_OPT},${Z_OPT},${GROWTH},${PROB_MUT},${SIG_MU},${Z_DIST_SP},${SEED},${PKG_V},${SAMPL_FREQ},${SAMPL_FRAC},${BRUTE_FORCE_OPT}" >> /data/${USER}/fabrika/comrad_data/logs/logbook.csv
+echo "${BATCH_ID},${SLURM_JOB_ID},${TIME_SUBM},pending_check,NA,${NB_GENS},${SIG_A},${SIG_K},${K_OPT},${Z_OPT},${GROWTH},${PROB_MUT},${SIG_MU},${Z_DIST_SP},${SEED},${PKG_V},${SAMPL_FREQ},${SAMPL_FRAC},${BRUTE_FORCE_OPT},NA,NA,NA,NA" >> /data/${USER}/fabrika/comrad_data/logs/logbook.csv
 
 ## Some job info ##
 echo "job ID ${SLURM_JOB_ID}\n"
