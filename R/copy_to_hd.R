@@ -4,7 +4,7 @@
 #' @author Theo Pannetier
 #' @export
 #'
-copy_sim_to_hd <- function (job_ids) {
+copy_sim_csv_to_hd <- function (job_ids, overwrite = FALSE) {
 
   paths <- job_ids %>% path_to_sim_local()
   new_paths <- glue::glue("F:/comrad_data/sims/comrad_sim_{job_ids}.csv")
@@ -21,7 +21,7 @@ copy_sim_to_hd <- function (job_ids) {
 #' @author Theo Pannetier
 #' @export
 #'
-copy_sim_to_hd <- function (job_ids) {
+copy_sim_log_to_hd <- function (job_ids, overwrite = FALSE) {
 
   paths <- job_ids %>% path_to_log_local()
   new_paths <- glue::glue("F:/comrad_data/logs/comrad_sim_{job_ids}.log")
