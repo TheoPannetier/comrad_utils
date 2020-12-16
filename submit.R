@@ -1,7 +1,7 @@
 logbook <- read_logbook()
 
 b49422 <- logbook %>% dplyr::filter(
-  batch_id == "b49422", carrying_cap_sd == 1
+  batch_id == "b49422", carrying_cap_sd == 3
 ) %>%
   dplyr::arrange(
     carrying_cap_sd, competition_sd
@@ -74,7 +74,7 @@ b49422 <- b49422 %>%
 
 params_array <- fabrika::create_comrad_params(
   competition_sd = seq(0.1, 1, by = 0.1),
-  carrying_cap_sd = 1
+  carrying_cap_sd = 3
 ) %>%
   expand.grid()
 
@@ -106,4 +106,17 @@ fabrika::run_comrad_sim_hpc(
   brute_force_opt = "simd_omp"
 )
 
+nb_replicates <- missing$missing
+
+for (i in 1:nrow(params_array)) {
+  fabrika::run_comrad_sim_hpc(
+    nb_gens = nb_gens[i],
+    params_array = params_array[i, ],
+    nb_replicates = nb_replicates[i],
+    sampling_frac = 0.05,
+    sampling_freq = 200,
+    walltime = walltime[i],
+    brute_force_opt = "simd_omp"
+  )
+}
 

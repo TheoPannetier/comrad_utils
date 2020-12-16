@@ -5,13 +5,20 @@
 \title{Path to a simulation log file on Peregrine}
 \usage{
 path_to_log_hpc(job_id)
+
+path_to_log_hpc(job_id)
 }
 \arguments{
 \item{job_id}{eight-digit job ID given by Peregrine upon submission.}
 }
 \description{
 Returns the absolute path to the .log file corresponding to `job_id` on Peregrine
+
+Returns the absolute path to the .log file corresponding to `job_id` on my
+external hard drive.
 }
 \author{
+Theo Pannetier
+
 Theo Pannetier
 }
