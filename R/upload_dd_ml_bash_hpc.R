@@ -6,7 +6,7 @@
 #'
 #' @export
 
-upload_sim_bash_hpc <- function() {
+upload_dd_ml_bash_hpc <- function() {
   # Connect to hpc
   session <- ssh::ssh_connect(
     "p282688@peregrine.hpc.rug.nl"
