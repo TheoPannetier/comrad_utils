@@ -1,9 +1,11 @@
 # Simulation output files
 comrad_data/sims/*.csv
+comrad_data/phylos/*.rds
+comrad_data/ml_results/*.rds
+comrad_data/ddd_ml_results/*.rds
 
 workflow.R
 figs/
-comrad_data/obsolete/
 libs/
 
 # History files
