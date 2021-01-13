@@ -8,12 +8,19 @@ run_dd_ml_hpc_split <- function(siga, sigk, dd_model) {
       purrr::map_dfr(phylos[i], comrad::waiting_times, .id = "replicate")
     }
   )
-  # Draw initial parameter values
-  init_params_ls <- comrad::draw_init_params_dd_ml(
-    phylos = phylos,
-    nb_sets = 1000,
-    dd_model = dd_model
+  # Use same intial parameters as run without split
+  ml <- readRDS(
+    glue::glue("/data/p282688/fabrika/comrad_data/ml_results/ml_{dd_model$name}_sigk_{sigk}_siga_{siga}.rds")
   )
+  ml <- dplyr::select(ml, dplyr::starts_with("init_"))
+
+  # Split table into list
+  init_params_ls <- purrr::pmap(ml, function(...) {
+    params <- c(...)
+    names(params) <- substring(names(params), 6) # remove init_ prefix
+    return(params)
+  })
+
   # Run ml for each initial parameter set
   ml_ls <- purrr::map(waiting_times_tbl_ls, function (waiting_times_tbl) {
     purrr::map_dfr(
