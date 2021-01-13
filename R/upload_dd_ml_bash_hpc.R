@@ -17,6 +17,11 @@ upload_dd_ml_bash_hpc <- function() {
     files = paste0(path_to_fabrika_local(), "bash/run_dd_ml.bash"),
     to = "/data/$USER/fabrika/bash/"
   )
+  ssh::scp_upload(
+    session = session,
+    files = paste0(path_to_fabrika_local(), "R/run_dd_ml_hpc.R"),
+    to = "/data/$USER/fabrika/R/"
+  )
   ssh::ssh_disconnect(
     session = session
   )
