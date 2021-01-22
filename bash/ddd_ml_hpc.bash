@@ -1,7 +1,9 @@
 #!/bin/bash
 #SBATCH --partition=gelifes
 #SBATCH --output=/data/%u/fabrika/comrad_data/logs/ddd_ml_%j.log
-#SBATCH --time=05:28:00
+#SBATCH --mail-type=END,FAIL,TIME_LIMIT
+#SBATCH --mail-user=t.s.c.pannetier@rug.nl
+#SBATCH --time=15:28:00
 
 SIGA=$1
 SIGK=$2
