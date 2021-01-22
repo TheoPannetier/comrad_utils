@@ -1,0 +1,132 @@
+Running dd_ML for ddmodel = 1, siga = 0.7, sigk = 4
+Reading /data/p282688/fabrika/comrad_data/phylos/comrad_phylos_sigk_4_siga_0.7.rds 
+
+Tree 1 / 10 
+You are optimizing lambda mu K 
+You are fixing nothing 
+Optimizing the likelihood - this may take a while. 
+The loglikelihood for the initial parameter values is -128.2375 
+Cycle 1
+Cycle 2
+No more cycles needed.
+
+Maximum likelihood parameter estimates: lambda: 0.000055, mu: 0.000018, K: 17.248382
+Maximum loglikelihood: -125.493003
+Tree 2 / 10 
+You are optimizing lambda mu K 
+You are fixing nothing 
+Optimizing the likelihood - this may take a while. 
+The loglikelihood for the initial parameter values is -130.3318 
+Cycle 1
+Cycle 2
+No more cycles needed.
+
+Maximum likelihood parameter estimates: lambda: 0.000055, mu: 0.000018, K: 18.279082
+Maximum loglikelihood: -126.870284
+Tree 3 / 10 
+You are optimizing lambda mu K 
+You are fixing nothing 
+Optimizing the likelihood - this may take a while. 
+The loglikelihood for the initial parameter values is -127.4819 
+Cycle 1
+Cycle 2
+Error : in ‘subplex’: missing value where TRUE/FALSE needed
+Tree 4 / 10 
+You are optimizing lambda mu K 
+You are fixing nothing 
+Optimizing the likelihood - this may take a while. 
+The loglikelihood for the initial parameter values is -128.9123 
+Cycle 1
+Cycle 2
+Error : in ‘subplex’: missing value where TRUE/FALSE needed
+Tree 5 / 10 
+You are optimizing lambda mu K 
+You are fixing nothing 
+Optimizing the likelihood - this may take a while. 
+The loglikelihood for the initial parameter values is -115.5149 
+Cycle 1
+Cycle 2
+Error : in ‘subplex’: missing value where TRUE/FALSE needed
+Tree 6 / 10 
+You are optimizing lambda mu K 
+You are fixing nothing 
+Optimizing the likelihood - this may take a while. 
+The loglikelihood for the initial parameter values is -114.8079 
+Cycle 1
+Cycle 2
+Error : in ‘subplex’: missing value where TRUE/FALSE needed
+Tree 7 / 10 
+You are optimizing lambda mu K 
+You are fixing nothing 
+Optimizing the likelihood - this may take a while. 
+The loglikelihood for the initial parameter values is -150.1289 
+Cycle 1
+Cycle 2
+No more cycles needed.
+
+Maximum likelihood parameter estimates: lambda: 0.000055, mu: 0.000018, K: 18.279082
+Maximum loglikelihood: -146.084352
+Tree 8 / 10 
+You are optimizing lambda mu K 
+You are fixing nothing 
+Optimizing the likelihood - this may take a while. 
+The loglikelihood for the initial parameter values is -101.7933 
+Cycle 1
+Error : in ‘subplex’: missing value where TRUE/FALSE needed
+Tree 9 / 10 
+You are optimizing lambda mu K 
+You are fixing nothing 
+Optimizing the likelihood - this may take a while. 
+The loglikelihood for the initial parameter values is -126.1152 
+Cycle 1
+Cycle 2
+Error : in ‘subplex’: missing value where TRUE/FALSE needed
+Tree 10 / 10 
+You are optimizing lambda mu K 
+You are fixing nothing 
+Optimizing the likelihood - this may take a while. 
+The loglikelihood for the initial parameter values is -114.2496 
+Cycle 1
+Cycle 2
+Error : in ‘subplex’: missing value where TRUE/FALSE needed
+Saving at /data/p282688/fabrika/comrad_data/DDD_ml/DDD_ddmodel_1_sigk_4_siga_0.7.rds 
+
+
+###############################################################################
+Peregrine Cluster
+Job 17586234 for user 'p282688'
+Finished at: Fri Jan 22 17:16:15 CET 2021
+
+Job details:
+============
+
+Job ID              : 17586234
+Name                : ddd_ml_hpc.bash
+User                : p282688
+Partition           : gelifes
+Nodes               : pg-node223
+Number of Nodes     : 1
+Cores               : 1
+State               : COMPLETED
+Submit              : 2021-01-22T17:12:12
+Start               : 2021-01-22T17:12:13
+End                 : 2021-01-22T17:16:14
+Reserved walltime   : 15:28:00
+Used walltime       : 00:04:01
+Used CPU time       : 00:03:56 (efficiency: 97.94%)
+% User (Computation): 98.35%
+% System (I/O)      :  1.65%
+Mem reserved        : 2000M/core
+Max Mem used        : 223.28M (pg-node223)
+Max Disk Write      : 112.64K (pg-node223)
+Max Disk Read       : 1.87M (pg-node223)
+
+
+Acknowledgements:
+=================
+
+Please see this page for information about acknowledging Peregrine in your publications:
+
+https://wiki.hpc.rug.nl/peregrine/introduction/scientific_output
+
+################################################################################

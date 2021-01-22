@@ -1,0 +1,112 @@
+Running dd_ML for ddmodel = 4, siga = 0.7, sigk = 5
+Reading /data/p282688/fabrika/comrad_data/phylos/comrad_phylos_sigk_5_siga_0.7.rds 
+
+Tree 1 / 10 
+You are optimizing lambda mu K 
+You are fixing nothing 
+Optimizing the likelihood - this may take a while. 
+The loglikelihood for the initial parameter values is -218.3078 
+Cycle 1
+Error : in ‘subplex’: The requested tolerance (tol=1e-07) is too small for mxrej=10.
+Tree 2 / 10 
+You are optimizing lambda mu K 
+You are fixing nothing 
+Optimizing the likelihood - this may take a while. 
+The loglikelihood for the initial parameter values is -207.9428 
+Cycle 1
+Error : in ‘subplex’: The requested tolerance (tol=1e-07) is too small for mxrej=10.
+Tree 3 / 10 
+You are optimizing lambda mu K 
+You are fixing nothing 
+Optimizing the likelihood - this may take a while. 
+The loglikelihood for the initial parameter values is -211.2369 
+Cycle 1
+Error : in ‘subplex’: The requested tolerance (tol=1e-07) is too small for mxrej=10.
+Tree 4 / 10 
+You are optimizing lambda mu K 
+You are fixing nothing 
+Optimizing the likelihood - this may take a while. 
+The loglikelihood for the initial parameter values is -220.9406 
+Cycle 1
+Error : in ‘subplex’: The requested tolerance (tol=1e-07) is too small for mxrej=10.
+Tree 5 / 10 
+You are optimizing lambda mu K 
+You are fixing nothing 
+Optimizing the likelihood - this may take a while. 
+The loglikelihood for the initial parameter values is -Inf 
+The initial parameter values have a likelihood that is equal to 0 or below machine precision. Try again with different initial values.
+Tree 6 / 10 
+You are optimizing lambda mu K 
+You are fixing nothing 
+Optimizing the likelihood - this may take a while. 
+The loglikelihood for the initial parameter values is -Inf 
+The initial parameter values have a likelihood that is equal to 0 or below machine precision. Try again with different initial values.
+Tree 7 / 10 
+You are optimizing lambda mu K 
+You are fixing nothing 
+Optimizing the likelihood - this may take a while. 
+The loglikelihood for the initial parameter values is -210.4108 
+Cycle 1
+Error : in ‘subplex’: The requested tolerance (tol=1e-07) is too small for mxrej=10.
+Tree 8 / 10 
+You are optimizing lambda mu K 
+You are fixing nothing 
+Optimizing the likelihood - this may take a while. 
+The loglikelihood for the initial parameter values is -186.5517 
+Cycle 1
+Error : in ‘subplex’: The requested tolerance (tol=1e-07) is too small for mxrej=10.
+Tree 9 / 10 
+You are optimizing lambda mu K 
+You are fixing nothing 
+Optimizing the likelihood - this may take a while. 
+The loglikelihood for the initial parameter values is -215.3207 
+Cycle 1
+Error : in ‘subplex’: The requested tolerance (tol=1e-07) is too small for mxrej=10.
+Tree 10 / 10 
+You are optimizing lambda mu K 
+You are fixing nothing 
+Optimizing the likelihood - this may take a while. 
+The loglikelihood for the initial parameter values is -208.2902 
+Cycle 1
+Error : in ‘subplex’: The requested tolerance (tol=1e-07) is too small for mxrej=10.
+Saving at /data/p282688/fabrika/comrad_data/DDD_ml/DDD_ddmodel_4_sigk_5_siga_0.7.rds 
+
+
+###############################################################################
+Peregrine Cluster
+Job 17586255 for user 'p282688'
+Finished at: Fri Jan 22 17:13:22 CET 2021
+
+Job details:
+============
+
+Job ID              : 17586255
+Name                : ddd_ml_hpc.bash
+User                : p282688
+Partition           : gelifes
+Nodes               : pg-node221
+Number of Nodes     : 1
+Cores               : 1
+State               : COMPLETED
+Submit              : 2021-01-22T17:12:13
+Start               : 2021-01-22T17:12:14
+End                 : 2021-01-22T17:13:22
+Reserved walltime   : 15:28:00
+Used walltime       : 00:01:08
+Used CPU time       : 00:01:02 (efficiency: 91.35%)
+% User (Computation): 96.22%
+% System (I/O)      :  3.78%
+Mem reserved        : 2000M/core
+Max Mem used        : 215.41M (pg-node221)
+Max Disk Write      : 112.64K (pg-node221)
+Max Disk Read       : 1.87M (pg-node221)
+
+
+Acknowledgements:
+=================
+
+Please see this page for information about acknowledging Peregrine in your publications:
+
+https://wiki.hpc.rug.nl/peregrine/introduction/scientific_output
+
+################################################################################

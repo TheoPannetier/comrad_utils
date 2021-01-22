@@ -1,0 +1,142 @@
+Running dd_ML for ddmodel = 4, siga = 0.7, sigk = 1
+Reading /data/p282688/fabrika/comrad_data/phylos/comrad_phylos_sigk_1_siga_0.7.rds 
+
+Tree 1 / 10 
+You are optimizing lambda mu K 
+You are fixing nothing 
+Optimizing the likelihood - this may take a while. 
+The loglikelihood for the initial parameter values is -0.5308574 
+Cycle 1
+Cycle 2
+No more cycles needed.
+
+Maximum likelihood parameter estimates: lambda: 0.000620, mu: 0.000023, K: 0.974429
+Maximum loglikelihood: -0.026619
+Tree 2 / 10 
+You are optimizing lambda mu K 
+You are fixing nothing 
+Optimizing the likelihood - this may take a while. 
+The loglikelihood for the initial parameter values is -431.6991 
+Cycle 1
+Error : in ‘subplex’: missing value where TRUE/FALSE needed
+Tree 3 / 10 
+You are optimizing lambda mu K 
+You are fixing nothing 
+Optimizing the likelihood - this may take a while. 
+The loglikelihood for the initial parameter values is -0.5308574 
+Cycle 1
+Cycle 2
+No more cycles needed.
+
+Maximum likelihood parameter estimates: lambda: 0.000620, mu: 0.000023, K: 0.974429
+Maximum loglikelihood: 0.000000
+Tree 4 / 10 
+You are optimizing lambda mu K 
+You are fixing nothing 
+Optimizing the likelihood - this may take a while. 
+The loglikelihood for the initial parameter values is -153.612 
+Cycle 1
+Error : in ‘subplex’: missing value where TRUE/FALSE needed
+Tree 5 / 10 
+You are optimizing lambda mu K 
+You are fixing nothing 
+Optimizing the likelihood - this may take a while. 
+The loglikelihood for the initial parameter values is -0.5308574 
+Cycle 1
+Cycle 2
+No more cycles needed.
+
+Maximum likelihood parameter estimates: lambda: 0.000620, mu: 0.000023, K: 0.976334
+Maximum loglikelihood: 0.000000
+Tree 6 / 10 
+You are optimizing lambda mu K 
+You are fixing nothing 
+Optimizing the likelihood - this may take a while. 
+The loglikelihood for the initial parameter values is -135.0076 
+Cycle 1
+Error : in ‘subplex’: missing value where TRUE/FALSE needed
+Tree 7 / 10 
+You are optimizing lambda mu K 
+You are fixing nothing 
+Optimizing the likelihood - this may take a while. 
+The loglikelihood for the initial parameter values is -0.5308574 
+Cycle 1
+Cycle 2
+No more cycles needed.
+
+Maximum likelihood parameter estimates: lambda: 0.000620, mu: 0.000023, K: 0.963074
+Maximum loglikelihood: 0.000000
+Tree 8 / 10 
+You are optimizing lambda mu K 
+You are fixing nothing 
+Optimizing the likelihood - this may take a while. 
+The loglikelihood for the initial parameter values is -0.5308574 
+Cycle 1
+Cycle 2
+No more cycles needed.
+
+Maximum likelihood parameter estimates: lambda: 0.000620, mu: 0.000023, K: 0.974429
+Maximum loglikelihood: -0.026617
+Tree 9 / 10 
+You are optimizing lambda mu K 
+You are fixing nothing 
+Optimizing the likelihood - this may take a while. 
+The loglikelihood for the initial parameter values is -0.5308574 
+Cycle 1
+Cycle 2
+No more cycles needed.
+
+Maximum likelihood parameter estimates: lambda: 0.000620, mu: 0.000023, K: 0.976334
+Maximum loglikelihood: 0.000000
+Tree 10 / 10 
+You are optimizing lambda mu K 
+You are fixing nothing 
+Optimizing the likelihood - this may take a while. 
+The loglikelihood for the initial parameter values is -0.5308574 
+Cycle 1
+Cycle 2
+No more cycles needed.
+
+Maximum likelihood parameter estimates: lambda: 0.000620, mu: 0.000023, K: 0.951848
+Maximum loglikelihood: 0.000000
+Saving at /data/p282688/fabrika/comrad_data/DDD_ml/DDD_ddmodel_4_sigk_1_siga_0.7.rds 
+
+
+###############################################################################
+Peregrine Cluster
+Job 17586174 for user 'p282688'
+Finished at: Fri Jan 22 17:12:37 CET 2021
+
+Job details:
+============
+
+Job ID              : 17586174
+Name                : ddd_ml_hpc.bash
+User                : p282688
+Partition           : gelifes
+Nodes               : pg-node225
+Number of Nodes     : 1
+Cores               : 1
+State               : COMPLETED
+Submit              : 2021-01-22T17:12:11
+Start               : 2021-01-22T17:12:11
+End                 : 2021-01-22T17:12:32
+Reserved walltime   : 15:28:00
+Used walltime       : 00:00:21
+Used CPU time       : 00:00:17 (efficiency: 83.01%)
+% User (Computation): 39.12%
+% System (I/O)      : 60.88%
+Mem reserved        : 2000M/core
+Max Mem used        : 0.00  (pg-node225)
+Max Disk Write      : 0.00  (pg-node225)
+Max Disk Read       : 0.00  (pg-node225)
+
+
+Acknowledgements:
+=================
+
+Please see this page for information about acknowledging Peregrine in your publications:
+
+https://wiki.hpc.rug.nl/peregrine/introduction/scientific_output
+
+################################################################################

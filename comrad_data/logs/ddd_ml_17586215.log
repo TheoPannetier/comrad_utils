@@ -1,0 +1,114 @@
+Running dd_ML for ddmodel = 1, siga = 0.8, sigk = 3
+Reading /data/p282688/fabrika/comrad_data/phylos/comrad_phylos_sigk_3_siga_0.8.rds 
+
+Tree 1 / 10 
+You are optimizing lambda mu K 
+You are fixing nothing 
+Optimizing the likelihood - this may take a while. 
+The loglikelihood for the initial parameter values is -56.51605 
+Cycle 1
+Error : in ‘subplex’: missing value where TRUE/FALSE needed
+Tree 2 / 10 
+You are optimizing lambda mu K 
+You are fixing nothing 
+Optimizing the likelihood - this may take a while. 
+The loglikelihood for the initial parameter values is -65.79376 
+Cycle 1
+Error : in ‘subplex’: missing value where TRUE/FALSE needed
+Tree 3 / 10 
+You are optimizing lambda mu K 
+You are fixing nothing 
+Optimizing the likelihood - this may take a while. 
+The loglikelihood for the initial parameter values is -66.47377 
+Cycle 1
+Error : in ‘subplex’: missing value where TRUE/FALSE needed
+Tree 4 / 10 
+You are optimizing lambda mu K 
+You are fixing nothing 
+Optimizing the likelihood - this may take a while. 
+The loglikelihood for the initial parameter values is -55.53217 
+Cycle 1
+Error : in ‘subplex’: missing value where TRUE/FALSE needed
+Tree 5 / 10 
+You are optimizing lambda mu K 
+You are fixing nothing 
+Optimizing the likelihood - this may take a while. 
+The loglikelihood for the initial parameter values is -55.60794 
+Cycle 1
+Error : in ‘subplex’: missing value where TRUE/FALSE needed
+Tree 6 / 10 
+You are optimizing lambda mu K 
+You are fixing nothing 
+Optimizing the likelihood - this may take a while. 
+The loglikelihood for the initial parameter values is -69.04922 
+Cycle 1
+Error : in ‘subplex’: missing value where TRUE/FALSE needed
+Tree 7 / 10 
+You are optimizing lambda mu K 
+You are fixing nothing 
+Optimizing the likelihood - this may take a while. 
+The loglikelihood for the initial parameter values is -78.62377 
+Cycle 1
+Error : in ‘subplex’: missing value where TRUE/FALSE needed
+Tree 8 / 10 
+You are optimizing lambda mu K 
+You are fixing nothing 
+Optimizing the likelihood - this may take a while. 
+The loglikelihood for the initial parameter values is -55.10817 
+Cycle 1
+Error : in ‘subplex’: missing value where TRUE/FALSE needed
+Tree 9 / 10 
+You are optimizing lambda mu K 
+You are fixing nothing 
+Optimizing the likelihood - this may take a while. 
+The loglikelihood for the initial parameter values is -68.49159 
+Cycle 1
+Error : in ‘subplex’: missing value where TRUE/FALSE needed
+Tree 10 / 10 
+You are optimizing lambda mu K 
+You are fixing nothing 
+Optimizing the likelihood - this may take a while. 
+The loglikelihood for the initial parameter values is -56.86428 
+Cycle 1
+Error : in ‘subplex’: missing value where TRUE/FALSE needed
+Saving at /data/p282688/fabrika/comrad_data/DDD_ml/DDD_ddmodel_1_sigk_3_siga_0.8.rds 
+
+
+###############################################################################
+Peregrine Cluster
+Job 17586215 for user 'p282688'
+Finished at: Fri Jan 22 17:12:34 CET 2021
+
+Job details:
+============
+
+Job ID              : 17586215
+Name                : ddd_ml_hpc.bash
+User                : p282688
+Partition           : gelifes
+Nodes               : pg-node224
+Number of Nodes     : 1
+Cores               : 1
+State               : COMPLETED
+Submit              : 2021-01-22T17:12:12
+Start               : 2021-01-22T17:12:13
+End                 : 2021-01-22T17:12:33
+Reserved walltime   : 15:28:00
+Used walltime       : 00:00:20
+Used CPU time       : 00:00:15 (efficiency: 79.81%)
+% User (Computation): 36.20%
+% System (I/O)      : 63.80%
+Mem reserved        : 2000M/core
+Max Mem used        : 0.00  (pg-node224)
+Max Disk Write      : 0.00  (pg-node224)
+Max Disk Read       : 0.00  (pg-node224)
+
+
+Acknowledgements:
+=================
+
+Please see this page for information about acknowledging Peregrine in your publications:
+
+https://wiki.hpc.rug.nl/peregrine/introduction/scientific_output
+
+################################################################################

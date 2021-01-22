@@ -1,0 +1,113 @@
+Running dd_ML for ddmodel = 4, siga = 0.7, sigk = 3
+Reading /data/p282688/fabrika/comrad_data/phylos/comrad_phylos_sigk_3_siga_0.7.rds 
+
+Tree 1 / 10 
+You are optimizing lambda mu K 
+You are fixing nothing 
+Optimizing the likelihood - this may take a while. 
+The loglikelihood for the initial parameter values is -140.2963 
+Cycle 1
+Error : in ‘subplex’: The requested tolerance (tol=1e-07) is too small for mxrej=10.
+Tree 2 / 10 
+You are optimizing lambda mu K 
+You are fixing nothing 
+Optimizing the likelihood - this may take a while. 
+The loglikelihood for the initial parameter values is -145.596 
+Cycle 1
+Error : in ‘subplex’: missing value where TRUE/FALSE needed
+Tree 3 / 10 
+You are optimizing lambda mu K 
+You are fixing nothing 
+Optimizing the likelihood - this may take a while. 
+The loglikelihood for the initial parameter values is -147.381 
+Cycle 1
+Error : in ‘subplex’: missing value where TRUE/FALSE needed
+Tree 4 / 10 
+You are optimizing lambda mu K 
+You are fixing nothing 
+Optimizing the likelihood - this may take a while. 
+The loglikelihood for the initial parameter values is -151.2076 
+Cycle 1
+Error : in ‘subplex’: missing value where TRUE/FALSE needed
+Tree 5 / 10 
+You are optimizing lambda mu K 
+You are fixing nothing 
+Optimizing the likelihood - this may take a while. 
+The loglikelihood for the initial parameter values is -131.4744 
+Cycle 1
+Error : in ‘subplex’: missing value where TRUE/FALSE needed
+Tree 6 / 10 
+You are optimizing lambda mu K 
+You are fixing nothing 
+Optimizing the likelihood - this may take a while. 
+The loglikelihood for the initial parameter values is -154.0961 
+Cycle 1
+Error : in ‘subplex’: missing value where TRUE/FALSE needed
+Tree 7 / 10 
+You are optimizing lambda mu K 
+You are fixing nothing 
+Optimizing the likelihood - this may take a while. 
+The loglikelihood for the initial parameter values is -Inf 
+The initial parameter values have a likelihood that is equal to 0 or below machine precision. Try again with different initial values.
+Tree 8 / 10 
+You are optimizing lambda mu K 
+You are fixing nothing 
+Optimizing the likelihood - this may take a while. 
+The loglikelihood for the initial parameter values is -164.763 
+Cycle 1
+Error : in ‘subplex’: missing value where TRUE/FALSE needed
+Tree 9 / 10 
+You are optimizing lambda mu K 
+You are fixing nothing 
+Optimizing the likelihood - this may take a while. 
+The loglikelihood for the initial parameter values is -184.8825 
+Cycle 1
+Error : in ‘subplex’: The requested tolerance (tol=1e-07) is too small for mxrej=10.
+Tree 10 / 10 
+You are optimizing lambda mu K 
+You are fixing nothing 
+Optimizing the likelihood - this may take a while. 
+The loglikelihood for the initial parameter values is -167.4274 
+Cycle 1
+Error : in ‘subplex’: missing value where TRUE/FALSE needed
+Saving at /data/p282688/fabrika/comrad_data/DDD_ml/DDD_ddmodel_4_sigk_3_siga_0.7.rds 
+
+
+###############################################################################
+Peregrine Cluster
+Job 17586214 for user 'p282688'
+Finished at: Fri Jan 22 17:12:47 CET 2021
+
+Job details:
+============
+
+Job ID              : 17586214
+Name                : ddd_ml_hpc.bash
+User                : p282688
+Partition           : gelifes
+Nodes               : pg-node224
+Number of Nodes     : 1
+Cores               : 1
+State               : COMPLETED
+Submit              : 2021-01-22T17:12:12
+Start               : 2021-01-22T17:12:13
+End                 : 2021-01-22T17:12:47
+Reserved walltime   : 15:28:00
+Used walltime       : 00:00:34
+Used CPU time       : 00:00:29 (efficiency: 86.76%)
+% User (Computation): 65.36%
+% System (I/O)      : 34.63%
+Mem reserved        : 2000M/core
+Max Mem used        : 221.34M (pg-node224)
+Max Disk Write      : 112.64K (pg-node224)
+Max Disk Read       : 1.87M (pg-node224)
+
+
+Acknowledgements:
+=================
+
+Please see this page for information about acknowledging Peregrine in your publications:
+
+https://wiki.hpc.rug.nl/peregrine/introduction/scientific_output
+
+################################################################################

@@ -1,0 +1,117 @@
+Running dd_ML for ddmodel = 1, siga = 0.2, sigk = 5
+Reading /data/p282688/fabrika/comrad_data/phylos/comrad_phylos_sigk_5_siga_0.2.rds 
+
+Tree 1 / 10 
+You are optimizing lambda mu K 
+You are fixing nothing 
+Optimizing the likelihood - this may take a while. 
+The loglikelihood for the initial parameter values is -864.8754 
+Cycle 1
+Error : in ‘subplex’: The requested tolerance (tol=1e-07) is too small for mxrej=10.
+Tree 2 / 10 
+You are optimizing lambda mu K 
+You are fixing nothing 
+Optimizing the likelihood - this may take a while. 
+The loglikelihood for the initial parameter values is -814.2727 
+Cycle 1
+Error : in ‘subplex’: BLAS/LAPACK routine 'DGEBAL' gave error code -3
+Tree 3 / 10 
+You are optimizing lambda mu K 
+You are fixing nothing 
+Optimizing the likelihood - this may take a while. 
+The loglikelihood for the initial parameter values is -828.7747 
+Cycle 1
+Error : in ‘subplex’: BLAS/LAPACK routine 'DGEBAL' gave error code -3
+Tree 4 / 10 
+You are optimizing lambda mu K 
+You are fixing nothing 
+Optimizing the likelihood - this may take a while. 
+The loglikelihood for the initial parameter values is -856.5855 
+Cycle 1
+Cycle 2
+Error : in ‘subplex’: BLAS/LAPACK routine 'DGEBAL' gave error code -3
+Tree 5 / 10 
+You are optimizing lambda mu K 
+You are fixing nothing 
+Optimizing the likelihood - this may take a while. 
+The loglikelihood for the initial parameter values is -898.2876 
+Cycle 1
+Error : in ‘subplex’: The requested tolerance (tol=1e-07) is too small for mxrej=10.
+Tree 6 / 10 
+You are optimizing lambda mu K 
+You are fixing nothing 
+Optimizing the likelihood - this may take a while. 
+The loglikelihood for the initial parameter values is -810.6138 
+Cycle 1
+Error : in ‘subplex’: BLAS/LAPACK routine 'DGEBAL' gave error code -3
+Tree 7 / 10 
+You are optimizing lambda mu K 
+You are fixing nothing 
+Optimizing the likelihood - this may take a while. 
+The loglikelihood for the initial parameter values is -853.6088 
+Cycle 1
+Cycle 2
+Error : in ‘subplex’: The requested tolerance (tol=1e-07) is too small for mxrej=10.
+Tree 8 / 10 
+You are optimizing lambda mu K 
+You are fixing nothing 
+Optimizing the likelihood - this may take a while. 
+The loglikelihood for the initial parameter values is -901.2348 
+Cycle 1
+Error : in ‘subplex’: The requested tolerance (tol=1e-07) is too small for mxrej=10.
+Tree 9 / 10 
+You are optimizing lambda mu K 
+You are fixing nothing 
+Optimizing the likelihood - this may take a while. 
+The loglikelihood for the initial parameter values is -852.0285 
+Cycle 1
+Cycle 2
+Error : in ‘subplex’: BLAS/LAPACK routine 'DGEBAL' gave error code -3
+Tree 10 / 10 
+You are optimizing lambda mu K 
+You are fixing nothing 
+Optimizing the likelihood - this may take a while. 
+The loglikelihood for the initial parameter values is -809.7907 
+Cycle 1
+Error : in ‘subplex’: BLAS/LAPACK routine 'DGEBAL' gave error code -3
+Saving at /data/p282688/fabrika/comrad_data/DDD_ml/DDD_ddmodel_1_sigk_5_siga_0.2.rds 
+
+
+###############################################################################
+Peregrine Cluster
+Job 17586244 for user 'p282688'
+Finished at: Fri Jan 22 17:51:07 CET 2021
+
+Job details:
+============
+
+Job ID              : 17586244
+Name                : ddd_ml_hpc.bash
+User                : p282688
+Partition           : gelifes
+Nodes               : pg-node223
+Number of Nodes     : 1
+Cores               : 1
+State               : COMPLETED
+Submit              : 2021-01-22T17:12:13
+Start               : 2021-01-22T17:12:14
+End                 : 2021-01-22T17:51:07
+Reserved walltime   : 15:28:00
+Used walltime       : 00:38:53
+Used CPU time       : 00:38:48 (efficiency: 99.81%)
+% User (Computation): 99.81%
+% System (I/O)      :  0.19%
+Mem reserved        : 2000M/core
+Max Mem used        : 223.86M (pg-node223)
+Max Disk Write      : 112.64K (pg-node223)
+Max Disk Read       : 1.87M (pg-node223)
+
+
+Acknowledgements:
+=================
+
+Please see this page for information about acknowledging Peregrine in your publications:
+
+https://wiki.hpc.rug.nl/peregrine/introduction/scientific_output
+
+################################################################################

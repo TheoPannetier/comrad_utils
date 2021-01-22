@@ -1,0 +1,123 @@
+Running dd_ML for ddmodel = 1, siga = 0.3, sigk = 4
+Reading /data/p282688/fabrika/comrad_data/phylos/comrad_phylos_sigk_4_siga_0.3.rds 
+
+Tree 1 / 10 
+You are optimizing lambda mu K 
+You are fixing nothing 
+Optimizing the likelihood - this may take a while. 
+The loglikelihood for the initial parameter values is -392.6625 
+Cycle 1
+Cycle 2
+Error : in ‘subplex’: BLAS/LAPACK routine 'DGEBAL' gave error code -3
+Tree 2 / 10 
+You are optimizing lambda mu K 
+You are fixing nothing 
+Optimizing the likelihood - this may take a while. 
+The loglikelihood for the initial parameter values is -429.101 
+Cycle 1
+Cycle 2
+Error : in ‘subplex’: BLAS/LAPACK routine 'DGEBAL' gave error code -3
+Tree 3 / 10 
+You are optimizing lambda mu K 
+You are fixing nothing 
+Optimizing the likelihood - this may take a while. 
+The loglikelihood for the initial parameter values is -407.2825 
+Cycle 1
+Cycle 2
+Error : in ‘subplex’: BLAS/LAPACK routine 'DGEBAL' gave error code -3
+Tree 4 / 10 
+You are optimizing lambda mu K 
+You are fixing nothing 
+Optimizing the likelihood - this may take a while. 
+The loglikelihood for the initial parameter values is -419.1151 
+Cycle 1
+Cycle 2
+Error : in ‘subplex’: BLAS/LAPACK routine 'DGEBAL' gave error code -3
+Tree 5 / 10 
+You are optimizing lambda mu K 
+You are fixing nothing 
+Optimizing the likelihood - this may take a while. 
+The loglikelihood for the initial parameter values is -391.5049 
+Cycle 1
+Cycle 2
+Error : in ‘subplex’: BLAS/LAPACK routine 'DGEBAL' gave error code -3
+Tree 6 / 10 
+You are optimizing lambda mu K 
+You are fixing nothing 
+Optimizing the likelihood - this may take a while. 
+The loglikelihood for the initial parameter values is -405.5108 
+Cycle 1
+Cycle 2
+Error : in ‘subplex’: BLAS/LAPACK routine 'DGEBAL' gave error code -3
+Tree 7 / 10 
+You are optimizing lambda mu K 
+You are fixing nothing 
+Optimizing the likelihood - this may take a while. 
+The loglikelihood for the initial parameter values is -381.2611 
+Cycle 1
+Cycle 2
+Error : in ‘subplex’: BLAS/LAPACK routine 'DGEBAL' gave error code -3
+Tree 8 / 10 
+You are optimizing lambda mu K 
+You are fixing nothing 
+Optimizing the likelihood - this may take a while. 
+The loglikelihood for the initial parameter values is -401.9607 
+Cycle 1
+Error : in ‘subplex’: BLAS/LAPACK routine 'DGEBAL' gave error code -3
+Tree 9 / 10 
+You are optimizing lambda mu K 
+You are fixing nothing 
+Optimizing the likelihood - this may take a while. 
+The loglikelihood for the initial parameter values is -428.0822 
+Cycle 1
+Cycle 2
+Error : in ‘subplex’: BLAS/LAPACK routine 'DGEBAL' gave error code -3
+Tree 10 / 10 
+You are optimizing lambda mu K 
+You are fixing nothing 
+Optimizing the likelihood - this may take a while. 
+The loglikelihood for the initial parameter values is -429.9351 
+Cycle 1
+Cycle 2
+Error : in ‘subplex’: BLAS/LAPACK routine 'DGEBAL' gave error code -3
+Saving at /data/p282688/fabrika/comrad_data/DDD_ml/DDD_ddmodel_1_sigk_4_siga_0.3.rds 
+
+
+###############################################################################
+Peregrine Cluster
+Job 17586226 for user 'p282688'
+Finished at: Fri Jan 22 17:37:52 CET 2021
+
+Job details:
+============
+
+Job ID              : 17586226
+Name                : ddd_ml_hpc.bash
+User                : p282688
+Partition           : gelifes
+Nodes               : pg-node224
+Number of Nodes     : 1
+Cores               : 1
+State               : COMPLETED
+Submit              : 2021-01-22T17:12:12
+Start               : 2021-01-22T17:12:13
+End                 : 2021-01-22T17:37:52
+Reserved walltime   : 15:28:00
+Used walltime       : 00:25:39
+Used CPU time       : 00:25:33 (efficiency: 99.66%)
+% User (Computation): 99.29%
+% System (I/O)      :  0.71%
+Mem reserved        : 2000M/core
+Max Mem used        : 251.49M (pg-node224)
+Max Disk Write      : 112.64K (pg-node224)
+Max Disk Read       : 1.87M (pg-node224)
+
+
+Acknowledgements:
+=================
+
+Please see this page for information about acknowledging Peregrine in your publications:
+
+https://wiki.hpc.rug.nl/peregrine/introduction/scientific_output
+
+################################################################################

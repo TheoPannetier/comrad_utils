@@ -2,7 +2,8 @@
 comrad_data/sims/*.csv
 comrad_data/phylos/*.rds
 comrad_data/ml_results/*.rds
-comrad_data/ddd_ml_results/*.rds
+comrad_data/comrad_ml_on_ddd/*.rds
+comrad_data/ddd_ml_on_comrad/*.rds
 
 workflow.R
 figs/
