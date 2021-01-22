@@ -17,7 +17,7 @@ ddd_ml_hpc <- function(siga, sigk, ddmodel) {
     glue::glue("/data/p282688/fabrika/comrad_data/ml_results/ml_{dd_model}_sigk_{sigk}_siga_{siga}.rds")
   )
   init_ml <- dplyr::slice_max(init_ml, loglik)
-  init_ml <- dplyr::select(init_ml, dplyr::starts_with("init_"))
+  init_ml <- dplyr::select(init_ml, dplyr::starts_with("ml_"))
   initparsopt <- unlist(init_ml)
 
   ml_tbl <- purrr::map_dfr(brts_ls, function(brts) {
