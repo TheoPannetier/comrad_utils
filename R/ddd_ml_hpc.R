@@ -6,11 +6,14 @@ ddd_ml_hpc <- function(siga, sigk, ddmodel) {
   if (!ddmodel %in% c(1, 4)) {
     stop("arg \"ddmodel\" must be either 1 (LC) or 4 (XC).")
   }
-  phylos <- readRDS(
-    glue::glue("/data/p282688/fabrika/comrad_data/phylos/comrad_phylos_sigk_{sigk}_siga_{siga}.rds")
-  )[1:10]
+  cat(glue::glue("Running dd_ML for ddmodel = {ddmodel}, siga = {siga}, sigk = {sigk}\n\n"))
+
+  filename <- glue::glue("/data/p282688/fabrika/comrad_data/phylos/comrad_phylos_sigk_{sigk}_siga_{siga}.rds")
+  cat("Reading", filename, "\n\n")
+  phylos <- readRDS(filename)[1:10]
   phylos <- purrr::map(phylos, ape::drop.fossil)
   brts_ls <- purrr::map(phylos, ape::branching.times)
+  names(brts_ls) <- NULL # indexing
 
   dd_model <- ifelse(ddmodel == 1, "lc", "xc")
   init_ml <- readRDS(
@@ -20,7 +23,8 @@ ddd_ml_hpc <- function(siga, sigk, ddmodel) {
   init_ml <- dplyr::select(init_ml, dplyr::starts_with("ml_"))
   initparsopt <- unlist(init_ml)
 
-  ml_tbl <- purrr::map_dfr(brts_ls, function(brts) {
+  ml_tbl <- purrr::imap_dfr(brts_ls, function(brts, i) {
+    cat(glue::glue("Tree {i} / {length(brts_ls)} \n\n"))
     out <- try(DDD::dd_ML(
       brts = brts,
       initparsopt = initparsopt,
@@ -30,15 +34,16 @@ ddd_ml_hpc <- function(siga, sigk, ddmodel) {
     if (!is.data.frame(out)) { # default results in likely case of an error
       out <- data.frame(lambda = NA, mu = NA, K = NA, loglik = NA, df = NA, conv = NA)
     }
-    out_tbl <- bind_cols(init_ml, out)
+    out_tbl <- dplyr::bind_cols(init_ml, out)
     out_tbl <- dplyr::mutate(out_tbl, "ddmodel" = ddmodel)
   }, .id = "replicate")
 
+  output_file <- glue::glue(
+    "/data/p282688/fabrika/comrad_data/DDD_ml/DDD_ddmodel_{ddmodel}_sigk_{sigk}_siga_{siga}.rds"
+  )
+  cat(glue::glue("Saving at {output_file} \n\n"))
   saveRDS(
     ml_tbl,
-    file = glue::glue(
-      path_to_fabrika_hpc(),
-      "comrad_data/DDD_ml/DDD_ddmodel_{ddmodel}_sigk_{sigk}_siga_{siga}.rds"
-    )
+    file = output_file
   )
 }
