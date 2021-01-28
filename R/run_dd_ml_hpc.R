@@ -1,4 +1,7 @@
 run_dd_ml_hpc <- function(siga, sigk, dd_model) {
+  cat(
+    glue::glue("siga = {siga} sigk = {sigk}\nFitting DD model {dd_model$name}\n\n")
+  )
   # Load data
   phylos <- readRDS(
     glue::glue("/data/p282688/fabrika/comrad_data/phylos/comrad_phylos_sigk_{sigk}_siga_{siga}.rds")
@@ -11,10 +14,10 @@ run_dd_ml_hpc <- function(siga, sigk, dd_model) {
     dd_model = dd_model
   )
   # Run ml for each initial parameter set
-  ml <- purrr::map_dfr(
+  ml <- purrr::imap_dfr(
     init_params_ls,
-    function(init_params) {
-      cat("init params: \n")
+    function(init_params, i) {
+      cat("init params:", i , "/", length(init_params_ls), "\n")
       print(init_params)
       comrad::fit_dd_model(
         waiting_times_tbl = waiting_times_tbl,
