@@ -4,12 +4,12 @@
 \alias{get_ml_rates}
 \title{Get maximum likelihood estimates of DD rates}
 \usage{
-get_ml_rates(siga, sigk)
+get_ml_rates(aic_tbl)
 }
 \arguments{
-\item{siga}{parameter `competition_sd` of `comrad`}
-
-\item{sigk}{parameter `carrying_cap_sd` of `comrad`}
+\item{aic_tbl}{a data frame containing ML estimates for the 6 DD models
+(*one* row per model) with at least cols `dd_model`, `ml_lambda_0`, `ml_mu_0`,
+`ml_k` and `ml_alpha`. E.g. the output of `read_mle_tbl() %>% filter_aic_best()`}
 }
 \description{
 Get maximum likelihood estimates of DD rates

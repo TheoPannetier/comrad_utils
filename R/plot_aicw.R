@@ -1,16 +1,13 @@
 #' Plot DD models AIC weights as a barplot
 #'
-#' @param siga parameter `competition_sd` of `comrad`
-#' @param sigk parameter `carrying_cap_sd` of `comrad`
+#' @param aic_tbl a data frame containing AIC weights for the 6 DD models
+#' (*one* row per model) with at least cols `dd_model` and `aicw`.
+#' E.g. the output of `read_mle_tbl() %>% filter_aic_best()`.
 #'
 #' @export
-plot_aicw <- function(siga, sigk) {
-  # Read ML results
-  ml_res_tbl <- read_ml_res_best(siga = siga, sigk = sigk)
+plot_aicw <- function(aic_tbl) {
 
-  title <- bquote(sigma[alpha] ~ "=" ~ .(siga) ~~~ sigma[K] ~ "=" ~ .(sigk))
-
-  aicw_plot <- ml_res_tbl %>%
+  aicw_plot <- aic_tbl %>%
     ggplot2::ggplot(ggplot2::aes(y = aicw, x = 1, fill = dd_model)) +
     ggplot2::geom_col(position = "fill", show.legend = TRUE) +
     ggplot2::scale_fill_brewer(palette = "Dark2") +
@@ -20,7 +17,7 @@ plot_aicw <- function(siga, sigk) {
       axis.text.x = element_blank(),
       panel.background = element_blank()
     ) +
-    labs(y = "AICw", title = title)
+    labs(y = "AICw")
 
   return(aicw_plot)
 }

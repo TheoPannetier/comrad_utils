@@ -1,17 +1,15 @@
 #' Get maximum likelihood estimates of DD rates
 #'
-#' @param siga parameter `competition_sd` of `comrad`
-#' @param sigk parameter `carrying_cap_sd` of `comrad`
+#' @param aic_tbl a data frame containing ML estimates for the 6 DD models
+#' (*one* row per model) with at least cols `dd_model`, `ml_lambda_0`, `ml_mu_0`,
+#' `ml_k` and `ml_alpha`. E.g. the output of `read_mle_tbl() %>% filter_aic_best()`
 #'
 #' @export
-get_ml_rates <- function(siga, sigk) {
-
-  # Read ML results
-  ml_res_tbl <- read_ml_res_best(siga = siga, sigk = sigk)
+get_ml_rates <- function(aic_tbl) {
 
   # Read ml params
   extract_ml_params <- function(ddmod) {
-    params <- ml_res_tbl %>%
+    params <- aic_tbl %>%
       dplyr::filter(dd_model == ddmod) %>%
       dplyr::select(ml_lambda_0, ml_mu_0, ml_k, ml_alpha) %>%
       unlist()
@@ -19,7 +17,7 @@ get_ml_rates <- function(siga, sigk) {
     return(params)
   }
 
-  Nmax <- max(ml_res_tbl$ml_k) * 1.5
+  Nmax <- max(aic_tbl$ml_k) * 1.5
 
   rates_tbl <- tibble(
     "N" = 0:Nmax,

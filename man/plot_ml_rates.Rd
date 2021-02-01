@@ -4,12 +4,11 @@
 \alias{plot_ml_rates}
 \title{Plot maximum likelihood estimates of DD rates}
 \usage{
-plot_ml_rates(siga, sigk)
+plot_ml_rates(rates_tbl)
 }
 \arguments{
-\item{siga}{parameter `competition_sd` of `comrad`}
-
-\item{sigk}{parameter `carrying_cap_sd` of `comrad`}
+\item{rates_tbl}{a data frame with cols `N`, `rate`, `dd_model` and `value`.
+E.g. the output of `get_ml_rates()`.}
 }
 \description{
 Plot maximum likelihood estimates of DD rates
