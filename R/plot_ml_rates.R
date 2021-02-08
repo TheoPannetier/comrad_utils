@@ -7,6 +7,7 @@
 plot_ml_rates <- function(rates_tbl) {
 
   rates_plot <- rates_tbl %>%
+    dplyr::mutate("rate" = factor(rate, levels = c("speciation", "extinction"))) %>%
     ggplot2::ggplot(ggplot2::aes(x = N, y = value, colour = dd_model, linetype = rate)) +
     ggplot2::labs(
       x = "Number of species",
@@ -14,6 +15,7 @@ plot_ml_rates <- function(rates_tbl) {
       ) +
     ggplot2::theme_bw() +
     ggplot2::geom_line() +
+    ggplot2::geom_point(aes(shape = rate), size = 0.5) +
     ggplot2::scale_colour_brewer(palette = "Dark2")
 
   return(rates_plot)
