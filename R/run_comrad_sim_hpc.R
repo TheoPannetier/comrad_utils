@@ -16,6 +16,9 @@
 #' @param nb_replicates numeric, number of replicate simulations to run.
 #' Each unique combination of parameters in `params_array` will be submitted
 #' `nb_replicates` times.
+#' @param sampling_on_event logical. If `TRUE`, the community is sampled every
+#' time a speciation or extinction happens, and `sampling_freq` is ignored and
+#' must be set to `NA`.
 #' @param sampling_freq numeric \code{> 0}, the frequency (in generations) at
 #' which the community is written to output. See [comrad::set_sampling_freq()]
 #' for the default option.
@@ -47,7 +50,10 @@ run_comrad_sim_hpc <- function(
   nb_gens,
   params_array = fabrika::create_comrad_params() %>% expand.grid(),
   nb_replicates = 1,
-  sampling_freq = 200,
+  sampling_on_event = FALSE,
+  sampling_freq = ifelse(
+    sampling_on_event, NA, comrad::set_sampling_freq(nb_gens)
+  ),
   sampling_frac = comrad::default_sampling_frac(),
   seeds = sample(1:50000, nb_replicates * nrow(params_array)),
   walltime = "00:57:00",
@@ -83,6 +89,14 @@ run_comrad_sim_hpc <- function(
   }
   if (!length(walltime) %in% c(1, nrow(params_array))) {
     stop("argument \"walltime\" must have length either 1 or nrow(params_array)")
+  }
+  if (sampling_on_event) {
+    if (!is.na(sampling_freq)) {
+      stop("If \"sampling_on_event\" is TRUE \"sampling_freq\" must be NA.")
+    }
+  } else {
+    comrad::testarg_num(sampling_freq)
+    comrad::testarg_int(sampling_freq)
   }
   if (!brute_force_opt %in% c("none", "simd", "omp", "simd_omp")) {
     stop("brute_force_opt must be one of \"none\", \"simd\", \"omp\", \"simd_omp\"")
@@ -121,6 +135,7 @@ run_comrad_sim_hpc <- function(
       "{prob_mutation}",
       "{mutation_sd}",
       "{trait_dist_sp}",
+      "{sampling_on_event}",
       "{sampling_freq}",
       "{sampling_frac}",
       "{brute_force_opt}",
