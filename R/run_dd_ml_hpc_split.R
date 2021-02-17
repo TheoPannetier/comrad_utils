@@ -1,4 +1,8 @@
 run_dd_ml_hpc_split <- function(siga, sigk, dd_model) {
+  is_on_peregrine <- grepl(pattern = "pg-node", Sys.getenv("HOSTNAME"))
+  if (!is_on_peregrine) {
+    stop("This function is only intended to be run on the Peregrine HPC.")
+  }
   cat(
     glue::glue("siga = {siga} sigk = {sigk}\nFitting DD model {dd_model$name}\n\n")
   )

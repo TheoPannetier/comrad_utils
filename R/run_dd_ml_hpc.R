@@ -1,10 +1,14 @@
 run_dd_ml_hpc <- function(siga, sigk, dd_model) {
+  is_on_peregrine <- grepl(pattern = "pg-node", Sys.getenv("HOSTNAME"))
+  if (!is_on_peregrine) {
+    stop("This function is only intended to be run on the Peregrine HPC.")
+  }
   cat(
     glue::glue("siga = {siga} sigk = {sigk}\nFitting DD model {dd_model$name}\n\n")
   )
   # Load data
   phylos <- readRDS(
-    glue::glue("/data/p282688/fabrika/comrad_data/phylos/comrad_phylos_sigk_{sigk}_siga_{siga}.rds")
+    glue::glue("/data/p282688/fabrika/comrad_data/phylos/comrad_phylos_sigk_{sigk}_siga_{siga}_full.rds")
   )
   waiting_times_tbl <- purrr::map_dfr(phylos, comrad::waiting_times)
   # Draw initial parameter values
@@ -30,7 +34,7 @@ run_dd_ml_hpc <- function(siga, sigk, dd_model) {
   saveRDS(
     ml,
     glue::glue(
-      "/data/p282688/fabrika/comrad_data/ml_results/ml_{dd_model$name}_sigk_{sigk}_siga_{siga}.rds")
+      "/data/p282688/fabrika/comrad_data/ml_results/ml_{dd_model$name}_sigk_{sigk}_siga_{siga}_full.rds")
   )
 }
 
