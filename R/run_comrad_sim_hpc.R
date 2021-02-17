@@ -52,7 +52,7 @@ run_comrad_sim_hpc <- function(
   nb_replicates = 1,
   sampling_on_event = FALSE,
   sampling_freq = ifelse(
-    sampling_on_event, NA, comrad::set_sampling_freq(nb_gens)
+    sampling_on_event, NA, 200
   ),
   sampling_frac = comrad::default_sampling_frac(),
   seeds = sample(1:50000, nb_replicates * nrow(params_array)),
