@@ -24,6 +24,7 @@ read_logbook <- function() {
       "trait_dist_sp" = readr::col_double(),
       "seed" = readr::col_double(),
       "comrad_version" = readr::col_character(),
+      "sampling_on_event" = readr::col_logical(),
       "sampling_freq" = readr::col_double(),
       "sampling_frac" = readr::col_double(),
       "brute_force_opt" = readr::col_character(),
