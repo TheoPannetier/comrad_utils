@@ -1,0 +1,65 @@
+job ID 18025186\n
+Output saved at /data/p282688/fabrika/comrad_data/sims/comrad_sim_18025186.csv\n\n
+
+Sampled generation 2625 / 161000
+Sampled generation 15831 / 161000
+Sampled generation 37847 / 161000
+Sampled generation 39228 / 161000
+Sampled generation 39491 / 161000
+Sampled generation 59980 / 161000
+Sampled generation 60804 / 161000
+Sampled generation 63981 / 161000
+Sampled generation 92144 / 161000
+Sampled generation 93350 / 161000
+Sampled generation 94998 / 161000
+Sampled generation 95066 / 161000
+Sampled generation 116104 / 161000
+Sampled generation 116213 / 161000
+Sampled generation 122574 / 161000
+Sampled generation 126906 / 161000
+Sampled generation 145632 / 161000
+Sampled generation 145770 / 161000
+Sampled generation 153621 / 161000
+Sampled generation 156223 / 161000
+Sampled generation 159997 / 161000
+Sampled generation 160425 / 161000
+Sampled generation 161000 / 161000
+
+###############################################################################
+Peregrine Cluster
+Job 18025186 for user 'p282688'
+Finished at: Tue Feb 16 23:17:08 CET 2021
+
+Job details:
+============
+
+Job ID              : 18025186
+Name                : run_comrad_sim.bash
+User                : p282688
+Partition           : gelifes
+Nodes               : pg-node211
+Number of Nodes     : 1
+Cores               : 1
+State               : COMPLETED
+Submit              : 2021-02-16T17:22:47
+Start               : 2021-02-16T22:30:11
+End                 : 2021-02-16T23:17:08
+Reserved walltime   : 01:58:00
+Used walltime       : 00:46:57
+Used CPU time       : 00:46:53 (efficiency: 99.88%)
+% User (Computation): 99.92%
+% System (I/O)      :  0.08%
+Mem reserved        : 2000M/core
+Max Mem used        : 102.41M (pg-node211)
+Max Disk Write      : 112.64K (pg-node211)
+Max Disk Read       : 7.57M (pg-node211)
+
+
+Acknowledgements:
+=================
+
+Please see this page for information about acknowledging Peregrine in your publications:
+
+https://wiki.hpc.rug.nl/peregrine/introduction/scientific_output
+
+################################################################################

@@ -1,0 +1,79 @@
+job ID 18024728\n
+Output saved at /data/p282688/fabrika/comrad_data/sims/comrad_sim_18024728.csv\n\n
+
+Sampled generation 6349 / 216000
+Sampled generation 6355 / 216000
+Sampled generation 10500 / 216000
+Sampled generation 43128 / 216000
+Sampled generation 43449 / 216000
+Sampled generation 54427 / 216000
+Sampled generation 98147 / 216000
+Sampled generation 101005 / 216000
+Sampled generation 131653 / 216000
+Sampled generation 133119 / 216000
+Sampled generation 134370 / 216000
+Sampled generation 134801 / 216000
+Sampled generation 143911 / 216000
+Sampled generation 143916 / 216000
+Sampled generation 151119 / 216000
+Sampled generation 152319 / 216000
+Sampled generation 158047 / 216000
+Sampled generation 158287 / 216000
+Sampled generation 164593 / 216000
+Sampled generation 165103 / 216000
+Sampled generation 167364 / 216000
+Sampled generation 167383 / 216000
+Sampled generation 169982 / 216000
+Sampled generation 170520 / 216000
+Sampled generation 182003 / 216000
+Sampled generation 183109 / 216000
+Sampled generation 187011 / 216000
+Sampled generation 188464 / 216000
+Sampled generation 189300 / 216000
+Sampled generation 189333 / 216000
+Sampled generation 193578 / 216000
+Sampled generation 193615 / 216000
+Sampled generation 207894 / 216000
+Sampled generation 207958 / 216000
+Sampled generation 215647 / 216000
+Sampled generation 215664 / 216000
+Sampled generation 216000 / 216000
+
+###############################################################################
+Peregrine Cluster
+Job 18024728 for user 'p282688'
+Finished at: Tue Feb 16 18:42:05 CET 2021
+
+Job details:
+============
+
+Job ID              : 18024728
+Name                : run_comrad_sim.bash
+User                : p282688
+Partition           : gelifes
+Nodes               : pg-node224
+Number of Nodes     : 1
+Cores               : 1
+State               : COMPLETED
+Submit              : 2021-02-16T17:17:04
+Start               : 2021-02-16T17:59:19
+End                 : 2021-02-16T18:42:05
+Reserved walltime   : 00:58:00
+Used walltime       : 00:42:46
+Used CPU time       : 00:42:43 (efficiency: 99.91%)
+% User (Computation): 99.92%
+% System (I/O)      :  0.08%
+Mem reserved        : 2000M/core
+Max Mem used        : 99.79M (pg-node224)
+Max Disk Write      : 112.64K (pg-node224)
+Max Disk Read       : 7.57M (pg-node224)
+
+
+Acknowledgements:
+=================
+
+Please see this page for information about acknowledging Peregrine in your publications:
+
+https://wiki.hpc.rug.nl/peregrine/introduction/scientific_output
+
+################################################################################

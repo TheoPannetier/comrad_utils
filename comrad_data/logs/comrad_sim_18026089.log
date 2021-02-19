@@ -1,0 +1,128 @@
+job ID 18026089\n
+Output saved at /data/p282688/fabrika/comrad_data/sims/comrad_sim_18026089.csv\n\n
+
+Sampled generation 1203 / 98000
+Sampled generation 3640 / 98000
+Sampled generation 4061 / 98000
+Sampled generation 8947 / 98000
+Sampled generation 9225 / 98000
+Sampled generation 10918 / 98000
+Sampled generation 14367 / 98000
+Sampled generation 16557 / 98000
+Sampled generation 18975 / 98000
+Sampled generation 19695 / 98000
+Sampled generation 21826 / 98000
+Sampled generation 21879 / 98000
+Sampled generation 22306 / 98000
+Sampled generation 23203 / 98000
+Sampled generation 24630 / 98000
+Sampled generation 25123 / 98000
+Sampled generation 27206 / 98000
+Sampled generation 30525 / 98000
+Sampled generation 31063 / 98000
+Sampled generation 32160 / 98000
+Sampled generation 32182 / 98000
+Sampled generation 34035 / 98000
+Sampled generation 36765 / 98000
+Sampled generation 37025 / 98000
+Sampled generation 37676 / 98000
+Sampled generation 38282 / 98000
+Sampled generation 38823 / 98000
+Sampled generation 39085 / 98000
+Sampled generation 39102 / 98000
+Sampled generation 39125 / 98000
+Sampled generation 40105 / 98000
+Sampled generation 42367 / 98000
+Sampled generation 43961 / 98000
+Sampled generation 44131 / 98000
+Sampled generation 44171 / 98000
+Sampled generation 47506 / 98000
+Sampled generation 47558 / 98000
+Sampled generation 48204 / 98000
+Sampled generation 48723 / 98000
+Sampled generation 48733 / 98000
+Sampled generation 50237 / 98000
+Sampled generation 52412 / 98000
+Sampled generation 52511 / 98000
+Sampled generation 52512 / 98000
+Sampled generation 53047 / 98000
+Sampled generation 53474 / 98000
+Sampled generation 53940 / 98000
+Sampled generation 54288 / 98000
+Sampled generation 54365 / 98000
+Sampled generation 56224 / 98000
+Sampled generation 56525 / 98000
+Sampled generation 56537 / 98000
+Sampled generation 56786 / 98000
+Sampled generation 58869 / 98000
+Sampled generation 58872 / 98000
+Sampled generation 60055 / 98000
+Sampled generation 60080 / 98000
+Sampled generation 60198 / 98000
+Sampled generation 65272 / 98000
+Sampled generation 65366 / 98000
+Sampled generation 65518 / 98000
+Sampled generation 66744 / 98000
+Sampled generation 66795 / 98000
+Sampled generation 68098 / 98000
+Sampled generation 68228 / 98000
+Sampled generation 69811 / 98000
+Sampled generation 70019 / 98000
+Sampled generation 70644 / 98000
+Sampled generation 74458 / 98000
+Sampled generation 74893 / 98000
+Sampled generation 76015 / 98000
+Sampled generation 81793 / 98000
+Sampled generation 82834 / 98000
+Sampled generation 82872 / 98000
+Sampled generation 83372 / 98000
+Sampled generation 83737 / 98000
+Sampled generation 84337 / 98000
+Sampled generation 86288 / 98000
+Sampled generation 88848 / 98000
+Sampled generation 89036 / 98000
+Sampled generation 89170 / 98000
+Sampled generation 91105 / 98000
+Sampled generation 93719 / 98000
+Sampled generation 93781 / 98000
+Sampled generation 95431 / 98000
+Sampled generation 98000 / 98000
+
+###############################################################################
+Peregrine Cluster
+Job 18026089 for user 'p282688'
+Finished at: Wed Feb 17 05:43:15 CET 2021
+
+Job details:
+============
+
+Job ID              : 18026089
+Name                : run_comrad_sim.bash
+User                : p282688
+Partition           : gelifes
+Nodes               : pg-node218
+Number of Nodes     : 1
+Cores               : 1
+State               : COMPLETED
+Submit              : 2021-02-16T17:34:00
+Start               : 2021-02-17T03:51:43
+End                 : 2021-02-17T05:43:15
+Reserved walltime   : 03:56:00
+Used walltime       : 01:51:32
+Used CPU time       : 01:51:28 (efficiency: 99.94%)
+% User (Computation): 99.96%
+% System (I/O)      :  0.04%
+Mem reserved        : 2000M/core
+Max Mem used        : 125.45M (pg-node218)
+Max Disk Write      : 112.64K (pg-node218)
+Max Disk Read       : 7.57M (pg-node218)
+
+
+Acknowledgements:
+=================
+
+Please see this page for information about acknowledging Peregrine in your publications:
+
+https://wiki.hpc.rug.nl/peregrine/introduction/scientific_output
+
+################################################################################

@@ -1,0 +1,134 @@
+job ID 18026082\n
+Output saved at /data/p282688/fabrika/comrad_data/sims/comrad_sim_18026082.csv\n\n
+
+Sampled generation 993 / 98000
+Sampled generation 3923 / 98000
+Sampled generation 4065 / 98000
+Sampled generation 8097 / 98000
+Sampled generation 8824 / 98000
+Sampled generation 8831 / 98000
+Sampled generation 9128 / 98000
+Sampled generation 10100 / 98000
+Sampled generation 11379 / 98000
+Sampled generation 11450 / 98000
+Sampled generation 11542 / 98000
+Sampled generation 14980 / 98000
+Sampled generation 16307 / 98000
+Sampled generation 16758 / 98000
+Sampled generation 20767 / 98000
+Sampled generation 20844 / 98000
+Sampled generation 21426 / 98000
+Sampled generation 22225 / 98000
+Sampled generation 23227 / 98000
+Sampled generation 25641 / 98000
+Sampled generation 26654 / 98000
+Sampled generation 26666 / 98000
+Sampled generation 27974 / 98000
+Sampled generation 28931 / 98000
+Sampled generation 29406 / 98000
+Sampled generation 30166 / 98000
+Sampled generation 30287 / 98000
+Sampled generation 31657 / 98000
+Sampled generation 34457 / 98000
+Sampled generation 34637 / 98000
+Sampled generation 35506 / 98000
+Sampled generation 35878 / 98000
+Sampled generation 36684 / 98000
+Sampled generation 38967 / 98000
+Sampled generation 39108 / 98000
+Sampled generation 39322 / 98000
+Sampled generation 40949 / 98000
+Sampled generation 47360 / 98000
+Sampled generation 47695 / 98000
+Sampled generation 47890 / 98000
+Sampled generation 48107 / 98000
+Sampled generation 52439 / 98000
+Sampled generation 52566 / 98000
+Sampled generation 55121 / 98000
+Sampled generation 55442 / 98000
+Sampled generation 56598 / 98000
+Sampled generation 57039 / 98000
+Sampled generation 57068 / 98000
+Sampled generation 57193 / 98000
+Sampled generation 57864 / 98000
+Sampled generation 58778 / 98000
+Sampled generation 59216 / 98000
+Sampled generation 60859 / 98000
+Sampled generation 62880 / 98000
+Sampled generation 63223 / 98000
+Sampled generation 64049 / 98000
+Sampled generation 65351 / 98000
+Sampled generation 65704 / 98000
+Sampled generation 68126 / 98000
+Sampled generation 68319 / 98000
+Sampled generation 69636 / 98000
+Sampled generation 72202 / 98000
+Sampled generation 72471 / 98000
+Sampled generation 73460 / 98000
+Sampled generation 73536 / 98000
+Sampled generation 73708 / 98000
+Sampled generation 74263 / 98000
+Sampled generation 74334 / 98000
+Sampled generation 74746 / 98000
+Sampled generation 76377 / 98000
+Sampled generation 78187 / 98000
+Sampled generation 78286 / 98000
+Sampled generation 78417 / 98000
+Sampled generation 80136 / 98000
+Sampled generation 80305 / 98000
+Sampled generation 81198 / 98000
+Sampled generation 81976 / 98000
+Sampled generation 86894 / 98000
+Sampled generation 86911 / 98000
+Sampled generation 87088 / 98000
+Sampled generation 87324 / 98000
+Sampled generation 88267 / 98000
+Sampled generation 88356 / 98000
+Sampled generation 88385 / 98000
+Sampled generation 88641 / 98000
+Sampled generation 88915 / 98000
+Sampled generation 90870 / 98000
+Sampled generation 91394 / 98000
+Sampled generation 95006 / 98000
+Sampled generation 95704 / 98000
+Sampled generation 97898 / 98000
+Sampled generation 98000 / 98000
+
+###############################################################################
+Peregrine Cluster
+Job 18026082 for user 'p282688'
+Finished at: Wed Feb 17 05:49:19 CET 2021
+
+Job details:
+============
+
+Job ID              : 18026082
+Name                : run_comrad_sim.bash
+User                : p282688
+Partition           : gelifes
+Nodes               : pg-node218
+Number of Nodes     : 1
+Cores               : 1
+State               : COMPLETED
+Submit              : 2021-02-16T17:33:56
+Start               : 2021-02-17T03:50:05
+End                 : 2021-02-17T05:49:18
+Reserved walltime   : 03:56:00
+Used walltime       : 01:59:13
+Used CPU time       : 01:59:10 (efficiency: 99.96%)
+% User (Computation): 99.94%
+% System (I/O)      :  0.05%
+Mem reserved        : 2000M/core
+Max Mem used        : 123.61M (pg-node218)
+Max Disk Write      : 112.64K (pg-node218)
+Max Disk Read       : 7.57M (pg-node218)
+
+
+Acknowledgements:
+=================
+
+Please see this page for information about acknowledging Peregrine in your publications:
+
+https://wiki.hpc.rug.nl/peregrine/introduction/scientific_output
+
+################################################################################

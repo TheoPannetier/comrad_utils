@@ -1,0 +1,71 @@
+job ID 18024977\n
+Output saved at /data/p282688/fabrika/comrad_data/sims/comrad_sim_18024977.csv\n\n
+
+Sampled generation 5010 / 126000
+Sampled generation 19207 / 126000
+Sampled generation 33969 / 126000
+Sampled generation 34299 / 126000
+Sampled generation 42218 / 126000
+Sampled generation 43019 / 126000
+Sampled generation 43511 / 126000
+Sampled generation 44130 / 126000
+Sampled generation 45370 / 126000
+Sampled generation 47884 / 126000
+Sampled generation 56168 / 126000
+Sampled generation 62860 / 126000
+Sampled generation 63116 / 126000
+Sampled generation 64163 / 126000
+Sampled generation 66965 / 126000
+Sampled generation 66967 / 126000
+Sampled generation 78004 / 126000
+Sampled generation 78231 / 126000
+Sampled generation 99570 / 126000
+Sampled generation 100060 / 126000
+Sampled generation 100603 / 126000
+Sampled generation 102081 / 126000
+Sampled generation 108569 / 126000
+Sampled generation 112121 / 126000
+Sampled generation 120086 / 126000
+Sampled generation 120093 / 126000
+Sampled generation 123830 / 126000
+Sampled generation 123900 / 126000
+Sampled generation 126000 / 126000
+
+###############################################################################
+Peregrine Cluster
+Job 18024977 for user 'p282688'
+Finished at: Tue Feb 16 21:49:46 CET 2021
+
+Job details:
+============
+
+Job ID              : 18024977
+Name                : run_comrad_sim.bash
+User                : p282688
+Partition           : gelifes
+Nodes               : pg-node224
+Number of Nodes     : 1
+Cores               : 1
+State               : COMPLETED
+Submit              : 2021-02-16T17:20:51
+Start               : 2021-02-16T21:20:54
+End                 : 2021-02-16T21:49:46
+Reserved walltime   : 00:58:00
+Used walltime       : 00:28:52
+Used CPU time       : 00:28:49 (efficiency: 99.83%)
+% User (Computation): 99.88%
+% System (I/O)      :  0.12%
+Mem reserved        : 2000M/core
+Max Mem used        : 99.88M (pg-node224)
+Max Disk Write      : 112.64K (pg-node224)
+Max Disk Read       : 7.57M (pg-node224)
+
+
+Acknowledgements:
+=================
+
+Please see this page for information about acknowledging Peregrine in your publications:
+
+https://wiki.hpc.rug.nl/peregrine/introduction/scientific_output
+
+################################################################################

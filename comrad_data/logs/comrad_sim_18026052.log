@@ -1,0 +1,126 @@
+job ID 18026052\n
+Output saved at /data/p282688/fabrika/comrad_data/sims/comrad_sim_18026052.csv\n\n
+
+Sampled generation 971 / 98000
+Sampled generation 3612 / 98000
+Sampled generation 3778 / 98000
+Sampled generation 8317 / 98000
+Sampled generation 9031 / 98000
+Sampled generation 9679 / 98000
+Sampled generation 9747 / 98000
+Sampled generation 17021 / 98000
+Sampled generation 17046 / 98000
+Sampled generation 18077 / 98000
+Sampled generation 18226 / 98000
+Sampled generation 18714 / 98000
+Sampled generation 19886 / 98000
+Sampled generation 20651 / 98000
+Sampled generation 23799 / 98000
+Sampled generation 23872 / 98000
+Sampled generation 24231 / 98000
+Sampled generation 24859 / 98000
+Sampled generation 26492 / 98000
+Sampled generation 26851 / 98000
+Sampled generation 26923 / 98000
+Sampled generation 27059 / 98000
+Sampled generation 27695 / 98000
+Sampled generation 27776 / 98000
+Sampled generation 28478 / 98000
+Sampled generation 29460 / 98000
+Sampled generation 30163 / 98000
+Sampled generation 30626 / 98000
+Sampled generation 31029 / 98000
+Sampled generation 33432 / 98000
+Sampled generation 33514 / 98000
+Sampled generation 33787 / 98000
+Sampled generation 37005 / 98000
+Sampled generation 38149 / 98000
+Sampled generation 38303 / 98000
+Sampled generation 38548 / 98000
+Sampled generation 39400 / 98000
+Sampled generation 42360 / 98000
+Sampled generation 42391 / 98000
+Sampled generation 51699 / 98000
+Sampled generation 52011 / 98000
+Sampled generation 52534 / 98000
+Sampled generation 52779 / 98000
+Sampled generation 52862 / 98000
+Sampled generation 53437 / 98000
+Sampled generation 55627 / 98000
+Sampled generation 56188 / 98000
+Sampled generation 56759 / 98000
+Sampled generation 58207 / 98000
+Sampled generation 60879 / 98000
+Sampled generation 60888 / 98000
+Sampled generation 64371 / 98000
+Sampled generation 68683 / 98000
+Sampled generation 69109 / 98000
+Sampled generation 70519 / 98000
+Sampled generation 71307 / 98000
+Sampled generation 71791 / 98000
+Sampled generation 71901 / 98000
+Sampled generation 74036 / 98000
+Sampled generation 74236 / 98000
+Sampled generation 75826 / 98000
+Sampled generation 76258 / 98000
+Sampled generation 78062 / 98000
+Sampled generation 79049 / 98000
+Sampled generation 80143 / 98000
+Sampled generation 81404 / 98000
+Sampled generation 83578 / 98000
+Sampled generation 84240 / 98000
+Sampled generation 84291 / 98000
+Sampled generation 86308 / 98000
+Sampled generation 86787 / 98000
+Sampled generation 87309 / 98000
+Sampled generation 88732 / 98000
+Sampled generation 89526 / 98000
+Sampled generation 90485 / 98000
+Sampled generation 91494 / 98000
+Sampled generation 92281 / 98000
+Sampled generation 93719 / 98000
+Sampled generation 95132 / 98000
+Sampled generation 95246 / 98000
+Sampled generation 96890 / 98000
+Sampled generation 96929 / 98000
+Sampled generation 96936 / 98000
+Sampled generation 98000 / 98000
+
+###############################################################################
+Peregrine Cluster
+Job 18026052 for user 'p282688'
+Finished at: Wed Feb 17 05:27:38 CET 2021
+
+Job details:
+============
+
+Job ID              : 18026052
+Name                : run_comrad_sim.bash
+User                : p282688
+Partition           : gelifes
+Nodes               : pg-node216
+Number of Nodes     : 1
+Cores               : 1
+State               : COMPLETED
+Submit              : 2021-02-16T17:33:41
+Start               : 2021-02-17T03:32:38
+End                 : 2021-02-17T05:27:38
+Reserved walltime   : 03:56:00
+Used walltime       : 01:55:00
+Used CPU time       : 01:54:54 (efficiency: 99.91%)
+% User (Computation): 99.96%
+% System (I/O)      :  0.05%
+Mem reserved        : 2000M/core
+Max Mem used        : 122.86M (pg-node216)
+Max Disk Write      : 112.64K (pg-node216)
+Max Disk Read       : 7.57M (pg-node216)
+
+
+Acknowledgements:
+=================
+
+Please see this page for information about acknowledging Peregrine in your publications:
+
+https://wiki.hpc.rug.nl/peregrine/introduction/scientific_output
+
+################################################################################

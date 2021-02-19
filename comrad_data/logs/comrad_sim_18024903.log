@@ -1,0 +1,64 @@
+job ID 18024903\n
+Output saved at /data/p282688/fabrika/comrad_data/sims/comrad_sim_18024903.csv\n\n
+
+Sampled generation 5314 / 126000
+Sampled generation 19929 / 126000
+Sampled generation 22453 / 126000
+Sampled generation 34786 / 126000
+Sampled generation 34817 / 126000
+Sampled generation 45416 / 126000
+Sampled generation 49503 / 126000
+Sampled generation 51222 / 126000
+Sampled generation 53013 / 126000
+Sampled generation 60865 / 126000
+Sampled generation 62578 / 126000
+Sampled generation 64723 / 126000
+Sampled generation 64724 / 126000
+Sampled generation 78392 / 126000
+Sampled generation 79882 / 126000
+Sampled generation 101248 / 126000
+Sampled generation 101825 / 126000
+Sampled generation 111536 / 126000
+Sampled generation 111599 / 126000
+Sampled generation 123027 / 126000
+Sampled generation 124072 / 126000
+Sampled generation 126000 / 126000
+
+###############################################################################
+Peregrine Cluster
+Job 18024903 for user 'p282688'
+Finished at: Tue Feb 16 21:02:53 CET 2021
+
+Job details:
+============
+
+Job ID              : 18024903
+Name                : run_comrad_sim.bash
+User                : p282688
+Partition           : gelifes
+Nodes               : pg-node211
+Number of Nodes     : 1
+Cores               : 1
+State               : COMPLETED
+Submit              : 2021-02-16T17:20:14
+Start               : 2021-02-16T20:31:37
+End                 : 2021-02-16T21:02:53
+Reserved walltime   : 00:58:00
+Used walltime       : 00:31:16
+Used CPU time       : 00:31:14 (efficiency: 99.90%)
+% User (Computation): 99.89%
+% System (I/O)      :  0.11%
+Mem reserved        : 2000M/core
+Max Mem used        : 102.54M (pg-node211)
+Max Disk Write      : 112.64K (pg-node211)
+Max Disk Read       : 7.57M (pg-node211)
+
+
+Acknowledgements:
+=================
+
+Please see this page for information about acknowledging Peregrine in your publications:
+
+https://wiki.hpc.rug.nl/peregrine/introduction/scientific_output
+
+################################################################################

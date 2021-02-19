@@ -1,0 +1,96 @@
+job ID 18026015\n
+Output saved at /data/p282688/fabrika/comrad_data/sims/comrad_sim_18026015.csv\n\n
+
+Sampled generation 902 / 98000
+Sampled generation 3639 / 98000
+Sampled generation 3684 / 98000
+Sampled generation 8311 / 98000
+Sampled generation 9027 / 98000
+Sampled generation 9287 / 98000
+Sampled generation 12112 / 98000
+Sampled generation 12917 / 98000
+Sampled generation 14078 / 98000
+Sampled generation 17874 / 98000
+Sampled generation 18575 / 98000
+Sampled generation 19058 / 98000
+Sampled generation 19225 / 98000
+Sampled generation 21111 / 98000
+Sampled generation 21299 / 98000
+Sampled generation 23847 / 98000
+Sampled generation 26839 / 98000
+Sampled generation 26901 / 98000
+Sampled generation 26930 / 98000
+Sampled generation 27335 / 98000
+Sampled generation 32503 / 98000
+Sampled generation 33863 / 98000
+Sampled generation 34042 / 98000
+Sampled generation 34967 / 98000
+Sampled generation 35067 / 98000
+Sampled generation 36855 / 98000
+Sampled generation 37206 / 98000
+Sampled generation 38064 / 98000
+Sampled generation 38078 / 98000
+Sampled generation 38388 / 98000
+Sampled generation 38977 / 98000
+Sampled generation 40353 / 98000
+Sampled generation 41821 / 98000
+Sampled generation 41908 / 98000
+Sampled generation 42007 / 98000
+Sampled generation 44972 / 98000
+Sampled generation 48220 / 98000
+Sampled generation 48238 / 98000
+Sampled generation 53886 / 98000
+Sampled generation 53914 / 98000
+Sampled generation 58627 / 98000
+Sampled generation 58881 / 98000
+Sampled generation 59652 / 98000
+Sampled generation 59664 / 98000
+Sampled generation 65562 / 98000
+Sampled generation 65721 / 98000
+Sampled generation 70593 / 98000
+Sampled generation 70605 / 98000slurmstepd: error: *** JOB 18026015 ON pg-node212 CANCELLED AT 2021-02-17T06:40:05 DUE TO TIME LIMIT ***
+
+
+###############################################################################
+Peregrine Cluster
+Job 18026015 for user 'p282688'
+Finished at: Wed Feb 17 06:40:08 CET 2021
+
+Job details:
+============
+
+Job ID              : 18026015
+Name                : run_comrad_sim.bash
+User                : p282688
+Partition           : gelifes
+Nodes               : pg-node212
+Number of Nodes     : 1
+Cores               : 1
+State               : CANCELLED,TIMEOUT
+Submit              : 2021-02-16T17:33:22
+Start               : 2021-02-17T02:43:43
+End                 : 2021-02-17T06:40:07
+Reserved walltime   : 03:56:00
+Used walltime       : 03:56:24
+Used CPU time       : 01:27:39 (efficiency: 37.08%)
+% User (Computation): 90.30%
+% System (I/O)      :  9.70%
+Mem reserved        : 2000M/core
+Max Mem used        : 124.75M (pg-node212)
+Max Disk Write      : 112.64K (pg-node212)
+Max Disk Read       : 7.57M (pg-node212)
+Hints and tips      :
+ 1) The program efficiency is low.
+    Check the file in- and output pattern of your application.
+ *) For more information on these issues see:
+    https://wiki.hpc.rug.nl/peregrine/additional_information/job_hints
+
+
+Acknowledgements:
+=================
+
+Please see this page for information about acknowledging Peregrine in your publications:
+
+https://wiki.hpc.rug.nl/peregrine/introduction/scientific_output
+
+################################################################################
