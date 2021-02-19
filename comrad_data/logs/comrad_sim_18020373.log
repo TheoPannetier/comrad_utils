@@ -1,0 +1,66 @@
+job ID 18020373\n
+Output saved at /data/p282688/fabrika/comrad_data/sims/comrad_sim_18020373.csv\n\n
+
+Sampled generation 1480 / 70000
+Sampled generation 5122 / 70000
+Sampled generation 9699 / 70000
+Sampled generation 9850 / 70000
+Sampled generation 10744 / 70000
+Sampled generation 14804 / 70000
+Sampled generation 18565 / 70000
+Sampled generation 20862 / 70000
+Sampled generation 21588 / 70000
+Sampled generation 24904 / 70000
+Sampled generation 24923 / 70000
+Sampled generation 25745 / 70000
+Sampled generation 29622 / 70000
+Sampled generation 30702 / 70000
+Sampled generation 30883 / 70000
+Sampled generation 30932 / 70000
+Sampled generation 31498 / 70000
+Sampled generation 33402 / 70000
+Sampled generation 45770 / 70000
+Sampled generation 48558 / 70000
+Sampled generation 48614 / 70000
+Sampled generation 62632 / 70000
+Sampled generation 62740 / 70000
+Sampled generation 70000 / 70000
+
+###############################################################################
+Peregrine Cluster
+Job 18020373 for user 'p282688'
+Finished at: Tue Feb 16 15:03:09 CET 2021
+
+Job details:
+============
+
+Job ID              : 18020373
+Name                : run_comrad_sim.bash
+User                : p282688
+Partition           : gelifes
+Nodes               : pg-node214
+Number of Nodes     : 1
+Cores               : 1
+State               : COMPLETED
+Submit              : 2021-02-16T14:43:05
+Start               : 2021-02-16T14:43:08
+End                 : 2021-02-16T15:03:09
+Reserved walltime   : 00:30:00
+Used walltime       : 00:20:01
+Used CPU time       : 00:20:00 (efficiency: 99.94%)
+% User (Computation): 99.85%
+% System (I/O)      :  0.15%
+Mem reserved        : 2000M/core
+Max Mem used        : 100.78M (pg-node214)
+Max Disk Write      : 112.64K (pg-node214)
+Max Disk Read       : 7.57M (pg-node214)
+
+
+Acknowledgements:
+=================
+
+Please see this page for information about acknowledging Peregrine in your publications:
+
+https://wiki.hpc.rug.nl/peregrine/introduction/scientific_output
+
+################################################################################

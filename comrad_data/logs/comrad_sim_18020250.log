@@ -1,0 +1,72 @@
+job ID 18020250\n
+Output saved at /data/p282688/fabrika/comrad_data/sims/comrad_sim_18020250.csv\n\n
+
+Sampled generation 848 / 71000
+Sampled generation 3605 / 71000
+Sampled generation 4374 / 71000
+Sampled generation 8861 / 71000
+Sampled generation 10064 / 71000
+Sampled generation 12894 / 71000
+Sampled generation 13668 / 71000
+Sampled generation 14973 / 71000
+Sampled generation 15249 / 71000
+Sampled generation 22109 / 71000
+Sampled generation 23425 / 71000
+Sampled generation 28076 / 71000
+Sampled generation 29035 / 71000
+Sampled generation 29060 / 71000
+Sampled generation 29106 / 71000
+Sampled generation 31740 / 71000
+Sampled generation 32113 / 71000
+Sampled generation 32483 / 71000
+Sampled generation 35452 / 71000
+Sampled generation 41509 / 71000
+Sampled generation 41869 / 71000
+Sampled generation 45155 / 71000
+Sampled generation 45542 / 71000
+Sampled generation 50887 / 71000
+Sampled generation 51858 / 71000
+Sampled generation 61337 / 71000
+Sampled generation 61647 / 71000
+Sampled generation 62233 / 71000
+Sampled generation 62653 / 71000
+Sampled generation 71000 / 71000
+
+###############################################################################
+Peregrine Cluster
+Job 18020250 for user 'p282688'
+Finished at: Tue Feb 16 15:08:53 CET 2021
+
+Job details:
+============
+
+Job ID              : 18020250
+Name                : run_comrad_sim.bash
+User                : p282688
+Partition           : gelifes
+Nodes               : pg-node215
+Number of Nodes     : 1
+Cores               : 1
+State               : COMPLETED
+Submit              : 2021-02-16T14:39:44
+Start               : 2021-02-16T14:39:44
+End                 : 2021-02-16T15:08:52
+Reserved walltime   : 00:45:00
+Used walltime       : 00:29:08
+Used CPU time       : 00:29:04 (efficiency: 99.82%)
+% User (Computation): 99.86%
+% System (I/O)      :  0.14%
+Mem reserved        : 2000M/core
+Max Mem used        : 107.21M (pg-node215)
+Max Disk Write      : 112.64K (pg-node215)
+Max Disk Read       : 7.57M (pg-node215)
+
+
+Acknowledgements:
+=================
+
+Please see this page for information about acknowledging Peregrine in your publications:
+
+https://wiki.hpc.rug.nl/peregrine/introduction/scientific_output
+
+################################################################################

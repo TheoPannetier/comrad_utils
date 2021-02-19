@@ -1,0 +1,74 @@
+job ID 18054254\n
+Output saved at /data/p282688/fabrika/comrad_data/sims/comrad_sim_18054254.csv\n\n
+
+Sampled generation 2035 / 100000
+Sampled generation 14334 / 100000
+Sampled generation 16151 / 100000
+Sampled generation 16165 / 100000
+Sampled generation 18671 / 100000
+Sampled generation 20021 / 100000
+Sampled generation 22970 / 100000
+Sampled generation 24148 / 100000
+Sampled generation 30797 / 100000
+Sampled generation 35283 / 100000
+Sampled generation 39099 / 100000
+Sampled generation 39424 / 100000
+Sampled generation 56127 / 100000
+Sampled generation 56206 / 100000
+Sampled generation 56401 / 100000
+Sampled generation 57270 / 100000
+Sampled generation 57985 / 100000
+Sampled generation 61616 / 100000
+Sampled generation 62113 / 100000
+Sampled generation 80713 / 100000
+Sampled generation 80717 / 100000
+Sampled generation 90489 / 100000
+Sampled generation 90583 / 100000
+Sampled generation 91235 / 100000
+Sampled generation 91523 / 100000
+Sampled generation 91660 / 100000
+Sampled generation 91677 / 100000
+Sampled generation 92340 / 100000
+Sampled generation 95018 / 100000
+Sampled generation 98517 / 100000
+Sampled generation 98865 / 100000
+Sampled generation 100000 / 100000
+
+###############################################################################
+Peregrine Cluster
+Job 18054254 for user 'p282688'
+Finished at: Thu Feb 18 15:32:01 CET 2021
+
+Job details:
+============
+
+Job ID              : 18054254
+Name                : run_comrad_sim.bash
+User                : p282688
+Partition           : gelifes
+Nodes               : pg-node223
+Number of Nodes     : 1
+Cores               : 1
+State               : COMPLETED
+Submit              : 2021-02-18T15:05:34
+Start               : 2021-02-18T15:10:46
+End                 : 2021-02-18T15:32:01
+Reserved walltime   : 00:56:00
+Used walltime       : 00:21:15
+Used CPU time       : 00:21:09 (efficiency: 99.59%)
+% User (Computation): 99.84%
+% System (I/O)      :  0.16%
+Mem reserved        : 2000M/core
+Max Mem used        : 97.71M (pg-node223)
+Max Disk Write      : 112.64K (pg-node223)
+Max Disk Read       : 7.57M (pg-node223)
+
+
+Acknowledgements:
+=================
+
+Please see this page for information about acknowledging Peregrine in your publications:
+
+https://wiki.hpc.rug.nl/peregrine/introduction/scientific_output
+
+################################################################################

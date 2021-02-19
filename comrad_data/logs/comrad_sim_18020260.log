@@ -1,0 +1,67 @@
+job ID 18020260\n
+Output saved at /data/p282688/fabrika/comrad_data/sims/comrad_sim_18020260.csv\n\n
+
+Sampled generation 1224 / 71000
+Sampled generation 4466 / 71000
+Sampled generation 4473 / 71000
+Sampled generation 9840 / 71000
+Sampled generation 10396 / 71000
+Sampled generation 10909 / 71000
+Sampled generation 11866 / 71000
+Sampled generation 12129 / 71000
+Sampled generation 13679 / 71000
+Sampled generation 14227 / 71000
+Sampled generation 25037 / 71000
+Sampled generation 25229 / 71000
+Sampled generation 29190 / 71000
+Sampled generation 32194 / 71000
+Sampled generation 32236 / 71000
+Sampled generation 51770 / 71000
+Sampled generation 51913 / 71000
+Sampled generation 52118 / 71000
+Sampled generation 53751 / 71000
+Sampled generation 54388 / 71000
+Sampled generation 54962 / 71000
+Sampled generation 67749 / 71000
+Sampled generation 69218 / 71000
+Sampled generation 70125 / 71000
+Sampled generation 71000 / 71000
+
+###############################################################################
+Peregrine Cluster
+Job 18020260 for user 'p282688'
+Finished at: Tue Feb 16 15:08:59 CET 2021
+
+Job details:
+============
+
+Job ID              : 18020260
+Name                : run_comrad_sim.bash
+User                : p282688
+Partition           : gelifes
+Nodes               : pg-node215
+Number of Nodes     : 1
+Cores               : 1
+State               : COMPLETED
+Submit              : 2021-02-16T14:39:49
+Start               : 2021-02-16T14:39:49
+End                 : 2021-02-16T15:08:59
+Reserved walltime   : 00:45:00
+Used walltime       : 00:29:10
+Used CPU time       : 00:29:07 (efficiency: 99.87%)
+% User (Computation): 99.89%
+% System (I/O)      :  0.11%
+Mem reserved        : 2000M/core
+Max Mem used        : 105.83M (pg-node215)
+Max Disk Write      : 112.64K (pg-node215)
+Max Disk Read       : 7.57M (pg-node215)
+
+
+Acknowledgements:
+=================
+
+Please see this page for information about acknowledging Peregrine in your publications:
+
+https://wiki.hpc.rug.nl/peregrine/introduction/scientific_output
+
+################################################################################

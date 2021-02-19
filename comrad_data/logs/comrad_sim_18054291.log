@@ -1,0 +1,59 @@
+job ID 18054291\n
+Output saved at /data/p282688/fabrika/comrad_data/sims/comrad_sim_18054291.csv\n\n
+
+Sampled generation 2353 / 77000
+Sampled generation 17542 / 77000
+Sampled generation 24019 / 77000
+Sampled generation 24181 / 77000
+Sampled generation 27555 / 77000
+Sampled generation 27732 / 77000
+Sampled generation 37165 / 77000
+Sampled generation 37375 / 77000
+Sampled generation 43552 / 77000
+Sampled generation 46155 / 77000
+Sampled generation 52821 / 77000
+Sampled generation 52843 / 77000
+Sampled generation 56712 / 77000
+Sampled generation 56779 / 77000
+Sampled generation 59729 / 77000
+Sampled generation 59732 / 77000
+Sampled generation 77000 / 77000
+
+###############################################################################
+Peregrine Cluster
+Job 18054291 for user 'p282688'
+Finished at: Thu Feb 18 15:47:32 CET 2021
+
+Job details:
+============
+
+Job ID              : 18054291
+Name                : run_comrad_sim.bash
+User                : p282688
+Partition           : gelifes
+Nodes               : pg-node217
+Number of Nodes     : 1
+Cores               : 1
+State               : COMPLETED
+Submit              : 2021-02-18T15:07:09
+Start               : 2021-02-18T15:33:09
+End                 : 2021-02-18T15:47:32
+Reserved walltime   : 00:56:00
+Used walltime       : 00:14:23
+Used CPU time       : 00:14:18 (efficiency: 99.48%)
+% User (Computation): 99.72%
+% System (I/O)      :  0.28%
+Mem reserved        : 2000M/core
+Max Mem used        : 96.31M (pg-node217)
+Max Disk Write      : 112.64K (pg-node217)
+Max Disk Read       : 7.57M (pg-node217)
+
+
+Acknowledgements:
+=================
+
+Please see this page for information about acknowledging Peregrine in your publications:
+
+https://wiki.hpc.rug.nl/peregrine/introduction/scientific_output
+
+################################################################################

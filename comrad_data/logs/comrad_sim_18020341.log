@@ -1,0 +1,66 @@
+job ID 18020341\n
+Output saved at /data/p282688/fabrika/comrad_data/sims/comrad_sim_18020341.csv\n\n
+
+Sampled generation 1061 / 70000
+Sampled generation 5214 / 70000
+Sampled generation 10854 / 70000
+Sampled generation 15458 / 70000
+Sampled generation 16038 / 70000
+Sampled generation 16090 / 70000
+Sampled generation 20051 / 70000
+Sampled generation 20647 / 70000
+Sampled generation 24931 / 70000
+Sampled generation 25351 / 70000
+Sampled generation 35031 / 70000
+Sampled generation 38387 / 70000
+Sampled generation 39552 / 70000
+Sampled generation 40274 / 70000
+Sampled generation 41000 / 70000
+Sampled generation 49381 / 70000
+Sampled generation 49384 / 70000
+Sampled generation 53835 / 70000
+Sampled generation 54608 / 70000
+Sampled generation 59600 / 70000
+Sampled generation 59876 / 70000
+Sampled generation 61111 / 70000
+Sampled generation 62971 / 70000
+Sampled generation 70000 / 70000
+
+###############################################################################
+Peregrine Cluster
+Job 18020341 for user 'p282688'
+Finished at: Tue Feb 16 15:02:50 CET 2021
+
+Job details:
+============
+
+Job ID              : 18020341
+Name                : run_comrad_sim.bash
+User                : p282688
+Partition           : gelifes
+Nodes               : pg-node214
+Number of Nodes     : 1
+Cores               : 1
+State               : COMPLETED
+Submit              : 2021-02-16T14:42:50
+Start               : 2021-02-16T14:42:53
+End                 : 2021-02-16T15:02:50
+Reserved walltime   : 00:30:00
+Used walltime       : 00:19:57
+Used CPU time       : 00:19:53 (efficiency: 99.70%)
+% User (Computation): 99.76%
+% System (I/O)      :  0.24%
+Mem reserved        : 2000M/core
+Max Mem used        : 102.36M (pg-node214)
+Max Disk Write      : 112.64K (pg-node214)
+Max Disk Read       : 7.57M (pg-node214)
+
+
+Acknowledgements:
+=================
+
+Please see this page for information about acknowledging Peregrine in your publications:
+
+https://wiki.hpc.rug.nl/peregrine/introduction/scientific_output
+
+################################################################################

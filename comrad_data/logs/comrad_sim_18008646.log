@@ -1,0 +1,170 @@
+job ID 18008646\n
+Output saved at /data/p282688/fabrika/comrad_data/sims/comrad_sim_18008646.csv\n\n
+
+Sampled generation 348 / 60000
+Sampled generation 776 / 60000
+Sampled generation 892 / 60000
+Sampled generation 1238 / 60000
+Sampled generation 1982 / 60000
+Sampled generation 1996 / 60000
+Sampled generation 2483 / 60000
+Sampled generation 2797 / 60000
+Sampled generation 3081 / 60000
+Sampled generation 3850 / 60000
+Sampled generation 3934 / 60000
+Sampled generation 5099 / 60000
+Sampled generation 5215 / 60000
+Sampled generation 5495 / 60000
+Sampled generation 5768 / 60000
+Sampled generation 5811 / 60000
+Sampled generation 6138 / 60000
+Sampled generation 6649 / 60000
+Sampled generation 6732 / 60000
+Sampled generation 6767 / 60000
+Sampled generation 6812 / 60000
+Sampled generation 6951 / 60000
+Sampled generation 7122 / 60000
+Sampled generation 7578 / 60000
+Sampled generation 7692 / 60000
+Sampled generation 7928 / 60000
+Sampled generation 8965 / 60000
+Sampled generation 9015 / 60000
+Sampled generation 9057 / 60000
+Sampled generation 9082 / 60000
+Sampled generation 9227 / 60000
+Sampled generation 9492 / 60000
+Sampled generation 9603 / 60000
+Sampled generation 10842 / 60000
+Sampled generation 10938 / 60000
+Sampled generation 11509 / 60000
+Sampled generation 11781 / 60000
+Sampled generation 11903 / 60000
+Sampled generation 12080 / 60000
+Sampled generation 13613 / 60000
+Sampled generation 13787 / 60000
+Sampled generation 13792 / 60000
+Sampled generation 14768 / 60000
+Sampled generation 15218 / 60000
+Sampled generation 15691 / 60000
+Sampled generation 15915 / 60000
+Sampled generation 15968 / 60000
+Sampled generation 17132 / 60000
+Sampled generation 17647 / 60000
+Sampled generation 19849 / 60000
+Sampled generation 20110 / 60000
+Sampled generation 20118 / 60000
+Sampled generation 20552 / 60000
+Sampled generation 20653 / 60000
+Sampled generation 20726 / 60000
+Sampled generation 20879 / 60000
+Sampled generation 20964 / 60000
+Sampled generation 21365 / 60000
+Sampled generation 21719 / 60000
+Sampled generation 22660 / 60000
+Sampled generation 22822 / 60000
+Sampled generation 23098 / 60000
+Sampled generation 23547 / 60000
+Sampled generation 24174 / 60000
+Sampled generation 24623 / 60000
+Sampled generation 25184 / 60000
+Sampled generation 25645 / 60000
+Sampled generation 25999 / 60000
+Sampled generation 26823 / 60000
+Sampled generation 27181 / 60000
+Sampled generation 28191 / 60000
+Sampled generation 28957 / 60000
+Sampled generation 29641 / 60000
+Sampled generation 29846 / 60000
+Sampled generation 31695 / 60000
+Sampled generation 32087 / 60000
+Sampled generation 33923 / 60000
+Sampled generation 34468 / 60000
+Sampled generation 35040 / 60000
+Sampled generation 35900 / 60000
+Sampled generation 36507 / 60000
+Sampled generation 36689 / 60000
+Sampled generation 37854 / 60000
+Sampled generation 37985 / 60000
+Sampled generation 38217 / 60000
+Sampled generation 38783 / 60000
+Sampled generation 39426 / 60000
+Sampled generation 39838 / 60000
+Sampled generation 40895 / 60000
+Sampled generation 40950 / 60000
+Sampled generation 41005 / 60000
+Sampled generation 41447 / 60000
+Sampled generation 41571 / 60000
+Sampled generation 42011 / 60000
+Sampled generation 42549 / 60000
+Sampled generation 42645 / 60000
+Sampled generation 43214 / 60000
+Sampled generation 43299 / 60000
+Sampled generation 43527 / 60000
+Sampled generation 43539 / 60000
+Sampled generation 44801 / 60000
+Sampled generation 45670 / 60000
+Sampled generation 45730 / 60000
+Sampled generation 46293 / 60000
+Sampled generation 46663 / 60000
+Sampled generation 47453 / 60000
+Sampled generation 48032 / 60000
+Sampled generation 48923 / 60000
+Sampled generation 49125 / 60000
+Sampled generation 49145 / 60000
+Sampled generation 50629 / 60000
+Sampled generation 50870 / 60000
+Sampled generation 51788 / 60000
+Sampled generation 52568 / 60000
+Sampled generation 53161 / 60000
+Sampled generation 53194 / 60000
+Sampled generation 54897 / 60000
+Sampled generation 54942 / 60000
+Sampled generation 55903 / 60000
+Sampled generation 56222 / 60000
+Sampled generation 56358 / 60000
+Sampled generation 56493 / 60000
+Sampled generation 57611 / 60000
+Sampled generation 58299 / 60000
+Sampled generation 58476 / 60000
+Sampled generation 59112 / 60000
+Sampled generation 59950 / 60000
+Sampled generation 60000 / 60000
+
+###############################################################################
+Peregrine Cluster
+Job 18008646 for user 'p282688'
+Finished at: Tue Feb 16 00:02:14 CET 2021
+
+Job details:
+============
+
+Job ID              : 18008646
+Name                : run_comrad_sim.bash
+User                : p282688
+Partition           : gelifes
+Nodes               : pg-node217
+Number of Nodes     : 1
+Cores               : 1
+State               : COMPLETED
+Submit              : 2021-02-15T21:16:16
+Start               : 2021-02-15T21:16:31
+End                 : 2021-02-16T00:02:13
+Reserved walltime   : 04:30:00
+Used walltime       : 02:45:42
+Used CPU time       : 02:44:52 (efficiency: 99.50%)
+% User (Computation): 99.88%
+% System (I/O)      :  0.12%
+Mem reserved        : 2000M/core
+Max Mem used        : 153.88M (pg-node217)
+Max Disk Write      : 112.64K (pg-node217)
+Max Disk Read       : 7.57M (pg-node217)
+
+
+Acknowledgements:
+=================
+
+Please see this page for information about acknowledging Peregrine in your publications:
+
+https://wiki.hpc.rug.nl/peregrine/introduction/scientific_output
+
+################################################################################

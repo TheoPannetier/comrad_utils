@@ -1,0 +1,122 @@
+job ID 18042304\n
+Output saved at /data/p282688/fabrika/comrad_data/sims/comrad_sim_18042304.csv\n\n
+
+Sampled generation 7029 / 277000
+Sampled generation 25605 / 277000
+Sampled generation 25926 / 277000
+Sampled generation 28069 / 277000
+Sampled generation 28196 / 277000
+Sampled generation 32880 / 277000
+Sampled generation 35872 / 277000
+Sampled generation 46566 / 277000
+Sampled generation 46568 / 277000
+Sampled generation 59813 / 277000
+Sampled generation 59847 / 277000
+Sampled generation 62576 / 277000
+Sampled generation 62997 / 277000
+Sampled generation 72685 / 277000
+Sampled generation 72699 / 277000
+Sampled generation 72894 / 277000
+Sampled generation 73194 / 277000
+Sampled generation 79207 / 277000
+Sampled generation 79961 / 277000
+Sampled generation 91549 / 277000
+Sampled generation 91590 / 277000
+Sampled generation 93132 / 277000
+Sampled generation 93204 / 277000
+Sampled generation 110039 / 277000
+Sampled generation 110108 / 277000
+Sampled generation 110353 / 277000
+Sampled generation 110357 / 277000
+Sampled generation 114684 / 277000
+Sampled generation 114726 / 277000
+Sampled generation 115246 / 277000
+Sampled generation 115502 / 277000
+Sampled generation 120945 / 277000
+Sampled generation 121635 / 277000
+Sampled generation 125497 / 277000
+Sampled generation 125584 / 277000
+Sampled generation 132121 / 277000
+Sampled generation 134782 / 277000
+Sampled generation 157843 / 277000
+Sampled generation 157936 / 277000
+Sampled generation 172024 / 277000
+Sampled generation 174033 / 277000
+Sampled generation 180021 / 277000
+Sampled generation 181541 / 277000
+Sampled generation 182464 / 277000
+Sampled generation 183460 / 277000
+Sampled generation 185230 / 277000
+Sampled generation 185571 / 277000
+Sampled generation 186614 / 277000
+Sampled generation 186815 / 277000
+Sampled generation 191150 / 277000
+Sampled generation 191369 / 277000
+Sampled generation 191886 / 277000
+Sampled generation 192172 / 277000
+Sampled generation 194876 / 277000
+Sampled generation 194890 / 277000
+Sampled generation 196431 / 277000
+Sampled generation 196836 / 277000
+Sampled generation 199241 / 277000
+Sampled generation 200317 / 277000
+Sampled generation 201627 / 277000
+Sampled generation 201980 / 277000
+Sampled generation 204660 / 277000
+Sampled generation 204851 / 277000
+Sampled generation 210696 / 277000
+Sampled generation 210790 / 277000
+Sampled generation 211097 / 277000
+Sampled generation 211265 / 277000
+Sampled generation 223417 / 277000
+Sampled generation 223497 / 277000
+Sampled generation 228925 / 277000
+Sampled generation 229625 / 277000
+Sampled generation 243570 / 277000
+Sampled generation 244837 / 277000
+Sampled generation 248395 / 277000
+Sampled generation 250127 / 277000
+Sampled generation 266994 / 277000
+Sampled generation 267871 / 277000
+Sampled generation 273371 / 277000
+Sampled generation 273422 / 277000
+Sampled generation 277000 / 277000
+
+###############################################################################
+Peregrine Cluster
+Job 18042304 for user 'p282688'
+Finished at: Thu Feb 18 00:53:41 CET 2021
+
+Job details:
+============
+
+Job ID              : 18042304
+Name                : run_comrad_sim.bash
+User                : p282688
+Partition           : gelifes
+Nodes               : pg-node216
+Number of Nodes     : 1
+Cores               : 1
+State               : COMPLETED
+Submit              : 2021-02-17T23:11:55
+Start               : 2021-02-17T23:11:56
+End                 : 2021-02-18T00:53:41
+Reserved walltime   : 03:56:00
+Used walltime       : 01:41:45
+Used CPU time       : 01:41:20 (efficiency: 99.59%)
+% User (Computation): 99.92%
+% System (I/O)      :  0.08%
+Mem reserved        : 2000M/core
+Max Mem used        : 107.52M (pg-node216)
+Max Disk Write      : 112.64K (pg-node216)
+Max Disk Read       : 7.57M (pg-node216)
+
+
+Acknowledgements:
+=================
+
+Please see this page for information about acknowledging Peregrine in your publications:
+
+https://wiki.hpc.rug.nl/peregrine/introduction/scientific_output
+
+################################################################################

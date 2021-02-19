@@ -1,0 +1,67 @@
+job ID 18020314\n
+Output saved at /data/p282688/fabrika/comrad_data/sims/comrad_sim_18020314.csv\n\n
+
+Sampled generation 2331 / 70000
+Sampled generation 6812 / 70000
+Sampled generation 7539 / 70000
+Sampled generation 16278 / 70000
+Sampled generation 18043 / 70000
+Sampled generation 18141 / 70000
+Sampled generation 20763 / 70000
+Sampled generation 24453 / 70000
+Sampled generation 25748 / 70000
+Sampled generation 25754 / 70000
+Sampled generation 28946 / 70000
+Sampled generation 30364 / 70000
+Sampled generation 30557 / 70000
+Sampled generation 34496 / 70000
+Sampled generation 34925 / 70000
+Sampled generation 35449 / 70000
+Sampled generation 35572 / 70000
+Sampled generation 39789 / 70000
+Sampled generation 39971 / 70000
+Sampled generation 53894 / 70000
+Sampled generation 54877 / 70000
+Sampled generation 65139 / 70000
+Sampled generation 66892 / 70000
+Sampled generation 67194 / 70000
+Sampled generation 70000 / 70000
+
+###############################################################################
+Peregrine Cluster
+Job 18020314 for user 'p282688'
+Finished at: Tue Feb 16 15:02:31 CET 2021
+
+Job details:
+============
+
+Job ID              : 18020314
+Name                : run_comrad_sim.bash
+User                : p282688
+Partition           : gelifes
+Nodes               : pg-node215
+Number of Nodes     : 1
+Cores               : 1
+State               : COMPLETED
+Submit              : 2021-02-16T14:42:36
+Start               : 2021-02-16T14:42:38
+End                 : 2021-02-16T15:02:31
+Reserved walltime   : 00:30:00
+Used walltime       : 00:19:53
+Used CPU time       : 00:19:51 (efficiency: 99.85%)
+% User (Computation): 99.82%
+% System (I/O)      :  0.18%
+Mem reserved        : 2000M/core
+Max Mem used        : 100.40M (pg-node215)
+Max Disk Write      : 112.64K (pg-node215)
+Max Disk Read       : 7.57M (pg-node215)
+
+
+Acknowledgements:
+=================
+
+Please see this page for information about acknowledging Peregrine in your publications:
+
+https://wiki.hpc.rug.nl/peregrine/introduction/scientific_output
+
+################################################################################

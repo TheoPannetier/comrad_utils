@@ -1,0 +1,63 @@
+job ID 18054292\n
+Output saved at /data/p282688/fabrika/comrad_data/sims/comrad_sim_18054292.csv\n\n
+
+Sampled generation 2061 / 77000
+Sampled generation 11825 / 77000
+Sampled generation 16422 / 77000
+Sampled generation 16475 / 77000
+Sampled generation 28975 / 77000
+Sampled generation 28976 / 77000
+Sampled generation 30058 / 77000
+Sampled generation 32775 / 77000
+Sampled generation 37842 / 77000
+Sampled generation 37939 / 77000
+Sampled generation 51739 / 77000
+Sampled generation 51810 / 77000
+Sampled generation 51840 / 77000
+Sampled generation 52187 / 77000
+Sampled generation 55209 / 77000
+Sampled generation 55232 / 77000
+Sampled generation 67063 / 77000
+Sampled generation 67990 / 77000
+Sampled generation 75334 / 77000
+Sampled generation 75802 / 77000
+Sampled generation 77000 / 77000
+
+###############################################################################
+Peregrine Cluster
+Job 18054292 for user 'p282688'
+Finished at: Thu Feb 18 15:47:56 CET 2021
+
+Job details:
+============
+
+Job ID              : 18054292
+Name                : run_comrad_sim.bash
+User                : p282688
+Partition           : gelifes
+Nodes               : pg-node217
+Number of Nodes     : 1
+Cores               : 1
+State               : COMPLETED
+Submit              : 2021-02-18T15:07:09
+Start               : 2021-02-18T15:33:09
+End                 : 2021-02-18T15:47:56
+Reserved walltime   : 00:56:00
+Used walltime       : 00:14:47
+Used CPU time       : 00:14:43 (efficiency: 99.56%)
+% User (Computation): 99.73%
+% System (I/O)      :  0.27%
+Mem reserved        : 2000M/core
+Max Mem used        : 96.47M (pg-node217)
+Max Disk Write      : 112.64K (pg-node217)
+Max Disk Read       : 7.57M (pg-node217)
+
+
+Acknowledgements:
+=================
+
+Please see this page for information about acknowledging Peregrine in your publications:
+
+https://wiki.hpc.rug.nl/peregrine/introduction/scientific_output
+
+################################################################################

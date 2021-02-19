@@ -1,0 +1,112 @@
+job ID 18042308\n
+Output saved at /data/p282688/fabrika/comrad_data/sims/comrad_sim_18042308.csv\n\n
+
+Sampled generation 7433 / 277000
+Sampled generation 26342 / 277000
+Sampled generation 33505 / 277000
+Sampled generation 34194 / 277000
+Sampled generation 54354 / 277000
+Sampled generation 56687 / 277000
+Sampled generation 58936 / 277000
+Sampled generation 59970 / 277000
+Sampled generation 60604 / 277000
+Sampled generation 95720 / 277000
+Sampled generation 97486 / 277000
+Sampled generation 103299 / 277000
+Sampled generation 103518 / 277000
+Sampled generation 107835 / 277000
+Sampled generation 108174 / 277000
+Sampled generation 114501 / 277000
+Sampled generation 114577 / 277000
+Sampled generation 116275 / 277000
+Sampled generation 116524 / 277000
+Sampled generation 122833 / 277000
+Sampled generation 122859 / 277000
+Sampled generation 124026 / 277000
+Sampled generation 124755 / 277000
+Sampled generation 124900 / 277000
+Sampled generation 127856 / 277000
+Sampled generation 135041 / 277000
+Sampled generation 135765 / 277000
+Sampled generation 144353 / 277000
+Sampled generation 144384 / 277000
+Sampled generation 152193 / 277000
+Sampled generation 152547 / 277000
+Sampled generation 153823 / 277000
+Sampled generation 154332 / 277000
+Sampled generation 155897 / 277000
+Sampled generation 162830 / 277000
+Sampled generation 162880 / 277000
+Sampled generation 170378 / 277000
+Sampled generation 170592 / 277000
+Sampled generation 179872 / 277000
+Sampled generation 180681 / 277000
+Sampled generation 186494 / 277000
+Sampled generation 186956 / 277000
+Sampled generation 188037 / 277000
+Sampled generation 188086 / 277000
+Sampled generation 196565 / 277000
+Sampled generation 196626 / 277000
+Sampled generation 208023 / 277000
+Sampled generation 208026 / 277000
+Sampled generation 208514 / 277000
+Sampled generation 208665 / 277000
+Sampled generation 211069 / 277000
+Sampled generation 211148 / 277000
+Sampled generation 221469 / 277000
+Sampled generation 227837 / 277000
+Sampled generation 227893 / 277000
+Sampled generation 227910 / 277000
+Sampled generation 234273 / 277000
+Sampled generation 234757 / 277000
+Sampled generation 234847 / 277000
+Sampled generation 241556 / 277000
+Sampled generation 241580 / 277000
+Sampled generation 248773 / 277000
+Sampled generation 249424 / 277000
+Sampled generation 249644 / 277000
+Sampled generation 249770 / 277000
+Sampled generation 273360 / 277000
+Sampled generation 273361 / 277000
+Sampled generation 273977 / 277000
+Sampled generation 274246 / 277000
+Sampled generation 277000 / 277000
+
+###############################################################################
+Peregrine Cluster
+Job 18042308 for user 'p282688'
+Finished at: Thu Feb 18 00:45:43 CET 2021
+
+Job details:
+============
+
+Job ID              : 18042308
+Name                : run_comrad_sim.bash
+User                : p282688
+Partition           : gelifes
+Nodes               : pg-node216
+Number of Nodes     : 1
+Cores               : 1
+State               : COMPLETED
+Submit              : 2021-02-17T23:11:57
+Start               : 2021-02-17T23:11:59
+End                 : 2021-02-18T00:45:43
+Reserved walltime   : 03:56:00
+Used walltime       : 01:33:44
+Used CPU time       : 01:33:21 (efficiency: 99.59%)
+% User (Computation): 99.91%
+% System (I/O)      :  0.09%
+Mem reserved        : 2000M/core
+Max Mem used        : 104.42M (pg-node216)
+Max Disk Write      : 112.64K (pg-node216)
+Max Disk Read       : 7.57M (pg-node216)
+
+
+Acknowledgements:
+=================
+
+Please see this page for information about acknowledging Peregrine in your publications:
+
+https://wiki.hpc.rug.nl/peregrine/introduction/scientific_output
+
+################################################################################

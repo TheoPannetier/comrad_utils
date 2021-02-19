@@ -1,0 +1,64 @@
+job ID 18020387\n
+Output saved at /data/p282688/fabrika/comrad_data/sims/comrad_sim_18020387.csv\n\n
+
+Sampled generation 1805 / 70000
+Sampled generation 5767 / 70000
+Sampled generation 7160 / 70000
+Sampled generation 21266 / 70000
+Sampled generation 21785 / 70000
+Sampled generation 21858 / 70000
+Sampled generation 22274 / 70000
+Sampled generation 26110 / 70000
+Sampled generation 38754 / 70000
+Sampled generation 39456 / 70000
+Sampled generation 47851 / 70000
+Sampled generation 54029 / 70000
+Sampled generation 54343 / 70000
+Sampled generation 54426 / 70000
+Sampled generation 55101 / 70000
+Sampled generation 55620 / 70000
+Sampled generation 55840 / 70000
+Sampled generation 56289 / 70000
+Sampled generation 56584 / 70000
+Sampled generation 58223 / 70000
+Sampled generation 60507 / 70000
+Sampled generation 70000 / 70000
+
+###############################################################################
+Peregrine Cluster
+Job 18020387 for user 'p282688'
+Finished at: Tue Feb 16 15:02:58 CET 2021
+
+Job details:
+============
+
+Job ID              : 18020387
+Name                : run_comrad_sim.bash
+User                : p282688
+Partition           : gelifes
+Nodes               : pg-node214
+Number of Nodes     : 1
+Cores               : 1
+State               : RUNNING
+Submit              : 2021-02-16T14:43:13
+Start               : 2021-02-16T14:43:14
+End                 : --
+Reserved walltime   : 00:30:00
+Used walltime       : 00:19:44
+Used CPU time       : --
+% User (Computation): --
+% System (I/O)      : --
+Mem reserved        : 2000M/core
+Max Mem used        : 0.00  ()
+Max Disk Write      : 0.00  ()
+Max Disk Read       : 0.00  ()
+
+
+Acknowledgements:
+=================
+
+Please see this page for information about acknowledging Peregrine in your publications:
+
+https://wiki.hpc.rug.nl/peregrine/introduction/scientific_output
+
+################################################################################

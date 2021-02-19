@@ -1,0 +1,120 @@
+job ID 18042275\n
+Output saved at /data/p282688/fabrika/comrad_data/sims/comrad_sim_18042275.csv\n\n
+
+Sampled generation 6622 / 277000
+Sampled generation 18245 / 277000
+Sampled generation 18293 / 277000
+Sampled generation 25721 / 277000
+Sampled generation 25722 / 277000
+Sampled generation 27369 / 277000
+Sampled generation 30999 / 277000
+Sampled generation 64811 / 277000
+Sampled generation 66719 / 277000
+Sampled generation 67680 / 277000
+Sampled generation 69470 / 277000
+Sampled generation 71822 / 277000
+Sampled generation 72075 / 277000
+Sampled generation 77419 / 277000
+Sampled generation 78191 / 277000
+Sampled generation 82262 / 277000
+Sampled generation 82830 / 277000
+Sampled generation 85300 / 277000
+Sampled generation 85410 / 277000
+Sampled generation 88806 / 277000
+Sampled generation 90429 / 277000
+Sampled generation 100358 / 277000
+Sampled generation 100931 / 277000
+Sampled generation 103030 / 277000
+Sampled generation 103039 / 277000
+Sampled generation 109150 / 277000
+Sampled generation 109597 / 277000
+Sampled generation 112941 / 277000
+Sampled generation 125017 / 277000
+Sampled generation 125235 / 277000
+Sampled generation 128915 / 277000
+Sampled generation 129388 / 277000
+Sampled generation 129508 / 277000
+Sampled generation 129511 / 277000
+Sampled generation 132391 / 277000
+Sampled generation 132592 / 277000
+Sampled generation 135838 / 277000
+Sampled generation 152979 / 277000
+Sampled generation 153002 / 277000
+Sampled generation 167078 / 277000
+Sampled generation 167079 / 277000
+Sampled generation 181048 / 277000
+Sampled generation 182340 / 277000
+Sampled generation 184082 / 277000
+Sampled generation 184084 / 277000
+Sampled generation 188607 / 277000
+Sampled generation 188792 / 277000
+Sampled generation 190253 / 277000
+Sampled generation 190622 / 277000
+Sampled generation 191373 / 277000
+Sampled generation 192873 / 277000
+Sampled generation 196765 / 277000
+Sampled generation 197067 / 277000
+Sampled generation 221717 / 277000
+Sampled generation 222082 / 277000
+Sampled generation 223569 / 277000
+Sampled generation 223592 / 277000
+Sampled generation 230493 / 277000
+Sampled generation 230627 / 277000
+Sampled generation 231072 / 277000
+Sampled generation 232465 / 277000
+Sampled generation 232714 / 277000
+Sampled generation 232845 / 277000
+Sampled generation 232874 / 277000
+Sampled generation 233645 / 277000
+Sampled generation 233755 / 277000
+Sampled generation 241444 / 277000
+Sampled generation 241697 / 277000
+Sampled generation 251795 / 277000
+Sampled generation 252345 / 277000
+Sampled generation 257634 / 277000
+Sampled generation 258082 / 277000
+Sampled generation 258304 / 277000
+Sampled generation 274056 / 277000
+Sampled generation 274200 / 277000
+Sampled generation 274525 / 277000
+Sampled generation 274838 / 277000
+Sampled generation 277000 / 277000
+
+###############################################################################
+Peregrine Cluster
+Job 18042275 for user 'p282688'
+Finished at: Thu Feb 18 00:50:17 CET 2021
+
+Job details:
+============
+
+Job ID              : 18042275
+Name                : run_comrad_sim.bash
+User                : p282688
+Partition           : gelifes
+Nodes               : pg-node217
+Number of Nodes     : 1
+Cores               : 1
+State               : COMPLETED
+Submit              : 2021-02-17T23:11:39
+Start               : 2021-02-17T23:11:41
+End                 : 2021-02-18T00:50:17
+Reserved walltime   : 03:56:00
+Used walltime       : 01:38:36
+Used CPU time       : 01:38:32 (efficiency: 99.93%)
+% User (Computation): 99.93%
+% System (I/O)      :  0.07%
+Mem reserved        : 2000M/core
+Max Mem used        : 106.80M (pg-node217)
+Max Disk Write      : 112.64K (pg-node217)
+Max Disk Read       : 7.57M (pg-node217)
+
+
+Acknowledgements:
+=================
+
+Please see this page for information about acknowledging Peregrine in your publications:
+
+https://wiki.hpc.rug.nl/peregrine/introduction/scientific_output
+
+################################################################################
