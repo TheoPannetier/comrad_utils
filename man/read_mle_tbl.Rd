@@ -4,12 +4,15 @@
 \alias{read_mle_tbl}
 \title{Read all maximum likelihood estimates}
 \usage{
-read_mle_tbl(siga, sigk)
+read_mle_tbl(siga, sigk, suffix = "full")
 }
 \arguments{
 \item{siga}{parameter `competition_sd` of `comrad`}
 
 \item{sigk}{parameter `carrying_cap_sd` of `comrad`}
+
+\item{suffix}{character, a suffix at the end of the input files, e.g. `full`,
+`freq` or `median`}
 }
 \description{
 Returns a table with all maximum likelihood results (for all of the 6 DD
