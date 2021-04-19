@@ -9,4 +9,4 @@ DDMODEL=$3
 
 module load R
 
-Rscript -e "source(\"/data/$USER/fabrika/R/run_dd_ml_hpc.R\"); run_dd_ml_hpc(siga = ${SIGA}, sigk = ${SIGK}, dd_model = comrad::dd_model_${DDMODEL}())"
+Rscript -e "source(\"/data/$USER/fabrika/R/run_dd_ml_hpc_median.R\"); run_dd_ml_hpc_median(siga = ${SIGA}, sigk = ${SIGK}, dd_model = comrad::dd_model_${DDMODEL}())"
