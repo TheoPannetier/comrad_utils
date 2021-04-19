@@ -23,7 +23,7 @@ run_dd_ml_hpc <- function(siga, sigk, dd_model) {
     function(init_params, i) {
       cat("init params:", i , "/", length(init_params_ls), "\n")
       print(init_params)
-      comrad::fit_dd_model(
+      comrad::fit_dd_model_with_fossil(
         waiting_times_tbl = waiting_times_tbl,
         dd_model = dd_model,
         init_params = init_params,
