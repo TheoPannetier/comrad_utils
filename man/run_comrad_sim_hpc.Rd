@@ -8,7 +8,8 @@ run_comrad_sim_hpc(
   nb_gens,
   params_array = fabrika::create_comrad_params() \%>\% expand.grid(),
   nb_replicates = 1,
-  sampling_freq = 200,
+  sampling_on_event = FALSE,
+  sampling_freq = ifelse(sampling_on_event, NA, 200),
   sampling_frac = comrad::default_sampling_frac(),
   seeds = sample(1:50000, nb_replicates * nrow(params_array)),
   walltime = "00:57:00",
@@ -31,6 +32,10 @@ the default.}
 \item{nb_replicates}{numeric, number of replicate simulations to run.
 Each unique combination of parameters in `params_array` will be submitted
 `nb_replicates` times.}
+
+\item{sampling_on_event}{logical. If `TRUE`, the community is sampled every
+time a speciation or extinction happens, and `sampling_freq` is ignored and
+must be set to `NA`.}
 
 \item{sampling_freq}{numeric \code{> 0}, the frequency (in generations) at
 which the community is written to output. See [comrad::set_sampling_freq()]
