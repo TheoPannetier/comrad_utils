@@ -14,6 +14,7 @@ read_logbook <- function() {
       "status" = readr::col_character(),
       "runtime" = readr::col_character(),
       "nb_gens" = readr::col_double(),
+      "start_from" = readr::col_character(),
       "competition_sd" = readr::col_double(),
       "carrying_cap_sd" = readr::col_double(),
       "carrying_cap_opt" = readr::col_double(),
