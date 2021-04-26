@@ -15,7 +15,9 @@ create_comrad_params <- function(
    growth_rate = comrad::default_growth_rate(),
    prob_mutation = comrad::default_prob_mutation(),
    mutation_sd = comrad::default_mutation_sd(),
-   trait_dist_sp = comrad::default_trait_dist_sp()
+   trait_dist_sp = comrad::default_trait_dist_sp(),
+   switch_carr_cap_sd_after = NA,
+   switch_carr_cap_sd_to = NA
 ) {
    # Check params format
    comrad::testarg_num(competition_sd)
@@ -33,6 +35,11 @@ create_comrad_params <- function(
    comrad::testarg_pos(mutation_sd)
    comrad::testarg_num(trait_dist_sp)
    comrad::testarg_pos(trait_dist_sp)
+   if (!is.na(switch_carr_cap_sd_after)) {
+      comrad::testarg_num(switch_carr_cap_sd_after)
+      comrad::testarg_num(switch_carr_cap_sd_to)
+      comrad::testarg_pos(switch_carr_cap_sd_to)
+   }
 
    # Return params in a single list
    comrad_params <- list(
@@ -43,7 +50,9 @@ create_comrad_params <- function(
       "growth_rate" = growth_rate,
       "prob_mutation" = prob_mutation,
       "mutation_sd" = mutation_sd,
-      "trait_dist_sp" = trait_dist_sp
+      "trait_dist_sp" = trait_dist_sp,
+      "switch_carr_cap_sd_after" = switch_carr_cap_sd_after,
+      "switch_carr_cap_sd_to" = switch_carr_cap_sd_to
    )
    return(comrad_params)
 }

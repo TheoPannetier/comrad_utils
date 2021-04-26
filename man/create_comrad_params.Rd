@@ -12,7 +12,9 @@ create_comrad_params(
   growth_rate = comrad::default_growth_rate(),
   prob_mutation = comrad::default_prob_mutation(),
   mutation_sd = comrad::default_mutation_sd(),
-  trait_dist_sp = comrad::default_trait_dist_sp()
+  trait_dist_sp = comrad::default_trait_dist_sp(),
+  switch_carr_cap_sd_after = NA,
+  switch_carr_cap_sd_to = NA
 )
 }
 \arguments{

@@ -135,6 +135,8 @@ run_comrad_sim_hpc <- function(
       "{prob_mutation}",
       "{mutation_sd}",
       "{trait_dist_sp}",
+      "{switch_carr_cap_sd_after}",
+      "{switch_carr_cap_sd_to}",
       "{sampling_on_event}",
       "{sampling_freq}",
       "{sampling_frac}",
