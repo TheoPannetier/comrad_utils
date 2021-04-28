@@ -6,7 +6,7 @@
 #'
 #' @export
 
-upload_dd_ml_bash_hpc <- function() {
+upload_bash_hpc <- function(path_to_script) {
   # Connect to hpc
   session <- ssh::ssh_connect(
     "p282688@peregrine.hpc.rug.nl"
@@ -14,13 +14,8 @@ upload_dd_ml_bash_hpc <- function() {
   # Get ssh to upload script
   ssh::scp_upload(
     session = session,
-    files = paste0(path_to_fabrika_local(), "bash/run_dd_ml.bash"),
+    files = path_to_script,
     to = "/data/$USER/fabrika/bash/"
-  )
-  ssh::scp_upload(
-    session = session,
-    files = paste0(path_to_fabrika_local(), "R/run_dd_ml_hpc.R"),
-    to = "/data/$USER/fabrika/R/"
   )
   ssh::ssh_disconnect(
     session = session
