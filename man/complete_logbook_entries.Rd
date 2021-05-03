@@ -6,12 +6,15 @@
 \usage{
 complete_logbook_entries(
   job_ids,
+  which_one = "sims",
   vars = c("status", "runtime", "csv_size", "last_gen")
 )
 }
 \arguments{
 \item{job_ids}{eight-digit job IDs given by Peregrine upon
 submission.}
+
+\item{which_one}{character, which logbook? can be `"sims"` or `"dd_ml_without_fossil"`}
 
 \item{vars}{character vector, name of variables to update. Can be `status`,
 `runtime`, `csv_size`, and/or `last_gen` (defaults to all).}

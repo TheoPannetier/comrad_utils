@@ -1,4 +1,4 @@
-run_dd_ml_hpc_without_fossil <- function(siga, sigk, dd_model, i) {
+run_dd_ml_hpc_without_fossil <- function(siga, sigk, dd_model, i, job_id) {
   is_on_peregrine <- grepl(pattern = "pg-node", Sys.getenv("HOSTNAME"))
   if (!is_on_peregrine) {
     stop("This function is only intended to be run on the Peregrine HPC.")
@@ -16,7 +16,7 @@ run_dd_ml_hpc_without_fossil <- function(siga, sigk, dd_model, i) {
   # Draw initial parameter values
   init_params_ls <- comrad::draw_init_params_dd_ml(
     phylos = phylos,
-    nb_sets = 10,
+    nb_sets = 100,
     dd_model = dd_model
   )
   # Run ml for each initial parameter set
@@ -36,7 +36,7 @@ run_dd_ml_hpc_without_fossil <- function(siga, sigk, dd_model, i) {
   saveRDS(
     ml,
     glue::glue(
-      "/data/p282688/fabrika/comrad_data/ml_results/ml_{dd_model$name}_sigk_{sigk}_siga_{siga}_{i}.rds")
+      "/data/p282688/fabrika/comrad_data/ml_results/dd_ml_without_fossil_{job_id}.rds")
   )
 }
 

@@ -8,6 +8,7 @@
 #'
 #' @param job_ids eight-digit job IDs given by Peregrine upon
 #' submission.
+#' @param which_one character, which logbook? can be `"sims"` or `"dd_ml_without_fossil"`
 #' @param vars character vector, name of variables to update. Can be `status`,
 #' `runtime`, `csv_size`, and/or `last_gen` (defaults to all).
 #'
@@ -15,6 +16,7 @@
 #' @export
 #'
 complete_logbook_entries <- function(job_ids,
+                                     which_one = "sims",
                                      vars = c(
                                        "status",
                                        "runtime",
@@ -28,13 +30,24 @@ complete_logbook_entries <- function(job_ids,
     stop("Input \"vars\" is incorrect.")
   }
 
+  if (which_one == "sims") {
+    rel_path_to_logbook <- "comrad_data/logs/logbook.csv"
+  } else if (which_one == "dd_ml_without_fossil") {
+    rel_path_to_logbook <- "comrad_data/logs/logbook_dd_ml_without_fossil.csv"
+    if (any(!vars %in% c("status", "runtime"))) {
+      stop("vars can only be \"status\" and/or \"runtime\" for this logbook.")
+    }
+  } else {
+    stop("which_one should only be \"sims\" or \"dd_ml_without_fossil\"")
+  }
+
   session <- ssh::ssh_connect(
     "p282688@peregrine.hpc.rug.nl"
   )
 
   cat("Downloading logbook from Peregrine\n")
-  fabrika::download_logbook_hpc()
-  logbook <- read_logbook()
+  fabrika::download_logbook_hpc(which_one = which_one)
+  logbook <- read_logbook(which_one = which_one)
 
   to_update <- job_ids %>% match(logbook$job_id)
 
@@ -46,11 +59,11 @@ complete_logbook_entries <- function(job_ids,
     cat("Saving updated logbook and uploading back to Peregrine\n")
     readr::write_csv(
       logbook,
-      file = paste0(path_to_fabrika_local(), "comrad_data/logs/logbook.csv")
+      file = paste0(path_to_fabrika_local(), rel_path_to_logbook)
     )
     ssh::scp_upload(
       session = session,
-      files = paste0(path_to_fabrika_local(), "comrad_data/logs/logbook.csv"),
+      files = paste0(path_to_fabrika_local(), rel_path_to_logbook),
       to = paste0(path_to_fabrika_hpc(), "comrad_data/logs/")
     )
   }
@@ -62,11 +75,11 @@ complete_logbook_entries <- function(job_ids,
     cat("Saving updated logbook and uploading back to Peregrine\n")
     readr::write_csv(
       logbook,
-      file = paste0(path_to_fabrika_local(), "comrad_data/logs/logbook.csv")
+      file = paste0(path_to_fabrika_local(), rel_path_to_logbook)
     )
     ssh::scp_upload(
       session = session,
-      files = paste0(path_to_fabrika_local(), "comrad_data/logs/logbook.csv"),
+      files = paste0(path_to_fabrika_local(), rel_path_to_logbook),
       to = paste0(path_to_fabrika_hpc(), "comrad_data/logs/")
     )
   }
@@ -93,11 +106,11 @@ complete_logbook_entries <- function(job_ids,
     cat("Saving updated logbook and uploading back to Peregrine\n")
     readr::write_csv(
       logbook,
-      file = paste0(path_to_fabrika_local(), "comrad_data/logs/logbook.csv")
+      file = paste0(path_to_fabrika_local(), rel_path_to_logbook)
     )
     ssh::scp_upload(
       session = session,
-      files = paste0(path_to_fabrika_local(), "comrad_data/logs/logbook.csv"),
+      files = paste0(path_to_fabrika_local(), rel_path_to_logbook),
       to = paste0(path_to_fabrika_hpc(), "comrad_data/logs/")
     )
   }
@@ -113,11 +126,11 @@ complete_logbook_entries <- function(job_ids,
     cat("Saving updated logbook and uploading back to Peregrine\n")
     readr::write_csv(
       logbook,
-      file = paste0(path_to_fabrika_local(), "comrad_data/logs/logbook.csv")
+      file = paste0(path_to_fabrika_local(), rel_path_to_logbook)
     )
     ssh::scp_upload(
       session = session,
-      files = paste0(path_to_fabrika_local(), "comrad_data/logs/logbook.csv"),
+      files = paste0(path_to_fabrika_local(), rel_path_to_logbook),
       to = paste0(path_to_fabrika_hpc(), "comrad_data/logs/")
     )
   }

@@ -4,10 +4,13 @@
 \alias{download_logbook_hpc}
 \title{Download the logbook from Peregrine to local}
 \usage{
-download_logbook_hpc()
+download_logbook_hpc(which_one = "sims")
+}
+\arguments{
+\item{which_one}{character, which logbook? can be `"sims"` or `"dd_ml_without_fossil"`}
 }
 \description{
-er, it's all in the title, really.
+Download the logbook from Peregrine to local
 }
 \author{
 Théo Pannetier

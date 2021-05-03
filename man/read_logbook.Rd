@@ -4,7 +4,10 @@
 \alias{read_logbook}
 \title{Read logbook}
 \usage{
-read_logbook()
+read_logbook(which_one = "sims")
+}
+\arguments{
+\item{which_one}{character, which logbook? can be `"sims"` or `"dd_ml_without_fossil"`}
 }
 \description{
 Load `logbook.csv` into R as a data frame
