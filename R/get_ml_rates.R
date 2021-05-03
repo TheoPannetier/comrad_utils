@@ -1,6 +1,6 @@
 #' Get maximum likelihood estimates of DD rates
 #'
-#' @param aic_tbl a data frame containing ML estimates for the 6 DD models
+#' @param aic_tbl a data frame containing ML estimates for the 10 DD models
 #' (*one* row per model) with at least cols `dd_model`, `ml_lambda_0`, `ml_mu_0`,
 #' `ml_k` and `ml_alpha`. E.g. the output of `read_mle_tbl() %>% filter_aic_best()`
 #' @param n_seq numeric vector, sequence of values of N for which the DD rates

@@ -1,6 +1,6 @@
 #' Read all maximum likelihood estimates
 #'
-#' Returns a table with all maximum likelihood results (for all of the 6 DD
+#' Returns a table with all maximum likelihood results (for all of the 10 DD
 #' models and all initial parameter sets) corresponding to parameters `siga`
 #' and `sigk`
 #'

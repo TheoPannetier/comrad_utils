@@ -15,7 +15,7 @@ read_mle_tbl(siga, sigk, suffix = "full")
 `freq` or `median`}
 }
 \description{
-Returns a table with all maximum likelihood results (for all of the 6 DD
+Returns a table with all maximum likelihood results (for all of the 10 DD
 models and all initial parameter sets) corresponding to parameters `siga`
 and `sigk`
 }

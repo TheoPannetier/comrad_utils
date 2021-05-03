@@ -8,10 +8,10 @@ filter_aic_best(mle_tbl)
 }
 \arguments{
 \item{mle_tbl}{a data frame containing maximum likelihood estimates for each of
-the DD models (at least one row for each model), with at least cols `dd_model`
-and `aic`. E.g. the output of `read_mle_tbl()`.}
+the DD models (at least one row for each model), with at least cols `dd_model`,
+and `aic`. E.g. the output of [read_mle_tbl].}
 }
 \description{
-Returns a table with best maximum likelihood results for each of the 6 DD
+Returns a table with best maximum likelihood results for each of the 10 DD
 models, and computes the delta AIC, AIC weights, and the latter's cumulative sum.
 }

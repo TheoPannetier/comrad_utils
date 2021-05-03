@@ -7,7 +7,7 @@
 plot_aicw(aic_tbl)
 }
 \arguments{
-\item{aic_tbl}{a data frame containing AIC weights for the 6 DD models
+\item{aic_tbl}{a data frame containing AIC weights for the 10 DD models
 (*one* row per model) with at least cols `dd_model` and `aicw`.
 E.g. the output of `read_mle_tbl() %>% filter_aic_best()`.}
 }
