@@ -32,6 +32,7 @@ run_dd_ml_hpc_without_fossil <- function(siga, sigk, dd_model, i, job_id) {
         num_cycles = Inf
       )
     })
+  ml <- dplyr::mutate(ml, "tree" = i, "job_id" = job_id)
   # Save output
   saveRDS(
     ml,
