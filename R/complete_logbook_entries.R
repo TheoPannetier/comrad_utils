@@ -37,6 +37,11 @@ complete_logbook_entries <- function(job_ids,
     if (any(!vars %in% c("status", "runtime"))) {
       stop("vars can only be \"status\" and/or \"runtime\" for this logbook.")
     }
+  } else if (which_one == "dd_ml_with_fossil") {
+    rel_path_to_logbook <- "comrad_data/logs/logbook_dd_ml_with_fossil.csv"
+    if (any(!vars %in% c("status", "runtime"))) {
+      stop("vars can only be \"status\" and/or \"runtime\" for this logbook.")
+    }
   } else {
     stop("which_one should only be \"sims\" or \"dd_ml_without_fossil\"")
   }

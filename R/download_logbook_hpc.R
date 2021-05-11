@@ -14,8 +14,10 @@ download_logbook_hpc <- function(which_one = "sims") {
     which_file <- "comrad_data/logs/logbook.csv"
   } else if (which_one == "dd_ml_without_fossil") {
     which_file <- "comrad_data/logs/logbook_dd_ml_without_fossil.csv"
+  } else if (which_one == "dd_ml_with_fossil") {
+    which_file <- "comrad_data/logs/logbook_dd_ml_with_fossil.csv"
   } else {
-    stop("which_one should be either sims or dd_ml_without_fossil")
+    stop("which_one should be either sims, dd_ml_with_fossil or dd_ml_without_fossil")
   }
   # Get ssh to download file
   ssh::scp_download(

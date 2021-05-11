@@ -19,7 +19,7 @@ filter_aic_best <- function(mle_tbl) {
       "delta_aic" = aic - min(aic),
       "aicw_num" = exp(-delta_aic / 2),
       "aicw_denom" = sum(aicw_num),
-      "aicw" = round(aicw_num / aicw_denom, 2),
+      "aicw" = round(aicw_num / aicw_denom, 3),
       "cumsum_aicw" = cumsum(aicw)
     )
   return(aic_tbl)

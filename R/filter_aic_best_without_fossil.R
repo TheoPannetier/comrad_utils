@@ -18,7 +18,7 @@ filter_aic_best_without_fossil <- function(ml_tbl) {
       "delta_aic" = aic - min(aic),
       "aicw_num" = exp(-delta_aic / 2),
       "aicw_denom" = sum(aicw_num),
-      "aicw" = round(aicw_num / aicw_denom, 3),
+      "aicw" = round(aicw_num / aicw_denom, 5),
       "cumsum_aicw" = cumsum(aicw)
     )
   return(ml_tbl)

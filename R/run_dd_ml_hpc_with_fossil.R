@@ -1,4 +1,4 @@
-run_dd_ml_hpc_with_fossil <- function(siga, sigk, dd_model) {
+run_dd_ml_hpc_with_fossil <- function(siga, sigk, dd_model, job_id) {
   is_on_peregrine <- grepl(pattern = "pg-node", Sys.getenv("HOSTNAME"))
   if (!is_on_peregrine) {
     stop("This function is only intended to be run on the Peregrine HPC.")
@@ -30,11 +30,19 @@ run_dd_ml_hpc_with_fossil <- function(siga, sigk, dd_model) {
         num_cycles = Inf
       )
     })
+  ml <- dplyr::mutate(
+    ml,
+    "job_id" = job_id,
+    "with_fossil" = TRUE,
+    "carrying_cap_sd" = sigk,
+    "competition_sd" = siga,
+    .before = "init_lambda_0"
+    )
   # Save output
   saveRDS(
     ml,
     glue::glue(
-      "/data/p282688/fabrika/comrad_data/ml_results/ml_{dd_model$name}_sigk_{sigk}_siga_{siga}_full.rds")
+      "/data/p282688/fabrika/comrad_data/ml_results/dd_ml_with_fossil_{job_id}.rds")
   )
 }
 

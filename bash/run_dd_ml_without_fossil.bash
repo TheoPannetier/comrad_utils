@@ -1,7 +1,7 @@
 #!/bin/bash
-#SBATCH --partition=gelifes
+#SBATCH --partition=short
 #SBATCH --output=/data/%u/fabrika/comrad_data/logs/dd_ml_without_fossil_%j.log
-#SBATCH --time=04:58:00
+#SBATCH --time=00:28:57
 
 module load R
 

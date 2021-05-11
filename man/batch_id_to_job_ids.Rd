@@ -4,11 +4,13 @@
 \alias{batch_id_to_job_ids}
 \title{Get job IDs from a batch ID}
 \usage{
-batch_id_to_job_ids(batch_id)
+batch_id_to_job_ids(batch_id, which_one = "sims")
 }
 \arguments{
 \item{batch_id}{character or numeric, the ID assigned to a batch of jobs by
 [run_comrad_sim_hpc()].}
+
+\item{which_one}{character, which logbook? can be `"sims"` or `"dd_ml_without_fossil"`}
 }
 \description{
 Reads the logbook and returns the job IDs associated with the input batch ID.
