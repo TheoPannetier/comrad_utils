@@ -74,6 +74,22 @@ read_logbook <- function(which_one = "sims") {
         "comrad_version" = readr::col_character()
       )
     )
+  } else if (which_one == "dd_ml_with_fossil2") {
+    logbook <- readr::read_csv(
+      paste0(path_to_fabrika_local(), "comrad_data/logs/logbook_dd_ml_with_fossil2.csv"),
+      col_types = list(
+        "job_id" = readr::col_character(),
+        "time_subm" = readr::col_datetime(),
+        "status" = readr::col_character(),
+        "runtime" = readr::col_character(),
+        "competition_sd" = readr::col_double(),
+        "carrying_cap_sd" = readr::col_double(),
+        "dd_model" = readr::col_character(),
+        "tree" = readr::col_integer(),
+        "comrad_version" = readr::col_character(),
+        "DDD_version" = readr::col_character()
+      )
+    )
   } else {
     stop("which_one should be either sims, dd_ml_with_fossil, or dd_ml_without_fossil")
   }

@@ -42,8 +42,13 @@ complete_logbook_entries <- function(job_ids,
     if (any(!vars %in% c("status", "runtime"))) {
       stop("vars can only be \"status\" and/or \"runtime\" for this logbook.")
     }
+  } else if (which_one == "dd_ml_with_fossil2") {
+    rel_path_to_logbook <- "comrad_data/logs/logbook_dd_ml_with_fossil2.csv"
+    if (any(!vars %in% c("status", "runtime"))) {
+      stop("vars can only be \"status\" and/or \"runtime\" for this logbook.")
+    }
   } else {
-    stop("which_one should only be \"sims\" or \"dd_ml_without_fossil\"")
+    stop("which_one should only be \"sims\", \"dd_ml_with_fossil\" or \"dd_ml_without_fossil\"")
   }
 
   session <- ssh::ssh_connect(
@@ -51,7 +56,7 @@ complete_logbook_entries <- function(job_ids,
   )
 
   cat("Downloading logbook from Peregrine\n")
-  fabrika::download_logbook_hpc(which_one = which_one)
+  download_logbook_hpc(which_one = which_one)
   logbook <- read_logbook(which_one = which_one)
 
   to_update <- job_ids %>% match(logbook$job_id)
