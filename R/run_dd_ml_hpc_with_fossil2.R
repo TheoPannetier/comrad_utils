@@ -1,6 +1,5 @@
 run_dd_ml_hpc_with_fossil2 <- function(siga, sigk, dd_model, i, job_id) {
-  is_on_peregrine <- grepl(pattern = "pg-node", Sys.getenv("HOSTNAME"))
-  if (!is_on_peregrine) {
+  if (!is_on_peregrine()) {
     stop("This function is only intended to be run on the Peregrine HPC.")
   }
   cat(

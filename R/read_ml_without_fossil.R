@@ -10,9 +10,14 @@
 #' @author Theo Pannetier
 #' @export
 read_ml_without_fossil <- function(job_ids) {
+  path_to_fabrika <- ifelse(
+    is_on_peregrine(),
+    path_to_fabrika_hpc(),
+    path_to_fabrika_local()
+  )
   ml_tbl <- job_ids %>% purrr::map_dfr(function(job_id) {
     readRDS(glue::glue(
-      path_to_fabrika_local(), "comrad_data/ml_results/dd_ml_without_fossil_{job_id}.rds"
+      path_to_fabrika, "comrad_data/ml_results/dd_ml_without_fossil_{job_id}.rds"
     ))
   }) %>%
     dplyr::rename(

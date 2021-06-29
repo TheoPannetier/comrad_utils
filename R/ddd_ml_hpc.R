@@ -1,6 +1,5 @@
 ddd_ml_hpc <- function(siga, sigk, ddmodel) {
-  is_on_peregrine <- grepl(pattern = "pg-node", Sys.getenv("HOSTNAME"))
-  if (!is_on_peregrine) {
+  if (!is_on_peregrine()) {
     stop("This function is only intended to be run on the Peregrine HPC.")
   }
   if (!ddmodel %in% c(1, 4)) {

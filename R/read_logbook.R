@@ -7,9 +7,14 @@
 #' @author Théo Pannetier
 #' @export
 read_logbook <- function(which_one = "sims") {
+  path_to_fabrika <- ifelse(
+    is_on_peregrine(),
+    path_to_fabrika_hpc(),
+    path_to_fabrika_local()
+  )
   if (which_one == "sims") {
     logbook <- readr::read_csv(
-      paste0(path_to_fabrika_local(), "comrad_data/logs/logbook.csv"),
+      paste0(path_to_fabrika, "comrad_data/logs/logbook.csv"),
       col_types = list(
         "batch_id" = readr::col_character(),
         "job_id" = readr::col_character(),
@@ -44,7 +49,7 @@ read_logbook <- function(which_one = "sims") {
       )
   } else if (which_one == "dd_ml_without_fossil") {
     logbook <- readr::read_csv(
-      paste0(path_to_fabrika_local(), "comrad_data/logs/logbook_dd_ml_without_fossil.csv"),
+      paste0(path_to_fabrika, "comrad_data/logs/logbook_dd_ml_without_fossil.csv"),
       col_types = list(
         "batch_id" = readr::col_character(),
         "job_id" = readr::col_character(),
@@ -61,7 +66,7 @@ read_logbook <- function(which_one = "sims") {
     )
   } else if (which_one == "dd_ml_with_fossil") {
     logbook <- readr::read_csv(
-      paste0(path_to_fabrika_local(), "comrad_data/logs/logbook_dd_ml_with_fossil.csv"),
+      paste0(path_to_fabrika, "comrad_data/logs/logbook_dd_ml_with_fossil.csv"),
       col_types = list(
         "batch_id" = readr::col_character(),
         "job_id" = readr::col_character(),
@@ -76,7 +81,7 @@ read_logbook <- function(which_one = "sims") {
     )
   } else if (which_one == "dd_ml_with_fossil2") {
     logbook <- readr::read_csv(
-      paste0(path_to_fabrika_local(), "comrad_data/logs/logbook_dd_ml_with_fossil2.csv"),
+      paste0(path_to_fabrika, "comrad_data/logs/logbook_dd_ml_with_fossil2.csv"),
       col_types = list(
         "job_id" = readr::col_character(),
         "time_subm" = readr::col_datetime(),
