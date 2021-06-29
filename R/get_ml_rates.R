@@ -25,27 +25,27 @@ get_ml_rates <- function(aic_tbl, n_seq = 1:ceiling(max(aic_tbl$ml_k) * 1.5)) {
     "extinction_lc" = dd_model_lc()$extinction_func(params = extract_ml_params("lc"), N),
     "speciation_xc" = dd_model_xc()$speciation_func(params = extract_ml_params("xc"), N),
     "extinction_xc" = dd_model_xc()$extinction_func(params = extract_ml_params("xc"), N),
-    "speciation_xc2" = dd_model_xc2()$speciation_func(params = extract_ml_params("xc2"), N),
-    "extinction_xc2" = dd_model_xc2()$extinction_func(params = extract_ml_params("xc2"), N),
+    "speciation_pc" = dd_model_pc()$speciation_func(params = extract_ml_params("pc"), N),
+    "extinction_pc" = dd_model_pc()$extinction_func(params = extract_ml_params("pc"), N),
     "speciation_ll" = dd_model_ll()$speciation_func(params = extract_ml_params("ll"), N),
     "extinction_ll" = dd_model_ll()$extinction_func(params = extract_ml_params("ll"), N),
     "speciation_lx" = dd_model_lx()$speciation_func(params = extract_ml_params("lx"), N),
     "extinction_lx" = dd_model_lx()$extinction_func(params = extract_ml_params("lx"), N),
-    "speciation_lx2" = dd_model_lx2()$speciation_func(params = extract_ml_params("lx2"), N),
-    "extinction_lx2" = dd_model_lx2()$extinction_func(params = extract_ml_params("lx2"), N),
+    "speciation_lp" = dd_model_lp()$speciation_func(params = extract_ml_params("lp"), N),
+    "extinction_lp" = dd_model_lp()$extinction_func(params = extract_ml_params("lp"), N),
     "speciation_xl" = dd_model_xl()$speciation_func(params = extract_ml_params("xl"), N),
     "extinction_xl" = dd_model_xl()$extinction_func(params = extract_ml_params("xl"), N),
     "speciation_xx" = dd_model_xx()$speciation_func(params = extract_ml_params("xx"), N),
     "extinction_xx" = dd_model_xx()$extinction_func(params = extract_ml_params("xx"), N),
-    "speciation_xl2" = dd_model_xl2()$speciation_func(params = extract_ml_params("xl2"), N),
-    "extinction_xl2" = dd_model_xl2()$extinction_func(params = extract_ml_params("xl2"), N),
-    "speciation_xx2" = dd_model_xx2()$speciation_func(params = extract_ml_params("xx2"), N),
-    "extinction_xx2" = dd_model_xx2()$extinction_func(params = extract_ml_params("xx2"), N)
+    "speciation_pl" = dd_model_pl()$speciation_func(params = extract_ml_params("pl"), N),
+    "extinction_pl" = dd_model_pl()$extinction_func(params = extract_ml_params("pl"), N),
+    "speciation_pp" = dd_model_pp()$speciation_func(params = extract_ml_params("pp"), N),
+    "extinction_pp" = dd_model_pp()$extinction_func(params = extract_ml_params("pp"), N)
   )
 
   rates_tbl <- rates_tbl %>%
     tidyr::pivot_longer(
-      cols = speciation_lc:extinction_xx2,
+      cols = speciation_lc:extinction_pp,
       names_to = c("rate", "dd_model"),
       names_pattern = "(.*)_(.*)"
     ) %>%

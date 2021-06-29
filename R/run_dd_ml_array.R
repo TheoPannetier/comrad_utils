@@ -11,19 +11,12 @@ run_dd_ml_array <- function(
   }
 
   # All parameter values
-  # arg_tbl <- tidyr::expand_grid(
-  #  sigk = 1:5,
-  #  siga = seq(0.1, 1, 0.1),
-  #  dd_model = comrad::dd_model_names(),
-  #  i = 1:100
-  #)
   arg_tbl <- tidyr::expand_grid(
-    # re-run selected parameter sets
-    siga = c(0.3, 0.8),
-    sigk = 4,
-    dd_model = "xx2",
-    i = 67:100
-  )[15:68,]
+    sigk = 1:5,
+    siga = seq(0.1, 1, 0.1),
+    dd_model = comrad::dd_model_names(),
+    i = 1:100
+  )
 
   # Extract parameter values for this task
   task_id <- as.numeric(task_id)
