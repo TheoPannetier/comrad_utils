@@ -12,7 +12,6 @@ Imports:
     devtools,
     utils,
     stats,
-    ssh,
     purrr,
     tibble,
     magrittr,
@@ -20,7 +19,6 @@ Imports:
     readr,
     dplyr,
     glue,
-    googledrive,
     hms,
     fs,
     here
@@ -29,5 +27,7 @@ LazyData: true
 RoxygenNote: 7.1.1
 Suggests: 
     knitr,
-    rmarkdown
+    rmarkdown,
+    ssh,
+    googledrive
 VignetteBuilder: knitr
