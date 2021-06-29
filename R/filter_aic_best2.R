@@ -9,9 +9,9 @@
 #'
 #' @export
 #'
-filter_aic_best_without_fossil <- function(ml_tbl) {
+filter_aic_best2 <- function(ml_tbl) {
   ml_tbl <- ml_tbl %>% group_by(tree, dd_model) %>%
-    slice_min(aic) %>%
+    slice_min(aic, with_ties = FALSE) %>%
     dplyr::ungroup(dd_model) %>%
     dplyr::arrange(tree, aic) %>%
     dplyr::mutate(
