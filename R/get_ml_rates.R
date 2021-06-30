@@ -40,7 +40,11 @@ get_ml_rates <- function(aic_tbl, n_seq = 1:ceiling(max(aic_tbl$ml_k) * 1.5)) {
     "speciation_pl" = dd_model_pl()$speciation_func(params = extract_ml_params("pl"), N),
     "extinction_pl" = dd_model_pl()$extinction_func(params = extract_ml_params("pl"), N),
     "speciation_pp" = dd_model_pp()$speciation_func(params = extract_ml_params("pp"), N),
-    "extinction_pp" = dd_model_pp()$extinction_func(params = extract_ml_params("pp"), N)
+    "extinction_pp" = dd_model_pp()$extinction_func(params = extract_ml_params("pp"), N),
+    "speciation_xp" = dd_model_xp()$speciation_func(params = extract_ml_params("xp"), N),
+    "extinction_xp" = dd_model_xp()$extinction_func(params = extract_ml_params("xp"), N),
+    "speciation_px" = dd_model_px()$speciation_func(params = extract_ml_params("px"), N),
+    "extinction_px" = dd_model_px()$extinction_func(params = extract_ml_params("px"), N)
   )
 
   rates_tbl <- rates_tbl %>%
