@@ -8,15 +8,17 @@
 #' @author Théo Pannetier
 #' @export
 cat_ml_log_hpc <- function(
-  job_id
+  job_id,
+  with_fossil
 ) {
+  fossil_or_not <- ifelse(with_fossil, "with_fossil", "without_fossil")
   # Connect to hpc
   session <- ssh::ssh_connect(
     "p282688@peregrine.hpc.rug.nl"
   )
 
   command <- glue::glue(
-    "cat ", path_to_fabrika_hpc(), "comrad_data/logs/dd_ml_without_fossil_{job_id}.log; echo \n" # space between multiple jobs
+    "cat ", path_to_fabrika_hpc(), "comrad_data/logs/dd_ml_{fossil_or_not}_{job_id}.log; echo \n" # space between multiple jobs
   )
 
   ssh::ssh_exec_wait(

@@ -1,5 +1,5 @@
 run_dd_ml_hpc_split <- function(siga, sigk, dd_model) {
-  if (!is_on_peregrine()) {
+  if (!fabrika::is_on_peregrine()) {
     stop("This function is only intended to be run on the Peregrine HPC.")
   }
   cat(

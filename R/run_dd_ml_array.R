@@ -5,7 +5,7 @@ run_dd_ml_array <- function(
   logbook_file,
   time_subm
 ) {
-  if (!is_on_peregrine()) {
+  if (!fabrika::is_on_peregrine()) {
     stop("This function is only intended to be run on the Peregrine HPC.")
   }
 
@@ -13,7 +13,7 @@ run_dd_ml_array <- function(
   arg_tbl <- tidyr::expand_grid(
     sigk = 1:5,
     siga = seq(0.1, 1, 0.1),
-    dd_model = comrad::dd_model_names(),
+    dd_model = dd_models_names(),
     i = 1:100
   )
 
