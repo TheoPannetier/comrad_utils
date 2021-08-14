@@ -4,7 +4,7 @@
 \alias{cat_ml_log_hpc}
 \title{Fetch and print dd ML log from Peregrine}
 \usage{
-cat_ml_log_hpc(job_id)
+cat_ml_log_hpc(job_id, with_fossil)
 }
 \arguments{
 \item{job_id}{eight-digit job ID given by Peregrine upon
