@@ -25,6 +25,7 @@ read_ml_without_fossil <- function(job_ids) {
       "ml_mu_0" = ml_mu,
     ) %>%
     dplyr::mutate(
+      "job_id" = as.character(job_id),
       # Catch failed ML results
       "ml_lambda_0" = ifelse(loglik == -1, NA, ml_lambda_0),
       "ml_mu_0" = ifelse(loglik == -1, NA, ml_mu_0),
