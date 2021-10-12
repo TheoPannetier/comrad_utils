@@ -9,15 +9,22 @@ comrad_params_grid <- function() {
 }
 
 #' @export
-is_params_retained <- function() {
-  # retained if k_eq >= 8
+comrad_params_retained <- function() {
   comrad_params_grid() %>%
-    dplyr::mutate("is_retained" = c(
-      # 0.1    0.2    0.3   0.4    0.5    0.6    0.7    0.8    0.9    1
-      TRUE,  TRUE,  TRUE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE,# 1
-      TRUE,  TRUE,  TRUE, TRUE,  TRUE,  FALSE, FALSE, FALSE, FALSE, FALSE,# 2
-      TRUE,  TRUE,  TRUE, TRUE,  TRUE,  TRUE,  TRUE,  FALSE, FALSE, FALSE,# 3
-      TRUE,  TRUE,  TRUE, TRUE,  TRUE,  TRUE,  TRUE,  TRUE,  FALSE, FALSE,# 4
-      TRUE,  TRUE,  TRUE, TRUE,  TRUE,  TRUE,  TRUE,  TRUE,  TRUE,  FALSE # 5
-    ))
+    dplyr::filter(
+      (sigk == 1 & siga < 0.4)
+      | (sigk == 2 & siga < 0.6)
+      | (sigk == 3 & siga < 0.8)
+      | (sigk == 4 & siga < 0.9)
+      | (sigk == 5 & siga < 1)
+    )
+}
+
+#' @export
+are_params_retained <- function(siga, sigk) {
+  (sigk == 1 & siga < 0.4) ||
+    (sigk == 2 & siga < 0.6) ||
+    (sigk == 3 & siga < 0.8) ||
+    (sigk == 4 & siga < 0.9) ||
+    (sigk == 5 & siga < 1)
 }
