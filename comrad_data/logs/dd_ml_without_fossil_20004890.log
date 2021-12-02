@@ -1,0 +1,1659 @@
+siga = 0.8 sigk = 1
+Fitting DD model lx on tree 21
+init params: 1 / 100 
+    lambda_0         mu_0            k        alpha 
+6.840130e-06 2.489902e-06 3.000000e+00 4.504061e-01 
+You are optimizing lambda mu K r 
+You are fixing nothing 
+Optimizing the likelihood - this may take a while. 
+The loglikelihood for the initial parameter values is -0.589024 
+Cycle 1
+There are parameter values used which cause numerical problems.
+There are parameter values used which cause numerical problems.
+Cycle 2
+No more cycles needed.
+
+Maximum likelihood parameter estimates: lambda: 0.000007, mu: 0.000002, K: 0.368069, r: 2.806208
+Maximum loglikelihood: 0.000000
+init params: 2 / 100 
+    lambda_0         mu_0            k        alpha 
+1.481554e-05 3.828479e-06 3.000000e+00 5.267673e-01 
+You are optimizing lambda mu K r 
+You are fixing nothing 
+Optimizing the likelihood - this may take a while. 
+The loglikelihood for the initial parameter values is -0.9697716 
+Cycle 1
+There are parameter values used which cause numerical problems.
+There are parameter values used which cause numerical problems.
+Cycle 2
+No more cycles needed.
+
+Maximum likelihood parameter estimates: lambda: 0.000015, mu: 0.000004, K: 0.560976, r: 2.318315
+Maximum loglikelihood: 0.000000
+init params: 3 / 100 
+    lambda_0         mu_0            k        alpha 
+2.172238e-05 8.359293e-06 3.000000e+00 3.814790e-01 
+You are optimizing lambda mu K r 
+You are fixing nothing 
+Optimizing the likelihood - this may take a while. 
+The loglikelihood for the initial parameter values is -1.270089 
+Cycle 1
+There are parameter values used which cause numerical problems.
+There are parameter values used which cause numerical problems.
+There are parameter values used which cause numerical problems.
+Cycle 2
+No more cycles needed.
+
+Maximum likelihood parameter estimates: lambda: 0.000022, mu: 0.000008, K: 0.783580, r: 0.570285
+Maximum loglikelihood: -0.000035
+init params: 4 / 100 
+    lambda_0         mu_0            k        alpha 
+1.400308e-05 7.317585e-06 6.000000e+00 8.596175e-01 
+You are optimizing lambda mu K r 
+You are fixing nothing 
+Optimizing the likelihood - this may take a while. 
+The loglikelihood for the initial parameter values is -1.367439 
+Cycle 1
+There are parameter values used which cause numerical problems.
+There are parameter values used which cause numerical problems.
+Cycle 2
+No more cycles needed.
+
+Maximum likelihood parameter estimates: lambda: 0.000014, mu: 0.000007, K: 0.313687, r: 2.060812
+Maximum loglikelihood: 0.000000
+init params: 5 / 100 
+    lambda_0         mu_0            k        alpha 
+1.495816e-05 4.855095e-06 4.000000e+00 2.613443e-01 
+You are optimizing lambda mu K r 
+You are fixing nothing 
+Optimizing the likelihood - this may take a while. 
+The loglikelihood for the initial parameter values is -1.176715 
+Cycle 1
+There are parameter values used which cause numerical problems.
+There are parameter values used which cause numerical problems.
+Cycle 2
+No more cycles needed.
+
+Maximum likelihood parameter estimates: lambda: 0.000015, mu: 0.000005, K: 0.442152, r: 2.783716
+Maximum loglikelihood: 0.000000
+init params: 6 / 100 
+    lambda_0         mu_0            k        alpha 
+1.367179e-05 8.614648e-06 3.000000e+00 9.219507e-02 
+You are optimizing lambda mu K r 
+You are fixing nothing 
+Optimizing the likelihood - this may take a while. 
+The loglikelihood for the initial parameter values is -1.072416 
+Cycle 1
+There are parameter values used which cause numerical problems.
+There are parameter values used which cause numerical problems.
+Cycle 2
+No more cycles needed.
+
+Maximum likelihood parameter estimates: lambda: 0.000014, mu: 0.000009, K: 0.491731, r: 0.504482
+Maximum loglikelihood: -0.000007
+init params: 7 / 100 
+    lambda_0         mu_0            k        alpha 
+1.949505e-05 9.723489e-06 3.000000e+00 2.638309e-01 
+You are optimizing lambda mu K r 
+You are fixing nothing 
+Optimizing the likelihood - this may take a while. 
+The loglikelihood for the initial parameter values is -1.276229 
+Cycle 1
+There are parameter values used which cause numerical problems.
+There are parameter values used which cause numerical problems.
+Cycle 2
+No more cycles needed.
+
+Maximum likelihood parameter estimates: lambda: 0.000019, mu: 0.000010, K: 0.922034, r: 0.087376
+Maximum loglikelihood: -0.000222
+init params: 8 / 100 
+    lambda_0         mu_0            k        alpha 
+7.547937e-06 3.463253e-06 4.000000e+00 8.459383e-01 
+You are optimizing lambda mu K r 
+You are fixing nothing 
+Optimizing the likelihood - this may take a while. 
+The loglikelihood for the initial parameter values is -0.7858573 
+Cycle 1
+There are parameter values used which cause numerical problems.
+There are parameter values used which cause numerical problems.
+Cycle 2
+No more cycles needed.
+
+Maximum likelihood parameter estimates: lambda: 0.000008, mu: 0.000003, K: 0.311475, r: 2.583437
+Maximum loglikelihood: 0.000000
+init params: 9 / 100 
+    lambda_0         mu_0            k        alpha 
+2.418346e-05 1.945528e-07 3.000000e+00 9.284502e-01 
+You are optimizing lambda mu K r 
+You are fixing nothing 
+Optimizing the likelihood - this may take a while. 
+The loglikelihood for the initial parameter values is -Inf 
+The initial parameter values have a likelihood that is equal to 0 or below machine precision. Try again with different initial values.
+init params: 10 / 100 
+    lambda_0         mu_0            k        alpha 
+1.353316e-05 3.099005e-06 3.000000e+00 5.883403e-01 
+You are optimizing lambda mu K r 
+You are fixing nothing 
+Optimizing the likelihood - this may take a while. 
+The loglikelihood for the initial parameter values is -0.9090751 
+Cycle 1
+There are parameter values used which cause numerical problems.
+There are parameter values used which cause numerical problems.
+Cycle 2
+No more cycles needed.
+
+Maximum likelihood parameter estimates: lambda: 0.000014, mu: 0.000003, K: 0.551515, r: 2.586193
+Maximum loglikelihood: 0.000000
+init params: 11 / 100 
+    lambda_0         mu_0            k        alpha 
+1.412185e-05 3.170758e-06 3.000000e+00 1.681912e-01 
+You are optimizing lambda mu K r 
+You are fixing nothing 
+Optimizing the likelihood - this may take a while. 
+The loglikelihood for the initial parameter values is -0.8617864 
+Cycle 1
+There are parameter values used which cause numerical problems.
+There are parameter values used which cause numerical problems.
+Cycle 2
+No more cycles needed.
+
+Maximum likelihood parameter estimates: lambda: 0.000014, mu: 0.000003, K: 0.653148, r: 1.374597
+Maximum loglikelihood: -0.000000
+init params: 12 / 100 
+    lambda_0         mu_0            k        alpha 
+1.972432e-05 4.351715e-06 3.000000e+00 8.524886e-01 
+You are optimizing lambda mu K r 
+You are fixing nothing 
+Optimizing the likelihood - this may take a while. 
+The loglikelihood for the initial parameter values is -1.019417 
+Cycle 1
+There are parameter values used which cause numerical problems.
+There are parameter values used which cause numerical problems.
+Cycle 2
+No more cycles needed.
+
+Maximum likelihood parameter estimates: lambda: 0.000020, mu: 0.000004, K: 0.488372, r: 2.378961
+Maximum loglikelihood: 0.000000
+init params: 13 / 100 
+    lambda_0         mu_0            k        alpha 
+1.624141e-05 5.478785e-06 3.000000e+00 8.036322e-01 
+You are optimizing lambda mu K r 
+You are fixing nothing 
+Optimizing the likelihood - this may take a while. 
+The loglikelihood for the initial parameter values is -1.068229 
+Cycle 1
+There are parameter values used which cause numerical problems.
+There are parameter values used which cause numerical problems.
+Cycle 2
+No more cycles needed.
+
+Maximum likelihood parameter estimates: lambda: 0.000016, mu: 0.000005, K: 0.333333, r: 4.092484
+Maximum loglikelihood: 0.000000
+init params: 14 / 100 
+    lambda_0         mu_0            k        alpha 
+2.309049e-05 1.376949e-06 3.000000e+00 7.133938e-01 
+You are optimizing lambda mu K r 
+You are fixing nothing 
+Optimizing the likelihood - this may take a while. 
+The loglikelihood for the initial parameter values is -0.8659903 
+Cycle 1
+There are parameter values used which cause numerical problems.
+There are parameter values used which cause numerical problems.
+Cycle 2
+No more cycles needed.
+
+Maximum likelihood parameter estimates: lambda: 0.000023, mu: 0.000001, K: 0.991839, r: 0.896329
+Maximum loglikelihood: -0.000001
+init params: 15 / 100 
+    lambda_0         mu_0            k        alpha 
+1.421595e-05 9.028000e-06 3.000000e+00 1.429910e-01 
+You are optimizing lambda mu K r 
+You are fixing nothing 
+Optimizing the likelihood - this may take a while. 
+The loglikelihood for the initial parameter values is -1.112542 
+Cycle 1
+There are parameter values used which cause numerical problems.
+There are parameter values used which cause numerical problems.
+Cycle 2
+No more cycles needed.
+
+Maximum likelihood parameter estimates: lambda: 0.000014, mu: 0.000009, K: 0.228370, r: 2.249352
+Maximum loglikelihood: 0.000000
+init params: 16 / 100 
+    lambda_0         mu_0            k        alpha 
+9.996244e-06 7.169341e-06 3.000000e+00 8.413293e-01 
+You are optimizing lambda mu K r 
+You are fixing nothing 
+Optimizing the likelihood - this may take a while. 
+The loglikelihood for the initial parameter values is -0.9616417 
+Cycle 1
+There are parameter values used which cause numerical problems.
+There are parameter values used which cause numerical problems.
+Cycle 2
+No more cycles needed.
+
+Maximum likelihood parameter estimates: lambda: 0.000010, mu: 0.000007, K: 0.306837, r: 0.843359
+Maximum loglikelihood: -0.000010
+init params: 17 / 100 
+    lambda_0         mu_0            k        alpha 
+2.544082e-05 7.805497e-06 3.000000e+00 8.334935e-01 
+You are optimizing lambda mu K r 
+You are fixing nothing 
+Optimizing the likelihood - this may take a while. 
+The loglikelihood for the initial parameter values is -1.175286 
+Cycle 1
+There are parameter values used which cause numerical problems.
+There are parameter values used which cause numerical problems.
+Cycle 2
+No more cycles needed.
+
+Maximum likelihood parameter estimates: lambda: 0.000025, mu: 0.000008, K: 0.488372, r: 2.175167
+Maximum loglikelihood: 0.000000
+init params: 18 / 100 
+    lambda_0         mu_0            k        alpha 
+1.920254e-05 1.177609e-05 3.000000e+00 8.896980e-01 
+You are optimizing lambda mu K r 
+You are fixing nothing 
+Optimizing the likelihood - this may take a while. 
+The loglikelihood for the initial parameter values is -1.368119 
+Cycle 1
+There are parameter values used which cause numerical problems.
+There are parameter values used which cause numerical problems.
+Cycle 2
+No more cycles needed.
+
+Maximum likelihood parameter estimates: lambda: 0.000019, mu: 0.000012, K: 0.253366, r: 2.619024
+Maximum loglikelihood: 0.000000
+init params: 19 / 100 
+    lambda_0         mu_0            k        alpha 
+1.819008e-05 7.421445e-06 3.000000e+00 4.386361e-01 
+You are optimizing lambda mu K r 
+You are fixing nothing 
+Optimizing the likelihood - this may take a while. 
+The loglikelihood for the initial parameter values is -1.179927 
+Cycle 1
+There are parameter values used which cause numerical problems.
+There are parameter values used which cause numerical problems.
+There are parameter values used which cause numerical problems.
+Cycle 2
+There are parameter values used which cause numerical problems.
+There are parameter values used which cause numerical problems.
+Cycle 3
+No more cycles needed.
+
+Maximum likelihood parameter estimates: lambda: 0.000018, mu: 0.000007, K: 0.419147, r: 2.272021
+Maximum loglikelihood: 0.000000
+init params: 20 / 100 
+    lambda_0         mu_0            k        alpha 
+1.456240e-05 4.606676e-08 3.000000e+00 6.957712e-01 
+You are optimizing lambda mu K r 
+You are fixing nothing 
+Optimizing the likelihood - this may take a while. 
+The loglikelihood for the initial parameter values is -Inf 
+The initial parameter values have a likelihood that is equal to 0 or below machine precision. Try again with different initial values.
+init params: 21 / 100 
+    lambda_0         mu_0            k        alpha 
+1.933151e-05 4.194355e-06 6.000000e+00 3.725377e-01 
+You are optimizing lambda mu K r 
+You are fixing nothing 
+Optimizing the likelihood - this may take a while. 
+The loglikelihood for the initial parameter values is -1.735758 
+Cycle 1
+There are parameter values used which cause numerical problems.
+There are parameter values used which cause numerical problems.
+There are parameter values used which cause numerical problems.
+Cycle 2
+No more cycles needed.
+
+Maximum likelihood parameter estimates: lambda: 0.000019, mu: 0.000004, K: 1.181255, r: 0.326640
+Maximum loglikelihood: -0.000617
+init params: 22 / 100 
+    lambda_0         mu_0            k        alpha 
+1.195475e-05 8.917421e-06 3.000000e+00 6.176057e-01 
+You are optimizing lambda mu K r 
+You are fixing nothing 
+Optimizing the likelihood - this may take a while. 
+The loglikelihood for the initial parameter values is -1.084969 
+Cycle 1
+There are parameter values used which cause numerical problems.
+There are parameter values used which cause numerical problems.
+Cycle 2
+No more cycles needed.
+
+Maximum likelihood parameter estimates: lambda: 0.000012, mu: 0.000009, K: 0.394051, r: 0.289597
+Maximum loglikelihood: -0.000050
+init params: 23 / 100 
+    lambda_0         mu_0            k        alpha 
+1.085716e-05 6.365755e-07 4.000000e+00 8.731072e-01 
+You are optimizing lambda mu K r 
+You are fixing nothing 
+Optimizing the likelihood - this may take a while. 
+The loglikelihood for the initial parameter values is -1.020419 
+Cycle 1
+There are parameter values used which cause numerical problems.
+There are parameter values used which cause numerical problems.
+Cycle 2
+No more cycles needed.
+
+Maximum likelihood parameter estimates: lambda: 0.000011, mu: 0.000001, K: 0.956563, r: 0.969037
+Maximum loglikelihood: -0.000005
+init params: 24 / 100 
+    lambda_0         mu_0            k        alpha 
+1.559623e-05 5.067145e-06 3.000000e+00 7.896292e-01 
+You are optimizing lambda mu K r 
+You are fixing nothing 
+Optimizing the likelihood - this may take a while. 
+The loglikelihood for the initial parameter values is -1.041785 
+Cycle 1
+There are parameter values used which cause numerical problems.
+There are parameter values used which cause numerical problems.
+Cycle 2
+No more cycles needed.
+
+Maximum likelihood parameter estimates: lambda: 0.000016, mu: 0.000005, K: 0.333333, r: 3.753512
+Maximum loglikelihood: 0.000000
+init params: 25 / 100 
+    lambda_0         mu_0            k        alpha 
+1.190179e-05 5.017970e-06 3.000000e+00 6.649689e-01 
+You are optimizing lambda mu K r 
+You are fixing nothing 
+Optimizing the likelihood - this may take a while. 
+The loglikelihood for the initial parameter values is -0.9470378 
+Cycle 1
+There are parameter values used which cause numerical problems.
+There are parameter values used which cause numerical problems.
+Cycle 2
+No more cycles needed.
+
+Maximum likelihood parameter estimates: lambda: 0.000012, mu: 0.000005, K: 0.315350, r: 2.834174
+Maximum loglikelihood: 0.000000
+init params: 26 / 100 
+    lambda_0         mu_0            k        alpha 
+2.199913e-05 9.160735e-06 3.000000e+00 8.733110e-01 
+You are optimizing lambda mu K r 
+You are fixing nothing 
+Optimizing the likelihood - this may take a while. 
+The loglikelihood for the initial parameter values is -1.250028 
+Cycle 1
+There are parameter values used which cause numerical problems.
+There are parameter values used which cause numerical problems.
+Cycle 2
+No more cycles needed.
+
+Maximum likelihood parameter estimates: lambda: 0.000022, mu: 0.000009, K: 0.530401, r: 1.200617
+Maximum loglikelihood: -0.000003
+init params: 27 / 100 
+    lambda_0         mu_0            k        alpha 
+1.114636e-05 5.081241e-06 3.000000e+00 3.616716e-01 
+You are optimizing lambda mu K r 
+You are fixing nothing 
+Optimizing the likelihood - this may take a while. 
+The loglikelihood for the initial parameter values is -0.878129 
+Cycle 1
+There are parameter values used which cause numerical problems.
+There are parameter values used which cause numerical problems.
+Cycle 2
+No more cycles needed.
+
+Maximum likelihood parameter estimates: lambda: 0.000011, mu: 0.000005, K: 0.913715, r: 0.191125
+Maximum loglikelihood: -0.000077
+init params: 28 / 100 
+    lambda_0         mu_0            k        alpha 
+7.326503e-06 5.029416e-07 3.000000e+00 3.983094e-01 
+You are optimizing lambda mu K r 
+You are fixing nothing 
+Optimizing the likelihood - this may take a while. 
+The loglikelihood for the initial parameter values is -0.5075302 
+Cycle 1
+There are parameter values used which cause numerical problems.
+There are parameter values used which cause numerical problems.
+There are parameter values used which cause numerical problems.
+There are parameter values used which cause numerical problems.
+There are parameter values used which cause numerical problems.
+Cycle 2
+There are parameter values used which cause numerical problems.
+There are parameter values used which cause numerical problems.
+There are parameter values used which cause numerical problems.
+There are parameter values used which cause numerical problems.
+There are parameter values used which cause numerical problems.
+No more cycles needed.
+
+Maximum likelihood parameter estimates: lambda: 0.000007, mu: 0.000001, K: 0.729730, r: 2.366969
+Maximum loglikelihood: 0.000000
+init params: 29 / 100 
+    lambda_0         mu_0            k        alpha 
+7.497594e-06 2.018231e-06 3.000000e+00 9.548513e-01 
+You are optimizing lambda mu K r 
+You are fixing nothing 
+Optimizing the likelihood - this may take a while. 
+The loglikelihood for the initial parameter values is -0.6866481 
+Cycle 1
+There are parameter values used which cause numerical problems.
+There are parameter values used which cause numerical problems.
+Cycle 2
+No more cycles needed.
+
+Maximum likelihood parameter estimates: lambda: 0.000007, mu: 0.000002, K: 0.779023, r: 0.876710
+Maximum loglikelihood: -0.000035
+init params: 30 / 100 
+    lambda_0         mu_0            k        alpha 
+1.071031e-05 2.183278e-06 4.000000e+00 3.106860e-01 
+You are optimizing lambda mu K r 
+You are fixing nothing 
+Optimizing the likelihood - this may take a while. 
+The loglikelihood for the initial parameter values is -0.8873526 
+Cycle 1
+There are parameter values used which cause numerical problems.
+There are parameter values used which cause numerical problems.
+Cycle 2
+No more cycles needed.
+
+Maximum likelihood parameter estimates: lambda: 0.000011, mu: 0.000002, K: 0.495327, r: 2.532770
+Maximum loglikelihood: 0.000000
+init params: 31 / 100 
+    lambda_0         mu_0            k        alpha 
+1.597786e-05 7.565125e-06 3.000000e+00 8.461134e-02 
+You are optimizing lambda mu K r 
+You are fixing nothing 
+Optimizing the likelihood - this may take a while. 
+The loglikelihood for the initial parameter values is -1.085362 
+Cycle 1
+There are parameter values used which cause numerical problems.
+There are parameter values used which cause numerical problems.
+Cycle 2
+No more cycles needed.
+
+Maximum likelihood parameter estimates: lambda: 0.000016, mu: 0.000008, K: 0.877617, r: 0.199897
+Maximum loglikelihood: -0.000000
+init params: 32 / 100 
+    lambda_0         mu_0            k        alpha 
+1.412944e-05 7.539900e-07 3.000000e+00 4.806115e-01 
+You are optimizing lambda mu K r 
+You are fixing nothing 
+Optimizing the likelihood - this may take a while. 
+The loglikelihood for the initial parameter values is -0.7860762 
+Cycle 1
+There are parameter values used which cause numerical problems.
+There are parameter values used which cause numerical problems.
+There are parameter values used which cause numerical problems.
+There are parameter values used which cause numerical problems.
+There are parameter values used which cause numerical problems.
+Cycle 2
+There are parameter values used which cause numerical problems.
+There are parameter values used which cause numerical problems.
+There are parameter values used which cause numerical problems.
+There are parameter values used which cause numerical problems.
+There are parameter values used which cause numerical problems.
+Cycle 3
+No more cycles needed.
+
+Maximum likelihood parameter estimates: lambda: 0.000014, mu: 0.000001, K: 1.878318, r: 0.007996
+Maximum loglikelihood: -0.000062
+init params: 33 / 100 
+    lambda_0         mu_0            k        alpha 
+1.554715e-05 1.122502e-05 3.000000e+00 3.314752e-01 
+You are optimizing lambda mu K r 
+You are fixing nothing 
+Optimizing the likelihood - this may take a while. 
+The loglikelihood for the initial parameter values is -1.259271 
+Cycle 1
+There are parameter values used which cause numerical problems.
+There are parameter values used which cause numerical problems.
+Cycle 2
+Cycle 3
+No more cycles needed.
+
+Maximum likelihood parameter estimates: lambda: 0.000016, mu: 0.000011, K: 0.515318, r: 0.079044
+Maximum loglikelihood: -0.000115
+init params: 34 / 100 
+    lambda_0         mu_0            k        alpha 
+9.585303e-06 9.681543e-08 3.000000e+00 8.884449e-01 
+You are optimizing lambda mu K r 
+You are fixing nothing 
+Optimizing the likelihood - this may take a while. 
+The loglikelihood for the initial parameter values is -Inf 
+The initial parameter values have a likelihood that is equal to 0 or below machine precision. Try again with different initial values.
+init params: 35 / 100 
+    lambda_0         mu_0            k        alpha 
+1.256360e-05 1.612324e-06 4.000000e+00 4.672430e-01 
+You are optimizing lambda mu K r 
+You are fixing nothing 
+Optimizing the likelihood - this may take a while. 
+The loglikelihood for the initial parameter values is -1.031926 
+Cycle 1
+There are parameter values used which cause numerical problems.
+There are parameter values used which cause numerical problems.
+There are parameter values used which cause numerical problems.
+There are parameter values used which cause numerical problems.
+There are parameter values used which cause numerical problems.
+Cycle 2
+There are parameter values used which cause numerical problems.
+There are parameter values used which cause numerical problems.
+There are parameter values used which cause numerical problems.
+No more cycles needed.
+
+Maximum likelihood parameter estimates: lambda: 0.000013, mu: 0.000002, K: 0.710087, r: 1.880100
+Maximum loglikelihood: 0.000000
+init params: 36 / 100 
+    lambda_0         mu_0            k        alpha 
+1.502613e-05 1.040916e-05 3.000000e+00 9.543976e-01 
+You are optimizing lambda mu K r 
+You are fixing nothing 
+Optimizing the likelihood - this may take a while. 
+The loglikelihood for the initial parameter values is -1.254614 
+Cycle 1
+There are parameter values used which cause numerical problems.
+There are parameter values used which cause numerical problems.
+Cycle 2
+No more cycles needed.
+
+Maximum likelihood parameter estimates: lambda: 0.000015, mu: 0.000010, K: 0.200484, r: 2.069464
+Maximum loglikelihood: -0.000032
+init params: 37 / 100 
+    lambda_0         mu_0            k        alpha 
+1.595111e-05 6.773640e-06 5.000000e+00 1.149143e-01 
+You are optimizing lambda mu K r 
+You are fixing nothing 
+Optimizing the likelihood - this may take a while. 
+The loglikelihood for the initial parameter values is -1.357667 
+Cycle 1
+There are parameter values used which cause numerical problems.
+There are parameter values used which cause numerical problems.
+There are parameter values used which cause numerical problems.
+Cycle 2
+No more cycles needed.
+
+Maximum likelihood parameter estimates: lambda: 0.000016, mu: 0.000007, K: 0.740664, r: 0.554391
+Maximum loglikelihood: -0.000260
+init params: 38 / 100 
+    lambda_0         mu_0            k        alpha 
+1.694941e-05 4.709373e-07 3.000000e+00 1.494431e-01 
+You are optimizing lambda mu K r 
+You are fixing nothing 
+Optimizing the likelihood - this may take a while. 
+The loglikelihood for the initial parameter values is -0.8339491 
+Cycle 1
+There are parameter values used which cause numerical problems.
+There are parameter values used which cause numerical problems.
+There are parameter values used which cause numerical problems.
+There are parameter values used which cause numerical problems.
+There are parameter values used which cause numerical problems.
+There are parameter values used which cause numerical problems.
+There are parameter values used which cause numerical problems.
+There are parameter values used which cause numerical problems.
+There are parameter values used which cause numerical problems.
+There are parameter values used which cause numerical problems.
+Cycle 2
+There are parameter values used which cause numerical problems.
+There are parameter values used which cause numerical problems.
+There are parameter values used which cause numerical problems.
+There are parameter values used which cause numerical problems.
+There are parameter values used which cause numerical problems.
+No more cycles needed.
+
+Maximum likelihood parameter estimates: lambda: 0.000017, mu: 0.000000, K: 1.000000, r: 1.852604
+Maximum loglikelihood: 0.000000
+init params: 39 / 100 
+    lambda_0         mu_0            k        alpha 
+1.897165e-05 1.239267e-05 3.000000e+00 1.939771e-01 
+You are optimizing lambda mu K r 
+You are fixing nothing 
+Optimizing the likelihood - this may take a while. 
+The loglikelihood for the initial parameter values is -1.363268 
+Cycle 1
+There are parameter values used which cause numerical problems.
+There are parameter values used which cause numerical problems.
+Cycle 2
+No more cycles needed.
+
+Maximum likelihood parameter estimates: lambda: 0.000019, mu: 0.000012, K: 0.228370, r: 2.155090
+Maximum loglikelihood: 0.000000
+init params: 40 / 100 
+    lambda_0         mu_0            k        alpha 
+2.010914e-05 1.011337e-05 4.000000e+00 2.239683e-02 
+You are optimizing lambda mu K r 
+You are fixing nothing 
+Optimizing the likelihood - this may take a while. 
+The loglikelihood for the initial parameter values is -1.48175 
+Cycle 1
+There are parameter values used which cause numerical problems.
+Cycle 2
+No more cycles needed.
+
+Maximum likelihood parameter estimates: lambda: 0.000020, mu: 0.000010, K: 0.805932, r: 0.233546
+Maximum loglikelihood: -0.000003
+init params: 41 / 100 
+    lambda_0         mu_0            k        alpha 
+1.582139e-05 3.582116e-06 3.000000e+00 6.522335e-01 
+You are optimizing lambda mu K r 
+You are fixing nothing 
+Optimizing the likelihood - this may take a while. 
+The loglikelihood for the initial parameter values is -0.9805859 
+Cycle 1
+There are parameter values used which cause numerical problems.
+There are parameter values used which cause numerical problems.
+There are parameter values used which cause numerical problems.
+There are parameter values used which cause numerical problems.
+There are parameter values used which cause numerical problems.
+Cycle 2
+No more cycles needed.
+
+Maximum likelihood parameter estimates: lambda: 0.000016, mu: 0.000004, K: 1.244328, r: 0.243413
+Maximum loglikelihood: -0.000025
+init params: 42 / 100 
+    lambda_0         mu_0            k        alpha 
+2.055128e-05 4.117934e-07 3.000000e+00 7.425434e-01 
+You are optimizing lambda mu K r 
+You are fixing nothing 
+Optimizing the likelihood - this may take a while. 
+The loglikelihood for the initial parameter values is -Inf 
+The initial parameter values have a likelihood that is equal to 0 or below machine precision. Try again with different initial values.
+init params: 43 / 100 
+    lambda_0         mu_0            k        alpha 
+1.265759e-05 2.204929e-06 3.000000e+00 1.194125e-01 
+You are optimizing lambda mu K r 
+You are fixing nothing 
+Optimizing the likelihood - this may take a while. 
+The loglikelihood for the initial parameter values is -0.748055 
+Cycle 1
+There are parameter values used which cause numerical problems.
+There are parameter values used which cause numerical problems.
+Cycle 2
+No more cycles needed.
+
+Maximum likelihood parameter estimates: lambda: 0.000013, mu: 0.000002, K: 1.210855, r: 0.364075
+Maximum loglikelihood: -0.000039
+init params: 44 / 100 
+    lambda_0         mu_0            k        alpha 
+1.161295e-05 4.489688e-06 3.000000e+00 6.820388e-01 
+You are optimizing lambda mu K r 
+You are fixing nothing 
+Optimizing the likelihood - this may take a while. 
+The loglikelihood for the initial parameter values is -0.9188833 
+Cycle 1
+There are parameter values used which cause numerical problems.
+There are parameter values used which cause numerical problems.
+Cycle 2
+No more cycles needed.
+
+Maximum likelihood parameter estimates: lambda: 0.000012, mu: 0.000004, K: 0.273632, r: 3.794182
+Maximum loglikelihood: 0.000000
+init params: 45 / 100 
+    lambda_0         mu_0            k        alpha 
+1.590280e-05 7.533923e-06 3.000000e+00 5.162825e-01 
+You are optimizing lambda mu K r 
+You are fixing nothing 
+Optimizing the likelihood - this may take a while. 
+The loglikelihood for the initial parameter values is -1.141394 
+Cycle 1
+There are parameter values used which cause numerical problems.
+There are parameter values used which cause numerical problems.
+Cycle 2
+No more cycles needed.
+
+Maximum likelihood parameter estimates: lambda: 0.000016, mu: 0.000008, K: 0.571358, r: 0.842155
+Maximum loglikelihood: -0.000006
+init params: 46 / 100 
+    lambda_0         mu_0            k        alpha 
+8.388484e-06 4.411422e-06 3.000000e+00 2.084116e-01 
+You are optimizing lambda mu K r 
+You are fixing nothing 
+Optimizing the likelihood - this may take a while. 
+The loglikelihood for the initial parameter values is -0.7084251 
+Cycle 1
+There are parameter values used which cause numerical problems.
+There are parameter values used which cause numerical problems.
+Cycle 2
+No more cycles needed.
+
+Maximum likelihood parameter estimates: lambda: 0.000008, mu: 0.000004, K: 0.257117, r: 2.969103
+Maximum loglikelihood: 0.000000
+init params: 47 / 100 
+    lambda_0         mu_0            k        alpha 
+1.161372e-05 4.572123e-06 3.000000e+00 5.771917e-01 
+You are optimizing lambda mu K r 
+You are fixing nothing 
+Optimizing the likelihood - this may take a while. 
+The loglikelihood for the initial parameter values is -0.9093715 
+Cycle 1
+There are parameter values used which cause numerical problems.
+There are parameter values used which cause numerical problems.
+Cycle 2
+Cycle 3
+No more cycles needed.
+
+Maximum likelihood parameter estimates: lambda: 0.000012, mu: 0.000005, K: 0.579589, r: 1.092343
+Maximum loglikelihood: -0.000006
+init params: 48 / 100 
+    lambda_0         mu_0            k        alpha 
+1.637870e-05 5.780270e-07 3.000000e+00 8.665484e-01 
+You are optimizing lambda mu K r 
+You are fixing nothing 
+Optimizing the likelihood - this may take a while. 
+The loglikelihood for the initial parameter values is -Inf 
+The initial parameter values have a likelihood that is equal to 0 or below machine precision. Try again with different initial values.
+init params: 49 / 100 
+    lambda_0         mu_0            k        alpha 
+2.162296e-05 1.188411e-05 3.000000e+00 5.060626e-01 
+You are optimizing lambda mu K r 
+You are fixing nothing 
+Optimizing the likelihood - this may take a while. 
+The loglikelihood for the initial parameter values is -1.398176 
+Cycle 1
+There are parameter values used which cause numerical problems.
+There are parameter values used which cause numerical problems.
+There are parameter values used which cause numerical problems.
+There are parameter values used which cause numerical problems.
+There are parameter values used which cause numerical problems.
+Cycle 2
+Cycle 3
+No more cycles needed.
+
+Maximum likelihood parameter estimates: lambda: 0.000022, mu: 0.000012, K: 0.499278, r: 0.804260
+Maximum loglikelihood: -0.000013
+init params: 50 / 100 
+    lambda_0         mu_0            k        alpha 
+1.389654e-05 8.356382e-06 3.000000e+00 3.646737e-01 
+You are optimizing lambda mu K r 
+You are fixing nothing 
+Optimizing the likelihood - this may take a while. 
+The loglikelihood for the initial parameter values is -1.103146 
+Cycle 1
+There are parameter values used which cause numerical problems.
+There are parameter values used which cause numerical problems.
+Cycle 2
+No more cycles needed.
+
+Maximum likelihood parameter estimates: lambda: 0.000014, mu: 0.000008, K: 0.576530, r: 0.383006
+Maximum loglikelihood: -0.000001
+init params: 51 / 100 
+    lambda_0         mu_0            k        alpha 
+1.964206e-05 1.313906e-05 3.000000e+00 5.212997e-01 
+You are optimizing lambda mu K r 
+You are fixing nothing 
+Optimizing the likelihood - this may take a while. 
+The loglikelihood for the initial parameter values is -1.425017 
+Cycle 1
+There are parameter values used which cause numerical problems.
+There are parameter values used which cause numerical problems.
+Cycle 2
+No more cycles needed.
+
+Maximum likelihood parameter estimates: lambda: 0.000020, mu: 0.000013, K: 0.521594, r: 0.269523
+Maximum loglikelihood: -0.000041
+init params: 52 / 100 
+    lambda_0         mu_0            k        alpha 
+1.817995e-05 5.678027e-06 4.000000e+00 5.181226e-01 
+You are optimizing lambda mu K r 
+You are fixing nothing 
+Optimizing the likelihood - this may take a while. 
+The loglikelihood for the initial parameter values is -1.37792 
+Cycle 1
+There are parameter values used which cause numerical problems.
+There are parameter values used which cause numerical problems.
+There are parameter values used which cause numerical problems.
+There are parameter values used which cause numerical problems.
+Cycle 2
+There are parameter values used which cause numerical problems.
+There are parameter values used which cause numerical problems.
+There are parameter values used which cause numerical problems.
+No more cycles needed.
+
+Maximum likelihood parameter estimates: lambda: 0.000018, mu: 0.000006, K: 0.529385, r: 2.857710
+Maximum loglikelihood: 0.000000
+init params: 53 / 100 
+    lambda_0         mu_0            k        alpha 
+1.385676e-05 7.191950e-06 3.000000e+00 2.667269e-02 
+You are optimizing lambda mu K r 
+You are fixing nothing 
+Optimizing the likelihood - this may take a while. 
+The loglikelihood for the initial parameter values is -0.9994267 
+Cycle 1
+There are parameter values used which cause numerical problems.
+There are parameter values used which cause numerical problems.
+Cycle 2
+No more cycles needed.
+
+Maximum likelihood parameter estimates: lambda: 0.000014, mu: 0.000007, K: 0.879972, r: 0.093439
+Maximum loglikelihood: -0.000330
+init params: 54 / 100 
+    lambda_0         mu_0            k        alpha 
+1.308672e-05 9.462881e-06 3.000000e+00 4.197951e-01 
+You are optimizing lambda mu K r 
+You are fixing nothing 
+Optimizing the likelihood - this may take a while. 
+The loglikelihood for the initial parameter values is -1.128339 
+Cycle 1
+There are parameter values used which cause numerical problems.
+There are parameter values used which cause numerical problems.
+Cycle 2
+No more cycles needed.
+
+Maximum likelihood parameter estimates: lambda: 0.000013, mu: 0.000009, K: 0.497076, r: 0.114170
+Maximum loglikelihood: -0.000017
+init params: 55 / 100 
+    lambda_0         mu_0            k        alpha 
+1.113961e-05 5.094257e-06 3.000000e+00 9.961373e-01 
+You are optimizing lambda mu K r 
+You are fixing nothing 
+Optimizing the likelihood - this may take a while. 
+The loglikelihood for the initial parameter values is -0.9529537 
+Cycle 1
+There are parameter values used which cause numerical problems.
+There are parameter values used which cause numerical problems.
+There are parameter values used which cause numerical problems.
+Cycle 2
+No more cycles needed.
+
+Maximum likelihood parameter estimates: lambda: 0.000011, mu: 0.000005, K: 0.363573, r: 1.985409
+Maximum loglikelihood: -0.000000
+init params: 56 / 100 
+    lambda_0         mu_0            k        alpha 
+1.283020e-05 1.746535e-06 3.000000e+00 2.075327e-02 
+You are optimizing lambda mu K r 
+You are fixing nothing 
+Optimizing the likelihood - this may take a while. 
+The loglikelihood for the initial parameter values is -0.6930792 
+Cycle 1
+There are parameter values used which cause numerical problems.
+There are parameter values used which cause numerical problems.
+There are parameter values used which cause numerical problems.
+There are parameter values used which cause numerical problems.
+There are parameter values used which cause numerical problems.
+Cycle 2
+There are parameter values used which cause numerical problems.
+There are parameter values used which cause numerical problems.
+There are parameter values used which cause numerical problems.
+No more cycles needed.
+
+Maximum likelihood parameter estimates: lambda: 0.000013, mu: 0.000002, K: 0.700997, r: 2.521942
+Maximum loglikelihood: 0.000000
+init params: 57 / 100 
+    lambda_0         mu_0            k        alpha 
+1.669709e-05 5.583302e-06 3.000000e+00 7.381041e-01 
+You are optimizing lambda mu K r 
+You are fixing nothing 
+Optimizing the likelihood - this may take a while. 
+The loglikelihood for the initial parameter values is -1.081827 
+Cycle 1
+There are parameter values used which cause numerical problems.
+There are parameter values used which cause numerical problems.
+There are parameter values used which cause numerical problems.
+Cycle 2
+There are parameter values used which cause numerical problems.
+There are parameter values used which cause numerical problems.
+Cycle 3
+No more cycles needed.
+
+Maximum likelihood parameter estimates: lambda: 0.000017, mu: 0.000006, K: 0.890452, r: 0.495117
+Maximum loglikelihood: -0.000045
+init params: 58 / 100 
+    lambda_0         mu_0            k        alpha 
+2.038130e-05 2.717943e-06 3.000000e+00 6.663163e-01 
+You are optimizing lambda mu K r 
+You are fixing nothing 
+Optimizing the likelihood - this may take a while. 
+The loglikelihood for the initial parameter values is -0.9732303 
+Cycle 1
+There are parameter values used which cause numerical problems.
+There are parameter values used which cause numerical problems.
+There are parameter values used which cause numerical problems.
+There are parameter values used which cause numerical problems.
+There are parameter values used which cause numerical problems.
+Cycle 2
+No more cycles needed.
+
+Maximum likelihood parameter estimates: lambda: 0.000020, mu: 0.000003, K: 1.606540, r: 0.078944
+Maximum loglikelihood: -0.000094
+init params: 59 / 100 
+    lambda_0         mu_0            k        alpha 
+1.969861e-05 5.377950e-06 3.000000e+00 9.746119e-01 
+You are optimizing lambda mu K r 
+You are fixing nothing 
+Optimizing the likelihood - this may take a while. 
+The loglikelihood for the initial parameter values is -1.048326 
+Cycle 1
+There are parameter values used which cause numerical problems.
+There are parameter values used which cause numerical problems.
+Cycle 2
+No more cycles needed.
+
+Maximum likelihood parameter estimates: lambda: 0.000020, mu: 0.000005, K: 0.604918, r: 1.404269
+Maximum loglikelihood: -0.000008
+init params: 60 / 100 
+    lambda_0         mu_0            k        alpha 
+2.218007e-05 1.459301e-05 3.000000e+00 9.818908e-01 
+You are optimizing lambda mu K r 
+You are fixing nothing 
+Optimizing the likelihood - this may take a while. 
+The loglikelihood for the initial parameter values is -1.493389 
+Cycle 1
+There are parameter values used which cause numerical problems.
+There are parameter values used which cause numerical problems.
+Cycle 2
+No more cycles needed.
+
+Maximum likelihood parameter estimates: lambda: 0.000022, mu: 0.000015, K: 0.263960, r: 1.592154
+Maximum loglikelihood: -0.000008
+init params: 61 / 100 
+    lambda_0         mu_0            k        alpha 
+2.612314e-05 8.539687e-06 3.000000e+00 5.513243e-01 
+You are optimizing lambda mu K r 
+You are fixing nothing 
+Optimizing the likelihood - this may take a while. 
+The loglikelihood for the initial parameter values is -1.286834 
+Cycle 1
+There are parameter values used which cause numerical problems.
+There are parameter values used which cause numerical problems.
+There are parameter values used which cause numerical problems.
+There are parameter values used which cause numerical problems.
+There are parameter values used which cause numerical problems.
+Cycle 2
+No more cycles needed.
+
+Maximum likelihood parameter estimates: lambda: 0.000026, mu: 0.000009, K: 0.893065, r: 0.508213
+Maximum loglikelihood: -0.000300
+init params: 62 / 100 
+    lambda_0         mu_0            k        alpha 
+1.015264e-05 5.414290e-06 3.000000e+00 7.150363e-01 
+You are optimizing lambda mu K r 
+You are fixing nothing 
+Optimizing the likelihood - this may take a while. 
+The loglikelihood for the initial parameter values is -0.9003667 
+Cycle 1
+There are parameter values used which cause numerical problems.
+There are parameter values used which cause numerical problems.
+Cycle 2
+No more cycles needed.
+
+Maximum likelihood parameter estimates: lambda: 0.000010, mu: 0.000005, K: 0.273632, r: 3.745072
+Maximum loglikelihood: 0.000000
+init params: 63 / 100 
+    lambda_0         mu_0            k        alpha 
+2.144992e-05 3.674286e-07 3.000000e+00 4.287581e-01 
+You are optimizing lambda mu K r 
+You are fixing nothing 
+Optimizing the likelihood - this may take a while. 
+The loglikelihood for the initial parameter values is -0.8617234 
+Cycle 1
+There are parameter values used which cause numerical problems.
+There are parameter values used which cause numerical problems.
+There are parameter values used which cause numerical problems.
+There are parameter values used which cause numerical problems.
+There are parameter values used which cause numerical problems.
+There are parameter values used which cause numerical problems.
+There are parameter values used which cause numerical problems.
+There are parameter values used which cause numerical problems.
+There are parameter values used which cause numerical problems.
+There are parameter values used which cause numerical problems.
+There are parameter values used which cause numerical problems.
+There are parameter values used which cause numerical problems.
+Cycle 2
+There are parameter values used which cause numerical problems.
+There are parameter values used which cause numerical problems.
+There are parameter values used which cause numerical problems.
+There are parameter values used which cause numerical problems.
+There are parameter values used which cause numerical problems.
+No more cycles needed.
+
+Maximum likelihood parameter estimates: lambda: 0.000021, mu: 0.000000, K: 1.000000, r: 1.605918
+Maximum loglikelihood: 0.000000
+init params: 64 / 100 
+    lambda_0         mu_0            k        alpha 
+8.642368e-06 4.616915e-06 3.000000e+00 4.402417e-01 
+You are optimizing lambda mu K r 
+You are fixing nothing 
+Optimizing the likelihood - this may take a while. 
+The loglikelihood for the initial parameter values is -0.7658444 
+Cycle 1
+There are parameter values used which cause numerical problems.
+There are parameter values used which cause numerical problems.
+Cycle 2
+No more cycles needed.
+
+Maximum likelihood parameter estimates: lambda: 0.000009, mu: 0.000005, K: 0.240460, r: 3.808810
+Maximum loglikelihood: 0.000000
+init params: 65 / 100 
+    lambda_0         mu_0            k        alpha 
+1.439889e-05 9.520198e-07 4.000000e+00 7.665738e-01 
+You are optimizing lambda mu K r 
+You are fixing nothing 
+Optimizing the likelihood - this may take a while. 
+The loglikelihood for the initial parameter values is -1.201594 
+Cycle 1
+There are parameter values used which cause numerical problems.
+There are parameter values used which cause numerical problems.
+There are parameter values used which cause numerical problems.
+There are parameter values used which cause numerical problems.
+There are parameter values used which cause numerical problems.
+Cycle 2
+There are parameter values used which cause numerical problems.
+There are parameter values used which cause numerical problems.
+There are parameter values used which cause numerical problems.
+There are parameter values used which cause numerical problems.
+No more cycles needed.
+
+Maximum likelihood parameter estimates: lambda: 0.000014, mu: 0.000001, K: 0.739130, r: 2.379221
+Maximum loglikelihood: 0.000000
+init params: 66 / 100 
+    lambda_0         mu_0            k        alpha 
+1.882279e-05 7.306624e-06 3.000000e+00 6.691026e-01 
+You are optimizing lambda mu K r 
+You are fixing nothing 
+Optimizing the likelihood - this may take a while. 
+The loglikelihood for the initial parameter values is -1.184098 
+Cycle 1
+There are parameter values used which cause numerical problems.
+There are parameter values used which cause numerical problems.
+There are parameter values used which cause numerical problems.
+Cycle 2
+No more cycles needed.
+
+Maximum likelihood parameter estimates: lambda: 0.000019, mu: 0.000007, K: 0.814314, r: 0.502727
+Maximum loglikelihood: -0.000025
+init params: 67 / 100 
+    lambda_0         mu_0            k        alpha 
+1.147239e-05 4.489519e-06 3.000000e+00 4.936144e-01 
+You are optimizing lambda mu K r 
+You are fixing nothing 
+Optimizing the likelihood - this may take a while. 
+The loglikelihood for the initial parameter values is -0.8889112 
+Cycle 1
+There are parameter values used which cause numerical problems.
+There are parameter values used which cause numerical problems.
+Cycle 2
+No more cycles needed.
+
+Maximum likelihood parameter estimates: lambda: 0.000011, mu: 0.000004, K: 0.771122, r: 0.578735
+Maximum loglikelihood: -0.000023
+init params: 68 / 100 
+    lambda_0         mu_0            k        alpha 
+1.103472e-05 1.427011e-06 5.000000e+00 5.390816e-01 
+You are optimizing lambda mu K r 
+You are fixing nothing 
+Optimizing the likelihood - this may take a while. 
+The loglikelihood for the initial parameter values is -1.066816 
+Cycle 1
+There are parameter values used which cause numerical problems.
+There are parameter values used which cause numerical problems.
+There are parameter values used which cause numerical problems.
+Cycle 2
+Cycle 3
+No more cycles needed.
+
+Maximum likelihood parameter estimates: lambda: 0.000011, mu: 0.000001, K: 1.091628, r: 0.595288
+Maximum loglikelihood: -0.000012
+init params: 69 / 100 
+    lambda_0         mu_0            k        alpha 
+1.410582e-05 8.095691e-06 3.000000e+00 8.937992e-01 
+You are optimizing lambda mu K r 
+You are fixing nothing 
+Optimizing the likelihood - this may take a while. 
+The loglikelihood for the initial parameter values is -1.143735 
+Cycle 1
+There are parameter values used which cause numerical problems.
+There are parameter values used which cause numerical problems.
+Cycle 2
+No more cycles needed.
+
+Maximum likelihood parameter estimates: lambda: 0.000014, mu: 0.000008, K: 0.347834, r: 1.449962
+Maximum loglikelihood: -0.000002
+init params: 70 / 100 
+    lambda_0         mu_0            k        alpha 
+7.609667e-06 4.967236e-06 3.000000e+00 5.516384e-01 
+You are optimizing lambda mu K r 
+You are fixing nothing 
+Optimizing the likelihood - this may take a while. 
+The loglikelihood for the initial parameter values is -0.7418159 
+Cycle 1
+There are parameter values used which cause numerical problems.
+There are parameter values used which cause numerical problems.
+Cycle 2
+No more cycles needed.
+
+Maximum likelihood parameter estimates: lambda: 0.000008, mu: 0.000005, K: 0.585500, r: 0.186155
+Maximum loglikelihood: -0.000000
+init params: 71 / 100 
+    lambda_0         mu_0            k        alpha 
+1.650534e-05 5.332277e-06 6.000000e+00 6.167745e-01 
+You are optimizing lambda mu K r 
+You are fixing nothing 
+Optimizing the likelihood - this may take a while. 
+The loglikelihood for the initial parameter values is -1.548431 
+Cycle 1
+There are parameter values used which cause numerical problems.
+There are parameter values used which cause numerical problems.
+There are parameter values used which cause numerical problems.
+Cycle 2
+No more cycles needed.
+
+Maximum likelihood parameter estimates: lambda: 0.000017, mu: 0.000005, K: 0.516395, r: 1.889203
+Maximum loglikelihood: 0.000000
+init params: 72 / 100 
+    lambda_0         mu_0            k        alpha 
+1.980460e-05 1.248424e-05 3.000000e+00 6.432637e-01 
+You are optimizing lambda mu K r 
+You are fixing nothing 
+Optimizing the likelihood - this may take a while. 
+The loglikelihood for the initial parameter values is -1.404446 
+Cycle 1
+There are parameter values used which cause numerical problems.
+There are parameter values used which cause numerical problems.
+There are parameter values used which cause numerical problems.
+Cycle 2
+No more cycles needed.
+
+Maximum likelihood parameter estimates: lambda: 0.000020, mu: 0.000012, K: 0.251571, r: 2.650202
+Maximum loglikelihood: 0.000000
+init params: 73 / 100 
+    lambda_0         mu_0            k        alpha 
+1.827846e-05 9.157858e-06 3.000000e+00 1.499978e-01 
+You are optimizing lambda mu K r 
+You are fixing nothing 
+Optimizing the likelihood - this may take a while. 
+The loglikelihood for the initial parameter values is -1.216306 
+Cycle 1
+There are parameter values used which cause numerical problems.
+There are parameter values used which cause numerical problems.
+Cycle 2
+No more cycles needed.
+
+Maximum likelihood parameter estimates: lambda: 0.000018, mu: 0.000009, K: 0.671817, r: 0.485524
+Maximum loglikelihood: -0.000026
+init params: 74 / 100 
+    lambda_0         mu_0            k        alpha 
+1.563579e-05 4.440305e-06 3.000000e+00 3.312192e-01 
+You are optimizing lambda mu K r 
+You are fixing nothing 
+Optimizing the likelihood - this may take a while. 
+The loglikelihood for the initial parameter values is -0.9959796 
+Cycle 1
+There are parameter values used which cause numerical problems.
+There are parameter values used which cause numerical problems.
+Cycle 2
+No more cycles needed.
+
+Maximum likelihood parameter estimates: lambda: 0.000016, mu: 0.000004, K: 0.501466, r: 2.780947
+Maximum loglikelihood: 0.000000
+init params: 75 / 100 
+    lambda_0         mu_0            k        alpha 
+2.145143e-05 7.983536e-06 3.000000e+00 1.613709e-02 
+You are optimizing lambda mu K r 
+You are fixing nothing 
+Optimizing the likelihood - this may take a while. 
+The loglikelihood for the initial parameter values is -1.219982 
+Cycle 1
+There are parameter values used which cause numerical problems.
+Cycle 2
+No more cycles needed.
+
+Maximum likelihood parameter estimates: lambda: 0.000021, mu: 0.000008, K: 0.618277, r: 1.030949
+Maximum loglikelihood: -0.000002
+init params: 76 / 100 
+    lambda_0         mu_0            k        alpha 
+2.464629e-05 1.160128e-05 3.000000e+00 1.194819e-01 
+You are optimizing lambda mu K r 
+You are fixing nothing 
+Optimizing the likelihood - this may take a while. 
+The loglikelihood for the initial parameter values is -1.410802 
+Cycle 1
+There are parameter values used which cause numerical problems.
+There are parameter values used which cause numerical problems.
+There are parameter values used which cause numerical problems.
+There are parameter values used which cause numerical problems.
+There are parameter values used which cause numerical problems.
+There are parameter values used which cause numerical problems.
+Cycle 2
+No more cycles needed.
+
+Maximum likelihood parameter estimates: lambda: 0.000025, mu: 0.000012, K: 0.378219, r: 2.022359
+Maximum loglikelihood: 0.000000
+init params: 77 / 100 
+    lambda_0         mu_0            k        alpha 
+1.304556e-05 6.854590e-06 3.000000e+00 5.571788e-01 
+You are optimizing lambda mu K r 
+You are fixing nothing 
+Optimizing the likelihood - this may take a while. 
+The loglikelihood for the initial parameter values is -1.041545 
+Cycle 1
+There are parameter values used which cause numerical problems.
+There are parameter values used which cause numerical problems.
+Cycle 2
+No more cycles needed.
+
+Maximum likelihood parameter estimates: lambda: 0.000013, mu: 0.000007, K: 0.326425, r: 3.276487
+Maximum loglikelihood: 0.000000
+init params: 78 / 100 
+    lambda_0         mu_0            k        alpha 
+1.043103e-05 2.853070e-06 3.000000e+00 6.966114e-01 
+You are optimizing lambda mu K r 
+You are fixing nothing 
+Optimizing the likelihood - this may take a while. 
+The loglikelihood for the initial parameter values is -0.8129334 
+Cycle 1
+There are parameter values used which cause numerical problems.
+There are parameter values used which cause numerical problems.
+There are parameter values used which cause numerical problems.
+There are parameter values used which cause numerical problems.
+There are parameter values used which cause numerical problems.
+Cycle 2
+There are parameter values used which cause numerical problems.
+There are parameter values used which cause numerical problems.
+No more cycles needed.
+
+Maximum likelihood parameter estimates: lambda: 0.000010, mu: 0.000003, K: 0.440225, r: 3.567963
+Maximum loglikelihood: 0.000000
+init params: 79 / 100 
+    lambda_0         mu_0            k        alpha 
+9.646319e-06 4.693568e-07 3.000000e+00 4.712087e-01 
+You are optimizing lambda mu K r 
+You are fixing nothing 
+Optimizing the likelihood - this may take a while. 
+The loglikelihood for the initial parameter values is -0.6241913 
+Cycle 1
+There are parameter values used which cause numerical problems.
+There are parameter values used which cause numerical problems.
+Cycle 2
+No more cycles needed.
+
+Maximum likelihood parameter estimates: lambda: 0.000010, mu: 0.000000, K: 0.889782, r: 1.148910
+Maximum loglikelihood: 0.000000
+init params: 80 / 100 
+    lambda_0         mu_0            k        alpha 
+2.172667e-05 6.691304e-06 3.000000e+00 4.130854e-02 
+You are optimizing lambda mu K r 
+You are fixing nothing 
+Optimizing the likelihood - this may take a while. 
+The loglikelihood for the initial parameter values is -1.187723 
+Cycle 1
+There are parameter values used which cause numerical problems.
+There are parameter values used which cause numerical problems.
+Cycle 2
+No more cycles needed.
+
+Maximum likelihood parameter estimates: lambda: 0.000022, mu: 0.000007, K: 0.655435, r: 1.113167
+Maximum loglikelihood: -0.000055
+init params: 81 / 100 
+    lambda_0         mu_0            k        alpha 
+1.836603e-05 3.007756e-06 3.000000e+00 5.437307e-01 
+You are optimizing lambda mu K r 
+You are fixing nothing 
+Optimizing the likelihood - this may take a while. 
+The loglikelihood for the initial parameter values is -0.9978215 
+Cycle 1
+There are parameter values used which cause numerical problems.
+There are parameter values used which cause numerical problems.
+There are parameter values used which cause numerical problems.
+There are parameter values used which cause numerical problems.
+There are parameter values used which cause numerical problems.
+There are parameter values used which cause numerical problems.
+There are parameter values used which cause numerical problems.
+There are parameter values used which cause numerical problems.
+Cycle 2
+No more cycles needed.
+
+Maximum likelihood parameter estimates: lambda: 0.000018, mu: 0.000003, K: 1.423283, r: 0.175162
+Maximum loglikelihood: -0.000111
+init params: 82 / 100 
+    lambda_0         mu_0            k        alpha 
+0.0000219286 0.0000125224 3.0000000000 0.4006261700 
+You are optimizing lambda mu K r 
+You are fixing nothing 
+Optimizing the likelihood - this may take a while. 
+The loglikelihood for the initial parameter values is -1.424228 
+Cycle 1
+There are parameter values used which cause numerical problems.
+There are parameter values used which cause numerical problems.
+There are parameter values used which cause numerical problems.
+Cycle 2
+No more cycles needed.
+
+Maximum likelihood parameter estimates: lambda: 0.000022, mu: 0.000013, K: 0.256008, r: 3.349764
+Maximum loglikelihood: 0.000000
+init params: 83 / 100 
+    lambda_0         mu_0            k        alpha 
+1.114551e-05 1.263072e-06 3.000000e+00 7.348177e-01 
+You are optimizing lambda mu K r 
+You are fixing nothing 
+Optimizing the likelihood - this may take a while. 
+The loglikelihood for the initial parameter values is -0.7551657 
+Cycle 1
+There are parameter values used which cause numerical problems.
+There are parameter values used which cause numerical problems.
+There are parameter values used which cause numerical problems.
+There are parameter values used which cause numerical problems.
+There are parameter values used which cause numerical problems.
+Cycle 2
+No more cycles needed.
+
+Maximum likelihood parameter estimates: lambda: 0.000011, mu: 0.000001, K: 1.684803, r: 0.052576
+Maximum loglikelihood: -0.000027
+init params: 84 / 100 
+    lambda_0         mu_0            k        alpha 
+1.165137e-05 2.395605e-06 3.000000e+00 2.080316e-01 
+You are optimizing lambda mu K r 
+You are fixing nothing 
+Optimizing the likelihood - this may take a while. 
+The loglikelihood for the initial parameter values is -0.7457299 
+Cycle 1
+There are parameter values used which cause numerical problems.
+There are parameter values used which cause numerical problems.
+Cycle 2
+No more cycles needed.
+
+Maximum likelihood parameter estimates: lambda: 0.000012, mu: 0.000002, K: 0.585139, r: 1.925918
+Maximum loglikelihood: 0.000000
+init params: 85 / 100 
+    lambda_0         mu_0            k        alpha 
+2.062116e-05 6.341778e-06 3.000000e+00 9.089542e-02 
+You are optimizing lambda mu K r 
+You are fixing nothing 
+Optimizing the likelihood - this may take a while. 
+The loglikelihood for the initial parameter values is -1.157873 
+Cycle 1
+There are parameter values used which cause numerical problems.
+There are parameter values used which cause numerical problems.
+Cycle 2
+No more cycles needed.
+
+Maximum likelihood parameter estimates: lambda: 0.000021, mu: 0.000006, K: 0.560976, r: 2.171034
+Maximum loglikelihood: 0.000000
+init params: 86 / 100 
+    lambda_0         mu_0            k        alpha 
+2.002223e-05 1.408245e-05 3.000000e+00 9.014611e-01 
+You are optimizing lambda mu K r 
+You are fixing nothing 
+Optimizing the likelihood - this may take a while. 
+The loglikelihood for the initial parameter values is -1.471314 
+Cycle 1
+There are parameter values used which cause numerical problems.
+There are parameter values used which cause numerical problems.
+Cycle 2
+No more cycles needed.
+
+Maximum likelihood parameter estimates: lambda: 0.000020, mu: 0.000014, K: 0.196262, r: 3.250658
+Maximum loglikelihood: 0.000000
+init params: 87 / 100 
+    lambda_0         mu_0            k        alpha 
+1.837075e-05 3.482165e-06 3.000000e+00 7.557158e-01 
+You are optimizing lambda mu K r 
+You are fixing nothing 
+Optimizing the likelihood - this may take a while. 
+The loglikelihood for the initial parameter values is -0.9888643 
+Cycle 1
+There are parameter values used which cause numerical problems.
+There are parameter values used which cause numerical problems.
+There are parameter values used which cause numerical problems.
+There are parameter values used which cause numerical problems.
+Cycle 2
+There are parameter values used which cause numerical problems.
+There are parameter values used which cause numerical problems.
+No more cycles needed.
+
+Maximum likelihood parameter estimates: lambda: 0.000018, mu: 0.000003, K: 0.560976, r: 2.629314
+Maximum loglikelihood: 0.000000
+init params: 88 / 100 
+    lambda_0         mu_0            k        alpha 
+8.007162e-06 4.686843e-06 3.000000e+00 4.517976e-01 
+You are optimizing lambda mu K r 
+You are fixing nothing 
+Optimizing the likelihood - this may take a while. 
+The loglikelihood for the initial parameter values is -0.7396936 
+Cycle 1
+There are parameter values used which cause numerical problems.
+There are parameter values used which cause numerical problems.
+Cycle 2
+No more cycles needed.
+
+Maximum likelihood parameter estimates: lambda: 0.000008, mu: 0.000005, K: 0.675825, r: 0.227353
+Maximum loglikelihood: -0.000129
+init params: 89 / 100 
+    lambda_0         mu_0            k        alpha 
+1.096244e-05 5.520643e-06 5.000000e+00 5.877810e-02 
+You are optimizing lambda mu K r 
+You are fixing nothing 
+Optimizing the likelihood - this may take a while. 
+The loglikelihood for the initial parameter values is -1.012241 
+Cycle 1
+There are parameter values used which cause numerical problems.
+There are parameter values used which cause numerical problems.
+Cycle 2
+Cycle 3
+No more cycles needed.
+
+Maximum likelihood parameter estimates: lambda: 0.000011, mu: 0.000006, K: 0.698256, r: 0.421918
+Maximum loglikelihood: -0.000039
+init params: 90 / 100 
+    lambda_0         mu_0            k        alpha 
+1.322575e-05 8.659990e-06 3.000000e+00 6.449739e-01 
+You are optimizing lambda mu K r 
+You are fixing nothing 
+Optimizing the likelihood - this may take a while. 
+The loglikelihood for the initial parameter values is -1.122122 
+Cycle 1
+There are parameter values used which cause numerical problems.
+There are parameter values used which cause numerical problems.
+Cycle 2
+No more cycles needed.
+
+Maximum likelihood parameter estimates: lambda: 0.000013, mu: 0.000009, K: 0.219774, r: 3.696241
+Maximum loglikelihood: 0.000000
+init params: 91 / 100 
+    lambda_0         mu_0            k        alpha 
+1.372920e-05 8.008399e-06 3.000000e+00 7.384364e-01 
+You are optimizing lambda mu K r 
+You are fixing nothing 
+Optimizing the likelihood - this may take a while. 
+The loglikelihood for the initial parameter values is -1.121259 
+Cycle 1
+There are parameter values used which cause numerical problems.
+There are parameter values used which cause numerical problems.
+Cycle 2
+No more cycles needed.
+
+Maximum likelihood parameter estimates: lambda: 0.000014, mu: 0.000008, K: 0.179724, r: 4.693915
+Maximum loglikelihood: 0.000000
+init params: 92 / 100 
+    lambda_0         mu_0            k        alpha 
+1.239885e-05 4.884071e-06 3.000000e+00 6.540148e-01 
+You are optimizing lambda mu K r 
+You are fixing nothing 
+Optimizing the likelihood - this may take a while. 
+The loglikelihood for the initial parameter values is -0.9569373 
+Cycle 1
+There are parameter values used which cause numerical problems.
+There are parameter values used which cause numerical problems.
+Cycle 2
+No more cycles needed.
+
+Maximum likelihood parameter estimates: lambda: 0.000012, mu: 0.000005, K: 0.333333, r: 3.525190
+Maximum loglikelihood: 0.000000
+init params: 93 / 100 
+    lambda_0         mu_0            k        alpha 
+1.046231e-05 5.677093e-06 3.000000e+00 6.496500e-01 
+You are optimizing lambda mu K r 
+You are fixing nothing 
+Optimizing the likelihood - this may take a while. 
+The loglikelihood for the initial parameter values is -0.9149418 
+Cycle 1
+There are parameter values used which cause numerical problems.
+There are parameter values used which cause numerical problems.
+Cycle 2
+No more cycles needed.
+
+Maximum likelihood parameter estimates: lambda: 0.000010, mu: 0.000006, K: 0.279122, r: 2.295508
+Maximum loglikelihood: 0.000000
+init params: 94 / 100 
+    lambda_0         mu_0            k        alpha 
+2.466058e-05 5.194816e-06 3.000000e+00 2.113067e-01 
+You are optimizing lambda mu K r 
+You are fixing nothing 
+Optimizing the likelihood - this may take a while. 
+The loglikelihood for the initial parameter values is -1.217657 
+Cycle 1
+There are parameter values used which cause numerical problems.
+There are parameter values used which cause numerical problems.
+There are parameter values used which cause numerical problems.
+There are parameter values used which cause numerical problems.
+There are parameter values used which cause numerical problems.
+There are parameter values used which cause numerical problems.
+There are parameter values used which cause numerical problems.
+There are parameter values used which cause numerical problems.
+Cycle 2
+There are parameter values used which cause numerical problems.
+There are parameter values used which cause numerical problems.
+Cycle 3
+No more cycles needed.
+
+Maximum likelihood parameter estimates: lambda: 0.000025, mu: 0.000005, K: 0.640464, r: 1.945902
+Maximum loglikelihood: 0.000000
+init params: 95 / 100 
+    lambda_0         mu_0            k        alpha 
+2.579749e-05 1.645961e-05 4.000000e+00 2.671245e-02 
+You are optimizing lambda mu K r 
+You are fixing nothing 
+Optimizing the likelihood - this may take a while. 
+The loglikelihood for the initial parameter values is -1.792277 
+Cycle 1
+There are parameter values used which cause numerical problems.
+There are parameter values used which cause numerical problems.
+Cycle 2
+No more cycles needed.
+
+Maximum likelihood parameter estimates: lambda: 0.000026, mu: 0.000016, K: 0.214998, r: 3.931459
+Maximum loglikelihood: 0.000000
+init params: 96 / 100 
+    lambda_0         mu_0            k        alpha 
+1.531179e-05 3.923032e-06 3.000000e+00 9.563663e-01 
+You are optimizing lambda mu K r 
+You are fixing nothing 
+Optimizing the likelihood - this may take a while. 
+The loglikelihood for the initial parameter values is -0.9687438 
+Cycle 1
+There are parameter values used which cause numerical problems.
+There are parameter values used which cause numerical problems.
+Cycle 2
+No more cycles needed.
+
+Maximum likelihood parameter estimates: lambda: 0.000015, mu: 0.000004, K: 0.554164, r: 1.694783
+Maximum loglikelihood: 0.000000
+init params: 97 / 100 
+    lambda_0         mu_0            k        alpha 
+2.181323e-05 4.021989e-06 3.000000e+00 1.460854e-01 
+You are optimizing lambda mu K r 
+You are fixing nothing 
+Optimizing the likelihood - this may take a while. 
+The loglikelihood for the initial parameter values is -1.120024 
+Cycle 1
+There are parameter values used which cause numerical problems.
+There are parameter values used which cause numerical problems.
+There are parameter values used which cause numerical problems.
+There are parameter values used which cause numerical problems.
+There are parameter values used which cause numerical problems.
+There are parameter values used which cause numerical problems.
+There are parameter values used which cause numerical problems.
+Cycle 2
+No more cycles needed.
+
+Maximum likelihood parameter estimates: lambda: 0.000022, mu: 0.000004, K: 1.345170, r: 0.212943
+Maximum loglikelihood: -0.000338
+init params: 98 / 100 
+    lambda_0         mu_0            k        alpha 
+1.796124e-05 1.304534e-05 3.000000e+00 2.634775e-02 
+You are optimizing lambda mu K r 
+You are fixing nothing 
+Optimizing the likelihood - this may take a while. 
+The loglikelihood for the initial parameter values is -1.358573 
+Cycle 1
+There are parameter values used which cause numerical problems.
+Cycle 2
+No more cycles needed.
+
+Maximum likelihood parameter estimates: lambda: 0.000018, mu: 0.000013, K: 0.171816, r: 2.261106
+Maximum loglikelihood: 0.000000
+init params: 99 / 100 
+    lambda_0         mu_0            k        alpha 
+1.005856e-05 6.688116e-06 3.000000e+00 5.274970e-01 
+You are optimizing lambda mu K r 
+You are fixing nothing 
+Optimizing the likelihood - this may take a while. 
+The loglikelihood for the initial parameter values is -0.9201694 
+Cycle 1
+There are parameter values used which cause numerical problems.
+There are parameter values used which cause numerical problems.
+There are parameter values used which cause numerical problems.
+Cycle 2
+No more cycles needed.
+
+Maximum likelihood parameter estimates: lambda: 0.000010, mu: 0.000007, K: 0.564854, r: 0.186844
+Maximum loglikelihood: -0.000316
+init params: 100 / 100 
+    lambda_0         mu_0            k        alpha 
+2.128729e-05 3.544851e-06 3.000000e+00 7.795397e-01 
+You are optimizing lambda mu K r 
+You are fixing nothing 
+Optimizing the likelihood - this may take a while. 
+The loglikelihood for the initial parameter values is -0.9916355 
+Cycle 1
+There are parameter values used which cause numerical problems.
+There are parameter values used which cause numerical problems.
+There are parameter values used which cause numerical problems.
+There are parameter values used which cause numerical problems.
+Cycle 2
+There are parameter values used which cause numerical problems.
+There are parameter values used which cause numerical problems.
+No more cycles needed.
+
+Maximum likelihood parameter estimates: lambda: 0.000021, mu: 0.000004, K: 0.560976, r: 2.972821
+Maximum loglikelihood: 0.000000
+Warning messages:
+1: In rk(y, times, func, parms, method = "ode45", ...) :
+  Number of time steps 7622 exceeded maxsteps at t = -67912.5
+2: In rk(y, times, func, parms, method = "ode45", ...) :
+  Number of time steps 7625 exceeded maxsteps at t = -67347
+3: In rk(y, times, func, parms, method = "ode45", ...) :
+  Number of time steps 7632 exceeded maxsteps at t = -66307.3
+4: In rk(y, times, func, parms, method = "ode45", ...) :
+  Number of time steps 7626 exceeded maxsteps at t = -58464
+5: In rk(y, times, func, parms, method = "ode45", ...) :
+  Number of time steps 7627 exceeded maxsteps at t = -36892.1
+
+
+###############################################################################
+Peregrine Cluster
+Job 20004890 for user 'p282688'
+Finished at: Tue May 11 11:36:39 CEST 2021
+
+Job details:
+============
+
+Job ID              : 20004890
+Name                : run_dd_ml_without_fossil.bash
+User                : p282688
+Partition           : short
+Nodes               : pg-node075
+Number of Nodes     : 1
+Cores               : 1
+State               : COMPLETED
+Submit              : 2021-05-11T11:35:27
+Start               : 2021-05-11T11:35:30
+End                 : 2021-05-11T11:36:39
+Reserved walltime   : 00:29:00
+Used walltime       : 00:01:09
+Used CPU time       : 00:01:07 (efficiency: 97.40%)
+% User (Computation): 97.97%
+% System (I/O)      :  2.03%
+Mem reserved        : 2000M/core
+Max Mem used        : 97.48M (pg-node075)
+Max Disk Write      : 112.64K (pg-node075)
+Max Disk Read       : 13.19M (pg-node075)
+
+
+Acknowledgements:
+=================
+
+Please see this page for information about acknowledging Peregrine in your publications:
+
+https://wiki.hpc.rug.nl/peregrine/introduction/scientific_output
+
+################################################################################

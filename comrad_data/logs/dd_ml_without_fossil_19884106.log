@@ -1,0 +1,1370 @@
+siga = 0.1 sigk = 3
+Fitting DD model lx on tree 24
+init params: 1 / 100 
+    lambda_0         mu_0            k        alpha 
+9.945609e-05 1.175208e-05 1.000000e+02 6.814395e-01 
+You are optimizing lambda mu K r 
+You are fixing nothing 
+Optimizing the likelihood - this may take a while. 
+The loglikelihood for the initial parameter values is -1028.082 
+Cycle 1
+Cycle 2
+No more cycles needed.
+
+Maximum likelihood parameter estimates: lambda: 0.000099, mu: 0.000012, K: 93.700417, r: 0.042613
+Maximum loglikelihood: -994.922282
+init params: 2 / 100 
+    lambda_0         mu_0            k        alpha 
+3.964632e-05 1.190350e-06 1.000000e+02 9.320330e-01 
+You are optimizing lambda mu K r 
+You are fixing nothing 
+Optimizing the likelihood - this may take a while. 
+The loglikelihood for the initial parameter values is -1012.463 
+Cycle 1
+Cycle 2
+No more cycles needed.
+
+Maximum likelihood parameter estimates: lambda: 0.000040, mu: 0.000001, K: 162.001410, r: 0.000284
+Maximum loglikelihood: -1006.676782
+init params: 3 / 100 
+    lambda_0         mu_0            k        alpha 
+9.270456e-05 4.901245e-05 1.150000e+02 4.607625e-01 
+You are optimizing lambda mu K r 
+You are fixing nothing 
+Optimizing the likelihood - this may take a while. 
+The loglikelihood for the initial parameter values is -1027.538 
+Cycle 1
+Cycle 2
+Cycle 3
+No more cycles needed.
+
+Maximum likelihood parameter estimates: lambda: 0.000210, mu: 0.000049, K: 97.014298, r: 0.000027
+Maximum loglikelihood: -1000.158685
+init params: 4 / 100 
+    lambda_0         mu_0            k        alpha 
+5.198829e-05 1.826480e-08 9.800000e+01 8.748454e-01 
+You are optimizing lambda mu K r 
+You are fixing nothing 
+Optimizing the likelihood - this may take a while. 
+The loglikelihood for the initial parameter values is -Inf 
+The initial parameter values have a likelihood that is equal to 0 or below machine precision. Try again with different initial values.
+init params: 5 / 100 
+    lambda_0         mu_0            k        alpha 
+9.525207e-05 3.336994e-05 9.800000e+01 8.661892e-01 
+You are optimizing lambda mu K r 
+You are fixing nothing 
+Optimizing the likelihood - this may take a while. 
+The loglikelihood for the initial parameter values is -1047.493 
+Cycle 1
+Cycle 2
+No more cycles needed.
+
+Maximum likelihood parameter estimates: lambda: 0.000095, mu: 0.000033, K: 97.638072, r: 0.000184
+Maximum loglikelihood: -1004.563042
+init params: 6 / 100 
+    lambda_0         mu_0            k        alpha 
+1.045609e-04 6.699280e-05 9.900000e+01 6.276692e-01 
+You are optimizing lambda mu K r 
+You are fixing nothing 
+Optimizing the likelihood - this may take a while. 
+The loglikelihood for the initial parameter values is -1043.548 
+Cycle 1
+Cycle 2
+Cycle 3
+Cycle 4
+Cycle 5
+No more cycles needed.
+
+Maximum likelihood parameter estimates: lambda: 0.000248, mu: 0.000067, K: 105.770072, r: 0.000530
+Maximum loglikelihood: -1009.910711
+init params: 7 / 100 
+    lambda_0         mu_0            k        alpha 
+5.452634e-05 5.859674e-06 1.210000e+02 4.375194e-01 
+You are optimizing lambda mu K r 
+You are fixing nothing 
+Optimizing the likelihood - this may take a while. 
+The loglikelihood for the initial parameter values is -1007.091 
+Cycle 1
+Cycle 2
+Cycle 3
+No more cycles needed.
+
+Maximum likelihood parameter estimates: lambda: 0.000078, mu: 0.000006, K: 96.663898, r: 0.115820
+Maximum loglikelihood: -997.274043
+init params: 8 / 100 
+    lambda_0         mu_0            k        alpha 
+5.070991e-05 1.303272e-05 9.800000e+01 6.287062e-01 
+You are optimizing lambda mu K r 
+You are fixing nothing 
+Optimizing the likelihood - this may take a while. 
+The loglikelihood for the initial parameter values is -1016.966 
+Cycle 1
+Cycle 2
+No more cycles needed.
+
+Maximum likelihood parameter estimates: lambda: 0.000051, mu: 0.000013, K: 124.424453, r: 0.000153
+Maximum loglikelihood: -1007.863385
+init params: 9 / 100 
+    lambda_0         mu_0            k        alpha 
+9.828627e-05 2.084341e-05 1.240000e+02 1.429057e-01 
+You are optimizing lambda mu K r 
+You are fixing nothing 
+Optimizing the likelihood - this may take a while. 
+The loglikelihood for the initial parameter values is -1005.359 
+Cycle 1
+Cycle 2
+No more cycles needed.
+
+Maximum likelihood parameter estimates: lambda: 0.000098, mu: 0.000021, K: 94.996121, r: 0.000628
+Maximum loglikelihood: -997.169790
+init params: 10 / 100 
+    lambda_0         mu_0            k        alpha 
+1.223643e-04 4.666665e-05 1.020000e+02 7.478652e-01 
+You are optimizing lambda mu K r 
+You are fixing nothing 
+Optimizing the likelihood - this may take a while. 
+The loglikelihood for the initial parameter values is -1055.047 
+Cycle 1
+Cycle 2
+No more cycles needed.
+
+Maximum likelihood parameter estimates: lambda: 1.000490, mu: 0.000047, K: 102.000000, r: 2.966133
+Maximum loglikelihood: -1054.709835
+init params: 11 / 100 
+    lambda_0         mu_0            k        alpha 
+3.811811e-05 2.753157e-05 9.800000e+01 1.012629e-01 
+You are optimizing lambda mu K r 
+You are fixing nothing 
+Optimizing the likelihood - this may take a while. 
+The loglikelihood for the initial parameter values is -1028.276 
+Cycle 1
+Cycle 2
+No more cycles needed.
+
+Maximum likelihood parameter estimates: lambda: 0.000038, mu: 0.000028, K: 1005.236808, r: 0.001002
+Maximum loglikelihood: -1025.954255
+init params: 12 / 100 
+    lambda_0         mu_0            k        alpha 
+6.181221e-05 3.869371e-05 1.160000e+02 7.704082e-01 
+You are optimizing lambda mu K r 
+You are fixing nothing 
+Optimizing the likelihood - this may take a while. 
+The loglikelihood for the initial parameter values is -1029.432 
+Cycle 1
+Cycle 2
+No more cycles needed.
+
+Maximum likelihood parameter estimates: lambda: 0.000062, mu: 0.000039, K: 113.796154, r: 0.000249
+Maximum loglikelihood: -1020.665911
+init params: 13 / 100 
+    lambda_0         mu_0            k        alpha 
+7.368522e-05 3.740048e-05 1.060000e+02 3.220083e-02 
+You are optimizing lambda mu K r 
+You are fixing nothing 
+Optimizing the likelihood - this may take a while. 
+The loglikelihood for the initial parameter values is -1015.009 
+Cycle 1
+Cycle 2
+No more cycles needed.
+
+Maximum likelihood parameter estimates: lambda: 0.000261, mu: 0.000037, K: 92.575044, r: 0.000044
+Maximum loglikelihood: -994.846741
+init params: 14 / 100 
+    lambda_0         mu_0            k        alpha 
+1.051501e-04 5.966274e-05 1.070000e+02 6.223112e-01 
+You are optimizing lambda mu K r 
+You are fixing nothing 
+Optimizing the likelihood - this may take a while. 
+The loglikelihood for the initial parameter values is -1039.444 
+Cycle 1
+Cycle 2
+No more cycles needed.
+
+Maximum likelihood parameter estimates: lambda: 0.000105, mu: 0.000060, K: 104.591114, r: 0.000163
+Maximum loglikelihood: -1020.089052
+init params: 15 / 100 
+    lambda_0         mu_0            k        alpha 
+1.136677e-04 6.338736e-05 1.020000e+02 3.253315e-01 
+You are optimizing lambda mu K r 
+You are fixing nothing 
+Optimizing the likelihood - this may take a while. 
+The loglikelihood for the initial parameter values is -1031.898 
+Cycle 1
+Cycle 2
+No more cycles needed.
+
+Maximum likelihood parameter estimates: lambda: 0.000260, mu: 0.000063, K: 102.000000, r: 0.000454
+Maximum loglikelihood: -1007.689992
+init params: 16 / 100 
+    lambda_0         mu_0            k        alpha 
+8.202331e-05 6.138036e-05 1.110000e+02 2.024832e-01 
+You are optimizing lambda mu K r 
+You are fixing nothing 
+Optimizing the likelihood - this may take a while. 
+The loglikelihood for the initial parameter values is -1031.462 
+Cycle 1
+Cycle 2
+No more cycles needed.
+
+Maximum likelihood parameter estimates: lambda: 0.000241, mu: 0.000061, K: 102.186579, r: 0.000116
+Maximum loglikelihood: -1006.613493
+init params: 17 / 100 
+    lambda_0         mu_0            k        alpha 
+1.323644e-04 2.531221e-05 1.030000e+02 3.978414e-01 
+You are optimizing lambda mu K r 
+You are fixing nothing 
+Optimizing the likelihood - this may take a while. 
+The loglikelihood for the initial parameter values is -1018.607 
+Cycle 1
+Cycle 2
+No more cycles needed.
+
+Maximum likelihood parameter estimates: lambda: 0.000167, mu: 0.000025, K: 91.332929, r: 0.000502
+Maximum loglikelihood: -991.668209
+init params: 18 / 100 
+    lambda_0         mu_0            k        alpha 
+6.721144e-05 4.854041e-05 1.040000e+02 8.986408e-01 
+You are optimizing lambda mu K r 
+You are fixing nothing 
+Optimizing the likelihood - this may take a while. 
+The loglikelihood for the initial parameter values is -1035.787 
+Cycle 1
+Cycle 2
+Cycle 3
+No more cycles needed.
+
+Maximum likelihood parameter estimates: lambda: 0.000223, mu: 0.000037, K: 93.208738, r: 0.000002
+Maximum loglikelihood: -994.242198
+init params: 19 / 100 
+    lambda_0         mu_0            k        alpha 
+1.177340e-04 6.905525e-05 9.800000e+01 7.328056e-01 
+You are optimizing lambda mu K r 
+You are fixing nothing 
+Optimizing the likelihood - this may take a while. 
+The loglikelihood for the initial parameter values is -1054.739 
+Cycle 1
+Cycle 2
+No more cycles needed.
+
+Maximum likelihood parameter estimates: lambda: 0.000118, mu: 0.000069, K: 109.721790, r: 0.000015
+Maximum loglikelihood: -1023.376348
+init params: 20 / 100 
+    lambda_0         mu_0            k        alpha 
+9.838097e-05 1.585035e-05 9.800000e+01 9.875496e-01 
+You are optimizing lambda mu K r 
+You are fixing nothing 
+Optimizing the likelihood - this may take a while. 
+The loglikelihood for the initial parameter values is -1061.62 
+Cycle 1
+Cycle 2
+No more cycles needed.
+
+Maximum likelihood parameter estimates: lambda: 0.000098, mu: 0.000016, K: 94.426579, r: 0.000185
+Maximum loglikelihood: -995.646416
+init params: 21 / 100 
+    lambda_0         mu_0            k        alpha 
+6.477879e-05 6.497900e-06 1.330000e+02 6.383407e-01 
+You are optimizing lambda mu K r 
+You are fixing nothing 
+Optimizing the likelihood - this may take a while. 
+The loglikelihood for the initial parameter values is -1012.841 
+Cycle 1
+Cycle 2
+No more cycles needed.
+
+Maximum likelihood parameter estimates: lambda: 0.000065, mu: 0.000006, K: 106.763799, r: 0.005333
+Maximum loglikelihood: -1000.329081
+init params: 22 / 100 
+    lambda_0         mu_0            k        alpha 
+7.783481e-05 3.548616e-05 1.110000e+02 8.360590e-03 
+You are optimizing lambda mu K r 
+You are fixing nothing 
+Optimizing the likelihood - this may take a while. 
+The loglikelihood for the initial parameter values is -1011.848 
+Cycle 1
+Cycle 2
+Cycle 3
+No more cycles needed.
+
+Maximum likelihood parameter estimates: lambda: 0.000227, mu: 0.000035, K: 92.244669, r: 0.000962
+Maximum loglikelihood: -993.824365
+init params: 23 / 100 
+    lambda_0         mu_0            k        alpha 
+9.349107e-05 2.599910e-06 1.140000e+02 5.541991e-01 
+You are optimizing lambda mu K r 
+You are fixing nothing 
+Optimizing the likelihood - this may take a while. 
+The loglikelihood for the initial parameter values is -1009.733 
+Cycle 1
+Cycle 2
+No more cycles needed.
+
+Maximum likelihood parameter estimates: lambda: 0.000070, mu: 0.000003, K: 96.918720, r: 0.210682
+Maximum loglikelihood: -998.118139
+init params: 24 / 100 
+    lambda_0         mu_0            k        alpha 
+5.192426e-05 3.643236e-05 9.800000e+01 9.351868e-01 
+You are optimizing lambda mu K r 
+You are fixing nothing 
+Optimizing the likelihood - this may take a while. 
+The loglikelihood for the initial parameter values is -1032.589 
+Cycle 1
+Cycle 2
+No more cycles needed.
+
+Maximum likelihood parameter estimates: lambda: 0.000052, mu: 0.000036, K: 139.223656, r: 0.000432
+Maximum loglikelihood: -1024.167848
+init params: 25 / 100 
+    lambda_0         mu_0            k        alpha 
+4.803487e-05 1.081323e-05 9.800000e+01 3.041934e-02 
+You are optimizing lambda mu K r 
+You are fixing nothing 
+Optimizing the likelihood - this may take a while. 
+The loglikelihood for the initial parameter values is -1010.281 
+Cycle 1
+Cycle 2
+No more cycles needed.
+
+Maximum likelihood parameter estimates: lambda: 0.000048, mu: 0.000011, K: 130.633800, r: 0.000280
+Maximum loglikelihood: -1007.813146
+init params: 26 / 100 
+    lambda_0         mu_0            k        alpha 
+8.581913e-05 2.681723e-05 1.440000e+02 4.126473e-01 
+You are optimizing lambda mu K r 
+You are fixing nothing 
+Optimizing the likelihood - this may take a while. 
+The loglikelihood for the initial parameter values is -1016.858 
+Cycle 1
+Cycle 2
+No more cycles needed.
+
+Maximum likelihood parameter estimates: lambda: 0.000086, mu: 0.000027, K: 97.984157, r: 0.000063
+Maximum loglikelihood: -1003.132038
+init params: 27 / 100 
+    lambda_0         mu_0            k        alpha 
+4.950379e-05 2.259352e-05 9.900000e+01 2.154758e-01 
+You are optimizing lambda mu K r 
+You are fixing nothing 
+Optimizing the likelihood - this may take a while. 
+The loglikelihood for the initial parameter values is -1017.957 
+Cycle 1
+Cycle 2
+Cycle 3
+No more cycles needed.
+
+Maximum likelihood parameter estimates: lambda: 0.000168, mu: 0.000023, K: 91.197082, r: 0.000249
+Maximum loglikelihood: -991.269821
+init params: 28 / 100 
+    lambda_0         mu_0            k        alpha 
+1.239091e-04 1.492328e-05 1.110000e+02 7.230248e-01 
+You are optimizing lambda mu K r 
+You are fixing nothing 
+Optimizing the likelihood - this may take a while. 
+The loglikelihood for the initial parameter values is -1039.294 
+Cycle 1
+Cycle 2
+No more cycles needed.
+
+Maximum likelihood parameter estimates: lambda: 0.000130, mu: 0.000015, K: 91.689696, r: 0.034269
+Maximum loglikelihood: -992.302325
+init params: 29 / 100 
+    lambda_0         mu_0            k        alpha 
+7.353221e-05 1.836576e-05 9.800000e+01 4.097025e-02 
+You are optimizing lambda mu K r 
+You are fixing nothing 
+Optimizing the likelihood - this may take a while. 
+The loglikelihood for the initial parameter values is -1002.827 
+Cycle 1
+Cycle 2
+No more cycles needed.
+
+Maximum likelihood parameter estimates: lambda: 0.000074, mu: 0.000018, K: 101.326798, r: 0.000065
+Maximum loglikelihood: -1002.163289
+init params: 30 / 100 
+    lambda_0         mu_0            k        alpha 
+8.006015e-05 1.239939e-05 9.800000e+01 8.888095e-01 
+You are optimizing lambda mu K r 
+You are fixing nothing 
+Optimizing the likelihood - this may take a while. 
+The loglikelihood for the initial parameter values is -1034.969 
+Cycle 1
+Cycle 2
+Cycle 3
+No more cycles needed.
+
+Maximum likelihood parameter estimates: lambda: 0.000080, mu: 0.000012, K: 98.438463, r: 0.000045
+Maximum loglikelihood: -998.206519
+init params: 31 / 100 
+    lambda_0         mu_0            k        alpha 
+1.122855e-04 7.534742e-06 1.010000e+02 7.176490e-01 
+You are optimizing lambda mu K r 
+You are fixing nothing 
+Optimizing the likelihood - this may take a while. 
+The loglikelihood for the initial parameter values is -1037.216 
+Cycle 1
+Cycle 2
+No more cycles needed.
+
+Maximum likelihood parameter estimates: lambda: 0.000143, mu: 0.000008, K: 90.897861, r: 0.107872
+Maximum loglikelihood: -991.394652
+init params: 32 / 100 
+    lambda_0         mu_0            k        alpha 
+3.692075e-05 2.370095e-05 9.800000e+01 3.467160e-01 
+You are optimizing lambda mu K r 
+You are fixing nothing 
+Optimizing the likelihood - this may take a while. 
+The loglikelihood for the initial parameter values is -1027.675 
+Cycle 1
+Cycle 2
+No more cycles needed.
+
+Maximum likelihood parameter estimates: lambda: 0.000037, mu: 0.000024, K: 519.833958, r: 0.000044
+Maximum loglikelihood: -1023.725374
+init params: 33 / 100 
+    lambda_0         mu_0            k        alpha 
+1.361091e-04 6.683962e-06 1.120000e+02 8.057833e-01 
+You are optimizing lambda mu K r 
+You are fixing nothing 
+Optimizing the likelihood - this may take a while. 
+The loglikelihood for the initial parameter values is -1054.679 
+Cycle 1
+Cycle 2
+Cycle 3
+No more cycles needed.
+
+Maximum likelihood parameter estimates: lambda: 0.000090, mu: 0.000007, K: 93.985870, r: 0.117973
+Maximum loglikelihood: -995.412508
+init params: 34 / 100 
+    lambda_0         mu_0            k        alpha 
+8.272627e-05 1.546559e-05 1.000000e+02 5.661083e-01 
+You are optimizing lambda mu K r 
+You are fixing nothing 
+Optimizing the likelihood - this may take a while. 
+The loglikelihood for the initial parameter values is -1015.988 
+Cycle 1
+Cycle 2
+No more cycles needed.
+
+Maximum likelihood parameter estimates: lambda: 0.000158, mu: 0.000015, K: 91.037786, r: 0.041315
+Maximum loglikelihood: -991.261943
+init params: 35 / 100 
+    lambda_0         mu_0            k        alpha 
+1.018404e-04 4.921087e-06 9.800000e+01 8.979291e-01 
+You are optimizing lambda mu K r 
+You are fixing nothing 
+Optimizing the likelihood - this may take a while. 
+The loglikelihood for the initial parameter values is -1053.144 
+Cycle 1
+Cycle 2
+No more cycles needed.
+
+Maximum likelihood parameter estimates: lambda: 0.000102, mu: 0.000005, K: 92.111435, r: 0.153386
+Maximum loglikelihood: -993.598264
+init params: 36 / 100 
+    lambda_0         mu_0            k        alpha 
+4.928197e-05 2.990535e-05 1.010000e+02 5.425441e-01 
+You are optimizing lambda mu K r 
+You are fixing nothing 
+Optimizing the likelihood - this may take a while. 
+The loglikelihood for the initial parameter values is -1026.025 
+Cycle 1
+Cycle 2
+Cycle 3
+No more cycles needed.
+
+Maximum likelihood parameter estimates: lambda: 0.000049, mu: 0.000030, K: 139.057440, r: 0.000320
+Maximum loglikelihood: -1020.562043
+init params: 37 / 100 
+    lambda_0         mu_0            k        alpha 
+9.646267e-05 3.784281e-05 1.250000e+02 7.175879e-01 
+You are optimizing lambda mu K r 
+You are fixing nothing 
+Optimizing the likelihood - this may take a while. 
+The loglikelihood for the initial parameter values is -1029.944 
+Cycle 1
+Cycle 2
+No more cycles needed.
+
+Maximum likelihood parameter estimates: lambda: 0.000157, mu: 0.000038, K: 95.075953, r: 0.000107
+Maximum loglikelihood: -997.063873
+init params: 38 / 100 
+    lambda_0         mu_0            k        alpha 
+1.231807e-04 7.405598e-05 9.900000e+01 4.747223e-01 
+You are optimizing lambda mu K r 
+You are fixing nothing 
+Optimizing the likelihood - this may take a while. 
+The loglikelihood for the initial parameter values is -1044.603 
+Cycle 1
+Cycle 2
+No more cycles needed.
+
+Maximum likelihood parameter estimates: lambda: 0.000228, mu: 0.000074, K: 111.973835, r: 0.000678
+Maximum loglikelihood: -1014.526306
+init params: 39 / 100 
+    lambda_0         mu_0            k        alpha 
+8.594687e-05 1.307104e-05 1.020000e+02 4.710018e-01 
+You are optimizing lambda mu K r 
+You are fixing nothing 
+Optimizing the likelihood - this may take a while. 
+The loglikelihood for the initial parameter values is -1009.796 
+Cycle 1
+Cycle 2
+Cycle 3
+No more cycles needed.
+
+Maximum likelihood parameter estimates: lambda: 0.000151, mu: 0.000013, K: 91.052702, r: 0.058804
+Maximum loglikelihood: -991.359777
+init params: 40 / 100 
+    lambda_0         mu_0            k        alpha 
+4.292756e-05 3.070984e-05 1.020000e+02 8.087947e-01 
+You are optimizing lambda mu K r 
+You are fixing nothing 
+Optimizing the likelihood - this may take a while. 
+The loglikelihood for the initial parameter values is -1030.545 
+Cycle 1
+Cycle 2
+Cycle 3
+No more cycles needed.
+
+Maximum likelihood parameter estimates: lambda: 0.000043, mu: 0.000031, K: 254.372487, r: 0.000105
+Maximum loglikelihood: -1025.175284
+init params: 41 / 100 
+    lambda_0         mu_0            k        alpha 
+7.842068e-05 3.444792e-05 1.050000e+02 9.414793e-02 
+You are optimizing lambda mu K r 
+You are fixing nothing 
+Optimizing the likelihood - this may take a while. 
+The loglikelihood for the initial parameter values is -1012.528 
+Cycle 1
+Cycle 2
+No more cycles needed.
+
+Maximum likelihood parameter estimates: lambda: 0.000201, mu: 0.000034, K: 93.280918, r: 0.001121
+Maximum loglikelihood: -993.561290
+init params: 42 / 100 
+    lambda_0         mu_0            k        alpha 
+1.425625e-04 1.674477e-05 1.050000e+02 1.302687e-03 
+You are optimizing lambda mu K r 
+You are fixing nothing 
+Optimizing the likelihood - this may take a while. 
+The loglikelihood for the initial parameter values is -996.6158 
+Cycle 1
+Cycle 2
+No more cycles needed.
+
+Maximum likelihood parameter estimates: lambda: 0.000149, mu: 0.000017, K: 91.228468, r: 0.027760
+Maximum loglikelihood: -991.499318
+init params: 43 / 100 
+    lambda_0         mu_0            k        alpha 
+1.178900e-04 8.572517e-05 9.800000e+01 7.282602e-01 
+You are optimizing lambda mu K r 
+You are fixing nothing 
+Optimizing the likelihood - this may take a while. 
+The loglikelihood for the initial parameter values is -1054.19 
+Cycle 1
+Cycle 2
+No more cycles needed.
+
+Maximum likelihood parameter estimates: lambda: 0.000118, mu: 0.000086, K: 114.175383, r: 0.001330
+Maximum loglikelihood: -1034.537629
+init params: 44 / 100 
+    lambda_0         mu_0            k        alpha 
+5.169313e-05 1.389192e-05 9.800000e+01 3.960642e-01 
+You are optimizing lambda mu K r 
+You are fixing nothing 
+Optimizing the likelihood - this may take a while. 
+The loglikelihood for the initial parameter values is -1013.398 
+Cycle 1
+Cycle 2
+Cycle 3
+No more cycles needed.
+
+Maximum likelihood parameter estimates: lambda: 0.000159, mu: 0.000014, K: 91.090752, r: 0.053608
+Maximum loglikelihood: -991.238293
+init params: 45 / 100 
+    lambda_0         mu_0            k        alpha 
+1.296408e-04 4.784567e-05 1.060000e+02 1.866448e-01 
+You are optimizing lambda mu K r 
+You are fixing nothing 
+Optimizing the likelihood - this may take a while. 
+The loglikelihood for the initial parameter values is -1015.657 
+Cycle 1
+Cycle 2
+No more cycles needed.
+
+Maximum likelihood parameter estimates: lambda: 0.000220, mu: 0.000048, K: 97.281086, r: 0.000395
+Maximum loglikelihood: -999.337688
+init params: 46 / 100 
+    lambda_0         mu_0            k        alpha 
+1.274924e-04 6.576396e-05 9.900000e+01 7.357599e-01 
+You are optimizing lambda mu K r 
+You are fixing nothing 
+Optimizing the likelihood - this may take a while. 
+The loglikelihood for the initial parameter values is -1060.795 
+Cycle 1
+Cycle 2
+No more cycles needed.
+
+Maximum likelihood parameter estimates: lambda: 1.000510, mu: 0.000066, K: 99.000000, r: 2.784437
+Maximum loglikelihood: -1060.015076
+init params: 47 / 100 
+    lambda_0         mu_0            k        alpha 
+9.460530e-05 1.594719e-05 1.220000e+02 4.049403e-01 
+You are optimizing lambda mu K r 
+You are fixing nothing 
+Optimizing the likelihood - this may take a while. 
+The loglikelihood for the initial parameter values is -1009.795 
+Cycle 1
+Cycle 2
+Cycle 3
+Cycle 4
+Cycle 5
+No more cycles needed.
+
+Maximum likelihood parameter estimates: lambda: 0.000165, mu: 0.000016, K: 90.971442, r: 0.039242
+Maximum loglikelihood: -991.200020
+init params: 48 / 100 
+    lambda_0         mu_0            k        alpha 
+6.038954e-05 1.284268e-05 9.800000e+01 9.413645e-01 
+You are optimizing lambda mu K r 
+You are fixing nothing 
+Optimizing the likelihood - this may take a while. 
+The loglikelihood for the initial parameter values is -1026.544 
+Cycle 1
+Cycle 2
+No more cycles needed.
+
+Maximum likelihood parameter estimates: lambda: 0.000060, mu: 0.000013, K: 110.126076, r: 0.000083
+Maximum loglikelihood: -1003.822700
+init params: 49 / 100 
+    lambda_0         mu_0            k        alpha 
+8.905787e-05 2.072976e-06 1.050000e+02 2.697202e-01 
+You are optimizing lambda mu K r 
+You are fixing nothing 
+Optimizing the likelihood - this may take a while. 
+The loglikelihood for the initial parameter values is -998.2859 
+Cycle 1
+Cycle 2
+No more cycles needed.
+
+Maximum likelihood parameter estimates: lambda: 0.000120, mu: 0.000002, K: 90.663672, r: 0.180500
+Maximum loglikelihood: -991.821840
+init params: 50 / 100 
+    lambda_0         mu_0            k        alpha 
+8.769158e-05 5.884468e-07 9.800000e+01 3.332541e-01 
+You are optimizing lambda mu K r 
+You are fixing nothing 
+Optimizing the likelihood - this may take a while. 
+The loglikelihood for the initial parameter values is -996.607 
+Cycle 1
+Cycle 2
+No more cycles needed.
+
+Maximum likelihood parameter estimates: lambda: 0.000126, mu: 0.000001, K: 90.070502, r: 0.192719
+Maximum loglikelihood: -991.548838
+init params: 51 / 100 
+    lambda_0         mu_0            k        alpha 
+1.438484e-04 8.939158e-05 1.120000e+02 2.009657e-01 
+You are optimizing lambda mu K r 
+You are fixing nothing 
+Optimizing the likelihood - this may take a while. 
+The loglikelihood for the initial parameter values is -1038.721 
+Cycle 1
+Cycle 2
+No more cycles needed.
+
+Maximum likelihood parameter estimates: lambda: 0.000316, mu: 0.000089, K: 115.289650, r: 0.003867
+Maximum loglikelihood: -1021.778197
+init params: 52 / 100 
+    lambda_0         mu_0            k        alpha 
+1.236533e-04 2.976638e-05 9.800000e+01 3.927590e-01 
+You are optimizing lambda mu K r 
+You are fixing nothing 
+Optimizing the likelihood - this may take a while. 
+The loglikelihood for the initial parameter values is -1020.668 
+Cycle 1
+Cycle 2
+No more cycles needed.
+
+Maximum likelihood parameter estimates: lambda: 0.000194, mu: 0.000030, K: 92.209151, r: 0.000428
+Maximum loglikelihood: -992.145065
+init params: 53 / 100 
+    lambda_0         mu_0            k        alpha 
+1.057652e-04 2.512981e-05 9.800000e+01 6.779604e-01 
+You are optimizing lambda mu K r 
+You are fixing nothing 
+Optimizing the likelihood - this may take a while. 
+The loglikelihood for the initial parameter values is -1037.699 
+Cycle 1
+Cycle 2
+No more cycles needed.
+
+Maximum likelihood parameter estimates: lambda: 0.000106, mu: 0.000025, K: 94.360234, r: 0.000035
+Maximum loglikelihood: -997.557923
+init params: 54 / 100 
+    lambda_0         mu_0            k        alpha 
+1.356176e-04 4.733640e-05 2.080000e+02 5.279740e-01 
+You are optimizing lambda mu K r 
+You are fixing nothing 
+Optimizing the likelihood - this may take a while. 
+The loglikelihood for the initial parameter values is -1041.176 
+Cycle 1
+Cycle 2
+No more cycles needed.
+
+Maximum likelihood parameter estimates: lambda: 0.000136, mu: 0.000047, K: 99.513223, r: 0.000073
+Maximum loglikelihood: -1005.210625
+init params: 55 / 100 
+    lambda_0         mu_0            k        alpha 
+5.583578e-05 1.586855e-05 1.030000e+02 7.589249e-01 
+You are optimizing lambda mu K r 
+You are fixing nothing 
+Optimizing the likelihood - this may take a while. 
+The loglikelihood for the initial parameter values is -1019.879 
+Cycle 1
+Cycle 2
+Cycle 3
+No more cycles needed.
+
+Maximum likelihood parameter estimates: lambda: 0.000056, mu: 0.000016, K: 114.390741, r: 0.000373
+Maximum loglikelihood: -1007.265221
+init params: 56 / 100 
+    lambda_0         mu_0            k        alpha 
+1.041058e-04 5.060367e-05 1.020000e+02 3.382084e-01 
+You are optimizing lambda mu K r 
+You are fixing nothing 
+Optimizing the likelihood - this may take a while. 
+The loglikelihood for the initial parameter values is -1025.669 
+Cycle 1
+Cycle 2
+No more cycles needed.
+
+Maximum likelihood parameter estimates: lambda: 0.000241, mu: 0.000051, K: 97.259464, r: 0.000095
+Maximum loglikelihood: -1000.514998
+init params: 57 / 100 
+    lambda_0         mu_0            k        alpha 
+4.000011e-05 4.375692e-06 1.350000e+02 4.051160e-01 
+You are optimizing lambda mu K r 
+You are fixing nothing 
+Optimizing the likelihood - this may take a while. 
+The loglikelihood for the initial parameter values is -1009.93 
+Cycle 1
+Cycle 2
+Cycle 3
+No more cycles needed.
+
+Maximum likelihood parameter estimates: lambda: 0.000060, mu: 0.000004, K: 110.340821, r: 0.028833
+Maximum loglikelihood: -1001.057040
+init params: 58 / 100 
+    lambda_0         mu_0            k        alpha 
+1.188539e-04 6.740240e-06 1.000000e+02 1.064584e-01 
+You are optimizing lambda mu K r 
+You are fixing nothing 
+Optimizing the likelihood - this may take a while. 
+The loglikelihood for the initial parameter values is -994.2611 
+Cycle 1
+Cycle 2
+No more cycles needed.
+
+Maximum likelihood parameter estimates: lambda: 0.000143, mu: 0.000007, K: 90.846711, r: 0.115132
+Maximum loglikelihood: -991.367691
+init params: 59 / 100 
+    lambda_0         mu_0            k        alpha 
+9.215142e-05 3.322192e-05 9.800000e+01 7.572736e-01 
+You are optimizing lambda mu K r 
+You are fixing nothing 
+Optimizing the likelihood - this may take a while. 
+The loglikelihood for the initial parameter values is -1038.221 
+Cycle 1
+Cycle 2
+No more cycles needed.
+
+Maximum likelihood parameter estimates: lambda: 0.000092, mu: 0.000033, K: 97.790637, r: 0.000103
+Maximum loglikelihood: -1005.310102
+init params: 60 / 100 
+    lambda_0         mu_0            k        alpha 
+1.382474e-04 8.525164e-05 9.800000e+01 5.571585e-01 
+You are optimizing lambda mu K r 
+You are fixing nothing 
+Optimizing the likelihood - this may take a while. 
+The loglikelihood for the initial parameter values is -1057.109 
+Cycle 1
+Cycle 2
+No more cycles needed.
+
+Maximum likelihood parameter estimates: lambda: 0.000138, mu: 0.000085, K: 117.945947, r: 0.000292
+Maximum loglikelihood: -1029.632644
+init params: 61 / 100 
+    lambda_0         mu_0            k        alpha 
+1.367770e-04 1.133311e-05 1.120000e+02 1.861208e-01 
+You are optimizing lambda mu K r 
+You are fixing nothing 
+Optimizing the likelihood - this may take a while. 
+The loglikelihood for the initial parameter values is -1000.051 
+Cycle 1
+Cycle 2
+No more cycles needed.
+
+Maximum likelihood parameter estimates: lambda: 0.000093, mu: 0.000011, K: 94.807956, r: 0.036188
+Maximum loglikelihood: -995.820762
+init params: 62 / 100 
+    lambda_0         mu_0            k        alpha 
+9.998035e-05 5.261522e-05 1.030000e+02 1.657331e-01 
+You are optimizing lambda mu K r 
+You are fixing nothing 
+Optimizing the likelihood - this may take a while. 
+The loglikelihood for the initial parameter values is -1021.262 
+Cycle 1
+Cycle 2
+No more cycles needed.
+
+Maximum likelihood parameter estimates: lambda: 0.000243, mu: 0.000053, K: 98.919436, r: 0.000660
+Maximum loglikelihood: -1001.662099
+init params: 63 / 100 
+    lambda_0         mu_0            k        alpha 
+8.795945e-05 3.567865e-05 9.800000e+01 8.555100e-01 
+You are optimizing lambda mu K r 
+You are fixing nothing 
+Optimizing the likelihood - this may take a while. 
+The loglikelihood for the initial parameter values is -1041.937 
+Cycle 1
+Cycle 2
+No more cycles needed.
+
+Maximum likelihood parameter estimates: lambda: 0.000088, mu: 0.000036, K: 98.285719, r: 0.000498
+Maximum loglikelihood: -1008.186275
+init params: 64 / 100 
+    lambda_0         mu_0            k        alpha 
+5.677328e-05 9.186863e-06 1.010000e+02 2.156142e-01 
+You are optimizing lambda mu K r 
+You are fixing nothing 
+Optimizing the likelihood - this may take a while. 
+The loglikelihood for the initial parameter values is -1005.603 
+Cycle 1
+Cycle 2
+No more cycles needed.
+
+Maximum likelihood parameter estimates: lambda: 0.000146, mu: 0.000009, K: 90.954317, r: 0.092183
+Maximum loglikelihood: -991.363284
+init params: 65 / 100 
+    lambda_0         mu_0            k        alpha 
+1.259764e-04 1.411014e-05 1.540000e+02 2.567308e-01 
+You are optimizing lambda mu K r 
+You are fixing nothing 
+Optimizing the likelihood - this may take a while. 
+The loglikelihood for the initial parameter values is -1024.701 
+Cycle 1
+Cycle 2
+Cycle 3
+Cycle 4
+No more cycles needed.
+
+Maximum likelihood parameter estimates: lambda: 0.000167, mu: 0.000014, K: 90.868524, r: 0.053221
+Maximum loglikelihood: -991.194133
+init params: 66 / 100 
+    lambda_0         mu_0            k        alpha 
+3.733697e-05 2.337529e-06 9.800000e+01 8.809808e-01 
+You are optimizing lambda mu K r 
+You are fixing nothing 
+Optimizing the likelihood - this may take a while. 
+The loglikelihood for the initial parameter values is -1014.722 
+Cycle 1
+Cycle 2
+Cycle 3
+No more cycles needed.
+
+Maximum likelihood parameter estimates: lambda: 0.000037, mu: 0.000002, K: 177.289562, r: 0.000008
+Maximum loglikelihood: -1008.379698
+init params: 67 / 100 
+    lambda_0         mu_0            k        alpha 
+1.148484e-04 5.883406e-05 9.800000e+01 2.567636e-01 
+You are optimizing lambda mu K r 
+You are fixing nothing 
+Optimizing the likelihood - this may take a while. 
+The loglikelihood for the initial parameter values is -1027.386 
+Cycle 1
+Cycle 2
+Cycle 3
+No more cycles needed.
+
+Maximum likelihood parameter estimates: lambda: 0.000168, mu: 0.000040, K: 96.258080, r: 0.000264
+Maximum loglikelihood: -997.383801
+init params: 68 / 100 
+    lambda_0         mu_0            k        alpha 
+5.634648e-05 5.859817e-06 1.090000e+02 6.253951e-01 
+You are optimizing lambda mu K r 
+You are fixing nothing 
+Optimizing the likelihood - this may take a while. 
+The loglikelihood for the initial parameter values is -1009.435 
+Cycle 1
+Cycle 2
+No more cycles needed.
+
+Maximum likelihood parameter estimates: lambda: 0.000117, mu: 0.000006, K: 91.416474, r: 0.134033
+Maximum loglikelihood: -992.409354
+init params: 69 / 100 
+    lambda_0         mu_0            k        alpha 
+7.580241e-05 2.631448e-06 1.220000e+02 3.719419e-03 
+You are optimizing lambda mu K r 
+You are fixing nothing 
+Optimizing the likelihood - this may take a while. 
+The loglikelihood for the initial parameter values is -1002.441 
+Cycle 1
+Cycle 2
+Cycle 3
+No more cycles needed.
+
+Maximum likelihood parameter estimates: lambda: 0.000153, mu: 0.000013, K: 91.023850, r: 0.057097
+Maximum loglikelihood: -991.309382
+init params: 70 / 100 
+    lambda_0         mu_0            k        alpha 
+4.443449e-05 5.092098e-06 1.040000e+02 4.657046e-01 
+You are optimizing lambda mu K r 
+You are fixing nothing 
+Optimizing the likelihood - this may take a while. 
+The loglikelihood for the initial parameter values is -1009.9 
+Cycle 1
+Cycle 2
+No more cycles needed.
+
+Maximum likelihood parameter estimates: lambda: 0.000132, mu: 0.000005, K: 90.909244, r: 0.135926
+Maximum loglikelihood: -991.592291
+init params: 71 / 100 
+    lambda_0         mu_0            k        alpha 
+6.255959e-05 4.215384e-05 1.000000e+02 2.508655e-01 
+You are optimizing lambda mu K r 
+You are fixing nothing 
+Optimizing the likelihood - this may take a while. 
+The loglikelihood for the initial parameter values is -1025.899 
+Cycle 1
+Cycle 2
+No more cycles needed.
+
+Maximum likelihood parameter estimates: lambda: 0.000258, mu: 0.000042, K: 94.217404, r: 0.000203
+Maximum loglikelihood: -996.538223
+init params: 72 / 100 
+    lambda_0         mu_0            k        alpha 
+8.971657e-05 8.069211e-06 1.360000e+02 4.954144e-01 
+You are optimizing lambda mu K r 
+You are fixing nothing 
+Optimizing the likelihood - this may take a while. 
+The loglikelihood for the initial parameter values is -1015.141 
+Cycle 1
+Cycle 2
+No more cycles needed.
+
+Maximum likelihood parameter estimates: lambda: 0.000090, mu: 0.000008, K: 94.549649, r: 0.089610
+Maximum loglikelihood: -995.760303
+init params: 73 / 100 
+    lambda_0         mu_0            k        alpha 
+1.413082e-04 1.752073e-05 1.250000e+02 9.569688e-01 
+You are optimizing lambda mu K r 
+You are fixing nothing 
+Optimizing the likelihood - this may take a while. 
+The loglikelihood for the initial parameter values is -1067.772 
+Cycle 1
+Cycle 2
+No more cycles needed.
+
+Maximum likelihood parameter estimates: lambda: 0.000141, mu: 0.000018, K: 91.417252, r: 0.016449
+Maximum loglikelihood: -991.834529
+init params: 74 / 100 
+    lambda_0         mu_0            k        alpha 
+4.144170e-05 2.268502e-05 1.010000e+02 1.945492e-01 
+You are optimizing lambda mu K r 
+You are fixing nothing 
+Optimizing the likelihood - this may take a while. 
+The loglikelihood for the initial parameter values is -1022.66 
+Cycle 1
+Cycle 2
+No more cycles needed.
+
+Maximum likelihood parameter estimates: lambda: 0.000041, mu: 0.000023, K: 194.355793, r: 0.000115
+Maximum loglikelihood: -1019.788703
+init params: 75 / 100 
+    lambda_0         mu_0            k        alpha 
+1.106484e-04 6.563570e-05 1.090000e+02 3.978326e-01 
+You are optimizing lambda mu K r 
+You are fixing nothing 
+Optimizing the likelihood - this may take a while. 
+The loglikelihood for the initial parameter values is -1034.347 
+Cycle 1
+Cycle 2
+Cycle 3
+No more cycles needed.
+
+Maximum likelihood parameter estimates: lambda: 0.000265, mu: 0.000066, K: 104.143284, r: 0.000423
+Maximum loglikelihood: -1009.000503
+init params: 76 / 100 
+    lambda_0         mu_0            k        alpha 
+9.682095e-05 3.902779e-05 1.000000e+02 8.519383e-01 
+You are optimizing lambda mu K r 
+You are fixing nothing 
+Optimizing the likelihood - this may take a while. 
+The loglikelihood for the initial parameter values is -1046.321 
+Cycle 1
+Cycle 2
+No more cycles needed.
+
+Maximum likelihood parameter estimates: lambda: 0.000097, mu: 0.000039, K: 97.646322, r: 0.000600
+Maximum loglikelihood: -1007.883311
+init params: 77 / 100 
+    lambda_0         mu_0            k        alpha 
+5.240803e-05 7.627467e-06 1.010000e+02 7.523966e-01 
+You are optimizing lambda mu K r 
+You are fixing nothing 
+Optimizing the likelihood - this may take a while. 
+The loglikelihood for the initial parameter values is -1014.791 
+Cycle 1
+Cycle 2
+No more cycles needed.
+
+Maximum likelihood parameter estimates: lambda: 0.000052, mu: 0.000008, K: 121.544136, r: 0.000010
+Maximum loglikelihood: -1004.348642
+init params: 78 / 100 
+    lambda_0         mu_0            k        alpha 
+1.122926e-04 7.360268e-07 1.220000e+02 6.837537e-01 
+You are optimizing lambda mu K r 
+You are fixing nothing 
+Optimizing the likelihood - this may take a while. 
+The loglikelihood for the initial parameter values is -1028.708 
+Cycle 1
+Cycle 2
+Cycle 3
+No more cycles needed.
+
+Maximum likelihood parameter estimates: lambda: 0.000112, mu: 0.000001, K: 90.282676, r: 0.210684
+Maximum loglikelihood: -991.967049
+init params: 79 / 100 
+    lambda_0         mu_0            k        alpha 
+4.652199e-05 2.020550e-05 1.670000e+02 5.839943e-01 
+You are optimizing lambda mu K r 
+You are fixing nothing 
+Optimizing the likelihood - this may take a while. 
+The loglikelihood for the initial parameter values is -1018.971 
+Cycle 1
+Cycle 2
+No more cycles needed.
+
+Maximum likelihood parameter estimates: lambda: 0.000067, mu: 0.000020, K: 104.062221, r: 0.000003
+Maximum loglikelihood: -1005.325691
+init params: 80 / 100 
+    lambda_0         mu_0            k        alpha 
+4.036634e-05 2.233815e-05 1.000000e+02 9.790733e-01 
+You are optimizing lambda mu K r 
+You are fixing nothing 
+Optimizing the likelihood - this may take a while. 
+The loglikelihood for the initial parameter values is -1028.964 
+Cycle 1
+Cycle 2
+Cycle 3
+No more cycles needed.
+
+Maximum likelihood parameter estimates: lambda: 0.000040, mu: 0.000022, K: 214.458381, r: 0.000025
+Maximum loglikelihood: -1020.230566
+init params: 81 / 100 
+    lambda_0         mu_0            k        alpha 
+1.271735e-04 5.132726e-07 1.140000e+02 7.146194e-01 
+You are optimizing lambda mu K r 
+You are fixing nothing 
+Optimizing the likelihood - this may take a while. 
+The loglikelihood for the initial parameter values is -Inf 
+The initial parameter values have a likelihood that is equal to 0 or below machine precision. Try again with different initial values.
+init params: 82 / 100 
+    lambda_0         mu_0            k        alpha 
+5.067951e-05 1.537772e-05 1.020000e+02 5.979088e-01 
+You are optimizing lambda mu K r 
+You are fixing nothing 
+Optimizing the likelihood - this may take a while. 
+The loglikelihood for the initial parameter values is -1017.341 
+Cycle 1
+Cycle 2
+No more cycles needed.
+
+Maximum likelihood parameter estimates: lambda: 0.000051, mu: 0.000015, K: 123.850345, r: 0.000053
+Maximum loglikelihood: -1009.315722
+init params: 83 / 100 
+    lambda_0         mu_0            k        alpha 
+5.594975e-05 2.057061e-05 1.130000e+02 2.760636e-03 
+You are optimizing lambda mu K r 
+You are fixing nothing 
+Optimizing the likelihood - this may take a while. 
+The loglikelihood for the initial parameter values is -1010.238 
+Cycle 1
+Cycle 2
+No more cycles needed.
+
+Maximum likelihood parameter estimates: lambda: 0.000056, mu: 0.000021, K: 116.017665, r: 0.000093
+Maximum loglikelihood: -1010.194428
+init params: 84 / 100 
+    lambda_0         mu_0            k        alpha 
+4.838978e-05 2.631061e-05 1.000000e+02 4.926252e-01 
+You are optimizing lambda mu K r 
+You are fixing nothing 
+Optimizing the likelihood - this may take a while. 
+The loglikelihood for the initial parameter values is -1023.801 
+Cycle 1
+Cycle 2
+Cycle 3
+No more cycles needed.
+
+Maximum likelihood parameter estimates: lambda: 0.000186, mu: 0.000026, K: 91.409483, r: 0.000003
+Maximum loglikelihood: -991.476293
+init params: 85 / 100 
+    lambda_0         mu_0            k        alpha 
+7.934099e-05 9.156258e-06 1.040000e+02 1.909836e-01 
+You are optimizing lambda mu K r 
+You are fixing nothing 
+Optimizing the likelihood - this may take a while. 
+The loglikelihood for the initial parameter values is -999.6457 
+Cycle 1
+Cycle 2
+No more cycles needed.
+
+Maximum likelihood parameter estimates: lambda: 0.000142, mu: 0.000009, K: 91.035467, r: 0.093264
+Maximum loglikelihood: -991.465179
+init params: 86 / 100 
+    lambda_0         mu_0            k        alpha 
+1.123060e-04 2.829193e-05 1.000000e+02 7.367242e-01 
+You are optimizing lambda mu K r 
+You are fixing nothing 
+Optimizing the likelihood - this may take a while. 
+The loglikelihood for the initial parameter values is -1046.34 
+Cycle 1
+Cycle 2
+No more cycles needed.
+
+Maximum likelihood parameter estimates: lambda: 0.000112, mu: 0.000028, K: 94.173464, r: 0.000679
+Maximum loglikelihood: -997.906593
+init params: 87 / 100 
+    lambda_0         mu_0            k        alpha 
+1.159125e-04 6.013657e-05 1.220000e+02 6.840422e-01 
+You are optimizing lambda mu K r 
+You are fixing nothing 
+Optimizing the likelihood - this may take a while. 
+The loglikelihood for the initial parameter values is -1041.012 
+Cycle 1
+Cycle 2
+No more cycles needed.
+
+Maximum likelihood parameter estimates: lambda: 0.000116, mu: 0.000060, K: 104.147449, r: 0.000047
+Maximum loglikelihood: -1017.659693
+init params: 88 / 100 
+    lambda_0         mu_0            k        alpha 
+4.803951e-05 2.652164e-05 9.800000e+01 7.944655e-01 
+You are optimizing lambda mu K r 
+You are fixing nothing 
+Optimizing the likelihood - this may take a while. 
+The loglikelihood for the initial parameter values is -1027.675 
+Cycle 1
+Cycle 2
+No more cycles needed.
+
+Maximum likelihood parameter estimates: lambda: 0.000048, mu: 0.000027, K: 143.225932, r: 0.000025
+Maximum loglikelihood: -1018.663831
+init params: 89 / 100 
+    lambda_0         mu_0            k        alpha 
+3.998308e-05 2.316357e-05 1.080000e+02 4.346588e-01 
+You are optimizing lambda mu K r 
+You are fixing nothing 
+Optimizing the likelihood - this may take a while. 
+The loglikelihood for the initial parameter values is -1024.952 
+Cycle 1
+Cycle 2
+Cycle 3
+No more cycles needed.
+
+Maximum likelihood parameter estimates: lambda: 0.000153, mu: 0.000023, K: 91.819855, r: 0.000268
+Maximum loglikelihood: -991.793326
+init params: 90 / 100 
+    lambda_0         mu_0            k        alpha 
+9.080594e-05 3.323382e-05 9.800000e+01 8.315152e-01 
+You are optimizing lambda mu K r 
+You are fixing nothing 
+Optimizing the likelihood - this may take a while. 
+The loglikelihood for the initial parameter values is -1042.055 
+Cycle 1
+Cycle 2
+No more cycles needed.
+
+Maximum likelihood parameter estimates: lambda: 0.000091, mu: 0.000033, K: 97.586676, r: 0.000700
+Maximum loglikelihood: -1005.714243
+init params: 91 / 100 
+    lambda_0         mu_0            k        alpha 
+5.191506e-05 4.259894e-06 9.800000e+01 9.197570e-01 
+You are optimizing lambda mu K r 
+You are fixing nothing 
+Optimizing the likelihood - this may take a while. 
+The loglikelihood for the initial parameter values is -1017.647 
+Cycle 1
+Cycle 2
+No more cycles needed.
+
+Maximum likelihood parameter estimates: lambda: 0.000052, mu: 0.000004, K: 122.700531, r: 0.000132
+Maximum loglikelihood: -1003.228376
+init params: 92 / 100 
+    lambda_0         mu_0            k        alpha 
+1.199154e-04 7.769085e-05 1.560000e+02 9.674096e-01 
+You are optimizing lambda mu K r 
+You are fixing nothing 
+Optimizing the likelihood - this may take a while. 
+The loglikelihood for the initial parameter values is -1048.974 
+Cycle 1
+Cycle 2
+No more cycles needed.
+
+Maximum likelihood parameter estimates: lambda: 0.000120, mu: 0.000078, K: 114.432226, r: 0.000150
+Maximum loglikelihood: -1028.695279
+init params: 93 / 100 
+    lambda_0         mu_0            k        alpha 
+6.224596e-05 3.873769e-05 1.000000e+02 4.333819e-01 
+You are optimizing lambda mu K r 
+You are fixing nothing 
+Optimizing the likelihood - this may take a while. 
+The loglikelihood for the initial parameter values is -1026.211 
+Cycle 1
+Cycle 2
+Cycle 3
+Cycle 4
+No more cycles needed.
+
+Maximum likelihood parameter estimates: lambda: 0.000214, mu: 0.000039, K: 93.611291, r: 0.000130
+Maximum loglikelihood: -995.007665
+init params: 94 / 100 
+    lambda_0         mu_0            k        alpha 
+8.535537e-05 4.749825e-05 1.240000e+02 8.058704e-01 
+You are optimizing lambda mu K r 
+You are fixing nothing 
+Optimizing the likelihood - this may take a while. 
+The loglikelihood for the initial parameter values is -1033.938 
+Cycle 1
+Cycle 2
+No more cycles needed.
+
+Maximum likelihood parameter estimates: lambda: 0.000085, mu: 0.000047, K: 100.569439, r: 0.000030
+Maximum loglikelihood: -1017.486917
+init params: 95 / 100 
+    lambda_0         mu_0            k        alpha 
+1.169463e-04 7.154131e-05 1.130000e+02 3.618792e-01 
+You are optimizing lambda mu K r 
+You are fixing nothing 
+Optimizing the likelihood - this may take a while. 
+The loglikelihood for the initial parameter values is -1035.573 
+Cycle 1
+Cycle 2
+No more cycles needed.
+
+Maximum likelihood parameter estimates: lambda: 0.000253, mu: 0.000072, K: 107.704461, r: 0.000300
+Maximum loglikelihood: -1012.536620
+init params: 96 / 100 
+    lambda_0         mu_0            k        alpha 
+1.180838e-04 8.473340e-05 1.040000e+02 1.151657e-01 
+You are optimizing lambda mu K r 
+You are fixing nothing 
+Optimizing the likelihood - this may take a while. 
+The loglikelihood for the initial parameter values is -1036.547 
+Cycle 1
+Cycle 2
+No more cycles needed.
+
+Maximum likelihood parameter estimates: lambda: 0.000281, mu: 0.000085, K: 104.000000, r: 0.000301
+Maximum loglikelihood: -1019.142445
+init params: 97 / 100 
+    lambda_0         mu_0            k        alpha 
+1.232744e-04 3.795847e-05 1.100000e+02 1.934698e-01 
+You are optimizing lambda mu K r 
+You are fixing nothing 
+Optimizing the likelihood - this may take a while. 
+The loglikelihood for the initial parameter values is -1010.49 
+Cycle 1
+Cycle 2
+No more cycles needed.
+
+Maximum likelihood parameter estimates: lambda: 0.000192, mu: 0.000038, K: 94.487588, r: 0.000321
+Maximum loglikelihood: -995.140596
+init params: 98 / 100 
+    lambda_0         mu_0            k        alpha 
+1.339133e-04 7.087561e-05 1.010000e+02 3.185113e-01 
+You are optimizing lambda mu K r 
+You are fixing nothing 
+Optimizing the likelihood - this may take a while. 
+The loglikelihood for the initial parameter values is -1036.859 
+Cycle 1
+Cycle 2
+Cycle 3
+No more cycles needed.
+
+Maximum likelihood parameter estimates: lambda: 0.000168, mu: 0.000052, K: 100.696103, r: 0.000367
+Maximum loglikelihood: -1004.290551
+init params: 99 / 100 
+    lambda_0         mu_0            k        alpha 
+1.082463e-04 2.799359e-05 1.110000e+02 3.834654e-01 
+You are optimizing lambda mu K r 
+You are fixing nothing 
+Optimizing the likelihood - this may take a while. 
+The loglikelihood for the initial parameter values is -1014.294 
+Cycle 1
+Cycle 2
+No more cycles needed.
+
+Maximum likelihood parameter estimates: lambda: 0.000156, mu: 0.000028, K: 91.918413, r: 0.000029
+Maximum loglikelihood: -992.864094
+init params: 100 / 100 
+    lambda_0         mu_0            k        alpha 
+1.390054e-04 9.815837e-05 9.900000e+01 4.304368e-01 
+You are optimizing lambda mu K r 
+You are fixing nothing 
+Optimizing the likelihood - this may take a while. 
+The loglikelihood for the initial parameter values is -1053.155 
+Cycle 1
+Cycle 2
+Cycle 3
+No more cycles needed.
+
+Maximum likelihood parameter estimates: lambda: 0.000139, mu: 0.000067, K: 109.161797, r: 0.001086
+Maximum loglikelihood: -1017.806687
+Warning messages:
+1: In rk(y, times, func, parms, method = "ode45", ...) :
+  Number of time steps 7630 exceeded maxsteps at t = -41090.5
+2: In rk(y, times, func, parms, method = "ode45", ...) :
+  Number of time steps 7624 exceeded maxsteps at t = -8565.63
+
+
+###############################################################################
+Peregrine Cluster
+Job 19884106 for user 'p282688'
+Finished at: Sat May  8 14:10:03 CEST 2021
+
+Job details:
+============
+
+Job ID              : 19884106
+Name                : run_dd_ml_without_fossil.bash
+User                : p282688
+Partition           : gelifes
+Nodes               : pg-node221
+Number of Nodes     : 1
+Cores               : 1
+State               : COMPLETED
+Submit              : 2021-05-08T13:15:35
+Start               : 2021-05-08T13:35:26
+End                 : 2021-05-08T14:10:02
+Reserved walltime   : 04:58:00
+Used walltime       : 00:34:36
+Used CPU time       : 00:34:26 (efficiency: 99.52%)
+% User (Computation): 99.89%
+% System (I/O)      :  0.11%
+Mem reserved        : 2000M/core
+Max Mem used        : 141.64M (pg-node221)
+Max Disk Write      : 112.64K (pg-node221)
+Max Disk Read       : 13.33M (pg-node221)
+
+
+Acknowledgements:
+=================
+
+Please see this page for information about acknowledging Peregrine in your publications:
+
+https://wiki.hpc.rug.nl/peregrine/introduction/scientific_output
+
+################################################################################
