@@ -8,11 +8,14 @@
 \usage{
 is_dd_ml_rds_on_local(job_ids, with_fossil = TRUE)
 
-is_dd_ml_log_on_local(job_ids)
+is_dd_ml_log_on_local(job_ids, with_fossil = TRUE)
 }
 \arguments{
 \item{job_ids}{eight-digit job ID given by Peregrine upon
 submission.}
+
+\item{with_fossil}{logical, dd_ml results for trees with or without extinct
+lineages?}
 }
 \description{
 Check if a dd_ml result file is present on the local PC

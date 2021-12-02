@@ -31,7 +31,7 @@ path_to_log_hpc <- function(job_id) {
 #' @author Theo Pannetier
 #' @export
 #'
-path_to_log_hpc <- function(job_id) {
+path_to_log_hd <- function(job_id) {
   glue::glue(path_to_hd(), "comrad_data/logs/comrad_sim_{job_id}.log")
 }
 
