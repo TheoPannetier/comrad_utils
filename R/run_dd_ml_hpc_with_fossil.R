@@ -7,7 +7,7 @@ run_dd_ml_hpc_with_fossil <- function(siga, sigk, dd_model, job_id) {
   )
   # Load data
   phylos <- readRDS(
-    glue::glue("/data/p282688/fabrika/comrad_data/phylos/comrad_phylos_sigk_{sigk}_siga_{siga}_full.rds")
+    glue::glue("/data/p282688/fabrika/comrad_data/phylos/comrad_phylos_sigk_{sigk}_siga_{siga}.rds")
   )
   waiting_times_tbl <- purrr::map_dfr(phylos, comrad::waiting_times)
   # Draw initial parameter values

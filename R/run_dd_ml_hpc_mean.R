@@ -7,7 +7,7 @@ run_dd_ml_hpc_mean <- function(siga, sigk, dd_model) {
   )
   # Load data
   phylos <- readRDS(
-    glue::glue("/data/p282688/fabrika/comrad_data/phylos/comrad_phylos_sigk_{sigk}_siga_{siga}_full.rds")
+    glue::glue("/data/p282688/fabrika/comrad_data/phylos/comrad_phylos_sigk_{sigk}_siga_{siga}.rds")
   )
   waiting_times_tbl <- purrr::map_dfr(phylos, comrad::waiting_times, .id = "replicate")
   waiting_times_tbl <- comrad::summarise_waiting_times(waiting_times_tbl, mean)

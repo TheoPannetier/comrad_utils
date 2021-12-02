@@ -1,4 +1,4 @@
-run_dd_ml_hpc_without_fossil <- function(siga, sigk, dd_model, i, job_id) {
+run_dd_ml_hpc_without_fossil <- function(siga, sigk, dd_model, i, job_id, verbose) {
   if (!fabrika::is_on_peregrine()) {
     stop("This function is only intended to be run on the Peregrine HPC.")
   }
@@ -7,7 +7,7 @@ run_dd_ml_hpc_without_fossil <- function(siga, sigk, dd_model, i, job_id) {
   )
   # Load data
   phylos <- readRDS(
-    glue::glue("/data/p282688/fabrika/comrad_data/phylos/comrad_phylos_sigk_{sigk}_siga_{siga}_full.rds")
+    glue::glue("/data/p282688/fabrika/comrad_data/phylos/comrad_phylos_sigk_{sigk}_siga_{siga}.rds")
   )
   phylo <- phylos[[i]]
   branching_times <- ape::branching.times(ape::drop.fossil(phylo))
@@ -28,15 +28,13 @@ run_dd_ml_hpc_without_fossil <- function(siga, sigk, dd_model, i, job_id) {
         branching_times =  branching_times,
         dd_model = dd_model,
         init_params = init_params,
-        num_cycles = Inf
+        num_cycles = Inf,
+        verbose = verbose
       )
     })
   ml <- dplyr::mutate(ml, "tree" = i, "job_id" = job_id)
+  ml <- dplyr::rename(ml, "ml_lambda_0" = ml_lambda, "ml_mu_0" = ml_mu)
   # Save output
-  saveRDS(
-    ml,
-    glue::glue(
-      "/data/p282688/fabrika/comrad_data/ml_results/dd_ml_without_fossil_{job_id}.rds")
-  )
+  saveRDS(ml, glue::glue("/data/p282688/fabrika/comrad_data/ml_results/dd_ml_without_fossil_{job_id}.rds"))
 }
 
