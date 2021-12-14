@@ -11,7 +11,9 @@ run_dd_ml_hpc_without_fossil <- function(siga, sigk, dd_model, i, job_id, verbos
   )
   phylo <- phylos[[i]]
   branching_times <- ape::branching.times(ape::drop.fossil(phylo))
-
+  # Re-scale branching times from 0 to 100
+  scaling_factor <- max(branching_times) / 100
+  branching_times <- branching_times / scaling_factor
   # Draw initial parameter values
   init_params_ls <- comrad::draw_init_params_dd_ml(
     phylos = phylos,
@@ -24,6 +26,10 @@ run_dd_ml_hpc_without_fossil <- function(siga, sigk, dd_model, i, job_id, verbos
     function(init_params, i) {
       cat("init params:", i , "/", length(init_params_ls), "\n")
       print(init_params)
+      # Re-scale parameters
+      init_params[1] <- init_params[1] * scaling_factor
+      init_params[2] <- init_params[2] * scaling_factor
+
       comrad::fit_dd_model_without_fossil(
         branching_times =  branching_times,
         dd_model = dd_model,
@@ -33,8 +39,8 @@ run_dd_ml_hpc_without_fossil <- function(siga, sigk, dd_model, i, job_id, verbos
       )
     })
   ml <- dplyr::mutate(ml, "tree" = i, "job_id" = job_id)
-  ml <- dplyr::rename(ml, "ml_lambda_0" = ml_lambda, "ml_mu_0" = ml_mu)
+  # Scale back
+  ml <- dplyr::rename(ml, "ml_lambda_0" = ml_lambda / scaling_factor, "ml_mu_0" = ml_mu / scaling_factor)
   # Save output
   saveRDS(ml, glue::glue("/data/p282688/fabrika/comrad_data/ml_results/dd_ml_without_fossil_{job_id}.rds"))
 }
-
