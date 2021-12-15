@@ -40,7 +40,12 @@ run_dd_ml_hpc_without_fossil <- function(siga, sigk, dd_model, i, job_id, verbos
     })
   ml <- dplyr::mutate(ml, "tree" = i, "job_id" = job_id)
   # Scale back
-  ml <- dplyr::rename(ml, "ml_lambda_0" = ml_lambda / scaling_factor, "ml_mu_0" = ml_mu / scaling_factor)
+  ml <- dplyr::rename(ml, "ml_lambda_0" = ml_lambda, "ml_mu_0" = ml_mu)
+  ml <- dplyr::mutate(
+    ml,
+    "ml_lambda_0" = ifelse(conv == -1, ml_lambda_0, ml_lambda_0 / scaling_factor),
+    "ml_mu_0" = ifelse(conv == -1, ml_mu_0, ml_mu_0 / scaling_factor)
+  )
   # Save output
   saveRDS(ml, glue::glue("/data/p282688/fabrika/comrad_data/ml_results/dd_ml_without_fossil_{job_id}.rds"))
 }
