@@ -17,7 +17,7 @@ run_dd_ml_hpc_without_fossil <- function(siga, sigk, dd_model, i, job_id, verbos
   # Draw initial parameter values
   init_params_ls <- comrad::draw_init_params_dd_ml(
     phylos = phylos,
-    nb_sets = 100,
+    nb_sets = 500,
     dd_model = dd_model
   )
   # Run ml for each initial parameter set
