@@ -12,17 +12,17 @@ NULL
 
 #' @export
 #' @rdname upload_sim_drive
-upload_sim_csv_drive <- function(job_ids) {
+upload_sim_csv_drive <- function(job_ids, pkg = "comrad") {
 
   files <- glue::glue(
-    paste0(path_to_fabrika_local(), "comrad_data/sims/comrad_sim_{job_ids}.csv")
+    paste0(path_to_fabrika_local(), "{pkg}_data/sims/{pkg}_sim_{job_ids}.csv")
   )
   purrr::walk(
     files,
     function(file) {
       googledrive::drive_upload(
         media = file,
-        path = "comrad/comrad_data/sims/",
+        path = glue::glue("{pkg}/{pkg}_data/sims/"),
         overwrite = FALSE
       )
     }
@@ -32,16 +32,16 @@ upload_sim_csv_drive <- function(job_ids) {
 
 #' @export
 #' @rdname upload_sim_drive
-upload_sim_log_drive <- function(job_ids) {
+upload_sim_log_drive <- function(job_ids, pkg = "comrad") {
   files <- glue::glue(
-    paste0(path_to_fabrika_local(), "comrad_data/logs/comrad_sim_{job_ids}.log")
+    paste0(path_to_fabrika_local(), "{pkg}_data/logs/{pkg}_sim_{job_ids}.log")
   )
   purrr::walk(
     files,
     function(file) {
       googledrive::drive_upload(
         media = file,
-        path = "comrad/comrad_data/logs/",
+        path = "{pkg}/{pkg}_data/logs/",
         overwrite = FALSE
       )
     }

@@ -16,6 +16,7 @@
 #' @export
 #'
 complete_logbook_entries <- function(job_ids,
+                                     pkg = "comrad",
                                      which_one = "sims",
                                      vars = c(
                                        "status",
@@ -31,7 +32,13 @@ complete_logbook_entries <- function(job_ids,
   }
 
   if (which_one == "sims") {
-    rel_path_to_logbook <- "comrad_data/logs/logbook.csv"
+    if (pkg == "comrad") {
+      rel_path_to_logbook <- "comrad_data/logs/logbook.csv"
+    } else if (pkg == "comsie") {
+      rel_path_to_logbook <- "comsie_data/logs/logbook_comsie.csv"
+    } else {
+      stop("pkg must be either comrad or comsie.")
+    }
   } else if (which_one == "dd_ml_without_fossil") {
     rel_path_to_logbook <- "comrad_data/logs/logbook_dd_ml_without_fossil.csv"
     if (any(!vars %in% c("status", "runtime"))) {
@@ -56,8 +63,8 @@ complete_logbook_entries <- function(job_ids,
   )
 
   cat("Downloading logbook from Peregrine\n")
-  download_logbook_hpc(which_one = which_one)
-  logbook <- read_logbook(which_one = which_one)
+  download_logbook_hpc(which_one = which_one, pkg = pkg)
+  logbook <- read_logbook(which_one = which_one, pkg = pkg)
 
   to_update <- job_ids %>% match(logbook$job_id)
 
@@ -74,7 +81,7 @@ complete_logbook_entries <- function(job_ids,
     ssh::scp_upload(
       session = session,
       files = paste0(path_to_fabrika_local(), rel_path_to_logbook),
-      to = paste0(path_to_fabrika_hpc(), "comrad_data/logs/")
+      to = glue::glue(path_to_fabrika_hpc(), "{pkg}_data/logs/")
     )
   }
   if ("runtime" %in% vars) {
@@ -90,13 +97,13 @@ complete_logbook_entries <- function(job_ids,
     ssh::scp_upload(
       session = session,
       files = paste0(path_to_fabrika_local(), rel_path_to_logbook),
-      to = paste0(path_to_fabrika_hpc(), "comrad_data/logs/")
+      to = glue::glue(path_to_fabrika_hpc(), "{pkg}_data/logs/")
     )
   }
   if ("csv_size" %in% vars) {
     cat("Updating `csv_size` entries\n")
     command <- glue::glue(
-      "du ", path_to_fabrika_hpc(), "comrad_data/sims/comrad_sim_{job_ids}.csv"
+      "du ", path_to_fabrika_hpc(), "{pkg}_data/sims/{pkg}_sim_{job_ids}.csv"
     )
     out <- ssh::ssh_exec_internal(
       session = session,
@@ -105,7 +112,7 @@ complete_logbook_entries <- function(job_ids,
     csv_size <- out$stdout %>%
       rawToChar() %>%
       stringr::str_match_all(
-        "(\\d+)\t/data/p282688/fabrika/comrad_data/sims/comrad_sim_\\d{8}.csv\n"
+        glue::glue("(\\d+)\t/data/p282688/fabrika/{pkg}_data/sims/{pkg}_sim_\\d{8}.csv\n")
       ) %>%
       .[[1]] %>% .[, 2] %>%
       fs::as_fs_bytes() %>%
@@ -121,7 +128,7 @@ complete_logbook_entries <- function(job_ids,
     ssh::scp_upload(
       session = session,
       files = paste0(path_to_fabrika_local(), rel_path_to_logbook),
-      to = paste0(path_to_fabrika_hpc(), "comrad_data/logs/")
+      to = glue::glue(path_to_fabrika_hpc(), "{pkg}_data/logs/")
     )
   }
   if ("last_gen" %in% vars) {

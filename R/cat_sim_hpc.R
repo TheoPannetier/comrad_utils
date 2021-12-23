@@ -13,7 +13,7 @@ NULL
 #' @export
 #' @rdname cat_sim_hpc
 cat_sim_log_hpc <- function(
-  job_id
+  job_id, pkg = "comrad"
 ) {
   # Connect to hpc
   session <- ssh::ssh_connect(
@@ -21,7 +21,7 @@ cat_sim_log_hpc <- function(
   )
 
   command <- glue::glue(
-    "cat ", path_to_fabrika_hpc(), "comrad_data/logs/comrad_sim_{job_id}.log; echo \n" # space between multiple jobs
+    "cat ", path_to_fabrika_hpc(), "{pkg}_data/logs/{pkg}_sim_{job_id}.log; echo \n" # space between multiple jobs
   )
 
   ssh::ssh_exec_wait(
@@ -38,7 +38,7 @@ cat_sim_log_hpc <- function(
 #' @export
 #' @rdname cat_sim_hpc
 cat_sim_csv_hpc <- function(
-  job_id
+  job_id, pkg = "comrad"
 ) {
   # Connect to hpc
   session <- ssh::ssh_connect(
@@ -46,7 +46,7 @@ cat_sim_csv_hpc <- function(
   )
 
   command <- glue::glue(
-    "cat ", path_to_fabrika_hpc(), "comrad_data/sims/comrad_sim_{job_id}.csv; echo \n" # space between multiple jobs"
+    "cat ", path_to_fabrika_hpc(), "{pkg}_data/sims/{pkg}_sim_{job_id}.csv; echo \n" # space between multiple jobs"
   )
 
   ssh::ssh_exec_wait(

@@ -6,8 +6,8 @@
 #' @author Theo Pannetier
 #' @export
 #'
-path_to_log_local <- function(job_id) {
-  glue::glue(path_to_fabrika_local(), "comrad_data/logs/comrad_sim_{job_id}.log")
+path_to_log_local <- function(job_id, pkg = "comrad") {
+  glue::glue(path_to_fabrika_local(), "{pkg}_data/logs/{pkg}_sim_{job_id}.log")
 }
 
 #' Path to a simulation log file on Peregrine
@@ -18,8 +18,8 @@ path_to_log_local <- function(job_id) {
 #' @author Theo Pannetier
 #' @export
 #'
-path_to_log_hpc <- function(job_id) {
-  glue::glue(path_to_fabrika_hpc(), "comrad_data/logs/comrad_sim_{job_id}.log")
+path_to_log_hpc <- function(job_id, pkg = "comrad") {
+  glue::glue(path_to_fabrika_hpc(), "{pkg}_data/logs/{pkg}_sim_{job_id}.log")
 }
 
 #' Path to a simulation log file on external hard drive
@@ -31,8 +31,8 @@ path_to_log_hpc <- function(job_id) {
 #' @author Theo Pannetier
 #' @export
 #'
-path_to_log_hd <- function(job_id) {
-  glue::glue(path_to_hd(), "comrad_data/logs/comrad_sim_{job_id}.log")
+path_to_log_hd <- function(job_id, pkg = "comrad") {
+  glue::glue(path_to_hd(), "{pkg}_data/logs/{pkg}_sim_{job_id}.log")
 }
 
 

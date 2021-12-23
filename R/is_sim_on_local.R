@@ -10,20 +10,20 @@ NULL
 
 #' @rdname is_sim_on_local
 #' @export
-is_sim_csv_on_local <- function(job_ids) {
-  ls <- list.files(paste0(path_to_fabrika_local(), "comrad_data/sims/"))
+is_sim_csv_on_local <- function(job_ids, pkg = "comrad") {
+  ls <- list.files(glue::glue(path_to_fabrika_local(), "{pkg}_data/sims/"))
   jobs_present <- ls %>%
-    stringr::str_match(pattern = "^comrad_sim_([:digit:]{8}).csv$") %>%
+    stringr::str_match(pattern = glue::glue("^{pkg}_sim_([:digit:]{8}).csv$")) %>%
     .[,2]
   return(job_ids %in% jobs_present)
 }
 
 #' @rdname is_sim_on_local
 #' @export
-is_sim_log_on_local <- function(job_ids) {
-  ls <- list.files(paste0(path_to_fabrika_local(), "comrad_data/logs/"))
+is_sim_log_on_local <- function(job_ids, pkg = "comrad") {
+  ls <- list.files(glue::glue(path_to_fabrika_local(), "{pkg}_data/logs/"))
   jobs_present <- ls %>%
-    stringr::str_match(pattern = "^comrad_sim_([:digit:]{8}).log$") %>%
+    stringr::str_match(pattern = glue::glue("^{pkg}_sim_([:digit:]{8}).log$")) %>%
     .[,2]
   return(job_ids %in% jobs_present)
 }

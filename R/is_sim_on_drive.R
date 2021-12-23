@@ -10,20 +10,20 @@ NULL
 
 #' @rdname is_sim_on_drive
 #' @export
-is_sim_csv_on_drive <- function(job_ids) {
-  ls <- googledrive::drive_ls("comrad/comrad_data/sims/")
+is_sim_csv_on_drive <- function(job_ids, pkg = "comrad") {
+  ls <- googledrive::drive_ls(glue::glue("{pkg}/{pkg}_data/sims/"))
   jobs_present <- ls$name %>%
-    stringr::str_match(pattern = "^comrad_sim_([:digit:]{8}).csv$") %>%
+    stringr::str_match(pattern = glue::glue("^{pkg}_sim_([:digit:]{8}).csv$")) %>%
     .[,2]
   return(job_ids %in% jobs_present)
 }
 
 #' @rdname is_sim_on_drive
 #' @export
-is_sim_log_on_drive <- function(job_ids) {
-  ls <- googledrive::drive_ls("comrad/comrad_data/logs/")
+is_sim_log_on_drive <- function(job_ids, pkg = "comrad") {
+  ls <- googledrive::drive_ls(glue::glue("{pkg}/{pkg}_data/logs/"))
   jobs_present <- ls$name %>%
-    stringr::str_match(pattern = "^comrad_sim_([:digit:]{8}).log$") %>%
+    stringr::str_match(pattern = glue::glue("^{pkg}_sim_([:digit:]{8}).log$")) %>%
     .[,2]
   return(job_ids %in% jobs_present)
 }

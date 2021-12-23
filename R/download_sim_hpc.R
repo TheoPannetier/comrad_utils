@@ -12,7 +12,7 @@ NULL
 
 #' @export
 #' @rdname download_sim_hpc
-download_sim_csv_hpc <- function(job_ids) {
+download_sim_csv_hpc <- function(job_ids, pkg = "comrad") {
 
   if (!all(stringr::str_length(job_ids) == 8)) {
     stop("Invalid input: job_ids must have 8 digits.")
@@ -24,7 +24,7 @@ download_sim_csv_hpc <- function(job_ids) {
   )
   # Files to download
   files <- glue::glue(
-    paste0(path_to_fabrika_hpc(), "comrad_data/sims/comrad_sim_{job_ids}.csv")
+    glue::glue(path_to_fabrika_hpc(), "{pkg}_data/sims/{pkg}_sim_{job_ids}.csv")
   )
   # Get ssh to download files
   purrr::walk(
@@ -33,7 +33,7 @@ download_sim_csv_hpc <- function(job_ids) {
       ssh::scp_download(
         session = session,
         files = file,
-        to = paste0(path_to_fabrika_local(), "comrad_data/sims/")
+        to = glue::glue(path_to_fabrika_local(), "{pkg}_data/sims/")
       )
     }
   )
@@ -44,7 +44,7 @@ download_sim_csv_hpc <- function(job_ids) {
 
 #' @export
 #' @rdname download_sim_hpc
-download_sim_log_hpc <- function(job_ids) {
+download_sim_log_hpc <- function(job_ids, pkg = "comrad") {
 
   if (!all(stringr::str_length(job_ids) == 8)) {
     stop("Invalid input: job_ids must have 8 digits.")
@@ -56,7 +56,7 @@ download_sim_log_hpc <- function(job_ids) {
   )
   # Files to download
   files <- glue::glue(
-    paste0(path_to_fabrika_hpc(), "comrad_data/logs/comrad_sim_{job_ids}.log")
+    glue::glue(path_to_fabrika_hpc(), "{pkg}_data/logs/{pkg}_sim_{job_ids}.log")
   )
   # Get ssh to download files
   purrr::walk(
@@ -65,7 +65,7 @@ download_sim_log_hpc <- function(job_ids) {
       ssh::scp_download(
         session = session,
         files = file,
-        to = paste0(path_to_fabrika_local(), "comrad_data/logs/")
+        to = glue::glue(path_to_fabrika_local(), "{pkg}_data/logs/")
       )
     }
   )
