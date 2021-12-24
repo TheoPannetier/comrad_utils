@@ -8,9 +8,9 @@
 \alias{is_sim_log_on_hpc}
 \title{Fetch and print simulation log from Peregrine}
 \usage{
-cat_sim_log_hpc(job_id)
+cat_sim_log_hpc(job_id, pkg = "comrad")
 
-cat_sim_csv_hpc(job_id)
+cat_sim_csv_hpc(job_id, pkg = "comrad")
 
 is_sim_csv_on_hpc(job_id)
 

@@ -4,7 +4,7 @@
 \alias{path_to_log_local}
 \title{Path to a simulation log file on local computer}
 \usage{
-path_to_log_local(job_id)
+path_to_log_local(job_id, pkg = "comrad")
 }
 \arguments{
 \item{job_id}{eight-digit job ID given by Peregrine upon submission.}

@@ -6,9 +6,9 @@
 \alias{is_sim_log_on_hd}
 \title{Check if a simulation file is present on my external hard rive}
 \usage{
-is_sim_csv_on_hd(job_ids)
+is_sim_csv_on_hd(job_ids, pkg = "comrad")
 
-is_sim_log_on_hd(job_ids)
+is_sim_log_on_hd(job_ids, pkg = "comrad")
 }
 \arguments{
 \item{job_ids}{eight-digit job ID given by Peregrine upon

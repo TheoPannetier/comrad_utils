@@ -4,7 +4,7 @@
 \alias{path_to_sim_local}
 \title{Path to a simulation data file on local computer}
 \usage{
-path_to_sim_local(job_id)
+path_to_sim_local(job_id, pkg = "comrad")
 }
 \arguments{
 \item{job_id}{eight-digit job ID given by Peregrine upon submission.}

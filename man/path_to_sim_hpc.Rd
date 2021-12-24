@@ -4,7 +4,7 @@
 \alias{path_to_sim_hpc}
 \title{Path to a simulation data file on Peregrine}
 \usage{
-path_to_sim_hpc(job_id)
+path_to_sim_hpc(job_id, pkg = "comrad")
 }
 \arguments{
 \item{job_id}{eight-digit job ID given by Peregrine upon submission.}

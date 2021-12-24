@@ -6,6 +6,7 @@
 \usage{
 complete_logbook_entries(
   job_ids,
+  pkg = "comrad",
   which_one = "sims",
   vars = c("status", "runtime", "csv_size", "last_gen")
 )

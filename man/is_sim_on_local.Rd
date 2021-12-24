@@ -6,9 +6,9 @@
 \alias{is_sim_log_on_local}
 \title{Check if a simulation file is present on the local PC}
 \usage{
-is_sim_csv_on_local(job_ids)
+is_sim_csv_on_local(job_ids, pkg = "comrad")
 
-is_sim_log_on_local(job_ids)
+is_sim_log_on_local(job_ids, pkg = "comrad")
 }
 \arguments{
 \item{job_ids}{eight-digit job ID given by Peregrine upon

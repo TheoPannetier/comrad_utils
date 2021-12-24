@@ -4,7 +4,7 @@
 \alias{copy_sim_log_to_hd}
 \title{Copy comrad files to hard drive}
 \usage{
-copy_sim_log_to_hd(job_ids, overwrite = FALSE)
+copy_sim_log_to_hd(job_ids, pkg = "comrad", overwrite = FALSE)
 }
 \arguments{
 \item{job_ids}{eight-digit job ID given by Peregrine upon submission.}

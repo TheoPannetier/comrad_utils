@@ -6,9 +6,9 @@
 \alias{upload_sim_log_drive}
 \title{Upload simulation files to Google Drive}
 \usage{
-upload_sim_csv_drive(job_ids)
+upload_sim_csv_drive(job_ids, pkg = "comrad")
 
-upload_sim_log_drive(job_ids)
+upload_sim_log_drive(job_ids, pkg = "comrad")
 }
 \arguments{
 \item{job_ids}{8-digit numeric or character vector. Peregrine job IDs
