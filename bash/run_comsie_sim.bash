@@ -39,4 +39,5 @@ OUTPUT=/data/${USER}/fabrika/comsie_data/sims/comsie_sim_${SLURM_JOB_ID}.csv
 echo "Output saved at ${OUTPUT}\n\n"
 
 ##  Run simulation ##
-Rscript -e "comsie::run_simulation(path_to_output = \"${OUTPUT}\", nb_gens = ${NB_GENS}, immigration_rate = ${IMMIG}, mainland_nb_species = ${NB_SP_M}, mainland_z_sd = ${Z_SD_M} competition_sd = ${SIG_A}, carrying_cap_sd = ${SIG_K}, carrying_cap_opt = ${K_OPT}, trait_opt = ${Z_OPT}, growth_rate = ${GROWTH}, mutation_sd = ${SIG_MU}, trait_dist_sp = ${Z_DIST_SP}, hpc_job_id = ${SLURM_JOB_ID}, seed = ${SEED}, sampling_on_event = ${SAMPL_ON_EVENT}, sampling_freq = ${SAMPL_FREQ}, sampling_frac = ${SAMPL_FRAC}, brute_force_opt = \"${BRUTE_FORCE_OPT}\")"
+Rscript -e "comsie::run_simulation(path_to_output = \"${OUTPUT}\", nb_gens = ${NB_GENS}, immigration_rate = ${IMMIG}, mainland_nb_species = ${NB_SP_M}, mainland_z_sd = ${Z_SD_M}, competition_sd = ${SIG_A}, carrying_cap_sd = ${SIG_K}, carrying_cap_opt = ${K_OPT}, trait_opt = ${Z_OPT}, growth_rate = ${GROWTH}, mutation_sd = ${SIG_MU}, trait_dist_sp = ${Z_DIST_SP}, hpc_job_id = ${SLURM_JOB_ID}, seed = ${SEED}, sampling_on_event = ${SAMPL_ON_EVENT}, sampling_freq = ${SAMPL_FREQ}, sampling_frac = ${SAMPL_FRAC}, brute_force_opt = \"${BRUTE_FORCE_OPT}\")"
+

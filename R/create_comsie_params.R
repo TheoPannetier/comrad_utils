@@ -9,8 +9,8 @@
 #' @export
 create_comsie_params <- function(
   immigration_rate = 0.001,
-  mainland_nb_species = 1000,
-  mainland_z_sd = 0.1,
+  mainland_nb_species = comsie::default_mainland_nb_species(),
+  mainland_z_sd = comsie::default_mainland_z_sd(),
   competition_sd = comrad::default_competition_sd(),
   carrying_cap_sd = comrad::default_carrying_cap_sd(),
   carrying_cap_opt = comrad::default_carrying_cap_opt(),
@@ -42,6 +42,9 @@ create_comsie_params <- function(
 
   # Return params in a single list
   comsie_params <- list(
+    "immigration_rate" = immigration_rate,
+    "mainland_nb_species" = mainland_nb_species,
+    "mainland_z_sd" = mainland_z_sd,
     "competition_sd" = competition_sd,
     "carrying_cap_sd" = carrying_cap_sd,
     "carrying_cap_opt" = carrying_cap_opt,

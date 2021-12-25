@@ -60,7 +60,6 @@ run_comsie_sim_hpc <- function(
   check_pkgs_version = TRUE,
   brute_force_opt = "simd_omp"
 ) {
-
   # Input control
   if (!is.data.frame(params_array)) {
     stop("argument \"params_array\" should be a data frame.")
@@ -125,7 +124,7 @@ run_comsie_sim_hpc <- function(
     glue::glue_data(
       "sbatch",
       "--time={walltime}",
-      "/data/$USER/fabrika/bash/run_comrad_sim.bash",
+      "/data/$USER/fabrika/bash/run_comsie_sim.bash",
       "{batch_id}",
       "{nb_gens}",
       "{immigration_rate}",
