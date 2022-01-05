@@ -8,8 +8,14 @@ rm_logbook_entries <- function(
   )
 
   if (which_one == "sims") {
-    rel_path_to_logbook <- glue::glue("{pkg}_data/logs/logbook.csv")
-  } else if (which_one == "dd_ml_without_fossil") {
+    if (pkg == "comrad") {
+      rel_path_to_logbook <- "comrad_data/logs/logbook.csv"
+    } else if (pkg == "comsie") {
+      rel_path_to_logbook <- "comsie_data/logs/logbook_comsie.csv"
+    } else {
+      stop("pkg must be either comrad or comsie.")
+    }
+  }  else if (which_one == "dd_ml_without_fossil") {
     rel_path_to_logbook <- "comrad_data/logs/logbook_dd_ml_without_fossil.csv"
   } else if (which_one == "dd_ml_with_fossil") {
     rel_path_to_logbook <- "comrad_data/logs/logbook_dd_ml_with_fossil.csv"
