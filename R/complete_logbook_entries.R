@@ -109,12 +109,14 @@ complete_logbook_entries <- function(job_ids,
       session = session,
       command = command
     )
+    str_to_match <- ifelse(
+      pkg == "comrad",
+      "(\\d+)\t/data/p282688/fabrika/comrad_data/sims/comrad_sim_\\d{8}.csv\n",
+      "(\\d+)\t/data/p282688/fabrika/comsie_data/sims/comsie_sim_\\d{8}.csv\n"
+      )
     csv_size <- out$stdout %>%
       rawToChar() %>%
-      stringr::str_match_all(
-        glue::glue("(\\d+)\t/data/p282688/fabrika/{pkg}_data/sims/{pkg}_sim_\\d{8}.csv\n")
-      ) %>%
-      .[[1]] %>% .[, 2] %>%
+      stringr::str_match_all(str_to_match) %>% .[[1]] %>% .[, 2] %>%
       fs::as_fs_bytes() %>%
       magrittr::multiply_by(1024) # du returns kilobytes, fs_bytes expects bytes
 
