@@ -1,13 +1,14 @@
 rm_logbook_entries <- function(
   job_ids,
-  which_one = "sims"
+  which_one = "sims",
+  pkg = "comrad"
 ) {
   session <- ssh::ssh_connect(
     "p282688@peregrine.hpc.rug.nl"
   )
 
   if (which_one == "sims") {
-    rel_path_to_logbook <- "comrad_data/logs/logbook.csv"
+    rel_path_to_logbook <- glue::glue("{pkg}_data/logs/logbook.csv")
   } else if (which_one == "dd_ml_without_fossil") {
     rel_path_to_logbook <- "comrad_data/logs/logbook_dd_ml_without_fossil.csv"
   } else if (which_one == "dd_ml_with_fossil") {
@@ -18,8 +19,8 @@ rm_logbook_entries <- function(
     stop("which_one should only be \"sims\", \"dd_ml_with_fossil\" or \"dd_ml_without_fossil\"")
   }
 
-  download_logbook_hpc(which_one = which_one)
-  logbook <- read_logbook(which_one = which_one)
+  download_logbook_hpc(which_one = which_one, pkg = pkg)
+  logbook <- read_logbook(which_one = which_one, pkg = pkg)
 
   logbook <- logbook %>%
     dplyr::filter(!job_id %in% job_ids)

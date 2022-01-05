@@ -23,9 +23,8 @@ download_sim_csv_hpc <- function(job_ids, pkg = "comrad") {
     "p282688@peregrine.hpc.rug.nl"
   )
   # Files to download
-  files <- glue::glue(
-    glue::glue(path_to_fabrika_hpc(), "{pkg}_data/sims/{pkg}_sim_{job_ids}.csv")
-  )
+  files <- glue::glue(path_to_fabrika_hpc(), "{pkg}_data/sims/{pkg}_sim_{job_ids}.csv")
+
   # Get ssh to download files
   purrr::walk(
     files,
@@ -55,9 +54,7 @@ download_sim_log_hpc <- function(job_ids, pkg = "comrad") {
     "p282688@peregrine.hpc.rug.nl"
   )
   # Files to download
-  files <- glue::glue(
-    glue::glue(path_to_fabrika_hpc(), "{pkg}_data/logs/{pkg}_sim_{job_ids}.log")
-  )
+  files <- glue::glue(path_to_fabrika_hpc(), "{pkg}_data/logs/{pkg}_sim_{job_ids}.log")
   # Get ssh to download files
   purrr::walk(
     files,

@@ -6,7 +6,7 @@
 #'
 #' @author Théo Pannetier
 #' @export
-read_logbook <- function(which_one = "sims", pkg = pkg) {
+read_logbook <- function(which_one = "sims", pkg = "comrad") {
   path_to_fabrika <- ifelse(
     is_on_peregrine(),
     path_to_fabrika_hpc(),
@@ -60,7 +60,7 @@ read_logbook <- function(which_one = "sims", pkg = pkg) {
             "runtime" = readr::col_character(),
             "nb_gens" = readr::col_double(),
             "immigration_rate" = readr::col_double(),
-            "mainland_nb_sp" = readr::col_double(),
+            "mainland_nb_species" = readr::col_double(),
             "mainland_z_sd" = readr::col_double(),
             "competition_sd" = readr::col_double(),
             "carrying_cap_sd" = readr::col_double(),
