@@ -7,7 +7,7 @@
 #'
 copy_sim_csv_to_hd <- function (job_ids, pkg = "comrad", overwrite = FALSE) {
 
-  paths <- job_ids %>% path_to_sim_local()
+  paths <- job_ids %>% path_to_sim_local(pkg = pkg)
   new_paths <- glue::glue(path_to_hd(), "{pkg}_data/sims/{pkg}_sim_{job_ids}.csv")
 
   fs::file_copy(
@@ -27,7 +27,7 @@ copy_sim_csv_to_hd <- function (job_ids, pkg = "comrad", overwrite = FALSE) {
 #'
 copy_sim_log_to_hd <- function (job_ids, pkg = "comrad", overwrite = FALSE) {
 
-  paths <- job_ids %>% path_to_log_local()
+  paths <- job_ids %>% path_to_log_local(pkg = pkg)
   new_paths <- glue::glue(path_to_hd(), "{pkg}_data/logs/{pkg}_sim_{job_ids}.log")
 
   fs::file_copy(

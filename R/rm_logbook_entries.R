@@ -3,10 +3,6 @@ rm_logbook_entries <- function(
   which_one = "sims",
   pkg = "comrad"
 ) {
-  session <- ssh::ssh_connect(
-    "p282688@peregrine.hpc.rug.nl"
-  )
-
   if (which_one == "sims") {
     if (pkg == "comrad") {
       rel_path_to_logbook <- "comrad_data/logs/logbook.csv"
@@ -35,10 +31,14 @@ rm_logbook_entries <- function(
     logbook,
     file = paste0(path_to_fabrika_local(), rel_path_to_logbook)
   )
+
+  session <- ssh::ssh_connect(
+    "p282688@peregrine.hpc.rug.nl"
+  )
   ssh::scp_upload(
     session = session,
     files = paste0(path_to_fabrika_local(), rel_path_to_logbook),
-    to = paste0(path_to_fabrika_hpc(), "comrad_data/logs/")
+    to = paste0(path_to_fabrika_hpc(), glue::glue("{pkg}_data/logs/"))
   )
   ssh::ssh_disconnect(session = session)
 }

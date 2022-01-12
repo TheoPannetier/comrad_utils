@@ -14,7 +14,7 @@ siga_vec_comsie <- function() {
 
 nb_gens_vec_comsie<- function() {
   return(c(
-    "K = 20" = 35000,
+    "K = 20" = 350000,
     "K = 30" = 275000,
     "K = 40" = 200000,
     "K = 50" = 185000,
