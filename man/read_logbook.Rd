@@ -4,7 +4,7 @@
 \alias{read_logbook}
 \title{Read logbook}
 \usage{
-read_logbook(which_one = "sims", pkg = pkg)
+read_logbook(which_one = "sims", pkg = "comrad")
 }
 \arguments{
 \item{which_one}{character, which logbook? can be `"sims"` or `"dd_ml_without_fossil"`}

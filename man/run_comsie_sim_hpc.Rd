@@ -10,7 +10,7 @@ run_comsie_sim_hpc(
   nb_replicates = 1,
   sampling_on_event = FALSE,
   sampling_freq = ifelse(sampling_on_event, NA, 200),
-  sampling_frac = comrad::default_sampling_frac(),
+  sampling_frac = 0.05,
   seeds = sample(1:50000, nb_replicates * nrow(params_array)),
   walltime = "00:57:00",
   check_pkgs_version = TRUE,
