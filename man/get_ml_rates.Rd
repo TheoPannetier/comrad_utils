@@ -9,7 +9,7 @@ get_ml_rates(aic_tbl, n_seq = 1:ceiling(max(aic_tbl$ml_k) * 1.5))
 \arguments{
 \item{aic_tbl}{a data frame containing ML estimates for the 10 DD models
 (*one* row per model) with at least cols `dd_model`, `ml_lambda_0`, `ml_mu_0`,
-`ml_k` and `ml_alpha`. E.g. the output of `read_mle_tbl() %>% filter_aic_best()`}
+`ml_k` and `ml_alpha`. E.g. the output of `filter_aic_best(read_mle_tbl())`}
 
 \item{n_seq}{numeric vector, sequence of values of N for which the DD rates
 are to be returned.}

@@ -2,7 +2,7 @@
 #'
 #' @param aic_tbl a data frame containing AIC weights for the 10 DD models
 #' (*one* row per model) with at least cols `dd_model` and `aicw`.
-#' E.g. the output of `read_mle_tbl() %>% filter_aic_best()`.
+#' E.g. the output of `read_mle_tbl(filter_aic_best())`.
 #'
 #' @export
 plot_aicw <- function(aic_tbl) {
