@@ -37,6 +37,34 @@ walltime_vec_comsie <- function() {
     "K = 70" = "67:00:00",
     "K = 80" = "78:00:00",
     "K = 90" = "87:00:00",
-    "K = 100" = "93:00:00"
+    "K = 100" = "110:00:00"
   ))
+}
+
+get_walltime <- function(siga) {
+  dplyr::case_when(
+    near(siga, 0.369) ~ "21:00:00",
+    near(siga, 0.267) ~ "29:00:00",
+    near(siga, 0.209) ~ "33:00:00",
+    near(siga, 0.172) ~ "45:00:00",
+    near(siga, 0.146) ~ "60:00:00",
+    near(siga, 0.127) ~ "67:00:00",
+    near(siga, 0.112) ~ "78:00:00",
+    near(siga, 0.100) ~ "87:00:00",
+    near(siga, 0.091) ~ "110:00:00"
+  )
+}
+
+get_nb_gens <- function(siga) {
+  case_when(
+    near(siga, 0.369) ~ 350000,
+    near(siga, 0.267) ~ 275000,
+    near(siga, 0.209) ~ 200000,
+    near(siga, 0.172) ~ 185000,
+    near(siga, 0.146) ~ 170000,
+    near(siga, 0.127) ~ 155000,
+    near(siga, 0.112) ~ 140000,
+    near(siga, 0.100) ~ 125000,
+    near(siga, 0.091) ~ 110000
+  )
 }
