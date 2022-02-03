@@ -1,3 +1,4 @@
+#' @export
 siga_vec_comsie <- function() {
   # assuming sigma_k = 3
   return(c(
@@ -13,6 +14,7 @@ siga_vec_comsie <- function() {
     ))
 }
 
+#' @export
 nb_gens_vec_comsie<- function() {
   return(c(
     "K = 20" = 350000,
@@ -27,6 +29,7 @@ nb_gens_vec_comsie<- function() {
   ))
 }
 
+#' @export
 walltime_vec_comsie <- function() {
   return(c(
     "K = 20" = "21:00:00",
@@ -41,6 +44,7 @@ walltime_vec_comsie <- function() {
   ))
 }
 
+#' @export
 get_walltime <- function(siga) {
   dplyr::case_when(
     near(siga, 0.369) ~ "21:00:00",
@@ -55,6 +59,7 @@ get_walltime <- function(siga) {
   )
 }
 
+#' @export
 get_nb_gens <- function(siga) {
   case_when(
     near(siga, 0.369) ~ 350000,
