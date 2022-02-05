@@ -13,7 +13,7 @@ NULL
 is_sim_csv_on_local <- function(job_ids, pkg = "comrad") {
   ls <- list.files(glue::glue(path_to_fabrika_local(), "{pkg}_data/sims/"))
   jobs_present <- ls %>%
-    stringr::str_match(pattern = glue::glue("^{pkg}_sim_([:digit:]{8}).csv$")) %>%
+    stringr::str_match(pattern = glue::glue("^{pkg}_sim_([:digit:]{{8}}).csv$")) %>%
     .[,2]
   return(job_ids %in% jobs_present)
 }
@@ -23,7 +23,7 @@ is_sim_csv_on_local <- function(job_ids, pkg = "comrad") {
 is_sim_log_on_local <- function(job_ids, pkg = "comrad") {
   ls <- list.files(glue::glue(path_to_fabrika_local(), "{pkg}_data/logs/"))
   jobs_present <- ls %>%
-    stringr::str_match(pattern = glue::glue("^{pkg}_sim_([:digit:]{8}).log$")) %>%
+    stringr::str_match(pattern = glue::glue("^{pkg}_sim_([:digit:]{{8}}).log$")) %>%
     .[,2]
   return(job_ids %in% jobs_present)
 }
