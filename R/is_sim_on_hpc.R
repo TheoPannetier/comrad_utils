@@ -13,7 +13,7 @@ NULL
 #' @export
 #' @rdname cat_sim_hpc
 is_sim_csv_on_hpc <- function(
-  job_id
+  job_id, pkg = "comrad"
 ) {
   # Connect to hpc
   session <- ssh::ssh_connect(
@@ -21,7 +21,7 @@ is_sim_csv_on_hpc <- function(
   )
 
   commands <- glue::glue(
-    "test -f ", path_to_fabrika_hpc(), "comrad_data/sims/comrad_sim_{job_id}.csv"
+    "test -f ", path_to_fabrika_hpc(), "{pkg}_data/sims/{pkg}_sim_{job_id}.csv"
   )
 
   is_on_hpc <- commands %>% map_int(function(command){
@@ -43,7 +43,7 @@ is_sim_csv_on_hpc <- function(
 #' @export
 #' @rdname cat_sim_hpc
 is_sim_log_on_hpc <- function(
-  job_id
+  job_id, pkg = "comrad"
 ) {
   # Connect to hpc
   session <- ssh::ssh_connect(
@@ -51,7 +51,7 @@ is_sim_log_on_hpc <- function(
   )
 
   commands <- glue::glue(
-    "test -f ", path_to_fabrika_hpc(), "comrad_data/logs/comrad_sim_{job_id}.log"
+    "test -f ", path_to_fabrika_hpc(), "{pkg}_data/logs/{pkg}_sim_{job_id}.log"
   )
 
   is_on_hpc <- commands %>% map_int(function(command){
