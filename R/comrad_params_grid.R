@@ -1,11 +1,19 @@
 #' Shortcut for grid of sigma_alpha, sigma_k values
 #'
 #' @export
-comrad_params_grid <- function() {
-  tidyr::expand_grid(
+comrad_params_grid <- function(add_is_retained = FALSE) {
+  params_tbl <- tidyr::expand_grid(
     "sigk" = 1:5,
     "siga" = seq(0.1, 1, 0.1)
   )
+  if (add_is_retained) {
+    params_tbl <- params_tbl %>% dplyr::mutate(
+      "is_retained" = purrr::map2_lgl(siga, sigk, function (this_siga, this_sigk) {
+        are_params_retained(this_siga, this_sigk)
+      })
+    )
+  }
+  return(params_tbl)
 }
 
 #' @export
