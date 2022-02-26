@@ -1,4 +1,5 @@
-rm_sim_csv_hpc <- function(job_id, pkg = "comrad") {
+#' @export
+rm_sim_csv_hpc <- function(job_ids, pkg = "comrad") {
   if (length(job_ids) > 1000) {
     stop("Can't rm more than a 1000 jobs at once, sorry.")
   }
@@ -18,7 +19,8 @@ rm_sim_csv_hpc <- function(job_id, pkg = "comrad") {
   )
 }
 
-rm_sim_log_hpc <- function(job_id, pkg = "comrad") {
+#' @export
+rm_sim_log_hpc <- function(job_ids, pkg = "comrad") {
   if (length(job_ids) > 1000) {
     stop("Can't rm more than a 1000 jobs at once, sorry.")
   }
