@@ -6,6 +6,10 @@ comrad_data/comrad_ml_on_ddd/*.rds
 comrad_data/ddd_ml_on_comrad/*.rds
 comrad_data/tests/*.rds
 comsie_data/sims/*.csv
+comsie_data/daisie/input/*.rds
+comsie_data/daisie/output/*.rds
+comsie_data/ddd/input/*.rds
+comsie_data/ddd/output/*.rds
 
 figs/
 libs/
