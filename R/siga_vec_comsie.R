@@ -73,3 +73,19 @@ get_nb_gens <- function(siga) {
     near(siga, 0.091) ~ 110000
   )
 }
+
+#' @export
+siga_to_keq <- function(siga) {
+  case_when(
+    near(siga, 0.369) ~ 20,
+    near(siga, 0.267) ~ 30,
+    near(siga, 0.209) ~ 40,
+    near(siga, 0.172) ~ 50,
+    near(siga, 0.146) ~ 60,
+    near(siga, 0.127) ~ 70,
+    near(siga, 0.112) ~ 80,
+    near(siga, 0.100) ~ 90,
+    near(siga, 0.091) ~ 100,
+    TRUE ~ as.numeric(NA)
+  )
+}
