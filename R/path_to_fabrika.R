@@ -1,6 +1,6 @@
-#' Path to `fabrika` on a  local computer
+#' Path to `fabrika` on a local computer
 #'
-#' @details This path is hard encoded to my the path on personal computer but
+#' @details This path is hard encoded to the path on my personal computer but
 #' can be overwritten with [write_path_to_fabrika_local()].
 #'
 #' @export
