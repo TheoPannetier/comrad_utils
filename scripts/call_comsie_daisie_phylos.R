@@ -12,13 +12,12 @@ logbook <- read_logbook(pkg = "comsie")
 source("../fabrika/R/create_comsie_phylos_from_sim.R")
 
 args <- expand_grid(
-  "siga" = c(0.091),
-  "gamma" = c(1e-03),
-  "f" = 1
+  "siga" = c(0.369, 0.091),
+  "gamma" = c(5e-04, 1e-02),
+  "f" = 0.5
 )
 
-args %>%
-  pwalk(function(siga, gamma, f) {
+args %>% pwalk(function(siga, gamma, f) {
 
     cat(siga, gamma, f, "\n")
 
@@ -34,11 +33,10 @@ args %>%
       create_comsie_phylos_from_sim(
         job_id, siga, gamma, i,
         f = f,
-        skip_daisie = FALSE,
-        skip_ddd = TRUE
+        skip_daisie = TRUE,
+        skip_ddd = FALSE
       )
     })
-
   })
 
 subset <- comsie_tbl %>%

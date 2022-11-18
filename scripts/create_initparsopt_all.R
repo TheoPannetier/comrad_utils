@@ -2,10 +2,10 @@ source("R/create_comsie_initparsopt_ddd.R")
 source("R/create_comsie_initparsopt_daisie.R")
 
 expand_grid(
-  "siga" = c(0.091),
-  "gamma" = c(0, 1e-04, 5e-04, 0.001, 0.01),
+  "siga" = c(0.369, 0.091),
+  "gamma" = c(5e-04, 1e-02),
   "i" = 1:100,
-  "f" = 1
+  "f" = 0.5
 ) %>%
  pwalk(function(siga, gamma, i, f) {
   if (gamma %in% c(5e-04) && i == 62) return()
