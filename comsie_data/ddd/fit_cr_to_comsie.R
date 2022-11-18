@@ -1,20 +1,21 @@
 fit_cr_to_comsie <- function(siga_ibm,
                               gamma_ibm,
                               replicate,
+                              f,
                               params_i,
                               path_to_dir = "/data/p282688/fabrika/comsie_data/ddd",
                               job_id = NULL
 ) {
   cat(
-    "siga", siga_ibm, "gamma", gamma_ibm, "replicate", replicate, "\n",
+    "siga", siga_ibm, "gamma", gamma_ibm, "replicate", replicate, "f", f, "\n",
     "params_i", params_i, "\n",
     "job_id", job_id, "\n"
   )
   # Read input
-  filename_datalist <- paste0("ddd_input_siga_", siga_ibm, "_gamma_", gamma_ibm, "_", replicate, ".rds")
+  filename_datalist <- paste0("ddd_input_siga_", siga_ibm, "_gamma_", gamma_ibm, "_", replicate, "_f_", f, ".rds")
   brts_list <- readRDS(paste0(path_to_dir, "/input/", filename_datalist))
 
-  filename_initparsopt <- paste0("ddd_initpars_siga_", siga_ibm, "_gamma_", gamma_ibm, "_", replicate, ".rds")
+  filename_initparsopt <- paste0("ddd_initpars_siga_", siga_ibm, "_gamma_", gamma_ibm, "_", replicate, "_f_", f, ".rds")
   initparsopt_list <- readRDS(paste0(path_to_dir, "/input/", filename_initparsopt))
 
   if (length(brts_list) != length(initparsopt_list)) {
@@ -27,6 +28,7 @@ fit_cr_to_comsie <- function(siga_ibm,
     "competition_sd" = numeric(),
     "immigration_rate" = numeric(),
     "replicate" = integer(),
+    "f" = numeric(),
     "i" = integer(),
     "ntips" = integer(),
     "params_i" = integer(),
@@ -69,6 +71,7 @@ fit_cr_to_comsie <- function(siga_ibm,
       "competition_sd" = siga_ibm,
       "immigration_rate" = gamma_ibm,
       "replicate" = replicate,
+      "f" = f,
       "i" = i,
       "ntips" = ntips,
       "params_i" = params_i,
@@ -98,6 +101,7 @@ fit_cr_to_comsie <- function(siga_ibm,
     "cr_ml_siga_", siga_ibm,
     "_gamma_", gamma_ibm,
     "_rep_", replicate,
+    "_f_", f,
     "_params_", params_i,
     ".rds"
   )

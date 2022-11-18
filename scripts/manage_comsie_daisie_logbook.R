@@ -8,14 +8,15 @@ status
 logbook$status[which(logbook$job_id %in% job_ids)] <- status
 
 # Complete RUNTIME entries
-runtime <- job_runtime(job_ids)
+job_ids <- logbook$job_id[is.na(logbook$runtime)]
+runtime <- job_runtime(job_ids[601:1200])
 beepr::beep(1)
 logbook$runtime[which(logbook$job_id %in% job_ids)] <- runtime
 
 readr::write_csv(logbook, file = "comsie_data/daisie/logs/logbook_daisie_ml.csv")
 
 # How many with each status
-overview <- logbook %>%
+overview <- logbook[601:1800,] %>%
   group_by(status, competition_sd, immigration_rate, f, daisie_version) %>%
   count()
 
@@ -42,10 +43,11 @@ logbook$nb_clades <- nb_clades
 # Subset for manual inspection
 subset <- logbook %>%
   dplyr::filter(
-    # competition_sd == 0.091,
-    # immigration_rate == 0.0001,
+    competition_sd == 0.091,
+    immigration_rate == 1e-03,
     status == "COMPLETED",
-    daisie_version == "IW"
+    daisie_version == "CS",
+    f == 0.5
   )
 subset %>%
   group_by(status, competition_sd, immigration_rate) %>%
@@ -78,3 +80,11 @@ ssh::ssh_disconnect(session)
 logbook <- logbook %>% dplyr::filter(
   !job_id %in% to_rm
 )
+
+subset <- logbook[1:600,] %>%
+  dplyr::filter(
+    immigration_rate == 1e-04,
+    daisie_version == "IW",
+    competition_sd == 0.091,
+    status == "FAILED"
+  )
