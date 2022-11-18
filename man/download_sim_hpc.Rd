@@ -6,9 +6,9 @@
 \alias{download_sim_log_hpc}
 \title{Download simulation files from Peregrine}
 \usage{
-download_sim_csv_hpc(job_ids, pkg = "comrad")
+download_sim_csv_hpc(job_ids, pkg = "comrad", to = "local")
 
-download_sim_log_hpc(job_ids, pkg = "comrad")
+download_sim_log_hpc(job_ids, pkg = "comrad", to = "local")
 }
 \arguments{
 \item{job_ids}{8-digit numeric or character vector. Peregrine job IDs

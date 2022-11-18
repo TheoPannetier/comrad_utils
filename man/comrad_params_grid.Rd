@@ -4,7 +4,7 @@
 \alias{comrad_params_grid}
 \title{Shortcut for grid of sigma_alpha, sigma_k values}
 \usage{
-comrad_params_grid()
+comrad_params_grid(add_is_retained = FALSE)
 }
 \description{
 Shortcut for grid of sigma_alpha, sigma_k values

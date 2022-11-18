@@ -12,9 +12,9 @@ cat_sim_log_hpc(job_id, pkg = "comrad")
 
 cat_sim_csv_hpc(job_id, pkg = "comrad")
 
-is_sim_csv_on_hpc(job_id)
+is_sim_csv_on_hpc(job_id, pkg = "comrad")
 
-is_sim_log_on_hpc(job_id)
+is_sim_log_on_hpc(job_id, pkg = "comrad")
 }
 \arguments{
 \item{job_id}{eight-digit job ID given by Peregrine upon
